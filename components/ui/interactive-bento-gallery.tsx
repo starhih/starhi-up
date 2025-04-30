@@ -158,7 +158,7 @@ const GalleryModal = ({ selectedItem, isOpen, onClose, setSelectedItem, mediaIte
                     damping: 30
                 }}
                 className="fixed inset-0 w-full min-h-screen sm:h-[90vh] md:h-[600px] backdrop-blur-lg
-                          rounded-none sm:rounded-lg md:rounded-xl overflow-hidden z-10"
+                          rounded-none sm:rounded-lg md:rounded-xl overflow-hidden z-[100]"
 
             >
                 {/* Main Content */}
@@ -204,14 +204,18 @@ const GalleryModal = ({ selectedItem, isOpen, onClose, setSelectedItem, mediaIte
 
                 {/* Close Button */}
                 <motion.button
-                    className="absolute top-2 sm:top-2.5 md:top-3 right-2 sm:right-2.5 md:right-3
-                              p-2 rounded-full bg-[#214842]/80 text-white hover:bg-[#214842]
-                              text-xs sm:text-sm backdrop-blur-sm"
+                    className="fixed top-20 right-4 sm:right-6 md:right-8
+                              p-3 rounded-full bg-[#214842] text-white hover:bg-[#258F67]
+                              text-xs sm:text-sm shadow-lg z-50 flex items-center gap-2"
                     onClick={onClose}
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    initial={{ x: 20, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ delay: 0.3 }}
                 >
-                    <X className='w-3 h-3' />
+                    <span className="hidden sm:inline">Close</span>
+                    <X className='w-4 h-4' />
                 </motion.button>
 
             </motion.div>
@@ -229,7 +233,7 @@ const GalleryModal = ({ selectedItem, isOpen, onClose, setSelectedItem, mediaIte
                         y: prev.y + info.offset.y
                     }));
                 }}
-                className="fixed z-50 left-1/2 bottom-4 -translate-x-1/2 touch-none"
+                className="fixed z-[101] left-1/2 bottom-4 -translate-x-1/2 touch-none"
             >
                 <motion.div
                     className="relative rounded-xl bg-[#214842]/20 backdrop-blur-xl
