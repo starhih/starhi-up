@@ -4,6 +4,7 @@ import NewsUpdates from '@/components/home/NewsUpdates';
 import CertificationCarousel from '@/components/home/CertificationCarousel';
 import ProductCategories from '@/components/home/ProductCategories';
 import WhyChooseUs from '@/components/home/WhyChooseUs';
+import BrandsChooseUs from '@/components/home/BrandsChooseUs';
 import GlobalPresence from '@/components/home/GlobalPresence';
 import VideoStory from '@/components/home/VideoStory';
 import BlogInsights from '@/components/home/BlogInsights';
@@ -19,6 +20,7 @@ export default function Home() {
       <CertificationCarousel />
       <ProductCategories />
       <WhyChooseUs />
+      <BrandsChooseUs />
       <GlobalPresence />
       <TestimonialsSlider />
       <VideoStory />
