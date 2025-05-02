@@ -202,6 +202,23 @@ export interface Award extends BaseEntity {
   image: string;
 }
 
+/**
+ * Event
+ */
+export interface Event extends BaseEntity {
+  name: string;
+  startDate: string;
+  endDate: string;
+  location: string;
+  city: string;
+  country: string;
+  description: string;
+  image: string; // Logo path
+  boothNumber?: string;
+  website?: string;
+  upcoming: boolean;
+}
+
 // ==============================
 // DATA
 // ==============================
@@ -5644,4 +5661,194 @@ export const awards: Award[] = [
     description: 'IBARCASIA recognition for innovation in herbal extract standardization and quality control.',
     image: '/images/world-signature-award-2023.jpg',
   },
+];
+
+/**
+ * Events Data
+ *
+ * This array contains upcoming and recent industry events where Star Hi Herbs participates
+ */
+export const events: Event[] = [
+  {
+    id: 3,
+    name: 'Vitafoods Europe',
+    startDate: '2025-05-20',
+    endDate: '2025-05-22',
+    location: 'Fira Barcelona Gran Via',
+    city: 'Barcelona',
+    country: 'Spain',
+    description: 'Vitafoods Europe is the premier nutraceutical event, featuring exhibitors from the supplement, functional food and beverage, and nutricosmetic industries. Star Hi Herbs will showcase our latest herbal extract innovations and meet with global partners.',
+    image: '/images/events/vitafoods-europe.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.vitafoods.eu.com/en/home.html',
+    upcoming: true
+  },
+  {
+    id: 4,
+    name: 'Hi & Fi Asia-China',
+    startDate: '2025-06-24',
+    endDate: '2025-06-26',
+    location: 'NECC',
+    city: 'Shanghai',
+    country: 'China',
+    description: 'Hi & Fi Asia-China is a leading event for health ingredients and food ingredients in Asia. Star Hi Herbs will present our premium herbal extracts and innovative botanical solutions for the Asian market.',
+    image: '/images/events/hi-fi-asia-china.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.figlobal.com/china/en/home.html',
+    upcoming: true
+  },
+  {
+    id: 5,
+    name: 'CPHI Korea',
+    startDate: '2025-08-26',
+    endDate: '2025-08-28',
+    location: 'COEX',
+    city: 'Seoul',
+    country: 'Korea',
+    description: 'CPHI Korea connects the pharmaceutical industry in Korea and international markets. Star Hi Herbs will showcase our pharmaceutical-grade herbal extracts and APIs at this important regional event.',
+    image: '/images/events/cphi-korea.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.cphi.com/korea/en/home.html',
+    upcoming: true
+  },
+  {
+    id: 6,
+    name: 'Hi Korea',
+    startDate: '2025-08-26',
+    endDate: '2025-08-28',
+    location: 'COEX',
+    city: 'Seoul',
+    country: 'Korea',
+    description: 'Hi Korea is the leading health ingredients exhibition in Korea. Star Hi Herbs will present our innovative herbal extracts and botanical ingredients for the Korean nutraceutical and functional food markets.',
+    image: '/images/events/hi-korea.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.hi-korea.net/en/main/main.php',
+    upcoming: true
+  },
+  {
+    id: 7,
+    name: 'Fi India',
+    startDate: '2025-09-03',
+    endDate: '2025-09-05',
+    location: 'IEML',
+    city: 'Noida',
+    country: 'India',
+    description: 'Fi India is the premier food ingredients exhibition in India. Star Hi Herbs will showcase our high-quality herbal extracts and botanical ingredients for the Indian food and nutraceutical industries.',
+    image: '/images/events/fi-india.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.figlobal.com/india/en/home.html',
+    upcoming: true
+  },
+  {
+    id: 8,
+    name: 'Fi Asia Thailand',
+    startDate: '2025-09-17',
+    endDate: '2025-09-19',
+    location: 'QSNCC',
+    city: 'Bangkok',
+    country: 'Thailand',
+    description: 'Fi Asia Thailand brings together food ingredient suppliers and buyers from across Southeast Asia. Star Hi Herbs will present our premium herbal extracts and botanical ingredients for the regional food and supplement industries.',
+    image: '/images/events/fi-asia-thailand.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.figlobal.com/asia-thailand/en/home.html',
+    upcoming: true
+  },
+  {
+    id: 9,
+    name: 'Vitafoods Asia',
+    startDate: '2025-09-17',
+    endDate: '2025-09-19',
+    location: 'Queen Sirikit National Convention Center',
+    city: 'Bangkok',
+    country: 'Thailand',
+    description: 'Vitafoods Asia is the leading nutraceutical event in Asia, connecting suppliers and manufacturers of dietary supplements, functional food and beverages. Star Hi Herbs will showcase our innovative herbal extract solutions for the Asian market.',
+    image: '/images/events/vitafoods-asia.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.vitafoodsasia.com/en/home.html',
+    upcoming: true
+  },
+  {
+    id: 10,
+    name: 'Hi Japan',
+    startDate: '2025-10-15',
+    endDate: '2025-10-17',
+    location: 'Tokyo Big Sight Exhibition Centre',
+    city: 'Tokyo',
+    country: 'Japan',
+    description: 'Hi Japan is the premier health ingredients exhibition in Japan. Star Hi Herbs will present our high-quality herbal extracts and botanical ingredients tailored for the Japanese market.',
+    image: '/images/events/hi-japan.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.figlobal.com/japan/en/home.html',
+    upcoming: true
+  },
+  {
+    id: 11,
+    name: 'SupplySide Global',
+    startDate: '2025-10-27',
+    endDate: '2025-10-30',
+    location: 'Mandalay Bay',
+    city: 'Las Vegas',
+    country: 'United States',
+    description: 'SupplySide Global brings together more than 17,000 ingredient buyers and suppliers from the dietary supplement, food, beverage, and cosmetic industries. Visit our booth to discover our premium standardized herbal extracts and discuss custom formulation solutions.',
+    image: '/images/events/supplyside-global.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.supplysideglobal.com/en/home.html',
+    upcoming: true
+  },
+  {
+    id: 12,
+    name: 'Fi Europe',
+    startDate: '2025-12-02',
+    endDate: '2025-12-04',
+    location: 'Paris Expo Porte de Versailles',
+    city: 'Paris',
+    country: 'France',
+    description: 'Fi Europe is the world\'s leading food and beverage ingredients platform. Star Hi Herbs will showcase our food-grade botanical extracts and natural ingredients for functional foods and beverages.',
+    image: '/images/events/fi-europe.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.figlobal.com/europe/en/home.html',
+    upcoming: true
+  },
+  {
+    id: 13,
+    name: 'Vitafoods India',
+    startDate: '2026-02-11',
+    endDate: '2026-02-13',
+    location: 'Jio World Convention Center',
+    city: 'Mumbai',
+    country: 'India',
+    description: 'Vitafoods India is a premier nutraceutical event connecting suppliers and manufacturers in the Indian market. Star Hi Herbs will showcase our innovative herbal extract solutions tailored for the Indian nutraceutical industry.',
+    image: '/images/events/vitafoods-india.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.vitafoodsindia.com/en/home.html',
+    upcoming: true
+  },
+  {
+    id: 14,
+    name: 'Fi Vietnam',
+    startDate: '2026-05-13',
+    endDate: '2026-05-15',
+    location: 'Saigon Exhibition & Convention Centre (SECC)',
+    city: 'Ho Chi Minh City',
+    country: 'Vietnam',
+    description: 'Fi Vietnam is the leading food ingredients exhibition in Vietnam. Star Hi Herbs will present our high-quality herbal extracts and botanical ingredients for the Vietnamese food and nutraceutical industries.',
+    image: '/images/events/fi-vietnam.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.figlobal.com/vietnam/en/home.html',
+    upcoming: true
+  },
+  {
+    id: 15,
+    name: 'Fi Asia Indonesia',
+    startDate: '2026-09-16',
+    endDate: '2026-09-18',
+    location: 'Jakarta International Expo (JIExpo)',
+    city: 'Jakarta',
+    country: 'Indonesia',
+    description: 'Fi Asia Indonesia is a leading food ingredients exhibition in Indonesia. Star Hi Herbs will showcase our premium herbal extracts and botanical ingredients for the Indonesian food and nutraceutical markets.',
+    image: '/images/events/fi-asia-indonesia.jpg',
+    boothNumber: 'TBA',
+    website: 'https://www.figlobal.com/asia-indonesia/en/home.html',
+    upcoming: true
+  }
 ];

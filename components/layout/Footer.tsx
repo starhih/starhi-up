@@ -96,6 +96,9 @@ export default function Footer() {
               <li>
                 <Link href="/download-catalogue" className="footer-link">Download Catalogue</Link>
               </li>
+              <li>
+                <Link href="/request-meeting" className="footer-link">Request Meeting</Link>
+              </li>
             </ul>
           </div>
 
