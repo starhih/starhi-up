@@ -1,4 +1,5 @@
 import HeroSection from '@/components/home/HeroSection';
+import AboutIntroSection from '@/components/home/AboutIntroSection';
 import StatisticsSection from '@/components/home/StatisticsSection';
 import FeaturedProduct from '@/components/home/FeaturedProduct';
 import NewsUpdates from '@/components/home/NewsUpdates';
@@ -15,7 +16,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <StatisticsSection />
+      <AboutIntroSection />
       <FeaturedProduct />
       <NewsUpdates />
       <CertificationCarousel />
