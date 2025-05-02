@@ -1,0 +1,61 @@
+'use client';
+
+import Image from 'next/image';
+import { Clock, Calendar } from 'lucide-react';
+import { formatDate } from '@/utils/date';
+import { BlogPost, getAuthorById, getReviewerById, getCategoryById } from '@/src/data/blog';
+import BlogAuthorInfo from './BlogAuthorInfo';
+
+interface BlogHeaderProps {
+  post: BlogPost;
+  className?: string;
+}
+
+export default function BlogHeader({ post, className = '' }: BlogHeaderProps) {
+  const author = getAuthorById(post.authorId);
+  const reviewer = post.reviewerId ? getReviewerById(post.reviewerId) : undefined;
+  const category = getCategoryById(post.categoryId);
+  
+  return (
+    <div className={`${className}`}>
+      <div className="mb-6">
+        <div className="inline-block bg-[#214842] text-white px-4 py-1 text-sm rounded-full mb-4">
+          {category?.name || 'Uncategorized'}
+        </div>
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#214842] mb-4">
+          {post.title}
+        </h1>
+        <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-6">
+          <div className="flex items-center">
+            <Calendar size={16} className="mr-2" />
+            <span>{formatDate(post.updatedAt)}</span>
+          </div>
+          <div className="flex items-center">
+            <Clock size={16} className="mr-2" />
+            <span>{post.readTime} min read</span>
+          </div>
+        </div>
+      </div>
+      
+      <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-xl overflow-hidden mb-8">
+        <Image
+          src={post.image}
+          alt={post.title}
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
+          className="object-cover"
+          priority
+        />
+      </div>
+      
+      <div className="flex flex-col md:flex-row gap-6 mb-8">
+        {author && (
+          <BlogAuthorInfo author={author} />
+        )}
+        {reviewer && (
+          <BlogAuthorInfo author={reviewer} isReviewer />
+        )}
+      </div>
+    </div>
+  );
+}
