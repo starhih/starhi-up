@@ -52,6 +52,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
+// Set dynamic to force-static for static export
+export const dynamic = 'force-static';
+
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = getBlogPostBySlug(params.slug);
 

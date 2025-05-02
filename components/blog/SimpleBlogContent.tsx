@@ -21,7 +21,7 @@ export default function SimpleBlogContent({ content, className = '' }: BlogConte
         .toLowerCase()
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/(^-|-$)/g, '');
-      
+
       heading.setAttribute('id', id);
     });
   }, [content]);
@@ -33,15 +33,15 @@ export default function SimpleBlogContent({ content, className = '' }: BlogConte
         rehypePlugins={[rehypeRaw, rehypeSlug]}
         components={{
           h2: ({ node, ...props }) => (
-            <h2 
-              className="text-2xl font-semibold text-[#214842] mt-8 mb-4 scroll-mt-24" 
-              {...props} 
+            <h2
+              className="text-2xl font-semibold text-[#214842] mt-8 mb-4 scroll-mt-24"
+              {...props}
             />
           ),
           h3: ({ node, ...props }) => (
-            <h3 
-              className="text-xl font-semibold text-[#214842] mt-6 mb-3 scroll-mt-24" 
-              {...props} 
+            <h3
+              className="text-xl font-semibold text-[#214842] mt-6 mb-3 scroll-mt-24"
+              {...props}
             />
           ),
           p: ({ node, ...props }) => (
@@ -57,17 +57,17 @@ export default function SimpleBlogContent({ content, className = '' }: BlogConte
             <li className="mb-2" {...props} />
           ),
           a: ({ node, ...props }) => (
-            <a 
-              className="text-[#258F67] hover:text-[#214842] transition-colors" 
+            <a
+              className="text-[#258F67] hover:text-[#214842] transition-colors"
               target="_blank"
               rel="noopener noreferrer"
-              {...props} 
+              {...props}
             />
           ),
           blockquote: ({ node, ...props }) => (
-            <blockquote 
-              className="border-l-4 border-[#214842] pl-4 italic text-gray-700 my-4" 
-              {...props} 
+            <blockquote
+              className="border-l-4 border-[#214842] pl-4 italic text-gray-700 my-4"
+              {...props}
             />
           ),
           table: ({ node, ...props }) => (
@@ -84,17 +84,20 @@ export default function SimpleBlogContent({ content, className = '' }: BlogConte
           td: ({ node, ...props }) => (
             <td className="border border-gray-300 px-4 py-2" {...props} />
           ),
-          code: ({ node, inline, className, children, ...props }) => {
-            return inline ? (
+          code: (props) => {
+            const { className, children } = props;
+            const match = /language-(\w+)/.exec(className || '');
+            const isInline = !match;
+
+            return isInline ? (
               <code
                 className={`${className} bg-gray-100 px-1 py-0.5 rounded text-[#214842]`}
-                {...props}
               >
                 {children}
               </code>
             ) : (
               <pre className="bg-gray-800 text-white p-4 rounded-md overflow-x-auto">
-                <code className={className} {...props}>
+                <code className={className}>
                   {children}
                 </code>
               </pre>

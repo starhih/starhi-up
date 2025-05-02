@@ -4,31 +4,18 @@ import { blogCategories, blogPosts, getLatestBlogPosts } from '@/src/data/blog';
 import BlogCard from '@/components/blog/BlogCard';
 import BlogCategoryList from '@/components/blog/BlogCategoryList';
 import BlogSearchBar from '@/components/blog/BlogSearchBar';
-import BlogPagination from '@/components/blog/BlogPagination';
 
 export const metadata: Metadata = {
   title: 'Blog | Star Hi Herbs',
   description: 'Latest insights, research, and industry news from Star Hi Herbs. Explore our articles on herbal extracts, nutraceuticals, and sustainable practices.',
 };
 
-interface BlogPageProps {
-  searchParams: {
-    page?: string;
-    search?: string;
-  };
-}
+// Set dynamic to force-static for static export
+export const dynamic = 'force-static';
 
-export default function BlogPage({ searchParams }: BlogPageProps) {
-  // Pagination
-  const currentPage = searchParams.page ? parseInt(searchParams.page) : 1;
-  const postsPerPage = 6;
-  const totalPosts = blogPosts.length;
-  const totalPages = Math.ceil(totalPosts / postsPerPage);
-
-  // Get posts for current page
-  const startIndex = (currentPage - 1) * postsPerPage;
-  const endIndex = startIndex + postsPerPage;
-  const paginatedPosts = blogPosts.slice(startIndex, endIndex);
+export default function BlogPage() {
+  // Get all posts
+  const allPosts = blogPosts;
 
   // Get featured posts (latest 3)
   const featuredPosts = getLatestBlogPosts(3);
@@ -61,16 +48,10 @@ export default function BlogPage({ searchParams }: BlogPageProps) {
               <h2 className="text-2xl font-semibold text-[#214842] mb-8">All Articles</h2>
 
               <div className="grid md:grid-cols-2 gap-6 mb-10">
-                {paginatedPosts.map((post) => (
+                {allPosts.map((post) => (
                   <BlogCard key={post.id} post={post} />
                 ))}
               </div>
-
-              <BlogPagination
-                currentPage={currentPage}
-                totalPages={totalPages}
-                baseUrl="/blog"
-              />
             </div>
           </div>
         </div>

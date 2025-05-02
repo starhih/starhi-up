@@ -90,22 +90,23 @@ export default function BlogContent({ content, className = '' }: BlogContentProp
           td: ({ node, ...props }) => (
             <td className="border border-gray-300 px-4 py-2" {...props} />
           ),
-          code: ({ node, inline, className, children, ...props }) => {
+          code: (props) => {
+            const { className, children } = props;
             const match = /language-(\w+)/.exec(className || '');
-            return !inline && match ? (
+            const isInline = !match;
+
+            return !isInline ? (
               <SyntaxHighlighter
                 style={tomorrow}
-                language={match[1]}
+                language={match ? match[1] : ''}
                 PreTag="div"
                 className="rounded-md my-4"
-                {...props}
               >
                 {String(children).replace(/\n$/, '')}
               </SyntaxHighlighter>
             ) : (
               <code
                 className={`${className} bg-gray-100 px-1 py-0.5 rounded text-[#214842]`}
-                {...props}
               >
                 {children}
               </code>

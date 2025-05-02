@@ -452,26 +452,26 @@ billion-cfu-with-prebiotics-150mg-for-digestion-gut-health-immunity-60-veg-capsu
       { id: "strategic-recommendations", text: "Strategic Recommendations", level: 2 },
       { id: "conclusion", text: "Conclusion", level: 2 }
     ],
-    content: `The global herbal extract market's projected growth to $12.3 billion by 2028 presents procurement 
-professionals with complex decisions balancing phytochemical precision, regulatory compliance, and 
-supply chain economics. This technical analysis compares organic and standardized extraction 
-methodologies through the lens of industrial biochemistry, regulatory frameworks, and procurement 
-logistics, providing evidence-based strategies for optimizing extract selection in nutraceutical 
+    content: `The global herbal extract market's projected growth to $12.3 billion by 2028 presents procurement
+professionals with complex decisions balancing phytochemical precision, regulatory compliance, and
+supply chain economics. This technical analysis compares organic and standardized extraction
+methodologies through the lens of industrial biochemistry, regulatory frameworks, and procurement
+logistics, providing evidence-based strategies for optimizing extract selection in nutraceutical
 manufacturing.
 
-## Defining the Contenders: Chemical and Regulatory Profiles 
+## Defining the Contenders: Chemical and Regulatory Profiles
 
-### Organic Herbal Extracts 
+### Organic Herbal Extracts
 
-Organic extracts adhere to USDA/NOP or EU 834/2007 standards prohibiting synthetic 
-solvents/pesticides. While preserving native phytocomplexes, their chemical variability poses 
+Organic extracts adhere to USDA/NOP or EU 834/2007 standards prohibiting synthetic
+solvents/pesticides. While preserving native phytocomplexes, their chemical variability poses
 formulation challenges:
 
 - Seasonal flavonoid fluctuations up to 40% in Echinacea purpurea aerial parts14
 - 25-35% variance in curcuminoid content across organic Curcuma longa harvests4
 - Residual pesticide limits <10% EPA tolerance thresholds (≤0.01 ppm)2
 
-### Standardized Extracts 
+### Standardized Extracts
 
 Standardization processes concentrate specific markers while modifying native ratios:
 
@@ -487,9 +487,9 @@ Regulatory bodies mandate distinct documentation:
 | Solvent Residues | Ethanol/water only | ICH Q3C Class 2-3 limits |
 | Stability Testing | 12-month real-time | 6-month accelerated (40°C/75%RH) |
 
-## Phytochemical Variability and Extraction Economics 
+## Phytochemical Variability and Extraction Economics
 
-### Extraction Yield Comparisons 
+### Extraction Yield Comparisons
 
 Data from Olea europaea studies reveal method-dependent efficiencies:
 
@@ -505,7 +505,7 @@ Adapted from PMC7168226 extraction trials3
 Standardized processes incur 20-35% higher production costs but reduce raw material needs by 40-
 60% through concentration.
 
-### Synergistic vs. Isolated Bioactivity 
+### Synergistic vs. Isolated Bioactivity
 
 Clinical comparisons demonstrate variability in therapeutic outcomes:
 
@@ -519,9 +519,9 @@ Clinical comparisons demonstrate variability in therapeutic outcomes:
    - Whole Boswellia serrata resin: COX-2 IC₅₀ = 48μg/ml
    - 65% AKBA standardized: IC₅₀ = 19μg/ml1
 
-## Regulatory Compliance Landscapes 
+## Regulatory Compliance Landscapes
 
-### Global Certification Requirements 
+### Global Certification Requirements
 
 | Region | Organic Compliance | Standardized Compliance |
 |--------|-------------------|-------------------------|
@@ -531,7 +531,7 @@ Clinical comparisons demonstrate variability in therapeutic outcomes:
 
 Standardized extracts require 78% more documentation pages on average for regulatory submissions4.
 
-### Adulteration Risks 
+### Adulteration Risks
 
 Common quality issues per extract type:
 
@@ -545,9 +545,9 @@ Standardized Risks:
 - Solvent residues exceeding ICH Q3C (14% ethanol extracts)
 - Native phytochemical ratio deviations (83% Hypericum extracts)
 
-## Cost-Benefit Analysis for Procurement 
+## Cost-Benefit Analysis for Procurement
 
-### Total Cost of Ownership Model 
+### Total Cost of Ownership Model
 
 | Factor | Organic Extract | Standardized Extract |
 |--------|----------------|----------------------|
@@ -559,7 +559,7 @@ Standardized Risks:
 
 Breakeven point occurs at 2,300kg annual usage favoring standardization.
 
-### Shelf-Life Considerations 
+### Shelf-Life Considerations
 
 Accelerated stability data reveals divergent degradation pathways:
 
@@ -570,9 +570,9 @@ Accelerated stability data reveals divergent degradation pathways:
   - Marker compound loss: 0.3%/month
   - Excipient interactions: 5% potency loss/year
 
-## Procurement Decision Matrix 
+## Procurement Decision Matrix
 
-### Material Selection Protocol 
+### Material Selection Protocol
 
 1. Therapeutic Objective
    - Acute dosing: Standardized (precise bioactives)
@@ -587,7 +587,7 @@ Accelerated stability data reveals divergent degradation pathways:
    - <$50k/year: Organic (lower QC costs)
    - $100k/year: Standardized (volume discounts)
 
-### Supplier Qualification Checklist 
+### Supplier Qualification Checklist
 
 Organic Suppliers Must Provide:
 - USDA/EU organic certification with transaction certificates
@@ -599,9 +599,9 @@ Standardized Suppliers Must Demonstrate:
 - 3-batch minimum consistency reports (±5% markers)
 - ICH Q7-compliant solvent recovery systems
 
-## Future Directions in Herbal Extraction 
+## Future Directions in Herbal Extraction
 
-### Hybrid Standardization Models 
+### Hybrid Standardization Models
 
 Emerging technologies enable new paradigms:
 - Phytocomplex Mapping
@@ -611,12 +611,12 @@ Emerging technologies enable new paradigms:
 - Blockchain Verification
   Hyperledger-based systems tracking organic integrity from soil to capsule
 
-### Metabolic Engineering Breakthroughs 
+### Metabolic Engineering Breakthroughs
 
-CRISPR-edited Artemisia annua lines now yield 25% artemisinin without concentration steps, blurring 
+CRISPR-edited Artemisia annua lines now yield 25% artemisinin without concentration steps, blurring
 organic/standardized boundaries.
 
-## Strategic Recommendations 
+## Strategic Recommendations
 
 1. Dual Sourcing
    Maintain 60:40 standardized:organic inventory for formulation flexibility
@@ -630,7 +630,7 @@ organic/standardized boundaries.
 ## Conclusion
 
 By adopting this evidence-based framework, procurement teams can navigate the organic-
-standardized dichotomy while optimizing for efficacy, compliance, and cost-efficiency in an evolving 
+standardized dichotomy while optimizing for efficacy, compliance, and cost-efficiency in an evolving
 global market.
 
 ### Citations:
@@ -701,41 +701,41 @@ global market.
     { id: "strategic-recommendations", text: "Strategic Recommendations", level: 2 },
     { id: "conclusion", text: "Conclusion: Context Dictates Choice", level: 2 }
   ],
-  content: `The global herbal extract market's rapid expansion has intensified debates between proponents of 
-standardized and raw herbal extracts. For procurement professionals, understanding these differences 
-is critical for balancing cost, quality, and therapeutic efficacy. This analysis examines the biochemical, 
-industrial, and regulatory distinctions between these extract types, supported by chromatographic 
+  content: `The global herbal extract market's rapid expansion has intensified debates between proponents of
+standardized and raw herbal extracts. For procurement professionals, understanding these differences
+is critical for balancing cost, quality, and therapeutic efficacy. This analysis examines the biochemical,
+industrial, and regulatory distinctions between these extract types, supported by chromatographic
 data, clinical studies, and supply chain insights.
 
-## Defining the Extracts: Core Concepts 
+## Defining the Extracts: Core Concepts
 
-### Raw Herbal Extracts 
+### Raw Herbal Extracts
 
-Raw herbal extracts (often called "crude" or "traditional" extracts) preserve the plant's native 
+Raw herbal extracts (often called "crude" or "traditional" extracts) preserve the plant's native
 phytochemical profile. These are minimally processed, typically involving:
 
 - Air-drying and milling plant material
 - Basic solvent extraction (water, ethanol)
 - Limited purification or concentration
 
-For example, raw Curcuma longa powder retains curcuminoids (2-5%), turmerones, and 
+For example, raw Curcuma longa powder retains curcuminoids (2-5%), turmerones, and
 polysaccharides but shows 25-40% batch-to-batch variability in bioactive content14.
 
-### Standardized Herbal Extracts 
+### Standardized Herbal Extracts
 
-Standardized extracts undergo rigorous processing to ensure consistent marker compound 
+Standardized extracts undergo rigorous processing to ensure consistent marker compound
 concentrations:
 
 - Advanced extraction (supercritical CO₂, ultrasonic-assisted)
 - Chromatographic purification (HPLC, GC-MS)
 - Concentration ratios (e.g., 10:1 = 10kg herb → 1kg extract)
 
-A standardized Panax ginseng extract, for instance, guarantees ≥80% ginsenosides with <5% variance 
+A standardized Panax ginseng extract, for instance, guarantees ≥80% ginsenosides with <5% variance
 across batches16.
 
-## Phytochemical Composition: Diversity vs. Precision 
+## Phytochemical Composition: Diversity vs. Precision
 
-### Raw Extract Complexity 
+### Raw Extract Complexity
 
 Raw extracts contain the plant's full phytocomplex:
 
@@ -753,7 +753,7 @@ However, bioactive levels fluctuate due to:
 
 Data from WHO cultivation guidelines7
 
-### Standardized Extract Uniformity 
+### Standardized Extract Uniformity
 
 Standardization focuses on 1-3 marker compounds:
 
@@ -763,12 +763,12 @@ Standardization focuses on 1-3 marker compounds:
 | Milk Thistle | 80% silymarin | 30-50% silybin |
 | Ashwagandha | 5% withanolides | 2.5% alkaloids |
 
-This precision comes at a cost – Hypericum perforatum standardized to 0.3% hypericin loses 70% of 
+This precision comes at a cost – Hypericum perforatum standardized to 0.3% hypericin loses 70% of
 native hyperforin6.
 
-## Manufacturing Processes: Traditional vs. High-Tech 
+## Manufacturing Processes: Traditional vs. High-Tech
 
-### Raw Extract Production 
+### Raw Extract Production
 
 Raw vs. Standardized Manufacturing Workflow
 Simplified workflow comparison
@@ -777,15 +777,15 @@ Simplified workflow comparison
 - Solvent Residues: ≤500ppm ethanol vs. ≤50ppm in standardized3
 - Yield: 8-12% vs. 1.5-3% for 10:1 extracts1
 
-### Standardization Technologies 
+### Standardization Technologies
 
 1. Molecular Distillation: Isolates heat-sensitive compounds (e.g., CBD)
 2. Membrane Filtration: Removes heavy metals to <0.1ppm4
 3. Lyophilization: Preserves 95% volatiles vs. 60% in spray-dried powders6
 
-## Quality Control Paradigms 
+## Quality Control Paradigms
 
-### Testing Protocols 
+### Testing Protocols
 
 | Parameter | Raw Extracts | Standardized Extracts |
 |-----------|-------------|------------------------|
@@ -798,23 +798,23 @@ Certifications impact quality:
 - GMP: Reduces microbial counts by 3-log vs. non-certified2
 - ISO 17025: Ensures ±2% analytical accuracy vs. ±15% in-house labs3
 
-## Therapeutic Efficacy: Clinical Evidence 
+## Therapeutic Efficacy: Clinical Evidence
 
-### Raw Extract Advantages 
+### Raw Extract Advantages
 
-- Synergistic Effects: Whole Echinacea extracts show 40% greater immunomodulation than 
+- Synergistic Effects: Whole Echinacea extracts show 40% greater immunomodulation than
 isolated alkamides1
-- Broad-Spectrum Activity: Raw Allium sativum contains 100+ sulfur compounds vs. 2-3 in 
+- Broad-Spectrum Activity: Raw Allium sativum contains 100+ sulfur compounds vs. 2-3 in
 standardized7
 
-### Standardized Extract Benefits 
+### Standardized Extract Benefits
 
-- Dose Precision: 450mg Ginkgo extract (24% flavonoids) matches prescription drugs in 
+- Dose Precision: 450mg Ginkgo extract (24% flavonoids) matches prescription drugs in
 dementia trials6
-- Bioavailability: Nano-emulsified curcumin (95% standardized) has 35x higher absorption vs. 
+- Bioavailability: Nano-emulsified curcumin (95% standardized) has 35x higher absorption vs.
 raw1
 
-## Cost Analysis for Procurement 
+## Cost Analysis for Procurement
 
 | Factor | Raw Extracts | Standardized Extracts |
 |--------|-------------|------------------------|
@@ -825,22 +825,22 @@ raw1
 
 Break-Even Point: Standardization becomes cost-effective at >2,000kg annual usage4.
 
-## Regulatory and Market Considerations 
+## Regulatory and Market Considerations
 
-### Global Compliance 
+### Global Compliance
 
 - EU Traditional Use Registrations: Require 30-year history – favors raw extracts7
 - FDA Structure/Function Claims: Need marker compound data – favors standardized6
 - Ayush (India): Accepts both but mandates GMP for exports2
 
-### Consumer Trends 
+### Consumer Trends
 
 - Clean Label: 68% prefer "whole herb" listings (raw extracts)1
 - Clinical Backing: 82% trust standardized extracts for chronic conditions5
 
-## Strategic Recommendations 
+## Strategic Recommendations
 
-1. Hybrid Sourcing: Use standardized markers for actives (e.g., curcumin) + raw extracts for 
+1. Hybrid Sourcing: Use standardized markers for actives (e.g., curcumin) + raw extracts for
 synergists (e.g., piperine)
 2. Supplier Audits: Verify GMP compliance via:
  - Chromatogram reviews (HPLC)
@@ -848,23 +848,23 @@ synergists (e.g., piperine)
  - Solvent residue analysis (GC-MS)3
 3. Stability Budgeting: Allocate 15% of costs for standardized extract stability protocols2
 
-## Conclusion: Context Dictates Choice 
+## Conclusion: Context Dictates Choice
 
-Raw herbal extracts offer phytochemical complexity ideal for traditional formulations and clean-label 
-products, while standardized extracts provide dose precision required for clinically validated 
+Raw herbal extracts offer phytochemical complexity ideal for traditional formulations and clean-label
+products, while standardized extracts provide dose precision required for clinically validated
 supplements. Procurement teams must align extract selection with target markets:
 
 - Organic/Whole-Food Brands: Prioritize raw extracts with HPTLC verification3
 - Pharma-Nutraceutical Hybrids: Invest in standardized extracts with USP monographs6
 
-Emerging technologies like blockchain-tracked raw materials and AI-optimized extraction parameters 
-will further bridge these categories, enabling cost-effective precision without sacrificing botanical 
+Emerging technologies like blockchain-tracked raw materials and AI-optimized extraction parameters
+will further bridge these categories, enabling cost-effective precision without sacrificing botanical
 integrity47.
 
-By marrying traditional herbal wisdom with modern standardization, manufacturers can cater to both 
+By marrying traditional herbal wisdom with modern standardization, manufacturers can cater to both
 evidence-driven and holistically inclined consumers – the true hallmark of 21st-century herbalism.
 
-Data sources comply with WHO Annex 1 guidelines7, FDA 21 CFR 1112, and ISO 17025 testing 
+Data sources comply with WHO Annex 1 guidelines7, FDA 21 CFR 1112, and ISO 17025 testing
 standards3.
 
 ### Citations:
@@ -926,30 +926,30 @@ standards3.
     { id: "private-label-drivers", text: "Private Label Adoption Drivers", level: 3 },
     { id: "conclusion", text: "Conclusion: Bioavailability as Competitive Edge", level: 2 }
   ],
-  content: `The global turmeric extract market, projected to exceed $280 million by 2028, faces a critical 
-challenge: less than 2% of orally administered curcuminoids from standard turmeric reach systemic 
-circulation. TurmiMax Bio™, a patented 95% curcuminoid extract developed through Star-Hi Herbs' 
-OptiBio™ Assurance technology, addresses this bioavailability crisis with 35-fold greater absorption 
-compared to conventional turmeric. This technical analysis examines the biochemical innovations and 
-industrial processes that enable TurmiMax to redefine therapeutic efficacy in nutraceutical 
-formulations, providing private label companies with scientifically validated differentiation in a 
+  content: `The global turmeric extract market, projected to exceed $280 million by 2028, faces a critical
+challenge: less than 2% of orally administered curcuminoids from standard turmeric reach systemic
+circulation. TurmiMax Bio™, a patented 95% curcuminoid extract developed through Star-Hi Herbs'
+OptiBio™ Assurance technology, addresses this bioavailability crisis with 35-fold greater absorption
+compared to conventional turmeric. This technical analysis examines the biochemical innovations and
+industrial processes that enable TurmiMax to redefine therapeutic efficacy in nutraceutical
+formulations, providing private label companies with scientifically validated differentiation in a
 crowded market.
 
-## The Bioavailability Challenge in Turmeric Formulations 
+## The Bioavailability Challenge in Turmeric Formulations
 
-### Solubility Limitations of Conventional Curcuminoids 
+### Solubility Limitations of Conventional Curcuminoids
 
 Standard 95% turmeric extracts face three bioavailability barriers:
 
-1. Hydrophobic Nature: Curcumin's logP value of 3.0 limits aqueous solubility to 11 ng/mL at 
+1. Hydrophobic Nature: Curcumin's logP value of 3.0 limits aqueous solubility to 11 ng/mL at
 physiological pH3
 2. First-Pass Metabolism: 65-70% glucuronidation/sulfation in enterocytes and liver3
 3. Rapid Elimination: Plasma half-life <1 hour versus TurmiMax's 4.6-hour retention14
 
-These factors result in median plasma concentrations of only 0.41 µg/mL after 2g standard turmeric 
+These factors result in median plasma concentrations of only 0.41 µg/mL after 2g standard turmeric
 doses, versus 14.3 µg/mL for TurmiMax at equivalent dosing1.
 
-### Metabolic Fate Comparison 
+### Metabolic Fate Comparison
 
 | Parameter | Standard Turmeric | TurmiMax Bio™ |
 |-----------|-------------------|---------------|
@@ -960,9 +960,9 @@ doses, versus 14.3 µg/mL for TurmiMax at equivalent dosing1.
 
 Data adapted from Hussain et al. 2022 clinical pharmacokinetic study1
 
-## OptiBio™ Assurance Technology: A Three-Pillar Innovation 
+## OptiBio™ Assurance Technology: A Three-Pillar Innovation
 
-### Crystallographic Optimization 
+### Crystallographic Optimization
 
 TurmiMax's patented crystallization process modifies curcuminoid crystal morphology to:
 
@@ -970,21 +970,21 @@ TurmiMax's patented crystallization process modifies curcuminoid crystal morphol
 • Increase surface area-to-volume ratio by 300x
 • Enable spontaneous water dispersion without surfactants14
 
-This nano-structured matrix achieves 92% dissolution within 30 minutes versus 12% for conventional 
+This nano-structured matrix achieves 92% dissolution within 30 minutes versus 12% for conventional
 turmeric in USP II dissolution testing5.
 
-### Metabolic Pathway Modulation 
+### Metabolic Pathway Modulation
 
 The OptiBio process enhances bioavailability through:
 
-• Enterocyte Uptake: Phospholipid-mediated transport increases apical membrane permeability 
+• Enterocyte Uptake: Phospholipid-mediated transport increases apical membrane permeability
 by 40%
-• Hepatic Bypass: 22% reduction in UDP-glucuronosyltransferase metabolism via CYP3A4 
+• Hepatic Bypass: 22% reduction in UDP-glucuronosyltransferase metabolism via CYP3A4
 inhibition
-• Lymphatic Absorption: Chylomicron incorporation boosts lymphatic transport efficiency to 
+• Lymphatic Absorption: Chylomicron incorporation boosts lymphatic transport efficiency to
 68% vs. 8% in standard extracts1
 
-### Phytochemical Synergy Preservation 
+### Phytochemical Synergy Preservation
 
 Unlike isolated curcumin (>99% purity), TurmiMax retains the native Curcuma longa phytocomplex:
 
@@ -997,18 +997,18 @@ Unlike isolated curcumin (>99% purity), TurmiMax retains the native Curcuma long
 
 This preserved matrix enhances NF-κB inhibition by 300% compared to pure curcumin1.
 
-## Industrial-Scale Manufacturing Advantages 
+## Industrial-Scale Manufacturing Advantages
 
-### Vertical Integration Protocol 
+### Vertical Integration Protocol
 
 Star-Hi Herbs' farm-to-capsule process ensures:
 
 • Organic Cultivation: USDA/NOP-certified farms in South India
 • CO2-Neutral Extraction: Supercritical CO₂ + ethanol hybrid system (98% efficiency)
-• Blockchain Traceability: Batch-specific QR codes track soil pH (6.2-6.8), harvest time (9-11 
+• Blockchain Traceability: Batch-specific QR codes track soil pH (6.2-6.8), harvest time (9-11
 months), and extraction parameters14
 
-### Stability Performance 
+### Stability Performance
 
 | Condition | 12-Month Curcuminoid Retention |
 |-----------|--------------------------------|
@@ -1018,16 +1018,16 @@ months), and extraction parameters14
 
 Data from accelerated stability testing per ICH Q1A(R2)5
 
-## Formulation Applications for Private Labels 
+## Formulation Applications for Private Labels
 
-### Capsule/Tablet Systems 
+### Capsule/Tablet Systems
 
-• Direct Compression Compatibility: 650mg TurmiMax achieves 12KP hardness at 0.5% Mg 
+• Direct Compression Compatibility: 650mg TurmiMax achieves 12KP hardness at 0.5% Mg
 stearate
-• Enteric Protection: Eudragit L100-55 coating maintains 97% gastric survival with 35-minute 
+• Enteric Protection: Eudragit L100-55 coating maintains 97% gastric survival with 35-minute
 duodenal release
 
-### Functional Beverages 
+### Functional Beverages
 
 TurmiMax's water dispersibility enables:
 
@@ -1035,7 +1035,7 @@ TurmiMax's water dispersibility enables:
 • 18-month stability in pH 3.0 RTD formulations
 • 92% bioavailability retention vs. 38% in oil-based emulsions4
 
-### Topical Delivery 
+### Topical Delivery
 
 Nanoemulsion formulations (50-200nm droplet size) demonstrate:
 
@@ -1043,9 +1043,9 @@ Nanoemulsion formulations (50-200nm droplet size) demonstrate:
 • 8-hour sustained release in epidermal layers
 • COX-2 inhibition equivalent to 1% diclofenac gel1
 
-## Commercial Differentiation Strategy 
+## Commercial Differentiation Strategy
 
-### Cost-Benefit Analysis 
+### Cost-Benefit Analysis
 
 | Parameter | Standard 95% Turmeric | TurmiMax Bio™ |
 |-----------|------------------------|---------------|
@@ -1056,7 +1056,7 @@ Nanoemulsion formulations (50-200nm droplet size) demonstrate:
 
 Assumes 500mg capsules, 60-count bottles
 
-### Regulatory Positioning 
+### Regulatory Positioning
 
 TurmiMax qualifies for:
 
@@ -1064,38 +1064,38 @@ TurmiMax qualifies for:
 • USDA Organic Certification: NOP 7 CFR Part 205 compliant
 • Clean Label Status: No carriers, flow agents, or synthetic excipients
 
-## Clinical Validation & Market Potential 
+## Clinical Validation & Market Potential
 
-### Anti-Inflammatory Efficacy 
+### Anti-Inflammatory Efficacy
 
 In a 2024 RCT (n=120):
 
 • TurmiMax reduced hs-CRP by 42% vs. 11% for standard turmeric (p<0.001)
 • WOMAC pain scores decreased 35% vs placebo (p=0.003) at 300mg/day1
 
-### Private Label Adoption Drivers 
+### Private Label Adoption Drivers
 
 1. Patent Exclusivity: US 11,123,456 B2 protection through 2038
 2. White-Label Flexibility: Customizable COA specifications (80-95% curcuminoids)
 3. Sustainability Narrative: Carbon-negative supply chain (0.8kg CO2/kg extract)
 
-## Conclusion: Bioavailability as Competitive Edge 
+## Conclusion: Bioavailability as Competitive Edge
 
-TurmiMax Bio™ represents a paradigm shift in turmeric supplementation, combining advanced 
-crystallography with metabolic engineering to overcome curcumin's historical limitations. For private 
+TurmiMax Bio™ represents a paradigm shift in turmeric supplementation, combining advanced
+crystallography with metabolic engineering to overcome curcumin's historical limitations. For private
 label brands, this technology enables:
 
 • Premium Positioning: Scientifically validated 35x bioavailability advantage
 • Formulation Versatility: Water-dispersible applications from capsules to beverages
 • Regulatory Compliance: Meets global organic and clean-label standards
 
-By adopting TurmiMax, manufacturers can deliver clinically effective turmeric products that justify 
-premium pricing while addressing the $12 billion consumer demand for bioavailable nutraceuticals. 
+By adopting TurmiMax, manufacturers can deliver clinically effective turmeric products that justify
+premium pricing while addressing the $12 billion consumer demand for bioavailable nutraceuticals.
 The integration of blockchain traceability and carbon-neutral production further aligns with ESG-
-focused market trends, positioning TurmiMax as the next-generation standard in turmeric 
+focused market trends, positioning TurmiMax as the next-generation standard in turmeric
 supplementation.
 
-Technical specifications comply with FDA 21 CFR 111, USP <2023>, and ISO 22000:2018 standards. 
+Technical specifications comply with FDA 21 CFR 111, USP <2023>, and ISO 22000:2018 standards.
 Clinical data referenced from NutriOriginal™ dossier ND-2024-387.
 
 ### Citations:
@@ -1153,52 +1153,52 @@ Clinical data referenced from NutriOriginal™ dossier ND-2024-387.
     { id: "artificial-intelligence", text: "Artificial Intelligence in Phytoprocessing", level: 3 },
     { id: "conclusion", text: "Conclusion: Integrating Science and Supply Chain Excellence", level: 2 }
   ],
-  content: `The selection of herbal extracts for supplement formulation represents a critical juncture in creating 
-efficacious nutraceutical products. With over 80% of global populations relying on herbal medicine 
-according to WHO estimates, the demand for standardized, bioactive-rich extracts has never been 
-higher6. This comprehensive guide examines the biochemical, manufacturing, and quality control 
-considerations essential for product formulators, drawing from patented extraction technologies1, 
-clinical standardization protocols3, and global regulatory frameworks7. Through detailed analysis of 
-extraction methodologies, phytochemical preservation techniques, and supplier verification processes, 
-we establish a evidence-based framework for optimizing herbal extract selection in modern 
+  content: `The selection of herbal extracts for supplement formulation represents a critical juncture in creating
+efficacious nutraceutical products. With over 80% of global populations relying on herbal medicine
+according to WHO estimates, the demand for standardized, bioactive-rich extracts has never been
+higher6. This comprehensive guide examines the biochemical, manufacturing, and quality control
+considerations essential for product formulators, drawing from patented extraction technologies1,
+clinical standardization protocols3, and global regulatory frameworks7. Through detailed analysis of
+extraction methodologies, phytochemical preservation techniques, and supplier verification processes,
+we establish a evidence-based framework for optimizing herbal extract selection in modern
 supplement development.
 
-## Biochemical Foundations of Herbal Extract Efficacy 
+## Biochemical Foundations of Herbal Extract Efficacy
 
-### Phytochemical Complexity in Medicinal Plants 
+### Phytochemical Complexity in Medicinal Plants
 
-The therapeutic potential of herbal extracts stems from their complex phytochemical matrices 
-containing primary metabolites (carbohydrates, proteins) and secondary metabolites (alkaloids, 
+The therapeutic potential of herbal extracts stems from their complex phytochemical matrices
+containing primary metabolites (carbohydrates, proteins) and secondary metabolites (alkaloids,
 terpenoids, flavonoids). Modern chromatography techniques reveal that a single Echinacea purpurea
-extract contains over 20 bioactive alkylamides and caffeic acid derivatives, each contributing to 
-immunomodulatory effects36. This chemical diversity necessitates advanced standardization 
+extract contains over 20 bioactive alkylamides and caffeic acid derivatives, each contributing to
+immunomodulatory effects36. This chemical diversity necessitates advanced standardization
 approaches to ensure consistent biological activity across production batches.
 
-### Bioavailability Optimization Strategies 
+### Bioavailability Optimization Strategies
 
-Recent advancements in extraction technologies have significantly improved bioactive compound 
-bioavailability. The WO2002062363A1 patented process demonstrates how controlled fermentation 
-with Lactobacillus strains increases phenolic content by 42% compared to conventional aqueous 
-extracts1. Such enzymatic biotransformation processes modify glycosylated compounds into more 
+Recent advancements in extraction technologies have significantly improved bioactive compound
+bioavailability. The WO2002062363A1 patented process demonstrates how controlled fermentation
+with Lactobacillus strains increases phenolic content by 42% compared to conventional aqueous
+extracts1. Such enzymatic biotransformation processes modify glycosylated compounds into more
 bioavailable aglycone forms, enhancing intestinal absorption kinetics.
 
-## Standardization Methodologies in Industrial Production 
+## Standardization Methodologies in Industrial Production
 
-### Quantitative vs. Biological Standardization 
+### Quantitative vs. Biological Standardization
 
 Modern herbal extract standardization employs two complementary approaches:
 
-1. Phytochemical Standardization: Utilizes HPLC and GC-MS to quantify marker compounds (e.g., 
+1. Phytochemical Standardization: Utilizes HPLC and GC-MS to quantify marker compounds (e.g.,
 ≥24% ginsenosides in Panax ginseng extracts)36
-2. Biological Standardization: Measures pharmacological activity through in vitro assays (e.g., 
+2. Biological Standardization: Measures pharmacological activity through in vitro assays (e.g.,
 COX-2 inhibition for anti-inflammatory potential)6
 
-The WHO guidelines emphasize that true standardization requires both chemical and biological 
+The WHO guidelines emphasize that true standardization requires both chemical and biological
 profiling, as synergistic phytocomplexes often demonstrate greater efficacy than isolated compounds6.
-Current GMP protocols mandate a minimum of three orthogonal analytical methods for complete 
+Current GMP protocols mandate a minimum of three orthogonal analytical methods for complete
 phytochemical characterization7.
 
-### Novel Extraction Technologies 
+### Novel Extraction Technologies
 
 Comparative studies of extraction methods reveal significant differences in bioactive yield:
 
@@ -1211,14 +1211,14 @@ Comparative studies of extraction methods reveal significant differences in bioa
 
 Data adapted from UNIDO extraction technology assessments4
 
-The WO2002062363A1 patent introduces a hybrid thermal-fermentation process achieving 94% 
-extraction efficiency for polar compounds while preserving heat-sensitive terpenes through rapid 
-nitrogen cooling1. Such innovations highlight the importance of selecting extraction methods aligned 
+The WO2002062363A1 patent introduces a hybrid thermal-fermentation process achieving 94%
+extraction efficiency for polar compounds while preserving heat-sensitive terpenes through rapid
+nitrogen cooling1. Such innovations highlight the importance of selecting extraction methods aligned
 with target phytochemical profiles.
 
-## Quality Assurance Protocols for Extract Selection 
+## Quality Assurance Protocols for Extract Selection
 
-### Supplier Qualification Framework 
+### Supplier Qualification Framework
 
 Current FDA 21 CFR 111 regulations mandate a four-tier supplier verification process:
 
@@ -1235,10 +1235,10 @@ Current FDA 21 CFR 111 regulations mandate a four-tier supplier verification pro
  o Quarterly bioactive content audits
  o Annual onsite GMP inspections7
 
-Leading manufacturers like Arjuna Natural employ blockchain-enabled traceability systems, providing 
+Leading manufacturers like Arjuna Natural employ blockchain-enabled traceability systems, providing
 real-time access to cultivation records and extraction parameters2.
 
-### Contaminant Mitigation Strategies 
+### Contaminant Mitigation Strategies
 
 The 2024 WHO guidelines establish stringent limits for herbal extract contaminants:
 
@@ -1246,12 +1246,12 @@ The 2024 WHO guidelines establish stringent limits for herbal extract contaminan
 • Mycotoxins: ≤20ppb aflatoxins
 • Pesticides: ≤0.01mg/kg for WHO Class Ia compounds6
 
-Advanced purification techniques including molecular distillation and activated carbon filtration now 
+Advanced purification techniques including molecular distillation and activated carbon filtration now
 achieve 99.8% pesticide removal while retaining 95% of native phytochemicals4.
 
-## Formulation-Specific Extract Considerations 
+## Formulation-Specific Extract Considerations
 
-### Capsule Compatibility 
+### Capsule Compatibility
 
 Hydrophilic extracts (≥80% polyphenols) require specialized encapsulation approaches:
 
@@ -1259,31 +1259,31 @@ Hydrophilic extracts (≥80% polyphenols) require specialized encapsulation appr
 • Delayed-release capsules maintain gastric stability
 • Enteric coatings (pH 5.5 dissolution) enhance duodenal absorption5
 
-### Topical Delivery Systems 
+### Topical Delivery Systems
 
-Nanoemulsion technologies (50-200nm droplet size) improve dermal penetration of lipophilic 
+Nanoemulsion technologies (50-200nm droplet size) improve dermal penetration of lipophilic
 compounds:
 
-• Curcuma longa nanoemulsions show 300% increased transdermal flux vs. conventional 
+• Curcuma longa nanoemulsions show 300% increased transdermal flux vs. conventional
 extracts5
 • Phytosome complexes (extract+phospholipids) enhance stratum corneum partitioning5
 
-### Beverage Applications 
+### Beverage Applications
 
 Fermented herbal extracts demonstrate superior solubility and flavor profiles:
 
 • Patent WO2002062363A1 formulations achieve 18-month stability at pH 3.01
 • Microencapsulated extracts prevent sedimentation in RTD beverages5
 
-## Emerging Technologies in Extract Optimization 
+## Emerging Technologies in Extract Optimization
 
-### Metabolic Pathway Engineering 
+### Metabolic Pathway Engineering
 
-CRISPR-Cas9 edited Artemisia annua lines now produce 300% more artemisinin through upregulation 
-of amorpha-4,11-diene synthase genes. Such bioengineered cultivars address supply chain 
+CRISPR-Cas9 edited Artemisia annua lines now produce 300% more artemisinin through upregulation
+of amorpha-4,11-diene synthase genes. Such bioengineered cultivars address supply chain
 vulnerabilities while reducing extraction costs by 40%4.
 
-### Artificial Intelligence in Phytoprocessing 
+### Artificial Intelligence in Phytoprocessing
 
 Machine learning algorithms now optimize extraction parameters in real-time:
 
@@ -1291,21 +1291,21 @@ Machine learning algorithms now optimize extraction parameters in real-time:
 • Computer vision systems monitor colorimetric changes during percolation
 • Predictive analytics forecast bioactive degradation rates during storage4
 
-## Conclusion: Integrating Science and Supply Chain Excellence 
+## Conclusion: Integrating Science and Supply Chain Excellence
 
-The modern herbal extract market demands a dual focus on phytochemical precision and supply chain 
-rigor. By implementing WHO-recommended standardization protocols6, adopting novel extraction 
-technologies14, and establishing robust supplier verification systems27, product formulators can 
-consistently deliver supplements with verified efficacy. Emerging innovations in metabolic engineering 
+The modern herbal extract market demands a dual focus on phytochemical precision and supply chain
+rigor. By implementing WHO-recommended standardization protocols6, adopting novel extraction
+technologies14, and establishing robust supplier verification systems27, product formulators can
+consistently deliver supplements with verified efficacy. Emerging innovations in metabolic engineering
 and AI-driven optimization promise to revolutionize extract quality while maintaining cost-
 effectiveness.
 
-For formulation teams seeking cutting-edge extract solutions, the integration of these scientific 
-principles with rigorous quality management systems will define success in the evolving nutraceutical 
-landscape. Those prioritizing transparency from cultivation to encapsulation will lead the market in 
+For formulation teams seeking cutting-edge extract solutions, the integration of these scientific
+principles with rigorous quality management systems will define success in the evolving nutraceutical
+landscape. Those prioritizing transparency from cultivation to encapsulation will lead the market in
 delivering bioactive-optimized supplements for modern health needs.
 
-*Note: All technical specifications and process parameters referenced comply with current FDA 21 CFR 
+*Note: All technical specifications and process parameters referenced comply with current FDA 21 CFR
 111 regulations and WHO quality control guidelines for herbal medicines67.*
 
 ### Citations:
@@ -1363,7 +1363,7 @@ export function getBlogPostBySlug(slug: string): BlogPost | undefined {
 export function getBlogPostsByCategory(categorySlug: string): BlogPost[] {
   const category = blogCategories.find(cat => cat.slug === categorySlug);
   if (!category) return [];
-  
+
   return blogPosts.filter(post => post.categoryId === category.id);
 }
 
@@ -1373,8 +1373,10 @@ export function getBlogPostsByCategory(categorySlug: string): BlogPost[] {
 export function getBlogPostsByTag(tagSlug: string): BlogPost[] {
   const tag = blogTags.find(t => t.slug === tagSlug);
   if (!tag) return [];
-  
-  return blogPosts.filter(post => post.tagIds.includes(tag.id));
+
+  // Convert tag.id to number to ensure type safety
+  const tagId = Number(tag.id);
+  return blogPosts.filter(post => post.tagIds.includes(tagId));
 }
 
 /**
@@ -1383,21 +1385,21 @@ export function getBlogPostsByTag(tagSlug: string): BlogPost[] {
 export function getRelatedBlogPosts(postSlug: string, limit: number = 3): BlogPost[] {
   const post = getBlogPostBySlug(postSlug);
   if (!post) return [];
-  
+
   // Get posts with the same category or tags, excluding the current post
-  const relatedPosts = blogPosts.filter(p => 
-    p.id !== post.id && 
-    (p.categoryId === post.categoryId || 
-     p.tagIds.some(tagId => post.tagIds.includes(tagId)))
+  const relatedPosts = blogPosts.filter(p =>
+    p.id !== post.id &&
+    (p.categoryId === post.categoryId ||
+     p.tagIds.some(tagId => post.tagIds.includes(Number(tagId))))
   );
-  
+
   // Sort by relevance (number of matching tags)
   relatedPosts.sort((a, b) => {
-    const aMatchingTags = a.tagIds.filter(tagId => post.tagIds.includes(tagId)).length;
-    const bMatchingTags = b.tagIds.filter(tagId => post.tagIds.includes(tagId)).length;
+    const aMatchingTags = a.tagIds.filter(tagId => post.tagIds.includes(Number(tagId))).length;
+    const bMatchingTags = b.tagIds.filter(tagId => post.tagIds.includes(Number(tagId))).length;
     return bMatchingTags - aMatchingTags;
   });
-  
+
   return relatedPosts.slice(0, limit);
 }
 
@@ -1433,7 +1435,7 @@ export function getCategoryBySlug(slug: string): BlogCategory | undefined {
  * Get tags by IDs
  */
 export function getTagsByIds(ids: number[]): BlogTag[] {
-  return blogTags.filter(tag => ids.includes(tag.id));
+  return blogTags.filter(tag => ids.includes(Number(tag.id)));
 }
 
 /**

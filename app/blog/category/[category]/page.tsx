@@ -9,7 +9,6 @@ import {
 import BlogCard from '@/components/blog/BlogCard';
 import BlogCategoryList from '@/components/blog/BlogCategoryList';
 import BlogSearchBar from '@/components/blog/BlogSearchBar';
-import BlogPagination from '@/components/blog/BlogPagination';
 import Breadcrumbs from '@/components/ui/breadcrumbs';
 
 // Generate static params for all categories
@@ -36,16 +35,16 @@ export async function generateMetadata({ params }: { params: { category: string 
   };
 }
 
+// Set dynamic to force-static for static export
+export const dynamic = 'force-static';
+
 interface CategoryPageProps {
   params: {
     category: string;
   };
-  searchParams: {
-    page?: string;
-  };
 }
 
-export default function CategoryPage({ params, searchParams }: CategoryPageProps) {
+export default function CategoryPage({ params }: CategoryPageProps) {
   const category = getCategoryBySlug(params.category);
 
   if (!category) {
@@ -53,17 +52,6 @@ export default function CategoryPage({ params, searchParams }: CategoryPageProps
   }
 
   const posts = getBlogPostsByCategory(params.category);
-
-  // Pagination
-  const currentPage = searchParams.page ? parseInt(searchParams.page) : 1;
-  const postsPerPage = 6;
-  const totalPosts = posts.length;
-  const totalPages = Math.ceil(totalPosts / postsPerPage);
-
-  // Get posts for current page
-  const startIndex = (currentPage - 1) * postsPerPage;
-  const endIndex = startIndex + postsPerPage;
-  const paginatedPosts = posts.slice(startIndex, endIndex);
 
   return (
     <>
@@ -105,20 +93,12 @@ export default function CategoryPage({ params, searchParams }: CategoryPageProps
                 {category.name} Articles
               </h2>
 
-              {paginatedPosts.length > 0 ? (
-                <>
-                  <div className="grid md:grid-cols-2 gap-6 mb-10">
-                    {paginatedPosts.map((post) => (
-                      <BlogCard key={post.id} post={post} />
-                    ))}
-                  </div>
-
-                  <BlogPagination
-                    currentPage={currentPage}
-                    totalPages={totalPages}
-                    baseUrl={`/blog/category/${params.category}`}
-                  />
-                </>
+              {posts.length > 0 ? (
+                <div className="grid md:grid-cols-2 gap-6 mb-10">
+                  {posts.map((post) => (
+                    <BlogCard key={post.id} post={post} />
+                  ))}
+                </div>
               ) : (
                 <div className="bg-gray-50 p-8 rounded-xl text-center">
                   <h3 className="text-xl font-semibold text-[#214842] mb-2">No Articles Found</h3>
