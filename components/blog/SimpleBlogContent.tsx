@@ -5,19 +5,13 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import rehypeSlug from 'rehype-slug';
-// Add type declaration for react-syntax-highlighter
-declare module 'react-syntax-highlighter';
-declare module 'react-syntax-highlighter/dist/cjs/styles/prism';
-
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { tomorrow } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
 interface BlogContentProps {
   content: string;
   className?: string;
 }
 
-export default function BlogContent({ content, className = '' }: BlogContentProps) {
+export default function SimpleBlogContent({ content, className = '' }: BlogContentProps) {
   // Add IDs to headings for table of contents
   useEffect(() => {
     const headings = document.querySelectorAll('.blog-content h2, .blog-content h3');
@@ -27,7 +21,7 @@ export default function BlogContent({ content, className = '' }: BlogContentProp
         .toLowerCase()
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/(^-|-$)/g, '');
-
+      
       heading.setAttribute('id', id);
     });
   }, [content]);
@@ -39,15 +33,15 @@ export default function BlogContent({ content, className = '' }: BlogContentProp
         rehypePlugins={[rehypeRaw, rehypeSlug]}
         components={{
           h2: ({ node, ...props }) => (
-            <h2
-              className="text-2xl font-semibold text-[#214842] mt-8 mb-4 scroll-mt-24"
-              {...props}
+            <h2 
+              className="text-2xl font-semibold text-[#214842] mt-8 mb-4 scroll-mt-24" 
+              {...props} 
             />
           ),
           h3: ({ node, ...props }) => (
-            <h3
-              className="text-xl font-semibold text-[#214842] mt-6 mb-3 scroll-mt-24"
-              {...props}
+            <h3 
+              className="text-xl font-semibold text-[#214842] mt-6 mb-3 scroll-mt-24" 
+              {...props} 
             />
           ),
           p: ({ node, ...props }) => (
@@ -63,17 +57,17 @@ export default function BlogContent({ content, className = '' }: BlogContentProp
             <li className="mb-2" {...props} />
           ),
           a: ({ node, ...props }) => (
-            <a
-              className="text-[#258F67] hover:text-[#214842] transition-colors"
+            <a 
+              className="text-[#258F67] hover:text-[#214842] transition-colors" 
               target="_blank"
               rel="noopener noreferrer"
-              {...props}
+              {...props} 
             />
           ),
           blockquote: ({ node, ...props }) => (
-            <blockquote
-              className="border-l-4 border-[#214842] pl-4 italic text-gray-700 my-4"
-              {...props}
+            <blockquote 
+              className="border-l-4 border-[#214842] pl-4 italic text-gray-700 my-4" 
+              {...props} 
             />
           ),
           table: ({ node, ...props }) => (
@@ -91,24 +85,19 @@ export default function BlogContent({ content, className = '' }: BlogContentProp
             <td className="border border-gray-300 px-4 py-2" {...props} />
           ),
           code: ({ node, inline, className, children, ...props }) => {
-            const match = /language-(\w+)/.exec(className || '');
-            return !inline && match ? (
-              <SyntaxHighlighter
-                style={tomorrow}
-                language={match[1]}
-                PreTag="div"
-                className="rounded-md my-4"
-                {...props}
-              >
-                {String(children).replace(/\n$/, '')}
-              </SyntaxHighlighter>
-            ) : (
+            return inline ? (
               <code
                 className={`${className} bg-gray-100 px-1 py-0.5 rounded text-[#214842]`}
                 {...props}
               >
                 {children}
               </code>
+            ) : (
+              <pre className="bg-gray-800 text-white p-4 rounded-md overflow-x-auto">
+                <code className={className} {...props}>
+                  {children}
+                </code>
+              </pre>
             );
           },
         }}

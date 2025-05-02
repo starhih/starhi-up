@@ -15,7 +15,7 @@ export default function BlogHeader({ post, className = '' }: BlogHeaderProps) {
   const author = getAuthorById(post.authorId);
   const reviewer = post.reviewerId ? getReviewerById(post.reviewerId) : undefined;
   const category = getCategoryById(post.categoryId);
-  
+
   return (
     <div className={`${className}`}>
       <div className="mb-6">
@@ -36,18 +36,13 @@ export default function BlogHeader({ post, className = '' }: BlogHeaderProps) {
           </div>
         </div>
       </div>
-      
-      <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-xl overflow-hidden mb-8">
-        <Image
-          src={post.image}
-          alt={post.title}
-          fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
-          className="object-cover"
-          priority
-        />
+
+      <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-xl overflow-hidden mb-8 bg-[#214842]/10">
+        <div className="flex items-center justify-center h-full w-full">
+          <h2 className="text-4xl font-bold text-[#214842]">{post.title.charAt(0).toUpperCase()}</h2>
+        </div>
       </div>
-      
+
       <div className="flex flex-col md:flex-row gap-6 mb-8">
         {author && (
           <BlogAuthorInfo author={author} />

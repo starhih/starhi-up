@@ -69,15 +69,7 @@ export default function CategoryPage({ params, searchParams }: CategoryPageProps
     <>
       {/* Hero Section */}
       <section className="relative h-[30vh] min-h-[250px] flex items-center">
-        <Image
-          src="/images/blog/blog-category.jpg"
-          alt={`${category.name} - Star Hi Herbs Blog`}
-          fill
-          sizes="100vw"
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-[#214842]/70"></div>
+        <div className="absolute inset-0 bg-[#214842]"></div>
         <div className="relative z-10 container-custom text-white">
           <Breadcrumbs
             items={[

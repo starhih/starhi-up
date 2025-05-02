@@ -8,7 +8,7 @@ import {
 } from '@/src/data/blog';
 import Breadcrumbs from '@/components/ui/breadcrumbs';
 import BlogHeader from '@/components/blog/BlogHeader';
-import BlogContent from '@/components/blog/BlogContent';
+import SimpleBlogContent from '@/components/blog/SimpleBlogContent';
 import BlogTableOfContents from '@/components/blog/BlogTableOfContents';
 import BlogTags from '@/components/blog/BlogTags';
 import BlogRelatedPosts from '@/components/blog/BlogRelatedPosts';
@@ -90,7 +90,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             <div className="lg:col-span-3">
               <BlogHeader post={post} className="mb-8" />
 
-              <BlogContent content={post.content} className="mb-12" />
+              <SimpleBlogContent content={post.content} className="mb-12" />
 
               <BlogTags tags={tags} className="mb-16" />
 

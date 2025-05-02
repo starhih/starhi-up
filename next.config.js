@@ -5,11 +5,6 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
-  experimental: {
-    fontLoaders: [
-      { loader: '@next/font/google', options: { subsets: ['latin'], timeout: 20000 } },
-    ],
-  },
 };
 
 module.exports = nextConfig;
