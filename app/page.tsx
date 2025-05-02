@@ -4,12 +4,11 @@ import NewsUpdates from '@/components/home/NewsUpdates';
 import CertificationCarousel from '@/components/home/CertificationCarousel';
 import ProductCategories from '@/components/home/ProductCategories';
 import WhyChooseUs from '@/components/home/WhyChooseUs';
-import BrandsChooseUs from '@/components/home/BrandsChooseUs';
+import AwardsSection from '@/components/home/AwardsSection';
 import GlobalPresence from '@/components/home/GlobalPresence';
 import VideoStory from '@/components/home/VideoStory';
 import BlogInsights from '@/components/home/BlogInsights';
 import CatalogueDownload from '@/components/home/CatalogueDownload';
-import TestimonialsSlider from '@/components/home/TestimonialsSlider';
 
 export default function Home() {
   return (
@@ -20,9 +19,8 @@ export default function Home() {
       <CertificationCarousel />
       <ProductCategories />
       <WhyChooseUs />
-      <BrandsChooseUs />
+      <AwardsSection />
       <GlobalPresence />
-      <TestimonialsSlider />
       <VideoStory />
       <BlogInsights />
       <CatalogueDownload />

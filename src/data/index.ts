@@ -192,6 +192,16 @@ export interface SustainabilityInitiative extends BaseEntity {
   label: string;
 }
 
+/**
+ * Award
+ */
+export interface Award extends BaseEntity {
+  title: string;
+  year: string;
+  description: string;
+  image: string;
+}
+
 // ==============================
 // DATA
 // ==============================
@@ -5613,3 +5623,25 @@ export function getProductOfTheMonth(): Product | undefined {
   // Otherwise, fall back to the first featured product
   return products.find(product => product.featured === true);
 }
+
+/**
+ * Awards Data
+ *
+ * This array contains the company's awards and recognitions
+ */
+export const awards: Award[] = [
+  {
+    id: 1,
+    title: 'Times Business Award',
+    year: '2020',
+    description: 'Recognized for excellence in herbal extract manufacturing and sustainable business practices.',
+    image: '/images/times-business-award-2020.jpg',
+  },
+  {
+    id: 2,
+    title: 'World Signature Award',
+    year: '2023',
+    description: 'IBARCASIA recognition for innovation in herbal extract standardization and quality control.',
+    image: '/images/world-signature-award-2023.jpg',
+  },
+];
