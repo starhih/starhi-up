@@ -122,6 +122,12 @@ export const blogCategories: BlogCategory[] = [
     name: "Sustainability",
     slug: "sustainability",
     description: "Our initiatives and industry practices for sustainable sourcing and production of herbal extracts."
+  },
+  {
+    id: 5,
+    name: "Publications",
+    slug: "publications",
+    description: "Scientific publications, patents, and research papers authored by Star Hi Herbs' R&D team."
   }
 ];
 
@@ -136,7 +142,10 @@ export const blogTags: BlogTag[] = [
   { id: 5, name: "Clinical Research", slug: "clinical-research" },
   { id: 6, name: "Formulation", slug: "formulation" },
   { id: 7, name: "Regulatory", slug: "regulatory" },
-  { id: 8, name: "Innovation", slug: "innovation" }
+  { id: 8, name: "Innovation", slug: "innovation" },
+  { id: 9, name: "Publications", slug: "publications" },
+  { id: 10, name: "Patents", slug: "patents" },
+  { id: 11, name: "R&D", slug: "research-development" }
 ];
 
 /**
