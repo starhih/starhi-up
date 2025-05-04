@@ -14,7 +14,17 @@ export default function BlogAuthorInfo({ author, isReviewer = false, className =
   return (
     <div className={`flex items-start gap-4 ${className}`}>
       <div className="relative h-16 w-16 rounded-full overflow-hidden flex-shrink-0 bg-[#214842]/10 flex items-center justify-center">
-        <span className="text-xl font-bold text-[#214842]">{author.name.charAt(0)}</span>
+        {author.image ? (
+          <Image
+            src={author.image}
+            alt={author.name}
+            fill
+            sizes="64px"
+            className="object-cover"
+          />
+        ) : (
+          <span className="text-xl font-bold text-[#214842]">{author.name.charAt(0)}</span>
+        )}
       </div>
       <div>
         <div className="text-sm text-gray-500 mb-1">{isReviewer ? 'Reviewed by' : 'Written by'}</div>

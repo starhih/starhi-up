@@ -59,18 +59,22 @@ export default function CategoryPage({ params }: CategoryPageProps) {
       <section className="relative h-[30vh] min-h-[250px] flex items-center">
         <div className="absolute inset-0 bg-[#214842]"></div>
         <div className="relative z-10 container-custom text-white">
-          <Breadcrumbs
-            items={[
-              { label: 'Home', href: '/' },
-              { label: 'Blog', href: '/blog' },
-              { label: category.name, href: `/blog/category/${category.slug}`, isCurrent: true }
-            ]}
-            className="mb-4 text-white/80"
-          />
           <h1 className="mb-4">{category.name}</h1>
           <p className="text-xl max-w-2xl text-white/90">
             {category.description}
           </p>
+        </div>
+      </section>
+
+      {/* Breadcrumbs */}
+      <section className="border-b">
+        <div className="container-custom">
+          <Breadcrumbs
+            items={[
+              { label: 'Blog', href: '/blog' },
+              { label: category.name, href: `/blog/category/${category.slug}`, isCurrent: true }
+            ]}
+          />
         </div>
       </section>
 

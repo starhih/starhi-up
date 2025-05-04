@@ -21,9 +21,19 @@ export default function BlogCard({ post, className = '' }: BlogCardProps) {
         <div className="absolute top-4 left-4 bg-[#214842] text-white px-3 py-1 text-xs rounded-full z-10">
           {category?.name || 'Uncategorized'}
         </div>
-        <div className="flex items-center justify-center h-full w-full text-[#214842]">
-          {post.title.charAt(0).toUpperCase()}
-        </div>
+        {post.image ? (
+          <Image
+            src={post.image}
+            alt={post.title}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <div className="flex items-center justify-center h-full w-full text-[#214842]">
+            {post.title.charAt(0).toUpperCase()}
+          </div>
+        )}
       </div>
       <CardContent className="p-6">
         <div className="text-sm text-gray-500 mb-2">{formatDate(post.publishedAt)}</div>

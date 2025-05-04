@@ -71,7 +71,6 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         <div className="container-custom">
           <Breadcrumbs
             items={[
-              { label: 'Home', href: '/' },
               { label: 'Blog', href: '/blog' },
               { label: post.title, href: `/blog/${post.slug}`, isCurrent: true }
             ]}

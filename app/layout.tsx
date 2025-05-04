@@ -1,23 +1,11 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Montserrat, Nunito_Sans } from 'next/font/google';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { Toaster } from '@/components/ui/toaster';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import CookieConsent from '@/components/CookieConsent';
-
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  variable: '--font-montserrat',
-  display: 'swap',
-});
-
-const nunitoSans = Nunito_Sans({
-  subsets: ['latin'],
-  variable: '--font-nunito-sans',
-  display: 'swap',
-});
+import { montserrat, nunitoSans } from './fonts';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://starhiherbs.com'),

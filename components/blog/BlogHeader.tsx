@@ -38,9 +38,20 @@ export default function BlogHeader({ post, className = '' }: BlogHeaderProps) {
       </div>
 
       <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-xl overflow-hidden mb-8 bg-[#214842]/10">
-        <div className="flex items-center justify-center h-full w-full">
-          <h2 className="text-4xl font-bold text-[#214842]">{post.title.charAt(0).toUpperCase()}</h2>
-        </div>
+        {post.image ? (
+          <Image
+            src={post.image}
+            alt={post.title}
+            fill
+            sizes="100vw"
+            className="object-cover"
+            priority
+          />
+        ) : (
+          <div className="flex items-center justify-center h-full w-full">
+            <h2 className="text-4xl font-bold text-[#214842]">{post.title.charAt(0).toUpperCase()}</h2>
+          </div>
+        )}
       </div>
 
       <div className="flex flex-col md:flex-row gap-6 mb-8">

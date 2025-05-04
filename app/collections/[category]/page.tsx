@@ -87,6 +87,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
               { label: 'Products', href: '/products' },
               { label: category.name, href: `/collections/${category.slug}`, isCurrent: true }
             ]}
+            showHomeLink={true}
           />
           <div className="flex flex-col md:flex-row gap-4 items-center mt-4">
             <div className="relative flex-1">

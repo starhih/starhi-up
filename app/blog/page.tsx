@@ -1,21 +1,30 @@
+'use client';
+
 import { Metadata } from 'next';
 import Image from 'next/image';
+import { useSearchParams } from 'next/navigation';
 import { blogCategories, blogPosts, getLatestBlogPosts } from '@/src/data/blog';
 import BlogCard from '@/components/blog/BlogCard';
 import BlogCategoryList from '@/components/blog/BlogCategoryList';
 import BlogSearchBar from '@/components/blog/BlogSearchBar';
+import Breadcrumbs from '@/components/ui/breadcrumbs';
 
-export const metadata: Metadata = {
-  title: 'Blog | Star Hi Herbs',
-  description: 'Latest insights, research, and industry news from Star Hi Herbs. Explore our articles on herbal extracts, nutraceuticals, and sustainable practices.',
-};
-
+// Metadata is now in a separate file: app/blog/metadata.ts
 // Set dynamic to force-static for static export
 export const dynamic = 'force-static';
 
 export default function BlogPage() {
-  // Get all posts
-  const allPosts = blogPosts;
+  const searchParams = useSearchParams();
+  const searchQuery = searchParams.get('search') || '';
+
+  // Filter posts based on search query
+  const filteredPosts = searchQuery
+    ? blogPosts.filter(post =>
+        post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        post.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        post.content.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+    : blogPosts;
 
   // Get featured posts (latest 3)
   const featuredPosts = getLatestBlogPosts(3);
@@ -33,6 +42,17 @@ export default function BlogPage() {
         </div>
       </section>
 
+      {/* Breadcrumbs */}
+      <section className="border-b">
+        <div className="container-custom">
+          <Breadcrumbs
+            items={[
+              { label: 'Blog', href: '/blog', isCurrent: true }
+            ]}
+          />
+        </div>
+      </section>
+
       {/* Blog Content Section */}
       <section className="py-16">
         <div className="container-custom">
@@ -45,36 +65,49 @@ export default function BlogPage() {
 
             {/* Main Content */}
             <div className="lg:col-span-2">
-              <h2 className="text-2xl font-semibold text-[#214842] mb-8">All Articles</h2>
+              <h2 className="text-2xl font-semibold text-[#214842] mb-8">
+                {searchQuery ? `Search Results for "${searchQuery}"` : 'All Articles'}
+              </h2>
 
-              <div className="grid md:grid-cols-2 gap-6 mb-10">
-                {allPosts.map((post) => (
-                  <BlogCard key={post.id} post={post} />
-                ))}
-              </div>
+              {filteredPosts.length > 0 ? (
+                <div className="grid md:grid-cols-2 gap-6 mb-10">
+                  {filteredPosts.map((post) => (
+                    <BlogCard key={post.id} post={post} />
+                  ))}
+                </div>
+              ) : (
+                <div className="bg-gray-50 p-8 rounded-xl text-center">
+                  <h3 className="text-xl font-semibold text-[#214842] mb-2">No Articles Found</h3>
+                  <p className="text-gray-600">
+                    No articles match your search query. Please try a different search term.
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </section>
 
-      {/* Featured Posts Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <h6 className="text-[#258F67] uppercase tracking-wider mb-2 font-medium">Featured</h6>
-            <h2 className="text-[#214842] mb-4">Latest Research & Insights</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Explore our most recent publications and technical guides
-            </p>
-          </div>
+      {/* Featured Posts Section - Only show when not searching */}
+      {!searchQuery && (
+        <section className="py-16 bg-gray-50">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h6 className="text-[#258F67] uppercase tracking-wider mb-2 font-medium">Featured</h6>
+              <h2 className="text-[#214842] mb-4">Latest Research & Insights</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Explore our most recent publications and technical guides
+              </p>
+            </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {featuredPosts.map((post) => (
-              <BlogCard key={post.id} post={post} />
-            ))}
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {featuredPosts.map((post) => (
+                <BlogCard key={post.id} post={post} />
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
     </>
   );
 }

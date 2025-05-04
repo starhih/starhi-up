@@ -72,6 +72,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               { label: product.categoryName || 'Category', href: `/collections/${product.categorySlug || ''}` },
               { label: product.name, href: `/products/${product.slug}`, isCurrent: true }
             ]}
+            showHomeLink={true}
           />
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Product Images */}
