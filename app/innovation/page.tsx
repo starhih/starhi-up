@@ -9,7 +9,7 @@ export default function InnovationPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
         <Image
-          src="https://images.pexels.com/photos/3735641/pexels-photo-3735641.jpeg"
+          src="/images/innovation.jpg"
           alt="Research and Development"
           fill
           className="object-cover"

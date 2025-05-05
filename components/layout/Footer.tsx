@@ -123,15 +123,15 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-[#EFC368] mt-1 flex-shrink-0" />
                 <span className="text-white/80 text-sm">
-                  123 Herb Lane, Natural Park<br />
-                  Greenville, 12345<br />
-                  United States
+                  Plot #50, 3rd Road, 1st Phase<br />
+                  K.I.A.D.B. Industrial Area, Jigani<br />
+                  Bangalore - 560105, Karnataka, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <PhoneCall size={20} className="text-[#EFC368] flex-shrink-0" />
-                <a href="tel:+15551234567" className="text-white/80 hover:text-white text-sm">
-                  +1 (555) 123-4567
+                <a href="tel:+919886422452" className="text-white/80 hover:text-white text-sm">
+                  +91 98 8642 2452
                 </a>
               </li>
               <li className="flex items-center gap-3">

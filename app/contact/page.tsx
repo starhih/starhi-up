@@ -19,12 +19,12 @@ export default function ContactPage() {
     try {
       // TODO: Implement form submission logic
       await new Promise(resolve => setTimeout(resolve, 1000)); // Simulated API call
-      
+
       toast({
         title: "Message Sent",
         description: "Thank you for your message. We'll get back to you soon!",
       });
-      
+
       // Reset form
       (e.target as HTMLFormElement).reset();
     } catch (error) {
@@ -43,7 +43,7 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="relative h-[40vh] min-h-[300px] flex items-center">
         <Image
-          src="https://images.pexels.com/photos/5650034/pexels-photo-5650034.jpeg"
+          src="/images/contact-us.jpg"
           alt="Contact Us"
           fill
           className="object-cover"
@@ -65,23 +65,23 @@ export default function ContactPage() {
             {[
               {
                 icon: MapPin,
-                title: 'Visit Us',
-                content: '123 Herb Lane, Natural Park\nGreenville, 12345\nUnited States',
+                title: 'Corporate Headquarters',
+                content: 'Plot #50, 3rd Road, 1st Phase\nK.I.A.D.B. Industrial Area, Jigani\nBangalore - 560105, Karnataka, India',
               },
               {
                 icon: Phone,
                 title: 'Call Us',
-                content: '+1 (555) 123-4567\n+1 (555) 987-6543',
+                content: '+91 98 8642 2452 (Main)\n+91 89 7179 3584 (Sales)',
               },
               {
                 icon: Mail,
                 title: 'Email Us',
-                content: 'info@starhiherbs.com\nsales@starhiherbs.com',
+                content: 'info@starhiherbs.com (General)\nstarhi@starhiherbs.com (Sales)',
               },
               {
                 icon: Clock,
                 title: 'Business Hours',
-                content: 'Monday - Friday\n9:00 AM - 6:00 PM EST',
+                content: 'Monday - Friday: 9:30 AM - 6:00 PM (IST)\nSaturday: 9:30 AM - 3:00 PM (IST)\nSunday: Closed',
               },
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow-md">
@@ -184,8 +184,8 @@ export default function ContactPage() {
                   />
                 </div>
 
-                <Button 
-                  type="submit" 
+                <Button
+                  type="submit"
                   className="w-full cta-secondary"
                   disabled={isSubmitting}
                 >
@@ -199,7 +199,7 @@ export default function ContactPage() {
               <h2 className="text-[#214842] mb-6">Our Location</h2>
               <div className="bg-white rounded-xl shadow-md overflow-hidden h-[400px]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1!2d-73.9!3d40.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMCcwMC4wIk4gNzPCsDU0JzAwLjAiVw!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.9759341434!2d77.63233!3d12.8233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDQ5JzIzLjkiTiA3N8KwMzcnNTYuNCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -213,36 +213,29 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Global Offices */}
+      {/* Manufacturing Facilities */}
       <section className="section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <h6 className="text-[#258F67] uppercase tracking-wider mb-2 font-medium">Global Presence</h6>
-            <h2 className="text-[#214842] mb-4">Our Offices Worldwide</h2>
+            <h6 className="text-[#258F67] uppercase tracking-wider mb-2 font-medium">Our Facilities</h6>
+            <h2 className="text-[#214842] mb-4">Manufacturing Facilities</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                city: 'New York',
-                country: 'United States',
-                address: '123 Herb Lane, Natural Park\nGreenville, NY 12345',
-                phone: '+1 (555) 123-4567',
-                email: 'us@starhiherbs.com',
+                city: 'Bangalore Unit',
+                country: 'Karnataka, India',
+                address: '#50, 3rd Road, 1st Phase, KIADB Industrial Area\nBangalore - 560105, Karnataka, India',
+                phone: '+91 98 8642 2452',
+                email: 'starhi@starhiherbs.com',
               },
               {
-                city: 'Frankfurt',
-                country: 'Germany',
-                address: 'Herbalstraße 45\n60313 Frankfurt',
-                phone: '+49 69 1234567',
-                email: 'eu@starhiherbs.com',
-              },
-              {
-                city: 'Singapore',
-                country: 'Singapore',
-                address: '789 Nature Road\nSingapore 123456',
-                phone: '+65 6789 0123',
-                email: 'asia@starhiherbs.com',
+                city: 'Hassan Unit',
+                country: 'Karnataka, India',
+                address: 'Plot No 105-B, Pharma SEZ KIADB Industrial Area Hassan\nHassan - 573201, Karnataka, India',
+                phone: '+91 93 4257 5028',
+                email: 'research@starhiherbs.com',
               },
             ].map((office, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow-md">
