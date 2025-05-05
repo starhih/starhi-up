@@ -361,8 +361,8 @@ export default function AboutPage() {
               },
               {
                 name: 'Dr. Sadashiv CT',
-                position: 'General Manager & R&D Head',
-                image: '/images/dr-sadashiva.png',
+                position: 'General Manager R&D & Unit Head 2',
+                image: '/images/dr-sadashiva.jpg',
                 bio: 'PhD – Mysore University, Postdoc – KwaZulu-Natal University. 20+ years in herbal R&D and clinical research.',
               },
               {
