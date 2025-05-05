@@ -130,7 +130,7 @@ export default function SustainabilityPage() {
             <div className="order-2 md:order-1">
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://images.pexels.com/photos/2132166/pexels-photo-2132166.jpeg"
+                  src="/images/organic-turmeric-contract-farming.png"
                   alt="Organic Farming"
                   fill
                   className="object-cover"
@@ -234,19 +234,19 @@ export default function SustainabilityPage() {
             {[
               {
                 name: 'USDA Organic',
-                image: 'https://images.pexels.com/photos/5650026/pexels-photo-5650026.jpeg',
+                image: '/images/certifications/usda-organic.jpg',
               },
               {
-                name: 'EU Organic',
-                image: 'https://images.pexels.com/photos/5650030/pexels-photo-5650030.jpeg',
+                name: 'Organic',
+                image: '/images/certifications/organic.jpg',
               },
               {
-                name: 'Fair Trade',
-                image: 'https://images.pexels.com/photos/5650021/pexels-photo-5650021.jpeg',
+                name: 'Non GMO',
+                image: '/images/certifications/non-gmo.jpg',
               },
               {
-                name: 'Rainforest Alliance',
-                image: 'https://images.pexels.com/photos/5650025/pexels-photo-5650025.jpeg',
+                name: 'Shefexil',
+                image: '/images/certifications/shefexil.jpg',
               },
             ].map((cert, index) => (
               <div 
