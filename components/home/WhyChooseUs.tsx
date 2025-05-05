@@ -16,7 +16,7 @@ const features = [
     title: 'Certified Quality',
     description: 'ISO, FSSC, HACCP, and GMP certified production processes',
     icon: Award,
-    image: '/images/certified-quality.jpg',
+    image: '/images/certified-quality.jpeg',
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ const features = [
     title: 'Customized Solutions',
     description: 'Tailored formulations to meet specific client needs',
     icon: Settings,
-    image: '/images/customized-solution.jpg',
+    image: '/images/customized-solutions.jpeg',
   },
 ];
 

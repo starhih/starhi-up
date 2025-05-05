@@ -248,7 +248,7 @@ export const productCategories: ProductCategory[] = [
     slug: 'branded-ingredients',
     name: 'Branded Ingredients',
     description: 'Proprietary formulations with clinical backing',
-    image: '/images/turmimax.jpg',
+    image: '/images/branded-ingredients-1.jpg',
     count: 18,
   },
   {
@@ -264,7 +264,7 @@ export const productCategories: ProductCategory[] = [
     slug: 'vitamins-minerals',
     name: 'Vitamins & Minerals',
     description: 'Essential nutrients for optimal health',
-    image: '/images/vitamins-minerals.jpg',
+    image: '/images/vitamins-minerals-1.jpg',
     count: 24,
   },
   {
@@ -272,7 +272,7 @@ export const productCategories: ProductCategory[] = [
     slug: 'bulk-formulations',
     name: 'Bulk Formulations',
     description: 'Custom formulations for specific needs',
-    image: '/images/bulk-formulations-1.jpg',
+    image: '/images/bulk-formulations-2.jpeg',
     count: 10,
   },
 ];
