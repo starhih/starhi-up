@@ -73,7 +73,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/images/hassan-plant.jpg"
+                src="/images/mission-vision.jpg"
                 alt="Star Hi Herbs Laboratory"
                 fill
                 className="object-cover"
@@ -374,7 +374,7 @@ export default function AboutPage() {
               {
                 name: 'Balamurali Krishna K',
                 position: 'Director – Technical & Business Development',
-                image: '/images/hassan-plant.jpg',
+                image: '/images/balamurali.jpeg',
                 bio: 'Chemical Engineer & PGDM (IIMM). 30+ years in manufacturing, plant operations, and business growth.',
               },
               {

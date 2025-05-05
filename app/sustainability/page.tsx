@@ -9,7 +9,7 @@ export default function SustainabilityPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
         <Image
-          src="https://images.pexels.com/photos/2286895/pexels-photo-2286895.jpeg"
+          src="/images/sustainibility.jpg"
           alt="Sustainable Farming"
           fill
           className="object-cover"
@@ -58,7 +58,7 @@ export default function SustainabilityPage() {
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="https://images.pexels.com/photos/2132168/pexels-photo-2132168.jpeg"
+                src="/images/sustainibility-1.jpg"
                 alt="Sustainable Practices"
                 fill
                 className="object-cover"
