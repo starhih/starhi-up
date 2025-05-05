@@ -327,7 +327,7 @@ export default function AboutPage() {
               <div className="md:grid md:grid-cols-3 gap-0">
                 <div className="relative h-80 md:h-auto">
                   <Image
-                    src="/images/hassan-plant.jpg"
+                    src="/images/hm-firoz-hussain-1.jpg"
                     alt="Mr. Firoz Hussain"
                     fill
                     className="object-cover"
@@ -356,7 +356,7 @@ export default function AboutPage() {
               {
                 name: 'Najish N Nadaf',
                 position: 'Global Marketing Head',
-                image: '/images/hassan-plant.jpg',
+                image: '/images/najish-n-nadaf.png',
                 bio: 'MBA – Karnataka University. 20+ years in B2B marketing, international sales, and strategic partnerships.',
               },
               {
@@ -380,7 +380,7 @@ export default function AboutPage() {
               {
                 name: 'Youhan Hussain',
                 position: 'International Business Manager',
-                image: '/images/hassan-plant.jpg',
+                image: '/images/youhan-hussain.png',
                 bio: 'MBA in Marketing – University of Liverpool. 5+ years in international client development and channel management.',
               },
             ].map((member, index) => (
