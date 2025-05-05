@@ -362,13 +362,13 @@ export default function AboutPage() {
               {
                 name: 'Dr. Sadashiv CT',
                 position: 'General Manager & R&D Head',
-                image: '/images/hassan-plant.jpg',
+                image: '/images/dr-sadashiva.png',
                 bio: 'PhD – Mysore University, Postdoc – KwaZulu-Natal University. 20+ years in herbal R&D and clinical research.',
               },
               {
                 name: 'Radhakrishna Patil',
                 position: 'General Manager – QA & QC',
-                image: '/images/hassan-plant.jpg',
+                image: '/images/radhakrishna-patil.png',
                 bio: 'MSc in Chemistry – Mangalore University. 20+ years in Quality Assurance and Regulatory Affairs.',
               },
               {
@@ -382,6 +382,12 @@ export default function AboutPage() {
                 position: 'International Business Manager',
                 image: '/images/youhan-hussain.png',
                 bio: 'MBA in Marketing – University of Liverpool. 5+ years in international client development and channel management.',
+              },
+              {
+                name: 'Chetan Bhasin',
+                position: 'CFO',
+                image: '/images/chetan-bhasin.png',
+                bio: 'Chartered Accountant & PGDBA (IIM). 20+ years in finance, operations, and business strategy.',
               },
             ].map((member, index) => (
               <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden group">

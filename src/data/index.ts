@@ -240,7 +240,7 @@ export const productCategories: ProductCategory[] = [
     slug: 'organic-extracts',
     name: 'Organic Extracts',
     description: 'Certified organic herbs processed without chemicals, maintaining natural goodness.',
-    image: '/images/organic-extract.jpg',
+    image: '/images/organic-extract-1.jpg',
     count: 32,
   },
   {
@@ -256,7 +256,7 @@ export const productCategories: ProductCategory[] = [
     slug: 'probiotics',
     name: 'Probiotics',
     description: 'Shelf-stable probiotic strains for gut health',
-    image: '/images/probiotics.jpg',
+    image: '/images/probiotics-1.jpg',
     count: 12,
   },
   {
@@ -266,6 +266,14 @@ export const productCategories: ProductCategory[] = [
     description: 'Essential nutrients for optimal health',
     image: '/images/vitamins-minerals.jpg',
     count: 24,
+  },
+  {
+    id: 'bulk-formulations',
+    slug: 'bulk-formulations',
+    name: 'Bulk Formulations',
+    description: 'Custom formulations for specific needs',
+    image: '/images/bulk-formulations-1.jpg',
+    count: 10,
   },
 ];
 
