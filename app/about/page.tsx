@@ -427,7 +427,7 @@ export default function AboutPage() {
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="relative h-64">
                 <Image
-                  src="/images/hassan-plant.jpg"
+                  src="/images/jigani-plant.jpg"
                   alt="Jigani Manufacturing Unit"
                   fill
                   className="object-cover"
