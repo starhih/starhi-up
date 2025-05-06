@@ -2691,11 +2691,11 @@ export const products: Product[] = [
     "plantPart": "Leaves",
     "description": "Green Tea Extract is derived from the leaves of Camellia sinensis, carefully processed to preserve high levels of polyphenols—particularly catechins such as EGCG (epigallocatechin gallate). Available in multiple potencies ranging from 50% to an exceptional 98% polyphenols, our extract provides options for various application requirements. Each batch undergoes UV spectroscopy to verify polyphenol content and is processed using USP-grade ethanol to ensure maximum biological activity.",
     "shortDescription": "Green Tea extract standardized to 50%-98% polyphenols, supporting antioxidant protection, metabolism, cardiovascular, cognitive, and skin health.",
-    "image": "https://tinyurl.com/green-tea-ext",
+    "image": "/images/products/green-tea-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/green-tea-ext",
-      "/products/green-tea-extract-1.jpg",
-      "/products/green-tea-extract-2.jpg"
+      "/images/products/green-tea-extract-1.jpg",
+      "/images/products/green-tea-extract-2.jpg",
+      "/images/products/green-tea-extract-3.jpg"
     ],
     "applications": [
       "Antioxidant formulations",
@@ -2723,13 +2723,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Green Tea Extract is rich in polyphenols, particularly catechins like EGCG, known for their antioxidant, anti-inflammatory, metabolic, and neuroprotective effects. Clinical studies have demonstrated benefits in weight management, cardiovascular health, skin aging, and cognitive function, making green tea extract a highly versatile ingredient in modern nutraceutical formulations.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
@@ -2748,23 +2742,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Green Tea Extract is produced from sustainably sourced Camellia sinensis leaves grown in India, using USP-grade ethanol and UV-verified standardization methods to retain the full spectrum of polyphenolic compounds while ensuring purity and high bioactivity.",
-      "image": "https://images.pexels.com/photos/1414651/pexels-photo-1414651.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Star Hi Herbs supplies Green Tea Extract in 25kg fiber drums with double polyethylene liners. Customized packaging options (1kg, 5kg aluminum foil bags) are also available for pilot projects and specialty needs.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our GMP-certified manufacturing facility in Hassan, Karnataka, India ensures the highest quality production for Green Tea Extract, with strict control of raw material sourcing, processing, and standardized testing for guaranteed potency and safety.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Green Tea Extract is manufactured under FSSC 22000 and ISO 9001:2015 quality systems and meets Kosher, Halal, and Non-GMO standards.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We proudly present our Green Tea Extract range at major international events like Vitafoods Europe, SupplySide West, and CPhI Worldwide, connecting with global partners and brands.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -2806,11 +2800,11 @@ export const products: Product[] = [
     "plantPart": "Leaves",
     "description": "Gymnema Sylvestre Extract is derived from the leaves of Gymnema sylvestre, standardized to contain precise levels of gymnemic acids—the primary active compounds responsible for its remarkable effects on sugar perception and glucose metabolism. Available in various potencies ranging from 5% to 75% gymnemic acids, our extract is verified using both HPLC and gravimetric analysis to ensure consistent standardization. Each batch is processed using USP-grade ethanol to preserve the integrity of the active compounds.",
     "shortDescription": "Gymnema Sylvestre extract standardized to 5%-75% gymnemic acids, supporting healthy glucose metabolism, sugar craving control, and metabolic health.",
-    "image": "https://tinyurl.com/gymnema-ext",
+    "image": "/images/products/gymnema-sylvestre-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/gymnema-ext",
-      "/products/gymnema-sylvestre-extract-1.jpg",
-      "/products/gymnema-sylvestre-extract-2.jpg"
+      "/images/products/gymnema-sylvestre-extract-1.jpg",
+      "/images/products/gymnema-sylvestre-extract-2.jpg",
+      "/images/products/gymnema-sylvestre-extract-3.jpg"
     ],
     "applications": [
       "Blood glucose management formulations",
@@ -2838,14 +2832,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Gymnema Sylvestre has been widely studied for its unique ability to modulate sugar perception and glucose metabolism. Clinical research suggests that gymnemic acids can help lower blood sugar levels, reduce sugar cravings, and support insulin function, making it an essential herb for metabolic health and diabetic support formulations.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO",
-      "Organic Certified (for selected grades)"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -2864,23 +2851,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Gymnema Sylvestre Extract is produced from sustainably harvested Gymnema sylvestre leaves in India. Extraction uses USP-grade ethanol and advanced standardization techniques (HPLC and gravimetry) to ensure the highest bioactivity and consistent gymnemic acid potency batch after batch.",
-      "image": "https://images.pexels.com/photos/5945646/pexels-photo-5945646.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Star Hi Herbs supplies Gymnema Sylvestre Extract in 25kg fiber drums lined with double polyethylene bags. Custom packaging (1kg, 5kg foil pouches) is available for smaller quantities and R&D needs.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Manufactured in our GMP, FSSC 22000, and ISO 9001:2015 certified facility in Hassan, Karnataka, India, ensuring consistent purity, potency, and compliance with global standards.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Gymnema Sylvestre Extract is manufactured under internationally recognized certifications, including FSSC 22000, ISO 9001:2015, and available with Organic, Kosher, and Halal certification.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Our Gymnema Sylvestre Extract is showcased at leading international events such as SupplySide West, Vitafoods Europe, and Natural Products Expo, demonstrating our commitment to high-quality botanical solutions.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -2922,11 +2909,11 @@ export const products: Product[] = [
     "plantPart": "Beans",
     "description": "Kidney Bean Extract is derived from high-quality Phaseolus vulgaris beans and standardized for alpha-amylase inhibition activity. This specialized extract contains compounds that inhibit starch-digesting enzymes, potentially reducing carbohydrate absorption in the digestive tract. Our extract is carefully processed to preserve maximum enzymatic inhibitory activity and is available in multiple potencies ranging from 3000IU/g to 14000IU/g. Each batch undergoes rigorous UV spectroscopy testing to ensure accurate standardization and consistent potency.",
     "shortDescription": "Kidney Bean extract standardized to 3000-14000IU/g alpha-amylase inhibition, supporting starch blocking, weight management, and blood sugar control.",
-    "image": "https://tinyurl.com/kidney-bean-ext",
+    "image": "/images/products/kidney-bean-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/kidney-bean-ext",
-      "/products/kidney-bean-extract-1.jpg",
-      "/products/kidney-bean-extract-2.jpg"
+      "/images/products/kidney-bean-extract-1.jpg",
+      "/images/products/kidney-bean-extract-2.jpg",
+      "/images/products/kidney-bean-extract-3.jpg"
     ],
     "applications": [
       "Weight management formulations",
@@ -2954,13 +2941,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Kidney Bean Extract has been studied for its ability to inhibit alpha-amylase, the enzyme responsible for breaking down carbohydrates into simple sugars. Clinical research shows that alpha-amylase inhibitors can significantly reduce postprandial blood glucose spikes and calorie absorption from starchy foods, making it an effective natural aid in weight management and metabolic health programs.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
@@ -2978,23 +2959,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Kidney Bean Extract is produced from carefully selected Phaseolus vulgaris beans using advanced extraction and UV standardization techniques. USP-grade ethanol ensures high purity and bioactivity while maintaining a clean label profile suitable for health and wellness applications.",
-      "image": "https://images.pexels.com/photos/4110253/pexels-photo-4110253.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Star Hi Herbs supplies Kidney Bean Extract in 25kg fiber drums with double polyethylene inner liners. Smaller packaging options like 1kg and 5kg foil packs are available for pilot projects and R&D purposes.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Manufactured at our GMP, FSSC 22000, and ISO 9001:2015 certified facility located in Hassan, Karnataka, India, ensuring consistent purity, safety, and quality for global nutraceutical markets.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Kidney Bean Extract is produced under globally recognized certifications including FSSC 22000, ISO 9001:2015, with Kosher and Halal compliance, ensuring it meets strict international standards.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We proudly present our Kidney Bean Extract at global trade shows such as SupplySide West, Vitafoods Europe, and Natural Products Expo, connecting with leaders in the nutraceutical, functional food, and dietary supplement industries.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3036,11 +3017,11 @@ export const products: Product[] = [
     "plantPart": "Root",
     "description": "Licorice Extract is derived from premium Glycyrrhiza glabra roots and standardized to contain 40% glabridin, a key isoflavone with significant bioactive properties. Our specialized extraction process preserves the integrity of this valuable compound while removing unwanted components. Each batch undergoes precise titration analysis to ensure consistent potency and purity. This highly concentrated extract delivers maximum efficacy for skin brightening applications and antioxidant support in various formulations, with minimal glycyrrhizin content compared to conventional licorice extracts.",
     "shortDescription": "Premium Licorice extract standardized for glabridin content",
-    "image": "https://tinyurl.com/licorice-ext",
+    "image": "/images/products/licorice-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/licorice-ext",
-      "/products/licorice-extract-1.jpg",
-      "/products/licorice-extract-2.jpg"
+      "/images/products/licorice-extract-1.jpg",
+      "/images/products/licorice-extract-2.jpg",
+      "/images/products/licorice-extract-3.jpg"
     ],
     "applications": [
       "Skin brightening cosmetics",
@@ -3068,13 +3049,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Licorice extract has been researched for its potent skin brightening and antioxidant properties, showing that glabridin helps in reducing hyperpigmentation and even skin tone while also supporting digestive and immune health.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.4 MB" },
@@ -3093,23 +3068,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Licorice Extract production follows a rigorous process that begins with selecting premium Glycyrrhiza glabra roots. The roots are carefully cleaned and prepared for extraction using a method that maximizes glabridin content while minimizing glycyrrhizin. The extract undergoes multiple purification steps to ensure maximum potency and purity, followed by titration analysis for standardization.",
-      "image": "https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Licorice Extract is packaged in 25kg fiber drums with double polyethylene liners to protect against moisture and contamination. Smaller quantities are available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade, ensuring the stability of the product during shipping and storage.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our manufacturing facility in Hassan, Karnataka spans over 50,000 square feet and is equipped with state-of-the-art extraction and processing technology. The plant operates under GMP conditions, with strict control over temperature, humidity, and cleanliness to ensure the highest product quality.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies to verify ongoing compliance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Since 2016, Star Hi Herbs has been an active participant in major nutraceutical and natural product exhibitions worldwide. We exhibit regularly at Vitafoods Europe, Supply Side West, and Natural Products Expo to showcase our latest innovations and connect with customers.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3151,11 +3126,11 @@ export const products: Product[] = [
     "plantPart": "Fruit",
     "description": "Momordica Extract is derived from premium Momordica charantia (bitter melon) fruit and standardized for bitter principles using precise gravimetric analysis. Available in 5% and 8% concentrations, this extract preserves the complex bioactive compounds responsible for bitter melon's metabolic benefits. Our careful extraction process maintains the integrity of charantin, vicine, polypeptide-p, and other naturally occurring compounds while ensuring consistency between batches. Each production lot undergoes rigorous quality testing to verify the bitter principle content that contributes to its functional properties.",
     "shortDescription": "Premium Momordica extract standardized for bitter principles",
-    "image": "https://tinyurl.com/momordica-ext",
+    "image": "/images/products/momordica-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/momordica-ext",
-      "/products/momordica-extract-1.jpg",
-      "/products/momordica-extract-2.jpg"
+      "/images/products/momordica-extract-1.jpg",
+      "/images/products/momordica-extract-2.jpg",
+      "/images/products/momordica-extract-3.jpg"
     ],
     "applications": [
       "Blood glucose management supplements",
@@ -3183,13 +3158,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research on Momordica extract highlights its role in blood sugar regulation, with studies showing its ability to enhance insulin sensitivity and glucose uptake while reducing glucose production. The bitter principles also offer metabolic support and digestive benefits.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.4 MB" },
@@ -3208,23 +3177,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Momordica Extract production follows a strict process where premium Momordica charantia fruits are selected, cleaned, and processed to ensure that all bitter principles are preserved. Using gravimetric analysis, we ensure that the extract meets the precise bitter principle concentrations, delivering consistent quality with every batch.",
-      "image": "https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Momordica Extract is packaged in 25kg fiber drums with double polyethylene liners to protect against moisture and contamination. Smaller quantities are available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade, ensuring the stability of the product during shipping and storage.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our manufacturing facility in Hassan, Karnataka spans over 50,000 square feet and is equipped with state-of-the-art extraction and processing technology. The plant operates under GMP conditions, with strict control over temperature, humidity, and cleanliness to ensure the highest product quality.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies to verify ongoing compliance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Since 2016, Star Hi Herbs has been an active participant in major nutraceutical and natural product exhibitions worldwide. We exhibit regularly at Vitafoods Europe, Supply Side West, and Natural Products Expo to showcase our latest innovations and connect with customers.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3266,11 +3235,11 @@ export const products: Product[] = [
     "plantPart": "Seed",
     "description": "Mucuna Extract is derived from premium quality Mucuna pruriens seeds and standardized for L-Dopa (levodopa) content. Available in multiple standardization levels ranging from 10% to 30%, this extract provides a natural source of this important neurotransmitter precursor. Our specialized extraction process carefully preserves the delicate balance of naturally occurring compounds while ensuring consistent L-Dopa concentration. Each batch undergoes rigorous titration analysis to verify potency and purity. Both conventional and certified organic options are available to meet diverse formulation requirements.",
     "shortDescription": "Premium Mucuna extract standardized for L-Dopa content",
-    "image": "https://tinyurl.com/mucuna-ext",
+    "image": "/images/products/mucuna-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/mucuna-ext",
-      "/products/mucuna-extract-1.jpg",
-      "/products/mucuna-extract-2.jpg"
+      "/images/products/mucuna-extract-1.jpg",
+      "/images/products/mucuna-extract-2.jpg",
+      "/images/products/mucuna-extract-3.jpg"
     ],
     "applications": [
       "Cognitive health supplements",
@@ -3298,14 +3267,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that Mucuna pruriens, through its L-Dopa content, has potential benefits for cognitive health, mood regulation, and male reproductive health. It is used for its neuroprotective properties and adaptogenic effects, supporting the body’s ability to manage stress.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO",
-      "Organic (Certified)"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -3324,23 +3286,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Mucuna Extract is produced from high-quality Mucuna pruriens seeds, which are cleaned, processed, and standardized for L-Dopa content through precise titration. The extraction process preserves the natural compounds that may enhance the bioavailability of L-Dopa, ensuring optimal potency and consistency in each batch.",
-      "image": "https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Mucuna Extract is available in bulk packaging (25kg fiber drums) with double polyethylene liners to ensure protection against moisture. Smaller quantities are also available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade to maintain the integrity of the extract during transportation and storage.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our manufacturing facility in Hassan, Karnataka is equipped with modern extraction technology to ensure the highest quality of Mucuna Extract. The facility adheres to strict GMP standards, and we conduct rigorous quality control at every stage of production to ensure consistency and purity of the extract.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Mucuna Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic-certified extracts. We maintain Kosher, Halal, and Non-GMO certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs showcases our products at major global trade shows, including Vitafoods Europe and Supply Side West. These events allow us to introduce our latest innovations in herbal extracts, such as Mucuna, and connect with key players in the nutraceutical and wellness industries.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3382,11 +3344,11 @@ export const products: Product[] = [
     "plantPart": "Leaf",
     "description": "Ocimum Sanctum Extract is derived from premium Holy Basil (Tulsi) leaves and standardized for ursolic and oleanolic acid content. Available in 2.5% and 3% standardizations, this extract captures the adaptogenic compounds that make Tulsi a revered herb in Ayurvedic tradition. Our careful extraction process preserves the delicate balance of beneficial compounds while ensuring consistent potency. Each batch undergoes precise titration analysis to verify acid content. Both conventional and certified organic options are available, sourced from carefully cultivated Tulsi plants grown in ideal conditions.",
     "shortDescription": "Premium Ocimum Sanctum extract standardized for ursolic and oleanolic acids.",
-    "image": "https://tinyurl.com/ocimum-ext",
+    "image": "/images/products/ocimum-sanctum-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/ocimum-ext",
-      "/products/ocimum-sanctum-extract-1.jpg",
-      "/products/ocimum-sanctum-extract-2.jpg"
+      "/images/products/ocimum-sanctum-extract.jpg",
+      "/images/products/ocimum-sanctum-extract.jpg",
+      "/images/products/ocimum-sanctum-extract.jpg"
     ],
     "applications": [
       "Stress management formulations",
@@ -3414,14 +3376,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that Ocimum Sanctum, or Holy Basil, contains ursolic and oleanolic acids which contribute to its adaptogenic, immune-modulating, and antioxidant properties. These compounds help balance physiological functions, support cognitive health, and enhance overall wellness, making it a valuable ingredient in both traditional and modern wellness formulations.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO",
-      "Organic (Certified)"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
@@ -3440,23 +3395,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Ocimum Sanctum Extract is produced from premium Holy Basil (Tulsi) leaves, which are cleaned, processed, and standardized for ursolic and oleanolic acid content through precise titration. The extraction process preserves the natural compounds that provide adaptogenic benefits and ensure the extract's potency and consistency.",
-      "image": "https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Ocimum Sanctum Extract is available in bulk packaging (25kg fiber drums) with double polyethylene liners to ensure protection against moisture. Smaller quantities are also available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade to maintain the integrity of the extract during transportation and storage.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our manufacturing facility in Hassan, Karnataka is equipped with state-of-the-art technology to ensure the highest quality of Ocimum Sanctum Extract. The facility adheres to strict GMP standards, and we conduct rigorous quality control at every stage of production to ensure consistency and purity of the extract.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Ocimum Sanctum Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic-certified extracts. We maintain Kosher, Halal, and Non-GMO certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs showcases our products at major global trade shows, including Vitafoods Europe and Supply Side West. These events allow us to introduce our latest innovations in herbal extracts, such as Ocimum Sanctum, and connect with key players in the nutraceutical and wellness industries.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3498,11 +3453,11 @@ export const products: Product[] = [
     "plantPart": "Fruit",
     "description": "Piper longum Extract is derived from premium long pepper fruit and standardized for piperine content. Available in both moderate (5%) and highly concentrated (95%) options, this extract serves different formulation needs from traditional herbal blends to bioavailability enhancement applications. Our specialized extraction process carefully isolates and concentrates the piperine alkaloid while ensuring purity and consistency. Each batch undergoes rigorous titration analysis to verify alkaloid content. Both conventional and certified organic options are available to meet diverse formulation requirements.",
     "shortDescription": "Premium Piper Longum extract standardized for piperine.",
-    "image": "https://tinyurl.com/piper-longum-ext",
+    "image": "/images/products/piper-longum-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/piper-longum-ext",
-      "/products/piper-longum-extract-1.jpg",
-      "/products/piper-longum-extract-2.jpg"
+      "/images/products/piper-longum-extract-1.jpg",
+      "/images/products/piper-longum-extract-2.jpg",
+      "/images/products/piper-longum-extract-3.jpg"
     ],
     "applications": [
       "Bioavailability enhancement",
@@ -3530,14 +3485,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Piperine from Piper longum has been studied for its ability to enhance the bioavailability of other compounds by inhibiting certain liver and intestinal enzymes that metabolize drugs and nutrients. This makes it a valuable ingredient in supplements aimed at improving the absorption of other active ingredients.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO",
-      "Organic (Certified)"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -3556,23 +3504,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Piper Longum Extract is produced from premium long pepper fruit, which is cleaned, processed, and standardized for piperine content through precise titration. The extraction process carefully isolates piperine, ensuring purity and potency for bioenhancement and other health applications.",
-      "image": "https://images.pexels.com/photos/1268294/pexels-photo-1268294.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Piper Longum Extract is available in bulk packaging (25kg fiber drums) with double polyethylene liners to ensure protection against moisture. Smaller quantities are also available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade to maintain the integrity of the extract during transportation and storage.",
-      "image": "/packaging-pipe.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our manufacturing facility in Hassan, Karnataka is equipped with state-of-the-art technology to ensure the highest quality of Piper Longum Extract. The facility adheres to strict GMP standards, and we conduct rigorous quality control at every stage of production to ensure consistency and purity of the extract.",
-      "image": "/factory-pipe.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Piper Longum Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic-certified extracts. We maintain Kosher, Halal, and Non-GMO certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
-      "image": "/certifications-pipe.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs showcases our products at major global trade shows, including Vitafoods Europe and Supply Side West. These events allow us to introduce our latest innovations in herbal extracts, such as Piper Longum, and connect with key players in the nutraceutical and wellness industries.",
-      "image": "/events-pipe.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3614,11 +3562,11 @@ export const products: Product[] = [
     "plantPart": "Fruit",
     "description": "Pomegranate Extract is derived from premium Punica granatum fruit and standardized for ellagic acid content. Available in multiple concentrations (20%, 30%, and 40%), this extract captures the potent polyphenols responsible for pomegranate's exceptional antioxidant capacity. Our specialized extraction process carefully preserves the delicate balance of ellagitannins, punicalagins, and other beneficial compounds while ensuring consistent ellagic acid content. Each batch undergoes precise titration analysis to verify potency. The extract is available in both powder and granule forms to accommodate diverse formulation requirements.",
     "shortDescription": "Premium Pomegranate extract standardized for ellagic acid.",
-    "image": "https://tinyurl.com/pomegranate-ext",
+    "image": "/images/products/pomegranate-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/pomegranate-ext",
-      "/products/pomegranate-extract-1.jpg",
-      "/products/pomegranate-extract-2.jpg"
+      "/images/products/pomegranate-extract-1.jpg",
+      "/images/products/pomegranate-extract-2.jpg",
+      "/images/products/pomegranate-extract-3.jpg"
     ],
     "applications": [
       "Cardiovascular health supplements",
@@ -3646,13 +3594,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Pomegranate extract is rich in polyphenols, particularly ellagic acid, which provides powerful antioxidant and anti-inflammatory benefits. Studies show its potential in cardiovascular health by supporting endothelial function and managing oxidative stress. It also helps in skin health by supporting collagen production and reducing inflammation.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -3671,23 +3613,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Pomegranate Extract is produced from high-quality Punica granatum fruit, carefully processed to preserve the beneficial polyphenols. The extraction process is designed to retain the natural balance of ellagic acid, punicalagins, and ellagitannins while ensuring a consistent and potent extract.",
-      "image": "https://images.pexels.com/photos/1376024/pexels-photo-1376024.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Pomegranate Extract is available in bulk packaging (25kg fiber drums) with double polyethylene liners to ensure protection against moisture. Smaller quantities are also available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade to maintain the integrity of the extract during transportation and storage.",
-      "image": "/packaging-pomegranate.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our manufacturing facility in Ahmedabad, Gujarat, is equipped with state-of-the-art technology to ensure the highest quality of Pomegranate Extract. The facility adheres to strict GMP standards, and we conduct rigorous quality control at every stage of production to ensure consistency and purity of the extract.",
-      "image": "/factory-pomegranate.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Pomegranate Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer Non-GMO certified extracts. We maintain Kosher and Halal certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
-      "image": "/certifications-pomegranate.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs showcases our products at major global trade shows, including Vitafoods Europe and Supply Side West. These events allow us to introduce our latest innovations in herbal extracts, such as Pomegranate Extract, and connect with key players in the nutraceutical and wellness industries.",
-      "image": "/events-pomegranate.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3729,11 +3671,11 @@ export const products: Product[] = [
     "plantPart": "Seeds",
     "description": "Sesamin Extract is derived from premium sesame seeds and standardized for sesamin and sesamolin content. Available in multiple concentrations ranging from 10% to 98%, this extract offers exceptional versatility for various applications requiring different potency levels. Our specialized extraction process carefully isolates and concentrates these valuable lignans while ensuring purity and consistency. Each batch undergoes precise titration analysis to verify lignan content. The extract is available in both powder and granule forms to accommodate diverse formulation requirements, from nutraceuticals to functional foods.",
     "shortDescription": "Premium Sesamin extract standardized for sesamin and sesamolin.",
-    "image": "https://tinyurl.com/sesamin-ext",
+    "image": "/images/products/sesamin-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/sesamin-ext",
-      "/products/sesamin-extract-1.jpg",
-      "/products/sesamin-extract-2.jpg"
+      "/images/products/sesamin-extract-1.jpg",
+      "/images/products/sesamin-extract-2.jpg",
+      "/images/products/sesamin-extract-3.jpg"
     ],
     "applications": [
       "Liver health formulations",
@@ -3761,13 +3703,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Sesamin is a potent lignan with numerous health benefits, particularly for liver detoxification, cholesterol metabolism, and antioxidant protection. Studies suggest that sesamin helps support cardiovascular health by improving blood circulation and has potential benefits in reducing inflammation and oxidative stress. It is also beneficial for exercise recovery due to its antioxidant properties.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -3786,23 +3722,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Sesamin Extract is produced from high-quality sesame seeds, using an advanced extraction process that isolates and concentrates sesamin and sesamolin. The extract is carefully standardized to ensure consistent potency and quality, providing a reliable ingredient for a wide range of nutraceutical and functional food formulations.",
-      "image": "https://images.pexels.com/photos/1390001/pexels-photo-1390001.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Sesamin Extract is available in bulk packaging (25kg fiber drums) with double polyethylene liners to ensure protection against moisture. Smaller quantities are also available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade to maintain the integrity of the extract during transportation and storage.",
-      "image": "/packaging-sesamin.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our manufacturing facility in Ahmedabad, Gujarat, is equipped with state-of-the-art technology to ensure the highest quality of Sesamin Extract. The facility adheres to strict GMP standards, and we conduct rigorous quality control at every stage of production to ensure consistency and purity of the extract.",
-      "image": "/factory-sesamin.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Sesamin Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer Non-GMO certified extracts. We maintain Kosher and Halal certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
-      "image": "/certifications-sesamin.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs showcases our products at major global trade shows, including Vitafoods Europe and Supply Side West. These events allow us to introduce our latest innovations in herbal extracts, such as Sesamin Extract, and connect with key players in the nutraceutical and wellness industries.",
-      "image": "/events-sesamin.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3844,11 +3780,11 @@ export const products: Product[] = [
     "plantPart": "Resin",
     "description": "Shilajit Extract is carefully purified from premium raw shilajit resin and standardized for fulvic acid content. Available in multiple concentrations ranging from 1% to 50%, this extract preserves the complex matrix of minerals, fulvic acid, and other beneficial compounds found in this unique substance. Our specialized purification process removes impurities while maintaining the bioactive components responsible for shilajit's traditional benefits. Each batch undergoes precise gravimetric analysis to verify fulvic acid content. The extract is available in both powder and granule forms for versatile formulation applications.",
     "shortDescription": "Purified Shilajit extract standardized for fulvic acid, supporting energy and vitality.",
-    "image": "https://tinyurl.com/shilajit-ext",
+    "image": "/images/products/shilajit-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/shilajit-ext",
-      "/products/shilajit-extract-1.jpg",
-      "/products/shilajit-extract-2.jpg"
+      "/images/products/shilajit-extract.jpg",
+      "/images/products/shilajit-extract.jpg",
+      "/images/products/shilajit-extract.jpg"
     ],
     "applications": [
       "Energy and vitality supplements",
@@ -3876,13 +3812,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Shilajit is known for its high mineral content and fulvic acid, which enhances nutrient absorption and boosts energy levels. It has been traditionally used in Ayurvedic medicine as a rejuvenative agent, offering support for vitality, stamina, and male reproductive health. Studies also suggest its antioxidant and adaptogenic properties may support the body during physical stress and aid in faster recovery after exercise.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -3901,23 +3831,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Shilajit Extract is derived from high-quality raw shilajit resin, sourced from the pristine mountain regions of India. The purification process preserves the full spectrum of beneficial compounds while standardizing for fulvic acid content. The extract is carefully tested to ensure consistency and potency, making it ideal for use in a wide variety of formulations, from energy supplements to mineral-rich products.",
-      "image": "https://images.pexels.com/photos/1390001/pexels-photo-1390001.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Shilajit Extract is available in bulk packaging (25kg fiber drums) with double polyethylene liners to ensure protection against moisture. Smaller quantities are also available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade to maintain the integrity of the extract during transportation and storage.",
-      "image": "/packaging-shilajit.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our manufacturing facility in Ahmedabad, Gujarat, is equipped with state-of-the-art technology to ensure the highest quality of Shilajit Extract. The facility adheres to strict GMP standards, and we conduct rigorous quality control at every stage of production to ensure consistency and purity of the extract.",
-      "image": "/factory-shilajit.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Shilajit Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer Non-GMO certified extracts. We maintain Kosher and Halal certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
-      "image": "/certifications-shilajit.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs showcases our products at major global trade shows, including Vitafoods Europe and Supply Side West. These events allow us to introduce our latest innovations in herbal extracts, such as Shilajit Extract, and connect with key players in the nutraceutical and wellness industries.",
-      "image": "/events-shilajit.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3959,11 +3889,11 @@ export const products: Product[] = [
     "plantPart": "Fruit",
     "description": "Tribulus Terrestris Extract is derived from premium quality fruits and standardized for saponin content using precise gravimetric analysis. Available in multiple concentrations (40%, 45%, and 60%), this extract captures the steroidal saponins responsible for tribulus's traditional benefits. Our careful extraction process preserves the natural balance of protodioscin and other furostanol saponins while ensuring consistent potency between batches. Each production lot undergoes rigorous testing to verify saponin content. Both conventional and certified organic options are available to meet various formulation requirements.",
     "shortDescription": "Standardized Tribulus extract with saponins for male vitality and sports performance.",
-    "image": "https://tinyurl.com/tribulus-ext",
+    "image": "/images/products/tribulus-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/tribulus-ext",
-      "/products/tribulus-extract-1.jpg",
-      "/products/tribulus-extract-2.jpg"
+      "/images/products/tribulus-extract-1.jpg",
+      "/images/products/tribulus-extract-2.jpg",
+      "/images/products/tribulus-extract-3.jpg"
     ],
     "applications": [
       "Sports performance supplements",
@@ -3991,14 +3921,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Tribulus Terrestris is traditionally used in Ayurvedic and Chinese medicine for enhancing vitality and promoting reproductive health. Studies suggest its active compounds, particularly saponins like protodioscin, may help boost luteinizing hormone production, which in turn supports testosterone levels. Additionally, it has been investigated for its role in improving physical performance and recovery, especially in athletes.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO",
-      "Organic Certified"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
@@ -4016,23 +3939,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Tribulus Terrestris Extract is sourced from high-quality fruits grown in India. We use a precise extraction process to standardize the saponin content, ensuring potency and consistency. The extract is available in both conventional and organic forms, catering to a wide range of formulation needs in the sports nutrition and wellness markets.",
-      "image": "https://images.pexels.com/photos/1390095/pexels-photo-1390095.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Tribulus Terrestris Extract is available in bulk packaging (25kg fiber drums) with double polyethylene liners to ensure protection against moisture. Smaller quantities are also available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade to maintain the integrity of the extract during transportation and storage.",
-      "image": "/packaging-tribulus.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our facility in India is equipped with advanced extraction and testing technology to ensure the highest quality Tribulus Terrestris Extract. We adhere to strict GMP standards and conduct rigorous quality control at each stage of production to guarantee the potency and purity of every batch.",
-      "image": "/factory-tribulus.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs holds certifications to ensure the safety and quality of our Tribulus Terrestris Extract. We are FSSC 22000 and ISO 9001:2015 certified, and we also offer Non-GMO and Organic Certified extracts. Regular audits ensure ongoing compliance with these standards, providing transparency and trust in our products.",
-      "image": "/certifications-tribulus.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs participates in major global trade events, such as SupplySide West and Vitafoods Europe, to introduce our latest herbal extracts, including Tribulus Terrestris Extract. These events allow us to connect with industry leaders in the nutraceutical and wellness sectors.",
-      "image": "/events-tribulus.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4074,11 +3997,11 @@ export const products: Product[] = [
     "plantPart": "Leaf",
     "description": "Centella asiatica extract is derived from premium quality leaves and standardized for triterpene saponins using precise gravimetric analysis. Available in multiple concentrations (6%, 10%, and 20%), this extract captures the beneficial triterpenes including asiaticoside, madecassoside, asiatic acid, and madecassic acid. Our careful extraction process preserves these delicate compounds while ensuring consistent potency between batches. Each production lot undergoes rigorous testing to verify triterpene content. Both conventional and certified organic options are available to meet diverse formulation requirements.",
     "shortDescription": "Standardized Centella extract with triterpenes for cognitive, skin, and vascular health.",
-    "image": "https://tinyurl.com/centella-ext",
+    "image": "/images/products/centella-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/centella-ext",
-      "/products/centella-extract-1.jpg",
-      "/products/centella-extract-2.jpg"
+      "/images/products/centella-extract-1.jpg",
+      "/images/products/centella-extract-2.jpg",
+      "/images/products/centella-extract-3.jpg"
     ],
     "applications": [
       "Cognitive health supplements",
@@ -4106,14 +4029,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Centella asiatica has been used for centuries in traditional medicine for its cognitive, skin, and vascular health benefits. The primary bioactive compounds, including asiaticoside, madecassoside, and asiatic acid, have been shown to stimulate collagen synthesis, enhance skin strength and elasticity, and improve memory and cognitive function. Additionally, Centella has adaptogenic properties that may help modulate the stress response.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO",
-      "Organic Certified"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
@@ -4131,23 +4047,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Centella Asiatica Extract is sourced from high-quality leaves grown in India. We use a precise extraction process to standardize the triterpene saponin content, ensuring potency and consistency. The extract is available in both conventional and organic forms, catering to a wide range of formulation needs in the nutraceutical, cosmeceutical, and wellness markets.",
-      "image": "https://images.pexels.com/photos/1390095/pexels-photo-1390095.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Centella Asiatica Extract is available in bulk packaging (25kg fiber drums) with double polyethylene liners to ensure protection against moisture. Smaller quantities are also available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade to maintain the integrity of the extract during transportation and storage.",
-      "image": "/packaging-centella.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our facility in India is equipped with advanced extraction and testing technology to ensure the highest quality Centella Asiatica Extract. We adhere to strict GMP standards and conduct rigorous quality control at each stage of production to guarantee the potency and purity of every batch.",
-      "image": "/factory-centella.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs holds certifications to ensure the safety and quality of our Centella Asiatica Extract. We are FSSC 22000 and ISO 9001:2015 certified, and we also offer Non-GMO and Organic Certified extracts. Regular audits ensure ongoing compliance with these standards, providing transparency and trust in our products.",
-      "image": "/certifications-centella.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs participates in major global trade events, such as SupplySide West and Vitafoods Europe, to introduce our latest herbal extracts, including Centella Asiatica Extract. These events allow us to connect with industry leaders in the nutraceutical and wellness sectors.",
-      "image": "/events-centella.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4189,11 +4105,11 @@ export const products: Product[] = [
     "plantPart": "Bark",
     "description": "Cinnamon Extract is derived from premium Cinnamomum verum bark and standardized for polyphenol content using UV spectroscopy. Available in multiple concentrations ranging from 5% to 12%, this extract captures the beneficial compounds responsible for cinnamon's metabolic benefits. Our specialized extraction process carefully preserves the delicate balance of type-A polymeric procyanidins and other polyphenols while minimizing coumarin content. Each batch undergoes precise UV analysis to verify polyphenol levels. Both conventional and certified organic options are available to meet diverse formulation requirements.",
     "shortDescription": "Cinnamon extract standardized for polyphenols, supporting metabolic and antioxidant health.",
-    "image": "https://tinyurl.com/cinnamon-ext",
+    "image": "/images/products/cinnamon-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/cinnamon-ext",
-      "/products/cinnamon-extract-1.jpg",
-      "/products/cinnamon-extract-2.jpg"
+      "/images/products/cinnamon-extract-1.jpg",
+      "/images/products/cinnamon-extract-2.jpg",
+      "/images/products/cinnamon-extract-3.jpg"
     ],
     "applications": [
       "Blood sugar management formulations",
@@ -4219,14 +4135,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Cinnamon Extract is recognized for its beneficial properties, especially in supporting metabolic health and combating oxidative stress. The polyphenols, especially type-A polymeric procyanidins, contribute to its ability to modulate blood sugar levels and provide antioxidant protection. This extract is widely researched for its cardiovascular and weight management benefits, as well as its antioxidant effects.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO",
-      "Organic Certified"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -4244,23 +4153,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Cinnamon Extract is derived from high-quality Cinnamomum verum bark sourced from Sri Lanka and India. We utilize UV spectroscopy to ensure precise standardization of polyphenol content in each batch. The extract is available in both conventional and certified organic forms, catering to various applications in nutraceuticals, functional foods, and personal care products.",
-      "image": "https://images.pexels.com/photos/1390095/pexels-photo-1390095.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Cinnamon Extract is available in bulk packaging (25kg fiber drums) with double polyethylene liners to protect against moisture. Smaller quantities are available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade to ensure product integrity during transportation and storage.",
-      "image": "/packaging-cinnamon.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our facilities in Sri Lanka and India are equipped with advanced extraction and quality control technology, adhering to GMP standards to ensure the highest quality Cinnamon Extract. We conduct stringent quality checks at every stage of production to guarantee the potency and purity of the extract.",
-      "image": "/factory-cinnamon.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs is committed to maintaining high-quality standards and is certified under FSSC 22000 and ISO 9001:2015. We offer certified organic Cinnamon Extract, as well as Non-GMO options, to meet the diverse needs of our customers in nutraceutical, food, and personal care industries.",
-      "image": "/certifications-cinnamon.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs participates in key global events like SupplySide West and Vitafoods Europe to showcase our latest ingredients, including Cinnamon Extract. These events allow us to engage with industry professionals and present our cutting-edge herbal extracts to a global audience.",
-      "image": "/events-cinnamon.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4302,11 +4211,11 @@ export const products: Product[] = [
     "plantPart": "Flower buds",
     "description": "Clove Extract, derived from the flower buds of Syzygium aromaticum, is a potent herbal ingredient known for its high tannin content. Our extract is standardized to contain 15% tannins and is available in both powder and granule forms for versatile formulation applications. The extraction process employs USP-grade solvents to ensure product purity and safety. This ingredient is valued in nutraceuticals, oral care products, and aromatherapy applications for its natural antimicrobial properties and distinctive aroma.",
     "shortDescription": "Clove extract standardized for tannins, offering antimicrobial and antioxidant benefits.",
-    "image": "https://tinyurl.com/clove-ext",
+    "image": "/images/products/clove-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/clove-ext",
-      "/products/clove-extract-1.jpg",
-      "/products/clove-extract-2.jpg"
+      "/images/products/clove-extract-1.jpg",
+      "/images/products/clove-extract-2.jpg",
+      "/images/products/clove-extract-3.jpg"
     ],
     "applications": [
       "Oral care formulations",
@@ -4333,13 +4242,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Clove Extract is valued for its antimicrobial, antioxidant, and warming properties. The high tannin content in this extract contributes to its ability to neutralize free radicals and inhibit the growth of harmful microorganisms, making it a popular ingredient in oral care and topical analgesic products.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -4357,23 +4260,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Clove Extract is derived from the flower buds of Syzygium aromaticum, sourced from Indonesia. We use USP-grade solvents to ensure the purity of the extract while maintaining its potent antimicrobial properties. The extraction process involves carefully standardized methods to retain the highest level of tannins, providing a reliable and effective ingredient for various formulations.",
-      "image": "https://images.pexels.com/photos/1390095/pexels-photo-1390095.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Clove Extract is available in bulk packaging (25kg fiber drums) with double polyethylene liners to protect against moisture. Smaller quantities are available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade to ensure product integrity during transportation and storage.",
-      "image": "/packaging-clove.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our facility in Indonesia adheres to GMP standards, ensuring that Clove Extract is produced with the highest quality control. Each batch is tested for consistency in tannin content and purity to meet industry standards and customer specifications.",
-      "image": "/factory-clove.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs is committed to maintaining high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Clove Extract is also Non-GMO, Halal, and Kosher certified, making it suitable for a wide range of industries.",
-      "image": "/certifications-clove.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs participates in key global events like SupplySide West and Vitafoods Europe to showcase our latest ingredients, including Clove Extract. These events allow us to engage with industry professionals and present our cutting-edge herbal extracts to a global audience.",
-      "image": "/events-clove.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4415,11 +4318,11 @@ export const products: Product[] = [
     "plantPart": "Leaves",
     "description": "Moringa Leaves Extract, derived from the leaves of Moringa oleifera, is a nutritionally dense herbal ingredient known for its saponin content. Our extract is available in multiple standardization levels (5%, 10%, 20%, 25%, and 40% saponins) and comes in both powder and granule forms to meet diverse formulation needs. The extraction process uses USP-grade solvents to ensure purity and potency. This ingredient is highly valued in nutraceuticals, functional foods, and cosmeceuticals for its exceptional nutritional profile and antioxidant properties.",
     "shortDescription": "Moringa leaf extract rich in saponins, with potent antioxidant and nutritional properties.",
-    "image": "https://tinyurl.com/moringa-ext",
+    "image": "/images/products/moringa-leaves-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/moringa-ext",
-      "/products/moringa-leaves-extract-1.jpg",
-      "/products/moringa-leaves-extract-2.jpg"
+      "/images/products/moringa-leaves-extract-1.jpg",
+      "/images/products/moringa-leaves-extract-2.jpg",
+      "/images/products/moringa-leaves-extract-3.jpg"
     ],
     "applications": [
       "Nutritional supplements",
@@ -4446,14 +4349,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Moringa Leaves Extract is a rich source of nutrients, including vitamins A, C, E, and K, as well as amino acids and antioxidants. It is widely used in supplements and functional foods for its health-promoting properties, including immune system support, skin nourishment, and antioxidant activity.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO",
-      "Organic"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -4471,23 +4367,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Moringa Leaves Extract is derived from the leaves of Moringa oleifera, sourced from India. The extraction process uses USP-grade solvents to preserve the nutritional and antioxidant properties of the herb. The extract is standardized for saponins, providing a potent ingredient for a variety of formulations in nutraceuticals, functional foods, and skin care products.",
-      "image": "https://images.pexels.com/photos/1030397/pexels-photo-1030397.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Moringa Leaves Extract is available in bulk packaging (25kg fiber drums) with double polyethylene liners to protect against moisture. Smaller quantities are available in 1kg and 5kg aluminum foil bags. All packaging materials are food-grade to ensure product integrity during transportation and storage.",
-      "image": "/packaging-moringa.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our facility in India adheres to GMP standards, ensuring that Moringa Leaves Extract is produced with the highest quality control. Each batch is tested for consistency in saponin content and purity to meet industry standards and customer specifications.",
-      "image": "/factory-moringa.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Moringa Leaves Extract is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
-      "image": "/certifications-moringa.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs participates in key global events like SupplySide West and Vitafoods Europe to showcase our latest ingredients, including Moringa Leaves Extract. These events allow us to engage with industry professionals and present our cutting-edge herbal extracts to a global audience.",
-      "image": "/events-moringa.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4529,11 +4425,11 @@ export const products: Product[] = [
     "plantPart": "Berries",
     "description": "Saw Palmetto Extract Oil, derived from the berries of Serenoa repens, is a specialized herbal ingredient known for its high fatty acid content. Our extract is standardized using Gas Chromatography (GC) to contain either 32% or 85% fatty acids and is available in oil form. The extraction process utilizes CO2 extraction technology to preserve the delicate fatty acid profile. This ingredient is particularly valued in men's health formulations, hair care products, and prostate support supplements for its traditional benefits.",
     "shortDescription": "Saw Palmetto oil rich in fatty acids, traditionally used for prostate health and hair vitality.",
-    "image": "https://tinyurl.com/saw-palmetto-ext",
+    "image": "/images/products/saw-palmetto-extract-oil.jpg",
     "gallery": [
-      "https://tinyurl.com/saw-palmetto-ext",
-      "/products/saw-palmetto-extract-oil-1.jpg",
-      "/products/saw-palmetto-extract-oil-2.jpg"
+      "/images/products/saw-palmetto-extract-oil-1.jpg",
+      "/images/products/saw-palmetto-extract-oil-2.jpg",
+      "/images/products/saw-palmetto-extract-oil-3.jpg"
     ],
     "applications": [
       "Men's health supplements",
@@ -4560,13 +4456,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Saw Palmetto Extract Oil is known for its potent fatty acid profile, making it a valuable ingredient for men's health, particularly for prostate support and hair vitality. It has been used traditionally for its anti-inflammatory, antioxidant, and hormone-balancing properties.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -4584,23 +4474,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Saw Palmetto Extract Oil is derived from the berries of Serenoa repens, sourced from the United States. The extraction process uses CO2 extraction technology to ensure the purity and potency of the fatty acids. The oil is standardized to either 32% or 85% fatty acids, providing a potent ingredient for men's health formulations, hair care products, and prostate support supplements.",
-      "image": "https://images.pexels.com/photos/1214102/pexels-photo-1214102.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Saw Palmetto Extract Oil is packaged in high-quality, dark-colored glass bottles to protect from light exposure. Available in 500ml, 1L, and bulk 25L containers. Packaging ensures the integrity and stability of the oil during storage and transportation.",
-      "image": "/packaging-saw-palmetto.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our facility in the United States adheres to GMP standards and ensures that Saw Palmetto Extract Oil is produced with strict quality control measures. Each batch is tested for fatty acid content, purity, and microbial contamination to meet industry standards and customer specifications.",
-      "image": "/factory-saw-palmetto.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Saw Palmetto Extract Oil is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
-      "image": "/certifications-saw-palmetto.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs participates in global events such as SupplySide West and Vitafoods Europe, showcasing products like Saw Palmetto Extract Oil. These events provide opportunities to engage with professionals and present our latest ingredient innovations.",
-      "image": "/events-saw-palmetto.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4642,11 +4532,11 @@ export const products: Product[] = [
     "plantPart": "Leaves and Pods",
     "description": "Senna extract, derived from the leaves and pods of Senna alexandrina, is a potent herbal ingredient known for its sennoside content. Our extract is available in multiple standardization levels (1.5%, 10%, 20%, 40% sennosides) and comes in both powder and granule forms to meet various formulation requirements. The extraction process employs USP-grade solvents to ensure product purity and potency. This ingredient is widely used in digestive health supplements and traditional cleansing formulations for its natural properties.",
     "shortDescription": "Senna Extract rich in sennosides, traditionally used for digestive health and detoxification.",
-    "image": "https://tinyurl.com/senna-ext",
+    "image": "/images/products/senna-extract.jpg",
     "gallery": [
-      "https://tinyurl.com/senna-ext",
-      "/products/senna-extract-1.jpg",
-      "/products/senna-extract-2.jpg"
+      "/images/products/senna-extract-1.jpg",
+      "/images/products/senna-extract-2.jpg",
+      "/images/products/senna-extract-3.jpg"
     ],
     "applications": [
       "Digestive health products",
@@ -4672,13 +4562,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Senna Extract is known for its powerful laxative and cleansing properties. It has been used traditionally to promote digestive health and support regular bowel movements. Clinical studies have shown that sennosides, the active compounds in Senna, help stimulate peristalsis in the intestines, facilitating the natural elimination process.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -4696,23 +4580,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Senna Extract is derived from the leaves and pods of Senna alexandrina, sourced primarily from India and Egypt. The extraction process uses USP-grade solvents, including ethanol, to ensure the purity and potency of the sennosides. The extract is available in multiple standardization levels to meet the diverse needs of digestive health and detoxification formulations.",
-      "image": "https://images.pexels.com/photos/1214102/pexels-photo-1214102.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Senna Extract is packaged in high-quality, moisture-resistant bags and drums to maintain product integrity. Available in 500g, 1kg, and bulk 25kg containers. Packaging ensures the extract remains free from moisture and contaminants during storage and transport.",
-      "image": "/packaging-senna.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our facility in India/Egypt adheres to GMP standards and ensures that Senna Extract is produced with rigorous quality control measures. Each batch is tested for sennoside content, purity, and microbial contamination to meet industry standards.",
-      "image": "/factory-senna.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Senna Extract is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
-      "image": "/certifications-senna.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs participates in global events such as SupplySide West and Vitafoods Europe, showcasing products like Senna Extract. These events provide opportunities to engage with professionals and present our latest ingredient innovations.",
-      "image": "/events-senna.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4754,11 +4638,11 @@ export const products: Product[] = [
     "plantPart": "Fruit",
     "description": "Terminalia Bellerica Extract, derived from the fruit of Terminalia bellerica, is a valuable Ayurvedic ingredient known for its high tannin content. Our extract is standardized to contain either 40% or 45% tannins and is available in both powder and granule forms to support diverse formulation needs. The extraction process uses USP-grade solvents to ensure purity and potency. This ingredient is widely used in traditional Ayurvedic formulations, digestive health supplements, and antioxidant products for its beneficial properties.",
     "shortDescription": "Terminalia Bellerica Extract rich in tannins, used in digestive health, antioxidant, and Ayurvedic formulations.",
-    "image": "https://tinyurl.com/terminalia-bellerica-ext",
+    "image": "/images/products/terminalia-bellerica.jpg",
     "gallery": [
-      "https://tinyurl.com/terminalia-bellerica-ext",
-      "/products/terminalia-bellerica-1.jpg",
-      "/products/terminalia-bellerica-2.jpg"
+      "/images/products/terminalia-bellerica-1.jpg",
+      "/images/products/terminalia-bellerica-1.jpg",
+      "/images/products/terminalia-bellerica-1.jpg"
     ],
     "applications": [
       "Digestive health supplements",
@@ -4785,13 +4669,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Terminalia Bellerica Extract is a significant source of tannins, compounds known for their antioxidant properties. Clinical studies show its effectiveness in neutralizing free radicals and supporting digestive health. It has also been used traditionally for respiratory health and detoxification in Ayurvedic medicine, often in combination with other herbs in formulations like Triphala.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.5 MB" },
@@ -4809,23 +4687,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Terminalia Bellerica Extract is derived from the fruit of Terminalia bellerica, sourced from India. The extraction process uses USP-grade solvents, including ethanol, to ensure the purity and potency of the tannins. The extract is available in multiple standardization levels to meet the diverse needs of digestive health and antioxidant formulations.",
-      "image": "https://images.pexels.com/photos/1214102/pexels-photo-1214102.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Terminalia Bellerica Extract is packaged in high-quality, moisture-resistant bags and drums to maintain product integrity. Available in 500g, 1kg, and bulk 25kg containers. Packaging ensures the extract remains free from moisture and contaminants during storage and transport.",
-      "image": "/packaging-terminalia-bellerica.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our facility in India adheres to GMP standards and ensures that Terminalia Bellerica Extract is produced with rigorous quality control measures. Each batch is tested for tannin content, purity, and microbial contamination to meet industry standards.",
-      "image": "/factory-terminalia-bellerica.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Terminalia Bellerica Extract is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
-      "image": "/certifications-terminalia-bellerica.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs participates in global events such as SupplySide West and Vitafoods Europe, showcasing products like Terminalia Bellerica Extract. These events provide opportunities to engage with professionals and present our latest ingredient innovations.",
-      "image": "/events-terminalia-bellerica.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4867,11 +4745,11 @@ export const products: Product[] = [
     "plantPart": "Fruit",
     "description": "Terminalia Chebula Extract, derived from the fruit of Terminalia chebula, is a renowned Ayurvedic ingredient known for its high tannin content. Our extract is standardized to contain either 40% or 45% tannins and is available in both powder and granule forms to accommodate various formulation needs. The extraction process employs USP-grade solvents to ensure product purity and potency. This ingredient is highly valued in traditional Ayurvedic formulations, digestive health supplements, and antioxidant products for its numerous beneficial properties.",
     "shortDescription": "Terminalia Chebula Extract, rich in tannins, supports digestive health, antioxidant protection, and oral health.",
-    "image": "https://tinyurl.com/terminalia-chebula-ext",
+    "image": "/images/products/terminalia-chebula.jpg",
     "gallery": [
-      "https://tinyurl.com/terminalia-chebula-ext",
-      "/products/terminalia-chebula-1.jpg",
-      "/products/terminalia-chebula-2.jpg"
+      "/images/products/terminalia-chebula-1.jpg",
+      "/images/products/terminalia-chebula-2.jpg",
+      "/images/products/terminalia-chebula-3.jpg"
     ],
     "applications": [
       "Digestive health supplements",
@@ -4898,13 +4776,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Terminalia Chebula Extract is an important component in Ayurvedic medicine, known for its high tannin content. Clinical studies show its effectiveness in supporting digestion, providing antioxidant protection, and enhancing oral health. It has been used for centuries for detoxification and digestive health, and it forms one of the three fruits in the traditional Triphala formula.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.5 MB" },
@@ -4922,23 +4794,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Terminalia Chebula Extract is derived from the fruit of Terminalia chebula, sourced from India. The extraction process uses USP-grade solvents, including ethanol, to ensure the purity and potency of the tannins. The extract is available in multiple standardization levels to meet the diverse needs of digestive health and antioxidant formulations.",
-      "image": "https://images.pexels.com/photos/1214102/pexels-photo-1214102.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Terminalia Chebula Extract is packaged in high-quality, moisture-resistant bags and drums to maintain product integrity. Available in 500g, 1kg, and bulk 25kg containers. Packaging ensures the extract remains free from moisture and contaminants during storage and transport.",
-      "image": "/packaging-terminalia-chebula.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our facility in India adheres to GMP standards and ensures that Terminalia Chebula Extract is produced with rigorous quality control measures. Each batch is tested for tannin content, purity, and microbial contamination to meet industry standards.",
-      "image": "/factory-terminalia-chebula.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Terminalia Chebula Extract is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
-      "image": "/certifications-terminalia-chebula.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs participates in global events such as SupplySide West and Vitafoods Europe, showcasing products like Terminalia Chebula Extract. These events provide opportunities to engage with professionals and present our latest ingredient innovations.",
-      "image": "/events-terminalia-chebula.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4980,11 +4852,11 @@ export const products: Product[] = [
     "plantPart": "Fruit and Root",
     "description": "Trikatu Extract is a traditional Ayurvedic formulation derived from a precise blend of three powerful botanicals: Piper Longum (Long Pepper), Zingiber officinale (Ginger), and Piper nigrum (Black Pepper). Our extract is standardized to contain 1.5% piperine and 1.0% total gingerols, and is available in both powder and granule forms to support diverse formulation needs. The extraction process uses USP-grade solvents to ensure purity and potency. This ingredient is highly valued in traditional Ayurvedic formulations, digestive health supplements, and bioavailability enhancers.",
     "shortDescription": "Trikatu Extract, combining long pepper, ginger, and black pepper, supports digestion, metabolism, and nutrient absorption.",
-    "image": "https://tinyurl.com/trikatu-ext",
+    "image": "/images/products/trikatu.jpg",
     "gallery": [
-      "https://tinyurl.com/trikatu-ext",
-      "/products/trikatu-1.jpg",
-      "/products/trikatu-2.jpg"
+      "/images/products/trikatu-1.jpg",
+      "/images/products/trikatu-2.jpg",
+      "/images/products/trikatu-3.jpg"
     ],
     "applications": [
       "Digestive health supplements",
@@ -5011,13 +4883,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Trikatu Extract is a well-known Ayurvedic formulation for digestive health, bioenhancement, and thermogenesis. Research supports the use of piperine to enhance nutrient absorption and gingerols to stimulate metabolism. The synergistic combination of these botanicals improves overall digestion and promotes metabolic activity, making it a valuable ingredient in both traditional medicine and modern supplements.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -5035,23 +4901,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Trikatu Extract is derived from a blend of three powerful botanicals: Piper Longum (Long Pepper), Zingiber officinale (Ginger), and Piper nigrum (Black Pepper). The extraction process uses USP-grade solvents to ensure a high-quality product. The extract is standardized to contain 1.5% piperine and 1.0% total gingerols, available in both powder and granule forms.",
-      "image": "https://images.pexels.com/photos/1214102/pexels-photo-1214102.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Trikatu Extract is packaged in moisture-resistant bags and drums, ensuring product integrity during storage and transport. Available in 500g, 1kg, and bulk 25kg containers.",
-      "image": "/packaging-trikatu.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our facility in India follows GMP standards to produce Trikatu Extract with stringent quality control measures. Each batch undergoes testing for piperine and gingerol content, microbial contamination, and other quality parameters.",
-      "image": "/factory-trikatu.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Trikatu Extract is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
-      "image": "/certifications-trikatu.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs participates in global events such as SupplySide West and Vitafoods Europe, showcasing products like Trikatu Extract. These events provide opportunities to engage with professionals and present our latest ingredient innovations.",
-      "image": "/events-trikatu.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -5093,11 +4959,11 @@ export const products: Product[] = [
     "plantPart": "Rhizome",
     "description": "Turmeric with Water Extract, derived from the rhizome of Curcuma longa, is a specialized herbal ingredient focusing on the water-soluble polysaccharide fraction rather than the more common curcuminoid content. Our extract is standardized to contain 10% polysaccharides and is available in both powder and granule forms to support diverse formulation needs. The extraction process uses water extraction technology to specifically isolate the polysaccharide components. This ingredient is valued in immune support formulations, joint health supplements, and holistic wellness products.",
     "shortDescription": "Turmeric with Water Extract, standardized to 10% polysaccharides, focuses on the water-soluble polysaccharide fraction for immune and joint support.",
-    "image": "https://tinyurl.com/turmeric-water-ext",
+    "image": "/images/products/turmeric-water.jpg",
     "gallery": [
-      "https://tinyurl.com/turmeric-water-ext",
-      "/products/turmeric-water-1.jpg",
-      "/products/turmeric-water-2.jpg"
+      "/images/products/turmeric-water.jpg",
+      "/images/products/turmeric-water.jpg",
+      "/images/products/turmeric-water.jpg"
     ],
     "applications": [
       "Immune support supplements",
@@ -5124,14 +4990,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Turmeric with Water Extract is a specialized product focusing on water-soluble polysaccharides rather than curcuminoids. Research indicates that polysaccharides in turmeric may support immune function, joint comfort, and digestive health. This extract is a unique approach to turmeric's benefits, providing a broader range of bioactive components compared to standard turmeric extracts.",
-    "certifications": [
-      "FSSC 22000",
-      "ISO 9001:2015",
-      "Kosher",
-      "Halal",
-      "Non-GMO",
-      "Organic"
-    ],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -5149,23 +5008,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Turmeric with Water Extract is derived from the rhizome of Curcuma longa. The extraction process uses water extraction technology to isolate the water-soluble polysaccharide fraction. It is standardized to contain 10% polysaccharides and is available in both powder and granule forms.",
-      "image": "https://images.pexels.com/photos/1214102/pexels-photo-1214102.jpeg"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Turmeric with Water Extract is packaged in moisture-resistant bags and drums to maintain product integrity during storage and transport. Available in 500g, 1kg, and bulk 25kg containers.",
-      "image": "/packaging-turmeric-water.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our facility in India follows GMP standards to produce Turmeric with Water Extract with strict quality control measures. Each batch is tested for polysaccharide content, microbial contamination, and other quality parameters.",
-      "image": "/factory-turmeric-water.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs ensures high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Turmeric with Water Extract is also Non-GMO, Halal, Kosher, and Organic certified, ensuring it meets the needs of diverse industries.",
-      "image": "/certifications-turmeric-water.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs participates in global trade shows like SupplySide West and Vitafoods Europe, where Turmeric with Water Extract is showcased. These events provide opportunities to network with industry professionals and explore the latest ingredient innovations.",
-      "image": "/events-turmeric-water.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
