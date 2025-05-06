@@ -368,7 +368,7 @@ export default function AboutPage() {
               {
                 name: 'Radhakrishna Patil',
                 position: 'General Manager QA & QC & Unit Head 1',
-                image: '/images/radhakrishna-patil.png',
+                image: '/images/radhakrishna-patil.jpg',
                 bio: 'MSc in Chemistry – Mangalore University. 20+ years in Quality Assurance and Regulatory Affairs.',
               },
               {
