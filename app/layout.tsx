@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   title: 'Star Hi Herbs | Innovating Herbal Solutions for a Healthier Tomorrow',
   description: 'Global B2B manufacturer of herbal extracts, probiotics, branded ingredients, and nutraceutical solutions.',
   keywords: 'herbal extracts, probiotics, nutraceuticals, organic extracts, herbal solutions, b2b herbs',
+  icons: {
+    icon: '/images/starhiherbs-favicon.jpg',
+    apple: '/images/starhiherbs-favicon.jpg',
+  },
   openGraph: {
     title: 'Star Hi Herbs | Innovating Herbal Solutions for a Healthier Tomorrow',
     description: 'Global B2B manufacturer of herbal extracts, probiotics, branded ingredients, and nutraceutical solutions.',
@@ -50,6 +54,8 @@ export default function RootLayout({
           href="https://images.pexels.com"
           crossOrigin="anonymous"
         />
+        <link rel="icon" href="/images/starhiherbs-favicon.jpg" />
+        <link rel="apple-touch-icon" href="/images/starhiherbs-favicon.jpg" />
       </head>
       <body className="font-sans">
         <ThemeProvider attribute="class" defaultTheme="light">
