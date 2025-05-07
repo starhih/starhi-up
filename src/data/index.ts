@@ -5129,7 +5129,7 @@ export const newsItems: NewsItem[] = [
   {
     id: 1,
     title: 'Star Hi Herbs Launches New Organic Andrographis Extract',
-    date: '2023-06-15',
+    date: '2023-11-15',
     image: '/images/products/andrographis-extract.jpg',
     excerpt: 'Our new organic andrographis extract is standardized to contain up to 90% andrographolides and certified USDA Organic.',
     category: 'Product Launch',
@@ -5137,7 +5137,7 @@ export const newsItems: NewsItem[] = [
   {
     id: 2,
     title: 'Star Hi Herbs Launches Premium Ashwagandha Extract',
-    date: '2023-05-22',
+    date: '2023-10-22',
     image: '/images/products/ashwagandha-extract.jpg',
     excerpt: 'Our new premium ashwagandha extract is standardized to contain up to 10% withanolides using both HPLC and gravimetric methods.',
     category: 'Product Launch',
@@ -5145,11 +5145,51 @@ export const newsItems: NewsItem[] = [
   {
     id: 3,
     title: 'Star Hi Herbs Receives Sustainability Award',
-    date: '2023-04-10',
-    image: '/images/factory.jpg',
+    date: '2023-09-10',
+    image: '/images/hassan-plant.jpg',
     excerpt: 'Our commitment to sustainable farming practices has been recognized with the 2023 Green Business Award.',
     category: 'Awards',
   },
+  {
+    id: 4,
+    title: 'New Research Publication on Turmeric Bioavailability',
+    date: '2023-08-25',
+    image: '/images/products/turmeric-extract-1.jpg',
+    excerpt: 'Our R&D team has published groundbreaking research on enhancing turmeric extract bioavailability in the Journal of Medicinal Plants.',
+    category: 'Research',
+  },
+  {
+    id: 5,
+    title: 'Star Hi Herbs to Exhibit at Vitafoods Europe 2024',
+    date: '2023-07-18',
+    image: '/images/events/vitafoods-europe.jpg',
+    excerpt: 'Visit us at Booth #G135 to discover our latest innovations in herbal extracts and meet our technical experts.',
+    category: 'Events',
+  },
+  {
+    id: 6,
+    title: 'New Manufacturing Facility Opens in Hassan',
+    date: '2023-06-05',
+    image: '/images/starhi-hassan-unit-warehouse.png',
+    excerpt: 'Our state-of-the-art manufacturing facility in Hassan is now operational, increasing our production capacity by 40%.',
+    category: 'Company News',
+  },
+  {
+    id: 7,
+    title: 'Star Hi Herbs Achieves FSSC 22000 v5.1 Certification',
+    date: '2023-05-12',
+    image: '/images/certifications/fssc.png',
+    excerpt: 'We are proud to announce that our facilities have been certified to the latest FSSC 22000 v5.1 food safety standard.',
+    category: 'Certifications',
+  },
+  {
+    id: 8,
+    title: 'New Patent Filed for Innovative Extraction Process',
+    date: '2023-04-30',
+    image: '/images/advanced-rnd.jpg',
+    excerpt: 'Star Hi Herbs has filed a patent for a novel green extraction technology that reduces solvent usage by 60%.',
+    category: 'Innovation',
+  }
 ];
 
 /**
