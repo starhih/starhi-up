@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
@@ -13,6 +13,7 @@ export default function FeaturedHighlights() {
 
   // State for the news ticker
   const [isPaused, setIsPaused] = useState(false);
+  const tickerRef = useRef<HTMLDivElement>(null);
 
   // If no product is found, don't render the section
   if (!product) return null;
@@ -24,8 +25,13 @@ export default function FeaturedHighlights() {
   const { name, standardization, shortDescription, slug, image } = product;
 
   // Handle mouse enter/leave for pausing the ticker
-  const handleMouseEnter = () => setIsPaused(true);
-  const handleMouseLeave = () => setIsPaused(false);
+  const handleMouseEnter = () => {
+    setIsPaused(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsPaused(false);
+  };
 
   // Create a duplicate array of news items for continuous scrolling
   const duplicatedNewsItems = [...newsItems, ...newsItems];
@@ -85,12 +91,15 @@ export default function FeaturedHighlights() {
               onMouseLeave={handleMouseLeave}
             >
               <div
+                ref={tickerRef}
                 className={`news-ticker-container ${isPaused ? 'paused' : ''}`}
                 style={{
                   height: 'auto',
                   position: 'absolute',
                   width: '100%',
-                  animation: isPaused ? 'none' : 'ticker-scroll 40s linear infinite'
+                  zIndex: 10,
+                  willChange: 'transform',
+                  animation: 'ticker-scroll 40s linear infinite'
                 }}
               >
                 {duplicatedNewsItems.map((newsItem, index) => {
@@ -108,7 +117,17 @@ export default function FeaturedHighlights() {
                       key={`${newsItem.id}-${index}`}
                       className="news-ticker-item border-b last:border-b-0 border-gray-100 hover:bg-gray-50 transition-colors"
                     >
-                      <Link href={newsUrl} className="block">
+                      <Link
+                        href={newsUrl}
+                        className="block relative z-20 cursor-pointer"
+                        onClick={(e) => {
+                          // Ensure the link works even during animation
+                          if (!isPaused) {
+                            e.stopPropagation();
+                            window.location.href = newsUrl;
+                          }
+                        }}
+                      >
                         <div className="p-5 flex items-start gap-4">
                           <div className="relative h-24 w-24 flex-shrink-0 rounded-lg overflow-hidden">
                             <Image
@@ -117,6 +136,7 @@ export default function FeaturedHighlights() {
                               fill
                               sizes="96px"
                               className="object-cover transition-transform duration-300 hover:scale-105"
+                              priority={index < 4} // Prioritize loading first few images
                             />
                           </div>
                           <div className="flex-1">
@@ -125,7 +145,7 @@ export default function FeaturedHighlights() {
                               <span className="mx-2">•</span>
                               <span className="bg-[#258F67]/10 px-2 py-1 rounded-full text-xs">{newsItem.category}</span>
                             </div>
-                            <h4 className="text-[#214842] font-semibold mb-2 line-clamp-2 group-hover:text-[#258F67] transition-colors">
+                            <h4 className="text-[#214842] font-semibold mb-2 line-clamp-2 hover:text-[#258F67] transition-colors">
                               {newsItem.title}
                             </h4>
                             <p className="text-gray-600 text-sm line-clamp-2">
@@ -143,7 +163,7 @@ export default function FeaturedHighlights() {
         </div>
       </div>
 
-      {/* Add the CSS animation for the ticker */}
+      {/* Add the CSS for the ticker */}
       <style jsx global>{`
         @keyframes ticker-scroll {
           0% {
@@ -154,8 +174,34 @@ export default function FeaturedHighlights() {
           }
         }
 
+        .news-ticker-container {
+          touch-action: pan-y;
+          -webkit-overflow-scrolling: touch;
+          backface-visibility: hidden;
+          perspective: 1000px;
+        }
+
         .news-ticker-container.paused {
-          animation-play-state: paused;
+          animation-play-state: paused !important;
+        }
+
+        .news-ticker-item {
+          position: relative;
+          z-index: 10;
+          pointer-events: auto;
+          cursor: pointer;
+        }
+
+        .news-ticker-item:hover {
+          z-index: 20;
+          background-color: rgba(249, 250, 251, 0.8);
+        }
+
+        /* Ensure links are clickable */
+        .news-ticker-item a {
+          display: block;
+          position: relative;
+          z-index: 30;
         }
       `}</style>
     </section>

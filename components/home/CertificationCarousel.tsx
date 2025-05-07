@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -12,6 +12,8 @@ export default function CertificationCarousel() {
   const [itemsToShow, setItemsToShow] = useState(4);
   const containerRef = useRef<HTMLDivElement>(null);
   const [isAnimating, setIsAnimating] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+  const autoScrollIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   // Update items to show based on screen size
   useEffect(() => {
@@ -35,19 +37,52 @@ export default function CertificationCarousel() {
   const totalSlides = certifications.length;
   const maxIndex = totalSlides - itemsToShow;
 
-  const prev = () => {
+  const prev = useCallback(() => {
     if (isAnimating || currentIndex <= 0) return;
     setIsAnimating(true);
     setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
     setTimeout(() => setIsAnimating(false), 500);
-  };
+  }, [currentIndex, isAnimating]);
 
-  const next = () => {
-    if (isAnimating || currentIndex >= maxIndex) return;
+  const next = useCallback(() => {
+    if (isAnimating) return;
+
     setIsAnimating(true);
-    setCurrentIndex((prevIndex) => Math.min(prevIndex + 1, maxIndex));
+    setCurrentIndex((prevIndex) => {
+      // If we're at the end, loop back to the beginning
+      if (prevIndex >= maxIndex) {
+        return 0;
+      }
+      return prevIndex + 1;
+    });
     setTimeout(() => setIsAnimating(false), 500);
-  };
+  }, [isAnimating, maxIndex]);
+
+  // Auto-scroll effect
+  useEffect(() => {
+    const startAutoScroll = () => {
+      // Clear any existing interval
+      if (autoScrollIntervalRef.current) {
+        clearInterval(autoScrollIntervalRef.current);
+      }
+
+      // Set new interval for auto-scrolling
+      autoScrollIntervalRef.current = setInterval(() => {
+        if (!isPaused) {
+          next();
+        }
+      }, 3000); // Scroll every 3 seconds
+    };
+
+    startAutoScroll();
+
+    // Cleanup on component unmount
+    return () => {
+      if (autoScrollIntervalRef.current) {
+        clearInterval(autoScrollIntervalRef.current);
+      }
+    };
+  }, [next, isPaused]);
 
   return (
     <section className="section-padding bg-gray-50">
@@ -69,8 +104,15 @@ export default function CertificationCarousel() {
               "absolute top-1/2 left-0 -translate-y-1/2 z-10 rounded-full bg-white border-gray-200",
               currentIndex <= 0 && "opacity-50 cursor-not-allowed"
             )}
-            onClick={prev}
+            onClick={() => {
+              prev();
+              setIsPaused(true);
+              // Resume auto-scrolling after 5 seconds of inactivity
+              setTimeout(() => setIsPaused(false), 5000);
+            }}
             disabled={currentIndex <= 0}
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
           >
             <ChevronLeft className="h-5 w-5" />
             <span className="sr-only">Previous slide</span>
@@ -80,18 +122,28 @@ export default function CertificationCarousel() {
             variant="outline"
             size="icon"
             className={cn(
-              "absolute top-1/2 right-0 -translate-y-1/2 z-10 rounded-full bg-white border-gray-200",
-              currentIndex >= maxIndex && "opacity-50 cursor-not-allowed"
+              "absolute top-1/2 right-0 -translate-y-1/2 z-10 rounded-full bg-white border-gray-200"
             )}
-            onClick={next}
-            disabled={currentIndex >= maxIndex}
+            onClick={() => {
+              next();
+              setIsPaused(true);
+              // Resume auto-scrolling after 5 seconds of inactivity
+              setTimeout(() => setIsPaused(false), 5000);
+            }}
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
           >
             <ChevronRight className="h-5 w-5" />
             <span className="sr-only">Next slide</span>
           </Button>
 
           {/* Carousel container */}
-          <div className="overflow-hidden" ref={containerRef}>
+          <div
+            className="overflow-hidden"
+            ref={containerRef}
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+          >
             <div
               className="flex transition-transform duration-500 ease-in-out"
               style={{
@@ -138,8 +190,15 @@ export default function CertificationCarousel() {
                     setIsAnimating(true);
                     setCurrentIndex(index);
                     setTimeout(() => setIsAnimating(false), 500);
+
+                    // Pause auto-scrolling when user interacts
+                    setIsPaused(true);
+                    // Resume auto-scrolling after 5 seconds of inactivity
+                    setTimeout(() => setIsPaused(false), 5000);
                   }
                 }}
+                onMouseEnter={() => setIsPaused(true)}
+                onMouseLeave={() => setIsPaused(false)}
                 aria-label={`Go to slide ${index + 1}`}
               />
             ))}
