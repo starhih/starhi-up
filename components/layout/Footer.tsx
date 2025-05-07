@@ -99,6 +99,9 @@ export default function Footer() {
               <li>
                 <Link href="/request-meeting" className="footer-link">Request Meeting</Link>
               </li>
+              <li>
+                <Link href="/careers" className="footer-link">Careers</Link>
+              </li>
             </ul>
           </div>
 

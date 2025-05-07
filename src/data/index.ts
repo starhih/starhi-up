@@ -219,6 +219,25 @@ export interface Event extends BaseEntity {
   upcoming: boolean;
 }
 
+/**
+ * Job Opening
+ */
+export interface JobOpening extends BaseEntity {
+  title: string;
+  slug: string;
+  department: string;
+  location: string;
+  type: string; // Full-time, Part-time, Contract, etc.
+  experience: string;
+  postedDate: string;
+  description: string;
+  responsibilities: string[];
+  requirements: string[];
+  qualifications: string[];
+  benefits: string[];
+  isActive: boolean;
+}
+
 // ==============================
 // DATA
 // ==============================
@@ -5757,5 +5776,241 @@ export const events: Event[] = [
     boothNumber: 'TBA',
     website: 'https://www.figlobal.com/asia-indonesia/en/home.html',
     upcoming: true
+  }
+];
+
+/**
+ * Job Openings Data
+ */
+export const jobOpenings: JobOpening[] = [
+  {
+    id: 1,
+    title: 'Senior Quality Control Analyst',
+    slug: 'senior-quality-control-analyst',
+    department: 'Quality Control',
+    location: 'Bangalore, Karnataka',
+    type: 'Full-time',
+    experience: '3-5 years',
+    postedDate: '2024-04-15',
+    description: 'We are seeking a Senior Quality Control Analyst to join our team at Star Hi Herbs. The ideal candidate will have extensive experience in analytical testing of herbal extracts and natural products. This role involves ensuring all our products meet the highest quality standards through rigorous testing and documentation.',
+    responsibilities: [
+      'Perform analytical testing of raw materials, in-process samples, and finished products using HPLC, GC, UV-Vis, and other analytical techniques',
+      'Develop and validate analytical methods for new products',
+      'Prepare detailed reports and maintain accurate documentation of all test results',
+      'Troubleshoot analytical issues and implement corrective actions',
+      'Collaborate with R&D and Production teams to ensure quality standards are met',
+      'Train and mentor junior analysts in laboratory procedures and techniques',
+      'Participate in internal and external audits',
+      'Ensure compliance with GMP, ISO, and other regulatory requirements'
+    ],
+    requirements: [
+      'Bachelor\'s or Master\'s degree in Chemistry, Pharmaceutical Sciences, or related field',
+      '3-5 years of experience in quality control laboratory, preferably in herbal/natural products industry',
+      'Proficiency in analytical techniques such as HPLC, GC, UV-Vis spectroscopy',
+      'Strong understanding of GMP, ISO 9001, and other quality management systems',
+      'Experience with method development and validation',
+      'Excellent attention to detail and problem-solving skills',
+      'Strong documentation and reporting abilities'
+    ],
+    qualifications: [
+      'Advanced knowledge of analytical chemistry and instrumentation',
+      'Experience with quality control in herbal extracts or natural products',
+      'Familiarity with regulatory requirements for dietary supplements and food ingredients',
+      'Excellent communication and teamwork skills',
+      'Ability to work independently and manage multiple priorities'
+    ],
+    benefits: [
+      'Competitive salary package',
+      'Health insurance coverage',
+      'Retirement benefits',
+      'Professional development opportunities',
+      'Work-life balance with flexible scheduling options',
+      'Collaborative and innovative work environment'
+    ],
+    isActive: true
+  },
+  {
+    id: 2,
+    title: 'Research & Development Scientist',
+    slug: 'research-development-scientist',
+    department: 'Research & Development',
+    location: 'Bangalore, Karnataka',
+    type: 'Full-time',
+    experience: '2-4 years',
+    postedDate: '2024-04-10',
+    description: 'Star Hi Herbs is looking for a talented R&D Scientist to join our innovative research team. This role focuses on developing new herbal extract formulations, improving existing products, and conducting research to support product efficacy. The ideal candidate will have a strong background in natural product chemistry and formulation development.',
+    responsibilities: [
+      'Develop new herbal extract formulations and improve existing products',
+      'Design and conduct experiments to evaluate product stability and efficacy',
+      'Collaborate with Quality Control to establish specifications for new products',
+      'Stay current with scientific literature and industry trends',
+      'Prepare technical documentation and research reports',
+      'Support the technical aspects of product commercialization',
+      'Participate in cross-functional team projects',
+      'Contribute to intellectual property development'
+    ],
+    requirements: [
+      'Master\'s or Ph.D. in Pharmacognosy, Natural Product Chemistry, or related field',
+      '2-4 years of experience in R&D, preferably in herbal extracts or natural products',
+      'Strong understanding of extraction techniques and formulation development',
+      'Experience with analytical methods for natural product characterization',
+      'Knowledge of regulatory requirements for dietary supplements',
+      'Excellent problem-solving and critical thinking skills',
+      'Strong scientific writing and communication abilities'
+    ],
+    qualifications: [
+      'Advanced knowledge of phytochemistry and natural product analysis',
+      'Experience with formulation development for dietary supplements',
+      'Familiarity with stability testing protocols',
+      'Publication record in relevant scientific journals (preferred)',
+      'Ability to work both independently and as part of a team'
+    ],
+    benefits: [
+      'Competitive salary package',
+      'Health insurance coverage',
+      'Retirement benefits',
+      'Professional development and conference attendance',
+      'Work-life balance with flexible scheduling options',
+      'Opportunity to contribute to cutting-edge research in natural products'
+    ],
+    isActive: true
+  },
+  {
+    id: 3,
+    title: 'Production Supervisor',
+    slug: 'production-supervisor',
+    department: 'Manufacturing',
+    location: 'Hassan, Karnataka',
+    type: 'Full-time',
+    experience: '4-6 years',
+    postedDate: '2024-04-05',
+    description: 'We are seeking an experienced Production Supervisor to oversee our herbal extraction and processing operations at our Hassan facility. The ideal candidate will have a strong background in manufacturing operations, preferably in the herbal extract or pharmaceutical industry, with excellent leadership and problem-solving skills.',
+    responsibilities: [
+      'Supervise daily production activities and coordinate workflow',
+      'Ensure compliance with GMP, safety protocols, and quality standards',
+      'Monitor equipment performance and coordinate maintenance activities',
+      'Train and mentor production staff on procedures and best practices',
+      'Troubleshoot production issues and implement process improvements',
+      'Coordinate with Quality Control for in-process testing and release',
+      'Maintain accurate production records and documentation',
+      'Participate in production planning and scheduling'
+    ],
+    requirements: [
+      'Bachelor\'s degree in Chemical Engineering, Pharmaceutical Sciences, or related field',
+      '4-6 years of experience in production, with at least 2 years in a supervisory role',
+      'Strong understanding of GMP and other regulatory requirements',
+      'Experience with extraction processes and production equipment',
+      'Knowledge of inventory management and production planning',
+      'Excellent leadership and team management skills',
+      'Strong problem-solving abilities and attention to detail'
+    ],
+    qualifications: [
+      'Advanced knowledge of herbal extraction processes',
+      'Experience with production scheduling and resource allocation',
+      'Familiarity with continuous improvement methodologies',
+      'Strong communication and interpersonal skills',
+      'Ability to work in a fast-paced manufacturing environment'
+    ],
+    benefits: [
+      'Competitive salary package',
+      'Health insurance coverage',
+      'Retirement benefits',
+      'Professional development opportunities',
+      'Work-life balance with flexible scheduling options',
+      'Opportunity to grow with a leading herbal extract manufacturer'
+    ],
+    isActive: true
+  },
+  {
+    id: 4,
+    title: 'International Business Development Manager',
+    slug: 'international-business-development-manager',
+    department: 'Sales & Marketing',
+    location: 'Bangalore, Karnataka',
+    type: 'Full-time',
+    experience: '5-8 years',
+    postedDate: '2024-03-25',
+    description: 'Star Hi Herbs is seeking an experienced International Business Development Manager to expand our global presence in the nutraceutical and functional food ingredients market. The ideal candidate will have a strong background in B2B sales within the natural products industry and experience developing business in international markets.',
+    responsibilities: [
+      'Develop and implement strategies to expand business in key international markets',
+      'Build and maintain relationships with distributors, partners, and key accounts',
+      'Represent the company at international trade shows and industry events',
+      'Identify new market opportunities and potential product applications',
+      'Collaborate with R&D and Marketing teams on product development initiatives',
+      'Prepare market analyses, sales forecasts, and business reports',
+      'Negotiate contracts and agreements with international clients',
+      'Stay current with industry trends and competitive landscape'
+    ],
+    requirements: [
+      'Bachelor\'s degree in Business, Marketing, or related field (MBA preferred)',
+      '5-8 years of experience in B2B sales, preferably in nutraceutical or natural products',
+      'Proven track record in international business development',
+      'Strong understanding of the dietary supplement and functional food industry',
+      'Experience with contract negotiations and relationship management',
+      'Excellent communication and presentation skills',
+      'Willingness to travel internationally (30-40%)'
+    ],
+    qualifications: [
+      'Knowledge of global regulatory frameworks for dietary supplements',
+      'Experience with CRM systems and sales analytics',
+      'Cultural sensitivity and international business etiquette',
+      'Strategic thinking and business planning abilities',
+      'Fluency in English and additional languages (preferred)'
+    ],
+    benefits: [
+      'Competitive salary plus performance-based incentives',
+      'Health insurance coverage',
+      'Retirement benefits',
+      'International travel opportunities',
+      'Professional development and industry conference attendance',
+      'Work-life balance with flexible scheduling options'
+    ],
+    isActive: true
+  },
+  {
+    id: 5,
+    title: 'Supply Chain Specialist',
+    slug: 'supply-chain-specialist',
+    department: 'Supply Chain',
+    location: 'Bangalore, Karnataka',
+    type: 'Full-time',
+    experience: '3-5 years',
+    postedDate: '2024-03-20',
+    description: 'We are looking for a Supply Chain Specialist to join our team at Star Hi Herbs. This role will focus on optimizing our supply chain operations, from raw material procurement to finished product distribution. The ideal candidate will have experience in supply chain management within the natural products or pharmaceutical industry.',
+    responsibilities: [
+      'Manage relationships with raw material suppliers and evaluate new sources',
+      'Coordinate logistics for domestic and international shipments',
+      'Monitor inventory levels and implement inventory control measures',
+      'Collaborate with Production and Quality teams on material planning',
+      'Develop and implement strategies to optimize supply chain efficiency',
+      'Ensure compliance with import/export regulations and documentation',
+      'Analyze supply chain metrics and prepare performance reports',
+      'Participate in cost reduction initiatives and process improvements'
+    ],
+    requirements: [
+      'Bachelor\'s degree in Supply Chain Management, Business, or related field',
+      '3-5 years of experience in supply chain operations',
+      'Knowledge of international shipping and import/export procedures',
+      'Experience with inventory management and demand planning',
+      'Familiarity with ERP systems and supply chain software',
+      'Strong analytical and problem-solving skills',
+      'Excellent communication and negotiation abilities'
+    ],
+    qualifications: [
+      'Knowledge of GMP and quality requirements for raw materials',
+      'Experience with supplier qualification and auditing',
+      'Understanding of regulatory requirements for natural products',
+      'Proficiency in data analysis and reporting',
+      'Ability to manage multiple priorities in a fast-paced environment'
+    ],
+    benefits: [
+      'Competitive salary package',
+      'Health insurance coverage',
+      'Retirement benefits',
+      'Professional development opportunities',
+      'Work-life balance with flexible scheduling options',
+      'Collaborative and innovative work environment'
+    ],
+    isActive: true
   }
 ];
