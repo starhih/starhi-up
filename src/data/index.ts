@@ -4756,9 +4756,9 @@ export const products: Product[] = [
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
     "standardization": "1.5%, 10%, 20%, 40% Sennosides",
-    "latinName": "Senna alexandrina",
+    "latinName": "Cassia angustifolia",
     "plantPart": "Leaves and Pods",
-    "description": "Senna extract, derived from the leaves and pods of Senna alexandrina, is a potent herbal ingredient known for its sennoside content. Our extract is available in multiple standardization levels (1.5%, 10%, 20%, 40% sennosides) and comes in both powder and granule forms to meet various formulation requirements. The extraction process employs USP-grade solvents to ensure product purity and potency. This ingredient is widely used in digestive health supplements and traditional cleansing formulations for its natural properties.",
+    "description": "Senna extract, derived from the leaves and pods of Cassia angustifolia, is a potent herbal ingredient known for its sennoside content. Our extract is available in multiple standardization levels (1.5%, 10%, 20%, 40% sennosides) and comes in both powder and granule forms to meet various formulation requirements. The extraction process employs USP-grade solvents to ensure product purity and potency. This ingredient is widely used in digestive health supplements and traditional cleansing formulations for its natural properties.",
     "shortDescription": "Senna Extract rich in sennosides, traditionally used for digestive health and detoxification.",
     "image": "/images/products/senna-extract.jpg",
     "gallery": [
@@ -4783,14 +4783,14 @@ export const products: Product[] = [
       "standardization": "1.5%, 10%, 20%, 40% sennosides",
       "form": "Powder, Granules",
       "solubility": "Soluble in water",
-      "appearance": "Yellowish powder or granules",
-      "testing": "Sennoside content verified by HPLC",
-      "heavyMetals": "Meets USP <232> specifications",
-      "shelfLife": "24 months when stored properly",
+      "appearance": "Greenish brown to brown powder or granules",
+      "testing": "Sennoside content verified by HPLC & UV spectometry",
+      "heavyMetals": "Meets USP <233> specifications",
+      "shelfLife": "36 months when stored properly",
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Senna Extract is known for its powerful laxative and cleansing properties. It has been used traditionally to promote digestive health and support regular bowel movements. Clinical studies have shown that sennosides, the active compounds in Senna, help stimulate peristalsis in the intestines, facilitating the natural elimination process.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -4807,19 +4807,19 @@ export const products: Product[] = [
       ]
     },
     "productionDetails": {
-      "description": "Senna Extract is derived from the leaves and pods of Senna alexandrina, sourced primarily from India and Egypt. The extraction process uses USP-grade solvents, including ethanol, to ensure the purity and potency of the sennosides. The extract is available in multiple standardization levels to meet the diverse needs of digestive health and detoxification formulations.",
+      "description": "Senna Extract is derived from the leaves and pods of Cassia angustifolia, sourced primarily from India and Egypt. The extraction process uses solvents, including ethanol, to ensure the purity and potency of the sennosides. The extract is available in multiple standardization levels to meet the diverse needs of digestive health and detoxification formulations.",
       "image": "/images/process-ch.webp"
     },
     "packaging": {
-      "description": "Senna Extract is packaged in high-quality, moisture-resistant bags and drums to maintain product integrity. Available in 500g, 1kg, and bulk 25kg containers. Packaging ensures the extract remains free from moisture and contaminants during storage and transport.",
+      "description": "Senna Extract is packaged in high-quality, moisture-resistant bags and drums to maintain product integrity. Available in 1kg, and bulk 25kg containers. Packaging ensures the extract remains free from moisture and contaminants during storage and transport.",
       "image": "/images/packaging-ch.webp"
     },
     "factory": {
-      "description": "Our facility in India/Egypt adheres to GMP standards and ensures that Senna Extract is produced with rigorous quality control measures. Each batch is tested for sennoside content, purity, and microbial contamination to meet industry standards.",
+      "description": "Our facility in India adheres to GMP standards and ensures that Senna Extract is produced with rigorous quality control measures. Each batch is tested for sennoside content, purity, and microbial contamination to meet industry standards.",
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Senna Extract is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
+      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Senna Extract is also Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -4968,10 +4968,10 @@ export const products: Product[] = [
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "40%, 45% Tannins",
+    "standardization": "40% - 45% Tannins",
     "latinName": "Terminalia chebula",
     "plantPart": "Fruit",
-    "description": "Terminalia Chebula Extract, derived from the fruit of Terminalia chebula, is a renowned Ayurvedic ingredient known for its high tannin content. Our extract is standardized to contain either 40% or 45% tannins and is available in both powder and granule forms to accommodate various formulation needs. The extraction process employs USP-grade solvents to ensure product purity and potency. This ingredient is highly valued in traditional Ayurvedic formulations, digestive health supplements, and antioxidant products for its numerous beneficial properties.",
+    "description": "Terminalia Chebula Extract, derived from the fruit of Terminalia chebula, is a renowned Ayurvedic ingredient known for its high tannin content. Our extract is standardized to contain either 40% or 45% tannins and is available in both powder and granule forms to accommodate various formulation needs. The extraction process employs solvents to ensure product purity and potency. This ingredient is highly valued in traditional Ayurvedic formulations, digestive health supplements, and antioxidant products for its numerous beneficial properties.",
     "shortDescription": "Terminalia Chebula Extract, rich in tannins, supports digestive health, antioxidant protection, and oral health.",
     "image": "/images/products/terminalia-chebula.jpg",
     "gallery": [
@@ -4994,17 +4994,17 @@ export const products: Product[] = [
     ],
     "specifications": {
       "activeCompounds": "Tannins",
-      "standardization": "40%, 45% tannins",
+      "standardization": "40% - 45% tannins",
       "form": "Powder, Granules",
-      "solubility": "Soluble in water",
-      "appearance": "Light brown powder or granules",
-      "testing": "Tannin content verified by UV spectrophotometry",
-      "heavyMetals": "Meets USP <232> specifications",
-      "shelfLife": "24 months when stored properly",
+      "solubility": "Partly Soluble in water and alcohols",
+      "appearance": "Brown powder or granules",
+      "testing": "Tannin content verified by Titration",
+      "heavyMetals": "Meets USP <233> specifications",
+      "shelfLife": "36 months when stored properly",
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Terminalia Chebula Extract is an important component in Ayurvedic medicine, known for its high tannin content. Clinical studies show its effectiveness in supporting digestion, providing antioxidant protection, and enhancing oral health. It has been used for centuries for detoxification and digestive health, and it forms one of the three fruits in the traditional Triphala formula.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.5 MB" },
@@ -5021,11 +5021,11 @@ export const products: Product[] = [
       ]
     },
     "productionDetails": {
-      "description": "Terminalia Chebula Extract is derived from the fruit of Terminalia chebula, sourced from India. The extraction process uses USP-grade solvents, including ethanol, to ensure the purity and potency of the tannins. The extract is available in multiple standardization levels to meet the diverse needs of digestive health and antioxidant formulations.",
+      "description": "Terminalia Chebula Extract is derived from the fruit of Terminalia chebula, sourced from India. The extraction process uses solvents, including ethanol, to ensure the purity and potency of the tannins. The extract is available in multiple standardization levels to meet the diverse needs of digestive health and antioxidant formulations.",
       "image": "/images/process-ch.webp"
     },
     "packaging": {
-      "description": "Terminalia Chebula Extract is packaged in high-quality, moisture-resistant bags and drums to maintain product integrity. Available in 500g, 1kg, and bulk 25kg containers. Packaging ensures the extract remains free from moisture and contaminants during storage and transport.",
+      "description": "Terminalia Chebula Extract is packaged in high-quality, moisture-resistant bags and drums to maintain product integrity. Available in 1kg, and bulk 25kg containers. Packaging ensures the extract remains free from moisture and contaminants during storage and transport.",
       "image": "/images/packaging-ch.webp"
     },
     "factory": {
@@ -5078,7 +5078,7 @@ export const products: Product[] = [
     "standardization": "1.5% Piperine and 1.0% Total Gingerols",
     "latinName": "Piper longum, Zingiber officinale, Piper nigrum",
     "plantPart": "Fruit and Root",
-    "description": "Trikatu Extract is a traditional Ayurvedic formulation derived from a precise blend of three powerful botanicals: Piper Longum (Long Pepper), Zingiber officinale (Ginger), and Piper nigrum (Black Pepper). Our extract is standardized to contain 1.5% piperine and 1.0% total gingerols, and is available in both powder and granule forms to support diverse formulation needs. The extraction process uses USP-grade solvents to ensure purity and potency. This ingredient is highly valued in traditional Ayurvedic formulations, digestive health supplements, and bioavailability enhancers.",
+    "description": "Trikatu Extract is a traditional Ayurvedic formulation derived from a precise blend of three powerful botanicals: Piper Longum (Long Pepper), Zingiber officinale (Ginger), and Piper nigrum (Black Pepper). Our extract is standardized to contain 1.5% piperine and 1.0% total gingerols, and is available in both powder and granule forms to support diverse formulation needs. The extraction process uses solvents to ensure purity and potency. This ingredient is highly valued in traditional Ayurvedic formulations, digestive health supplements, and bioavailability enhancers.",
     "shortDescription": "Trikatu Extract, combining long pepper, ginger, and black pepper, supports digestion, metabolism, and nutrient absorption.",
     "image": "/images/products/trikatu.jpg",
     "gallery": [
@@ -5103,15 +5103,15 @@ export const products: Product[] = [
       "activeCompounds": "Piperine (from black pepper and long pepper), Gingerols (from ginger)",
       "standardization": "1.5% piperine and 1.0% total gingerols",
       "form": "Powder, Granules",
-      "solubility": "Soluble in ethanol and water",
-      "appearance": "Light brown powder or granules",
+      "solubility": "Soluble in alcohols",
+      "appearance": "Brown powder or granules",
       "testing": "Piperine and gingerol content verified by HPLC",
-      "heavyMetals": "Meets USP <232> specifications",
-      "shelfLife": "24 months when stored properly",
+      "heavyMetals": "Meets USP <233> specifications",
+      "shelfLife": "36 months when stored properly",
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Trikatu Extract is a well-known Ayurvedic formulation for digestive health, bioenhancement, and thermogenesis. Research supports the use of piperine to enhance nutrient absorption and gingerols to stimulate metabolism. The synergistic combination of these botanicals improves overall digestion and promotes metabolic activity, making it a valuable ingredient in both traditional medicine and modern supplements.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -5176,17 +5176,17 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "turmeric-with-water-extract",
-    "slug": "turmeric-with-water-extract",
-    "name": "Turmeric with Water Extract",
+    "id": "turmeric-water-extract",
+    "slug": "turmeric-water-extract",
+    "name": "Turmeric Water Extract",
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "10% Polysaccharides",
+    "standardization": "Upto 10% Polysaccharides",
     "latinName": "Curcuma longa",
     "plantPart": "Rhizome",
-    "description": "Turmeric with Water Extract, derived from the rhizome of Curcuma longa, is a specialized herbal ingredient focusing on the water-soluble polysaccharide fraction rather than the more common curcuminoid content. Our extract is standardized to contain 10% polysaccharides and is available in both powder and granule forms to support diverse formulation needs. The extraction process uses water extraction technology to specifically isolate the polysaccharide components. This ingredient is valued in immune support formulations, joint health supplements, and holistic wellness products.",
-    "shortDescription": "Turmeric with Water Extract, standardized to 10% polysaccharides, focuses on the water-soluble polysaccharide fraction for immune and joint support.",
+    "description": "Turmeric Water Extract, derived from the rhizome of Curcuma longa, is a specialized herbal ingredient focusing on the water-soluble polysaccharide fraction rather than the more common curcuminoid content. Our extract is standardized to contain 10% polysaccharides and is available in both powder and granule forms to support diverse formulation needs. The extraction process uses water extraction technology to specifically isolate the polysaccharide components. This ingredient is valued in immune support formulations, joint health supplements, and holistic wellness products.",
+    "shortDescription": "Turmeric Water Extract, standardized for 10% polysaccharides, focuses on the water-soluble polysaccharide fraction for immune and joint support.",
     "image": "/images/products/turmeric-water.jpg",
     "gallery": [
       "/images/products/turmeric-water.jpg",
@@ -5208,17 +5208,17 @@ export const products: Product[] = [
     ],
     "specifications": {
       "activeCompounds": "Polysaccharides",
-      "standardization": "10% polysaccharides",
+      "standardization": "Upto 10% polysaccharides",
       "form": "Powder, Granules",
       "solubility": "Water-soluble",
-      "appearance": "Yellow powder or granules",
+      "appearance": "Brown to Dark Brown powder or granules",
       "testing": "Polysaccharide content verified by HPLC",
-      "heavyMetals": "Meets USP <232> specifications",
-      "shelfLife": "24 months when stored properly",
+      "heavyMetals": "Meets USP <233> specifications",
+      "shelfLife": "36 months when stored properly",
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
-    "research": "Turmeric with Water Extract is a specialized product focusing on water-soluble polysaccharides rather than curcuminoids. Research indicates that polysaccharides in turmeric may support immune function, joint comfort, and digestive health. This extract is a unique approach to turmeric's benefits, providing a broader range of bioactive components compared to standard turmeric extracts.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "research": "Turmeric Water Extract is a specialized product focusing on water-soluble polysaccharides rather than curcuminoids. Research indicates that polysaccharides in turmeric may support immune function, joint comfort, and digestive health. This extract is a unique approach to turmeric's benefits, providing a broader range of bioactive components compared to standard turmeric extracts.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -5235,40 +5235,40 @@ export const products: Product[] = [
       ]
     },
     "productionDetails": {
-      "description": "Turmeric with Water Extract is derived from the rhizome of Curcuma longa. The extraction process uses water extraction technology to isolate the water-soluble polysaccharide fraction. It is standardized to contain 10% polysaccharides and is available in both powder and granule forms.",
+      "description": "Turmeric Water Extract is derived from the rhizome of Curcuma longa. The extraction process uses water extraction technology to isolate the water-soluble polysaccharide fraction. It is standardized to contain upto 10% polysaccharides and is available in both powder and granule forms.",
       "image": "/images/process-ch.webp"
     },
     "packaging": {
-      "description": "Turmeric with Water Extract is packaged in moisture-resistant bags and drums to maintain product integrity during storage and transport. Available in 500g, 1kg, and bulk 25kg containers.",
+      "description": "Turmeric Water Extract is packaged in moisture-resistant food grade double polyethylene bags and followed by HDPE drums to maintain product integrity during storage and transport. Minimum available in 1kg and bulk 25kg containers or as per the customer requirements.",
       "image": "/images/packaging-ch.webp"
     },
     "factory": {
-      "description": "Our facility in India follows GMP standards to produce Turmeric with Water Extract with strict quality control measures. Each batch is tested for polysaccharide content, microbial contamination, and other quality parameters.",
+      "description": "Our facility in India follows GMP standards to produce Turmeric Water Extract with strict quality control measures. Each batch is tested for polysaccharide content, microbial contamination, and other quality parameters.",
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs ensures high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Turmeric with Water Extract is also Non-GMO, Halal, Kosher, and Organic certified, ensuring it meets the needs of diverse industries.",
+      "description": "Star Hi Herbs ensures high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Turmeric Water Extract is also Halal, Kosher, and Organic certified, ensuring it meets the needs of diverse industries.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
-      "description": "Star Hi Herbs participates in global trade shows like SupplySide West and Vitafoods Europe, where Turmeric with Water Extract is showcased. These events provide opportunities to network with industry professionals and explore the latest ingredient innovations.",
+      "description": "Star Hi Herbs participates in global trade shows like SupplySide West and Vitafoods Europe, where Turmeric Water Extract is showcased. These events provide opportunities to network with industry professionals and explore the latest ingredient innovations.",
       "image": "/images/events.jpg"
     },
     "faqs": [
       {
         "id": 1,
-        "question": "How does Turmeric with Water Extract differ from standard turmeric extracts?",
+        "question": "How does Turmeric Water Extract differ from standard turmeric extracts?",
         "answer": "This extract focuses on the water-soluble polysaccharide fraction rather than the fat-soluble curcuminoid compounds typically emphasized in standard turmeric extracts."
       },
       {
         "id": 2,
-        "question": "What is the standardization percentage for Turmeric with Water Extract?",
+        "question": "What is the standardization percentage for Turmeric Water Extract?",
         "answer": "It is standardized to contain 10% polysaccharides."
       },
       {
         "id": 3,
         "question": "Is organic certification available for this extract?",
-        "answer": "Yes, organic certified Turmeric with Water extract is available."
+        "answer": "Yes, organic certified Turmeric Water extract is available."
       },
       {
         "id": 4,
