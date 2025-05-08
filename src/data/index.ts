@@ -301,6 +301,215 @@ export const productCategories: ProductCategory[] = [
  */
 export const products: Product[] = [
   {
+    id: "organic-andrographis",
+    name: "Organic Andrographis Extract",
+    slug: "organic-andrographis-extract",
+    categoryId: "organic-extracts",
+    categorySlug: "organic-extracts",
+    categoryName: "Organic Extracts",
+    standardization: "10%, 15%, 30% Andrographolides",
+    latinName: "Andrographis paniculata",
+    plantPart: "Leaf",
+    description: "Organic Andrographis Extract is derived from certified organic Andrographis paniculata leaves through a clean extraction process. Standardized to contain 10%, 15%, or 30% andrographolides, this extract offers powerful immune support and anti-inflammatory properties. Available in both powder and granule forms, our organic extract maintains the full spectrum of beneficial compounds found in the plant while meeting strict organic certification requirements. Ideal for immune formulations, respiratory support products, and general wellness supplements.",
+    shortDescription: "Organic Andrographis extract with standardized andrographolide content",
+    image: "/images/products/organic-andrographis-extract.jpg",
+    gallery: [
+      "/images/products/organic-andrographis-extract.jpg",
+      "/images/products/organic-andrographis-extract-1.jpg",
+      "/images/products/organic-andrographis-extract-2.jpg",
+    ],
+    applications: ["Immune support formulations", "Respiratory health products", "Liver support supplements", "Seasonal wellness formulations", "Inflammatory response management"],
+    benefits: [
+      "Supports healthy immune system function",
+      "Promotes respiratory health and comfort",
+      "Helps maintain healthy liver function",
+      "Provides antioxidant protection",
+      "Supports balanced inflammatory response"
+    ],
+    specifications: {
+      activeCompounds: "Andrographolides",
+      standardization: "Available in 10%, 15%, and 30% andrographolide concentrations",
+      form: "Powder, Granules",
+      solubility: "Partially water soluble, soluble in ethanol",
+      appearance: "Fine greenish-brown powder with characteristic odor",
+      testing: "HPLC analysis for andrographolide content verification",
+      heavyMetals: "Meets USP <232> specifications",
+      shelfLife: "24 months when stored properly",
+      storage: "Store in a cool, dry place away from direct sunlight",
+      particleSize: "95% through 80 mesh",
+      moisture: "≤5%",
+      bulkDensity: "0.45-0.65 g/ml"
+    },
+    research: "Andrographis extract has been extensively studied for its immune-modulating and anti-inflammatory properties. Research indicates significant benefits for respiratory health, with multiple clinical studies showing efficacy for supporting immune function during seasonal challenges.",
+    certifications: ["USDA Organic", "EU Organic", "FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    featured: true,
+    documents: [
+      { id: 1, name: 'Technical Data Sheet', size: '2.5 MB' },
+      { id: 2, name: 'Safety Data Sheet', size: '1.9 MB' },
+      { id: 3, name: 'Certificate of Analysis', size: '980 KB' },
+    ],
+    supplierInfo: {
+      points: [
+        "Confirm organic certification validity and scope",
+        "Request organic handling and processing documentation",
+        "Verify traceability systems for organic raw materials",
+        "Ensure standardization methods comply with organic regulations",
+        "Check for cross-contamination prevention protocols",
+        "Review organic certification of all processing aids used"
+      ]
+    },
+    productionDetails: {
+      description: "Our Organic Andrographis Extract is produced using a specialized water-based extraction process that complies with organic regulations. The certified organic leaves are carefully harvested at peak potency and undergo gentle extraction to preserve the natural bioactive compounds. Our dedicated organic processing facility prevents cross-contamination with conventional materials, and we use only permitted processing aids that meet organic standards. The extract is standardized using compliant methods and carefully dried at controlled temperatures.",
+      image: "/images/process-ch.webp"
+    },
+    packaging: {
+      description: "Our Organic Andrographis Extract is packaged in food-grade materials that maintain product integrity and comply with organic handling requirements. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. Smaller quantities are available in 1kg and 5kg aluminum foil bags with appropriate organic labeling. All packaging materials are selected to prevent contamination and preserve the extract's potency during shipping and storage.",
+      image: "/images/packaging-ch.webp"
+    },
+    factory: {
+      description: "Our dedicated organic manufacturing facility operates under strict organic handling protocols and is certified by major international organic certification bodies. The facility features separate processing areas for organic materials, specialized cleaning procedures, and comprehensive documentation systems to ensure organic integrity. Regular inspections by certification agencies verify our compliance with organic standards throughout the production process.",
+      image: "/images/factory-ch.webp"
+    },
+    certificationsSection: {
+      description: "Our Organic Andrographis Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify our organic growing methods, clean processing techniques, and proper handling procedures. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance with all applicable organic regulations.",
+      image: "/images/certifications-ch.webp"
+    },
+    events: {
+      description: "Our team regularly presents our organic herbal extract line at major industry events including Biofach in Nuremberg, Natural Products Expo West and East, and Vitafoods Europe. These events provide opportunities to showcase our commitment to organic integrity and discuss the benefits of our certified organic extraction processes with customers and partners. We offer educational sessions on organic compliance and the advantages of truly organic herbal extracts.",
+      image: "/images/events.jpg"
+    },
+    faqs: [
+      {
+        id: 1,
+        question: "What are andrographolides and how do they support immune health?",
+        answer: "Andrographolides are bioactive compounds that help modulate immune response and support the body's natural defense mechanisms."
+      },
+      {
+        id: 2,
+        question: "How does organic certification affect the extraction process?",
+        answer: "Organic certification requires using only approved extraction methods and processing aids, typically water-based extraction without synthetic solvents."
+      },
+      {
+        id: 3,
+        question: "What is the difference between the various standardization percentages?",
+        answer: "Higher percentages (30%) provide more concentrated andrographolides for targeted applications, while lower percentages (10-15%) offer a broader phytochemical profile."
+      },
+      {
+        id: 4,
+        question: "How is organic andrographis different from conventional extracts?",
+        answer: "Organic andrographis is grown without synthetic pesticides or fertilizers and processed according to organic standards, preserving the natural phytocomplex."
+      },
+      {
+        id: 5,
+        question: "What testing methods are used to verify organic compliance?",
+        answer: "We use HPLC for andrographolide content verification and additional testing for pesticide residues, heavy metals, and microbial contaminants to ensure organic compliance."
+      }
+    ]
+  },
+  {
+    id: "organic-andrographis-1",
+    name: "Organic Andrographis Extract",
+    slug: "organic-andrographis-extract",
+    categoryId: "organic-extracts",
+    categorySlug: "organic-extracts",
+    categoryName: "Organic Extracts",
+    standardization: "10%, 15%, 30% Andrographolides",
+    latinName: "Andrographis paniculata",
+    plantPart: "Leaf",
+    description: "Organic Andrographis Extract is derived from certified organic Andrographis paniculata leaves through a clean extraction process. Standardized to contain 10%, 15%, or 30% andrographolides, this extract offers powerful immune support and anti-inflammatory properties. Available in both powder and granule forms, our organic extract maintains the full spectrum of beneficial compounds found in the plant while meeting strict organic certification requirements. Ideal for immune formulations, respiratory support products, and general wellness supplements.",
+    shortDescription: "Organic Andrographis extract with standardized andrographolide content",
+    image: "/products/organic-andrographis-extract.jpg",
+    gallery: [
+      '/images/products/turmeric-extract-1.jpg',
+      '/images/products/turmeric-extract-2.jpg',
+      '/images/products/turmeric-extract-3.jpg',
+    ],
+    applications: ["Immune support formulations", "Respiratory health products", "Liver support supplements", "Seasonal wellness formulations", "Inflammatory response management"],
+    benefits: [
+      "Supports healthy immune system function",
+      "Promotes respiratory health and comfort",
+      "Helps maintain healthy liver function",
+      "Provides antioxidant protection",
+      "Supports balanced inflammatory response"
+    ],
+    specifications: {
+      activeCompounds: "Andrographolides",
+      standardization: "Available in 10%, 15%, and 30% andrographolide concentrations",
+      form: "Powder, Granules",
+      solubility: "Partially water soluble, soluble in ethanol",
+      appearance: "Fine greenish-brown powder",
+      testing: "HPLC analysis for andrographolide content verification",
+      heavyMetals: 'Meets USP <232> specifications',
+      shelfLife: '24 months when stored properly',
+      storage: 'Store in a cool, dry place away from direct sunlight'
+    },
+    research: "Andrographis extract has been extensively studied for its immune-modulating and anti-inflammatory properties. Research indicates significant benefits for respiratory health, with multiple clinical studies showing efficacy for supporting immune function during seasonal challenges.",
+    certifications: ["USDA Organic", "EU Organic", "FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    featured: true,
+   documents: [
+      { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
+      { id: 2, name: 'Safety Data Sheet', size: '1.8 MB' },
+      { id: 3, name: 'Certificate of Analysis', size: '956 KB' },
+    ],
+    supplierInfo: {
+      points: [
+        "Confirm organic certification validity and scope",
+        "Request organic handling and processing documentation",
+        "Verify traceability systems for organic raw materials",
+        "Ensure standardization methods comply with organic regulations",
+        "Check for cross-contamination prevention protocols",
+        "Review organic certification of all processing aids used"
+      ]
+    },
+    productionDetails: {
+      description: "Our Organic Andrographis Extract is produced using a specialized water-based extraction process that complies with organic regulations. The certified organic leaves are carefully harvested at peak potency and undergo gentle extraction to preserve the natural bioactive compounds. Our dedicated organic processing facility prevents cross-contamination with conventional materials, and we use only permitted processing aids that meet organic standards. The extract is standardized using compliant methods and carefully dried at controlled temperatures.",
+      image: "/process-organic.webp"
+    },
+    packaging: {
+      description: "Our Organic Andrographis Extract is packaged in food-grade materials that maintain product integrity and comply with organic handling requirements. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. Smaller quantities are available in 1kg and 5kg aluminum foil bags with appropriate organic labeling. All packaging materials are selected to prevent contamination and preserve the extract's potency during shipping and storage.",
+      image: "/packaging-organic.webp"
+    },
+    factory: {
+      description: "Our dedicated organic manufacturing facility operates under strict organic handling protocols and is certified by major international organic certification bodies. The facility features separate processing areas for organic materials, specialized cleaning procedures, and comprehensive documentation systems to ensure organic integrity. Regular inspections by certification agencies verify our compliance with organic standards throughout the production process.",
+      image: "/factory-organic.webp"
+    },
+    certificationsSection: {
+      description: "Our Organic Andrographis Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify our organic growing methods, clean processing techniques, and proper handling procedures. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance with all applicable organic regulations.",
+      image: "/certifications-organic.webp"
+    },
+    events: {
+      description: "Our team regularly presents our organic herbal extract line at major industry events including Biofach in Nuremberg, Natural Products Expo West and East, and Vitafoods Europe. These events provide opportunities to showcase our commitment to organic integrity and discuss the benefits of our certified organic extraction processes with customers and partners. We offer educational sessions on organic compliance and the advantages of truly organic herbal extracts.",
+      image: "/events-organic.jpg"
+    },
+  faqs: [
+      {
+        id: 1,
+        question: 'What makes your turmeric extract different from others?',
+        answer: 'Our extract is standardized to 95% curcuminoids using HPLC verification and offers enhanced bioavailability through proprietary processing techniques.'
+      },
+      {
+        id: 2,
+        question: 'Is your turmeric extract water-soluble?',
+        answer: 'We offer both standard and water-soluble versions. The water-soluble variant uses natural encapsulation technology for complete dispersibility in water.'
+      },
+      {
+        id: 3,
+        question: 'What is the recommended dosage?',
+        answer: 'Typical dosages range from 500mg to 1000mg daily of the 95% extract, though specific applications may vary.'
+      },
+      {
+        id: 4,
+        question: 'Is your turmeric extract organic?',
+        answer: 'Yes, we offer certified organic turmeric extract upon request.'
+      },
+      {
+        id: 5,
+        question: 'How is bioavailability enhanced in your extract?',
+        answer: 'We use proprietary processing techniques that preserve the natural matrix of compounds that support absorption, and our water-soluble version employs natural encapsulation technology.'
+      }
+    ]
+  },
+  {
     id: 'turmeric',
     slug: 'turmeric-extract',
     name: 'Turmeric Extract',
@@ -5093,15 +5302,15 @@ export const certifications: Certification[] = [
   },
   {
     id: 3,
-    name: 'HACCP Certified',
-    description: 'Hazard Analysis Critical Control Point',
-    image: '/images/certifications/haccp.jpg',
+    name: 'Organic India Certified',
+    description: 'Organic Certification',
+    image: '/images/certifications/organic.jpg',
   },
   {
     id: 4,
-    name: 'Organic Certified',
+    name: 'USDA Organic Certified',
     description: 'USDA & EU Organic Standards',
-    image: '/images/certifications/organic.jpg',
+    image: '/images/certifications/usda-organic.jpg',
   },
   {
     id: 5,
@@ -5113,13 +5322,13 @@ export const certifications: Certification[] = [
     id: 6,
     name: 'Halal Certified',
     description: 'Meets Halal Requirements',
-    image: '/images/certifications/halal.jpg',
+    image: '/images/certifications/halal-1.jpg',
   },
   {
     id: 7,
-    name: 'Non-GMO Project',
-    description: 'Verified Non-GMO Products',
-    image: '/images/certifications/non-gmo.jpg',
+    name: 'DSIR Certified',
+    description: 'Meets DSIR Requirements',
+    image: '/images/certifications/dsir.jpg',
   },
   {
     id: 8,
@@ -5138,6 +5347,12 @@ export const certifications: Certification[] = [
     name: 'Shefexil Certified',
     description: 'Verified Shefexil Products',
     image: '/images/certifications/shefexil.jpg',
+  },
+  {
+    id: 11,
+    name: 'Spice Board of India Certified',
+    description: 'Meets Spice Board of India Requirements',
+    image: '/images/certifications/spice.jpg',
   },
 ];
 
