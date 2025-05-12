@@ -300,215 +300,2026 @@ export const productCategories: ProductCategory[] = [
  * Products Data
  */
 export const products: Product[] = [
+  // {
+  //   id: "organic-andrographis",
+  //   name: "Organic Andrographis Extract",
+  //   slug: "organic-andrographis-extract",
+  //   categoryId: "organic-extracts",
+  //   categorySlug: "organic-extracts",
+  //   categoryName: "Organic Extracts",
+  //   standardization: "10%, 15%, 30% Andrographolides",
+  //   latinName: "Andrographis paniculata",
+  //   plantPart: "Leaf",
+  //   description: "Organic Andrographis Extract is derived from certified organic Andrographis paniculata leaves through a clean extraction process. Standardized to contain 10%, 15%, or 30% andrographolides, this extract offers powerful immune support and anti-inflammatory properties. Available in both powder and granule forms, our organic extract maintains the full spectrum of beneficial compounds found in the plant while meeting strict organic certification requirements. Ideal for immune formulations, respiratory support products, and general wellness supplements.",
+  //   shortDescription: "Organic Andrographis extract with standardized andrographolide content",
+  //   image: "/images/products/organic-andrographis-extract.jpg",
+  //   gallery: [
+  //     "/images/products/organic-andrographis-extract.jpg",
+  //     "/images/products/organic-andrographis-extract-1.jpg",
+  //     "/images/products/organic-andrographis-extract-2.jpg",
+  //   ],
+  //   applications: ["Immune support formulations", "Respiratory health products", "Liver support supplements", "Seasonal wellness formulations", "Inflammatory response management"],
+  //   benefits: [
+  //     "Supports healthy immune system function",
+  //     "Promotes respiratory health and comfort",
+  //     "Helps maintain healthy liver function",
+  //     "Provides antioxidant protection",
+  //     "Supports balanced inflammatory response"
+  //   ],
+  //   specifications: {
+  //     activeCompounds: "Andrographolides",
+  //     standardization: "Available in 10%, 15%, and 30% andrographolide concentrations",
+  //     form: "Powder, Granules",
+  //     solubility: "Partially water soluble, soluble in ethanol",
+  //     appearance: "Fine greenish-brown powder with characteristic odor",
+  //     testing: "HPLC analysis for andrographolide content verification",
+  //     heavyMetals: "Meets USP <232> specifications",
+  //     shelfLife: "24 months when stored properly",
+  //     storage: "Store in a cool, dry place away from direct sunlight",
+  //     particleSize: "95% through 80 mesh",
+  //     moisture: "≤5%",
+  //     bulkDensity: "0.45-0.65 g/ml"
+  //   },
+  //   research: "Andrographis extract has been extensively studied for its immune-modulating and anti-inflammatory properties. Research indicates significant benefits for respiratory health, with multiple clinical studies showing efficacy for supporting immune function during seasonal challenges.",
+  //   certifications: ["USDA Organic", "EU Organic", "FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+  //   featured: true,
+  //   documents: [
+  //     { id: 1, name: 'Technical Data Sheet', size: '2.5 MB' },
+  //     { id: 2, name: 'Safety Data Sheet', size: '1.9 MB' },
+  //     { id: 3, name: 'Certificate of Analysis', size: '980 KB' },
+  //   ],
+  //   supplierInfo: {
+  //     points: [
+  //       "Confirm organic certification validity and scope",
+  //       "Request organic handling and processing documentation",
+  //       "Verify traceability systems for organic raw materials",
+  //       "Ensure standardization methods comply with organic regulations",
+  //       "Check for cross-contamination prevention protocols",
+  //       "Review organic certification of all processing aids used"
+  //     ]
+  //   },
+  //   productionDetails: {
+  //     description: "Our Organic Andrographis Extract is produced using a specialized water-based extraction process that complies with organic regulations. The certified organic leaves are carefully harvested at peak potency and undergo gentle extraction to preserve the natural bioactive compounds. Our dedicated organic processing facility prevents cross-contamination with conventional materials, and we use only permitted processing aids that meet organic standards. The extract is standardized using compliant methods and carefully dried at controlled temperatures.",
+  //     image: "/images/process-ch.webp"
+  //   },
+  //   packaging: {
+  //     description: "Our Organic Andrographis Extract is packaged in food-grade materials that maintain product integrity and comply with organic handling requirements. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. Smaller quantities are available in 1kg and 5kg aluminum foil bags with appropriate organic labeling. All packaging materials are selected to prevent contamination and preserve the extract's potency during shipping and storage.",
+  //     image: "/images/packaging-ch.webp"
+  //   },
+  //   factory: {
+  //     description: "Our dedicated organic manufacturing facility operates under strict organic handling protocols and is certified by major international organic certification bodies. The facility features separate processing areas for organic materials, specialized cleaning procedures, and comprehensive documentation systems to ensure organic integrity. Regular inspections by certification agencies verify our compliance with organic standards throughout the production process.",
+  //     image: "/images/factory-ch.webp"
+  //   },
+  //   certificationsSection: {
+  //     description: "Our Organic Andrographis Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify our organic growing methods, clean processing techniques, and proper handling procedures. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance with all applicable organic regulations.",
+  //     image: "/images/certifications-ch.webp"
+  //   },
+  //   events: {
+  //     description: "Our team regularly presents our organic herbal extract line at major industry events including Biofach in Nuremberg, Natural Products Expo West and East, and Vitafoods Europe. These events provide opportunities to showcase our commitment to organic integrity and discuss the benefits of our certified organic extraction processes with customers and partners. We offer educational sessions on organic compliance and the advantages of truly organic herbal extracts.",
+  //     image: "/images/events.jpg"
+  //   },
+  //   faqs: [
+  //     {
+  //       id: 1,
+  //       question: "What are andrographolides and how do they support immune health?",
+  //       answer: "Andrographolides are bioactive compounds that help modulate immune response and support the body's natural defense mechanisms."
+  //     },
+  //     {
+  //       id: 2,
+  //       question: "How does organic certification affect the extraction process?",
+  //       answer: "Organic certification requires using only approved extraction methods and processing aids, typically water-based extraction without synthetic solvents."
+  //     },
+  //     {
+  //       id: 3,
+  //       question: "What is the difference between the various standardization percentages?",
+  //       answer: "Higher percentages (30%) provide more concentrated andrographolides for targeted applications, while lower percentages (10-15%) offer a broader phytochemical profile."
+  //     },
+  //     {
+  //       id: 4,
+  //       question: "How is organic andrographis different from conventional extracts?",
+  //       answer: "Organic andrographis is grown without synthetic pesticides or fertilizers and processed according to organic standards, preserving the natural phytocomplex."
+  //     },
+  //     {
+  //       id: 5,
+  //       question: "What testing methods are used to verify organic compliance?",
+  //       answer: "We use HPLC for andrographolide content verification and additional testing for pesticide residues, heavy metals, and microbial contaminants to ensure organic compliance."
+  //     }
+  //   ]
+  // },
+  // {
+  //   id: "organic-andrographis-1",
+  //   name: "Organic Andrographis Extract",
+  //   slug: "organic-andrographis-extract",
+  //   categoryId: "organic-extracts",
+  //   categorySlug: "organic-extracts",
+  //   categoryName: "Organic Extracts",
+  //   standardization: "10%, 15%, 30% Andrographolides",
+  //   latinName: "Andrographis paniculata",
+  //   plantPart: "Leaf",
+  //   description: "Organic Andrographis Extract is derived from certified organic Andrographis paniculata leaves through a clean extraction process. Standardized to contain 10%, 15%, or 30% andrographolides, this extract offers powerful immune support and anti-inflammatory properties. Available in both powder and granule forms, our organic extract maintains the full spectrum of beneficial compounds found in the plant while meeting strict organic certification requirements. Ideal for immune formulations, respiratory support products, and general wellness supplements.",
+  //   shortDescription: "Organic Andrographis extract with standardized andrographolide content",
+  //   image: "/products/organic-andrographis-extract.jpg",
+  //   gallery: [
+  //     '/images/products/turmeric-extract-1.jpg',
+  //     '/images/products/turmeric-extract-2.jpg',
+  //     '/images/products/turmeric-extract-3.jpg',
+  //   ],
+  //   applications: ["Immune support formulations", "Respiratory health products", "Liver support supplements", "Seasonal wellness formulations", "Inflammatory response management"],
+  //   benefits: [
+  //     "Supports healthy immune system function",
+  //     "Promotes respiratory health and comfort",
+  //     "Helps maintain healthy liver function",
+  //     "Provides antioxidant protection",
+  //     "Supports balanced inflammatory response"
+  //   ],
+  //   specifications: {
+  //     activeCompounds: "Andrographolides",
+  //     standardization: "Available in 10%, 15%, and 30% andrographolide concentrations",
+  //     form: "Powder, Granules",
+  //     solubility: "Partially water soluble, soluble in ethanol",
+  //     appearance: "Fine greenish-brown powder",
+  //     testing: "HPLC analysis for andrographolide content verification",
+  //     heavyMetals: 'Meets USP <232> specifications',
+  //     shelfLife: '24 months when stored properly',
+  //     storage: 'Store in a cool, dry place away from direct sunlight'
+  //   },
+  //   research: "Andrographis extract has been extensively studied for its immune-modulating and anti-inflammatory properties. Research indicates significant benefits for respiratory health, with multiple clinical studies showing efficacy for supporting immune function during seasonal challenges.",
+  //   certifications: ["USDA Organic", "EU Organic", "FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+  //   featured: true,
+  //  documents: [
+  //     { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
+  //     { id: 2, name: 'Safety Data Sheet', size: '1.8 MB' },
+  //     { id: 3, name: 'Certificate of Analysis', size: '956 KB' },
+  //   ],
+  //   supplierInfo: {
+  //     points: [
+  //       "Confirm organic certification validity and scope",
+  //       "Request organic handling and processing documentation",
+  //       "Verify traceability systems for organic raw materials",
+  //       "Ensure standardization methods comply with organic regulations",
+  //       "Check for cross-contamination prevention protocols",
+  //       "Review organic certification of all processing aids used"
+  //     ]
+  //   },
+  //   productionDetails: {
+  //     description: "Our Organic Andrographis Extract is produced using a specialized water-based extraction process that complies with organic regulations. The certified organic leaves are carefully harvested at peak potency and undergo gentle extraction to preserve the natural bioactive compounds. Our dedicated organic processing facility prevents cross-contamination with conventional materials, and we use only permitted processing aids that meet organic standards. The extract is standardized using compliant methods and carefully dried at controlled temperatures.",
+  //     image: "/process-organic.webp"
+  //   },
+  //   packaging: {
+  //     description: "Our Organic Andrographis Extract is packaged in food-grade materials that maintain product integrity and comply with organic handling requirements. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. Smaller quantities are available in 1kg and 5kg aluminum foil bags with appropriate organic labeling. All packaging materials are selected to prevent contamination and preserve the extract's potency during shipping and storage.",
+  //     image: "/packaging-organic.webp"
+  //   },
+  //   factory: {
+  //     description: "Our dedicated organic manufacturing facility operates under strict organic handling protocols and is certified by major international organic certification bodies. The facility features separate processing areas for organic materials, specialized cleaning procedures, and comprehensive documentation systems to ensure organic integrity. Regular inspections by certification agencies verify our compliance with organic standards throughout the production process.",
+  //     image: "/factory-organic.webp"
+  //   },
+  //   certificationsSection: {
+  //     description: "Our Organic Andrographis Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify our organic growing methods, clean processing techniques, and proper handling procedures. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance with all applicable organic regulations.",
+  //     image: "/certifications-organic.webp"
+  //   },
+  //   events: {
+  //     description: "Our team regularly presents our organic herbal extract line at major industry events including Biofach in Nuremberg, Natural Products Expo West and East, and Vitafoods Europe. These events provide opportunities to showcase our commitment to organic integrity and discuss the benefits of our certified organic extraction processes with customers and partners. We offer educational sessions on organic compliance and the advantages of truly organic herbal extracts.",
+  //     image: "/events-organic.jpg"
+  //   },
+  // faqs: [
+  //     {
+  //       id: 1,
+  //       question: 'What makes your turmeric extract different from others?',
+  //       answer: 'Our extract is standardized to 95% curcuminoids using HPLC verification and offers enhanced bioavailability through proprietary processing techniques.'
+  //     },
+  //     {
+  //       id: 2,
+  //       question: 'Is your turmeric extract water-soluble?',
+  //       answer: 'We offer both standard and water-soluble versions. The water-soluble variant uses natural encapsulation technology for complete dispersibility in water.'
+  //     },
+  //     {
+  //       id: 3,
+  //       question: 'What is the recommended dosage?',
+  //       answer: 'Typical dosages range from 500mg to 1000mg daily of the 95% extract, though specific applications may vary.'
+  //     },
+  //     {
+  //       id: 4,
+  //       question: 'Is your turmeric extract organic?',
+  //       answer: 'Yes, we offer certified organic turmeric extract upon request.'
+  //     },
+  //     {
+  //       id: 5,
+  //       question: 'How is bioavailability enhanced in your extract?',
+  //       answer: 'We use proprietary processing techniques that preserve the natural matrix of compounds that support absorption, and our water-soluble version employs natural encapsulation technology.'
+  //     }
+  //   ]
+  // },
+
   {
-    id: "organic-andrographis",
-    name: "Organic Andrographis Extract",
-    slug: "organic-andrographis-extract",
+    "id": "organic-andrographis",
+    "name": "Organic Andrographis Extract",
+    "slug": "organic-andrographis-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "10%, 15%, 30% Andrographolides",
+    "latinName": "Andrographis paniculata",
+    "plantPart": "Aerial Parts",
+    "description": "Organic Andrographis Extract is derived from certified organic Andrographis paniculata leaves using a clean, water-based extraction process. Standardized to contain 10%, 15%, or 30% andrographolides, it supports immune function, respiratory wellness, and healthy inflammatory response. Offered in powder and granule forms, this extract is compliant with major organic certifications, making it ideal for use in herbal supplements, immune formulas, and seasonal wellness products.",
+    "shortDescription": "Standardized organic Andrographis extract rich in andrographolides.",
+    "image": "/images/products/andrographis-extract.jpg",
+    "gallery": [
+      "/images/products/andrographis-extract-1.jpg",
+      "/images/products/andrographis-extract-2.jpg",
+      "/images/products/andrographis-extract-3.jpg"
+    ],
+    "applications": [
+      "Immune support supplements",
+      "Respiratory wellness formulations",
+      "Anti-inflammatory blends",
+      "Liver health products",
+      "Seasonal wellness formulas"
+    ],
+    "benefits": [
+      "Supports a healthy immune system",
+      "Promotes respiratory health",
+      "Helps regulate inflammation",
+      "Offers antioxidant support",
+      "Traditionally used for infection defense"
+    ],
+    "specifications": {
+      "activeCompounds": "Andrographolides",
+      "standardization": "Available in 10%, 15%, and 30% andrographolides",
+      "form": "Powder, Granules",
+      "solubility": "Partially water-soluble; soluble in ethanol",
+      "appearance": "Greenish-brown fine powder",
+      "testing": "HPLC for andrographolide content",
+      "heavyMetals": "Complies with USP <232>",
+      "shelfLife": "36 months if stored properly",
+      "storage": "Keep in a cool, dry place away from direct sunlight"
+    },
+    "research": "Andrographis has been clinically studied for its immunomodulatory and anti-inflammatory properties. Human studies have shown its effectiveness in supporting respiratory function and enhancing immune response during seasonal challenges.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": true,
+    // "documents": [
+    //   { "id": 1, "name": "Technical Data Sheet", "size": "2.4 MB" },
+    //   { "id": 2, "name": "Safety Data Sheet", "size": "1.8 MB" },
+    //   { "id": 3, "name": "Certificate of Analysis", "size": "956 KB" }
+    // ],
+    "supplierInfo": {
+      "points": [
+        "Validate all organic certifications and documentation",
+        "Request full traceability from source to extract",
+        "Ensure compliance with organic processing standards",
+        "Confirm absence of synthetic solvents or additives",
+        "Check for dedicated organic processing facilities",
+        "Review lab results verifying andrographolide content"
+      ]
+    },
+    "productionDetails": {
+      "description": "Produced from certified organic Andrographis leaves using a solvent-free, water-based extraction process. The raw material is carefully harvested, dried, and extracted in a dedicated organic facility. The extract is then standardized for andrographolide content and gently dried under controlled conditions to preserve bioactivity and meet global organic standards.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Packaged in 25kg food-grade fiber drums with inner food grade double polyethylene liners. Smaller pack sizes (1kg and 5kg) are available in aluminum foil pouches. All packaging materials are certified for organic products and are designed to protect the product from moisture, light, and contamination.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Manufactured in a certified organic facility with separate processing areas for organic materials. The factory complies with international quality and food safety standards and is regularly audited for organic compliance and GMP adherence.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Andrographis Extract is certified USDA Organic and EU Organic, confirming our commitment to organic integrity and quality. These certifications ensure that our entire supply chain—from cultivation to final extract—is free of synthetic chemicals, meets stringent regulatory requirements, and supports sustainable practices.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We showcase our organic extracts at top nutraceutical trade shows including Vitafoods Europe, SupplySide West, and BioFach. At these events, our experts discuss the clinical research, sustainability, and certification standards behind our organic herbal range, including Andrographis.",
+      "image": "/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "Is your Andrographis extract certified organic?",
+        "answer": "Yes, our Andrographis extract is certified USDA and EU Organic, produced without synthetic additives or solvents."
+      },
+      {
+        "id": 2,
+        "question": "What are the main active compounds in your extract?",
+        "answer": "The primary active compounds are andrographolides, standardized to 10%, 15%, or 30% based on customer needs."
+      },
+      {
+        "id": 3,
+        "question": "Can it be used in liquid formulations?",
+        "answer": "While primarily used in powders and capsules, it can be formulated into liquids using suitable solubilizers or emulsification techniques."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage?",
+        "answer": "Typical dosage ranges from 300mg to 600mg of 10–30% standardized extract per day, depending on application and formulation."
+      },
+      {
+        "id": 5,
+        "question": "Is the extract suitable for vegan supplements?",
+        "answer": "Yes, it is 100% plant-based and free from animal-derived ingredients, suitable for vegan and vegetarian products."
+      }
+    ]
+  },
+  {
+    id: "organic-ashwagandha",
+    name: "Organic Ashwagandha Extract",
+    slug: "organic-ashwagandha-extract",
     categoryId: "organic-extracts",
     categorySlug: "organic-extracts",
     categoryName: "Organic Extracts",
-    standardization: "10%, 15%, 30% Andrographolides",
-    latinName: "Andrographis paniculata",
-    plantPart: "Leaf",
-    description: "Organic Andrographis Extract is derived from certified organic Andrographis paniculata leaves through a clean extraction process. Standardized to contain 10%, 15%, or 30% andrographolides, this extract offers powerful immune support and anti-inflammatory properties. Available in both powder and granule forms, our organic extract maintains the full spectrum of beneficial compounds found in the plant while meeting strict organic certification requirements. Ideal for immune formulations, respiratory support products, and general wellness supplements.",
-    shortDescription: "Organic Andrographis extract with standardized andrographolide content",
-    image: "/images/products/organic-andrographis-extract.jpg",
+    standardization: "2.5%, 5%, 10% Withanolides",
+    latinName: "Withania somnifera",
+    plantPart: "Root",
+    description: "Organic Ashwagandha Extract is produced from certified organic roots of Withania somnifera, carefully harvested and processed to preserve the plant's adaptogenic properties. Our extract is standardized to contain 2.5%, 5%, or 10% withanolides, the key bioactive compounds responsible for ashwagandha's stress-relieving and rejuvenating effects. Produced using organic-compliant extraction methods, this premium ingredient is ideal for stress management formulations, energy supplements, and products supporting cognitive health and hormonal balance.",
+    shortDescription: "Organic Ashwagandha root extract with standardized withanolide content",
+    image: "/images/products/ashwagandha-extract-3.jpg",
     gallery: [
-      "/images/products/organic-andrographis-extract.jpg",
-      "/images/products/organic-andrographis-extract-1.jpg",
-      "/images/products/organic-andrographis-extract-2.jpg",
+      "/images/products/ashwagandha-extract-1.jpg",
+      "/images/products/ashwagandha-extract-2.jpg",
+      "/images/products/ashwagandha-extract.jpg"
     ],
-    applications: ["Immune support formulations", "Respiratory health products", "Liver support supplements", "Seasonal wellness formulations", "Inflammatory response management"],
+    applications: [
+      "Stress management formulations",
+      "Energy and vitality supplements",
+      "Sleep support products",
+      "Cognitive health supplements",
+      "Hormonal balance formulations"
+    ],
     benefits: [
-      "Supports healthy immune system function",
-      "Promotes respiratory health and comfort",
-      "Helps maintain healthy liver function",
-      "Provides antioxidant protection",
-      "Supports balanced inflammatory response"
+      "Supports healthy stress response and adrenal function",
+      "Promotes mental clarity and cognitive performance",
+      "Helps maintain energy levels and reduces fatigue",
+      "Supports healthy immune function",
+      "Promotes hormonal balance and reproductive health"
     ],
     specifications: {
-      activeCompounds: "Andrographolides",
-      standardization: "Available in 10%, 15%, and 30% andrographolide concentrations",
+      activeCompounds: "Withanolides",
+      standardization: "Available in 2.5%, 5%, and 10% withanolide concentrations",
       form: "Powder, Granules",
-      solubility: "Partially water soluble, soluble in ethanol",
-      appearance: "Fine greenish-brown powder with characteristic odor",
-      testing: "HPLC analysis for andrographolide content verification",
+      solubility: "Partially water soluble",
+      appearance: "Light brown to beige fine powder",
+      testing: "HPLC analysis for withanolide content verification",
       heavyMetals: "Meets USP <232> specifications",
-      shelfLife: "24 months when stored properly",
-      storage: "Store in a cool, dry place away from direct sunlight",
-      particleSize: "95% through 80 mesh",
-      moisture: "≤5%",
-      bulkDensity: "0.45-0.65 g/ml"
+      shelfLife: "36 months when stored properly",
+      storage: "Store in a cool, dry place away from direct sunlight"
     },
-    research: "Andrographis extract has been extensively studied for its immune-modulating and anti-inflammatory properties. Research indicates significant benefits for respiratory health, with multiple clinical studies showing efficacy for supporting immune function during seasonal challenges.",
-    certifications: ["USDA Organic", "EU Organic", "FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
-    featured: true,
-    documents: [
-      { id: 1, name: 'Technical Data Sheet', size: '2.5 MB' },
-      { id: 2, name: 'Safety Data Sheet', size: '1.9 MB' },
-      { id: 3, name: 'Certificate of Analysis', size: '980 KB' },
+    research: "Ashwagandha extract has been studied extensively for its adaptogenic properties. Clinical research shows benefits for stress reduction, improved sleep quality, enhanced cognitive function, and support for healthy cortisol levels. Studies also indicate benefits for exercise performance and recovery.",
+    certifications: [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
     ],
+    featured: true,
+    // documents: [
+    //   { id: 1, name: "Technical Data Sheet", size: "2.1 MB" },
+    //   { id: 2, name: "Safety Data Sheet", size: "1.7 MB" },
+    //   { id: 3, name: "Certificate of Analysis", size: "1.0 MB" }
+    // ],
     supplierInfo: {
       points: [
-        "Confirm organic certification validity and scope",
-        "Request organic handling and processing documentation",
-        "Verify traceability systems for organic raw materials",
-        "Ensure standardization methods comply with organic regulations",
-        "Check for cross-contamination prevention protocols",
-        "Review organic certification of all processing aids used"
+        "Verify organic certification for cultivation and processing",
+        "Ensure testing for pesticide residues even with organic certification",
+        "Check standardization methods comply with organic standards",
+        "Request information about root sourcing and harvesting practices",
+        "Confirm absence of fillers and carrier agents in the extract",
+        "Review shelf stability data for different withanolide concentrations"
       ]
     },
     productionDetails: {
-      description: "Our Organic Andrographis Extract is produced using a specialized water-based extraction process that complies with organic regulations. The certified organic leaves are carefully harvested at peak potency and undergo gentle extraction to preserve the natural bioactive compounds. Our dedicated organic processing facility prevents cross-contamination with conventional materials, and we use only permitted processing aids that meet organic standards. The extract is standardized using compliant methods and carefully dried at controlled temperatures.",
-      image: "/images/process-ch.webp"
+      description: "Our Organic Ashwagandha Extract production begins with certified organic roots cultivated using traditional practices that enhance withanolide content. The roots undergo thorough cleaning followed by our proprietary organic-compliant extraction process that maximizes the concentration of bioactive compounds while adhering to organic regulations. The extract is carefully standardized to precise withanolide levels and undergoes gentle drying to preserve potency.",
+      image: "/process-ch.webp"
     },
     packaging: {
-      description: "Our Organic Andrographis Extract is packaged in food-grade materials that maintain product integrity and comply with organic handling requirements. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. Smaller quantities are available in 1kg and 5kg aluminum foil bags with appropriate organic labeling. All packaging materials are selected to prevent contamination and preserve the extract's potency during shipping and storage.",
-      image: "/images/packaging-ch.webp"
+      description: "Our Organic Ashwagandha Extract is available in various packaging options that maintain organic integrity. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials prevent moisture ingress and light exposure to maintain the stability of the withanolides throughout the product's shelf life.",
+      image: "/packaging-ch.webp"
     },
     factory: {
-      description: "Our dedicated organic manufacturing facility operates under strict organic handling protocols and is certified by major international organic certification bodies. The facility features separate processing areas for organic materials, specialized cleaning procedures, and comprehensive documentation systems to ensure organic integrity. Regular inspections by certification agencies verify our compliance with organic standards throughout the production process.",
-      image: "/images/factory-ch.webp"
+      description: "Our organic manufacturing facility is specifically designed for organic herbal extracts with dedicated areas for organic material handling and processing. The facility operates under strict protocols to prevent cross-contamination with conventional materials and maintains comprehensive documentation for organic integrity. Our quality control laboratory performs extensive testing on each batch, including verification of withanolide content and absence of contaminants.",
+      image: "/factory-ch.webp"
     },
     certificationsSection: {
-      description: "Our Organic Andrographis Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify our organic growing methods, clean processing techniques, and proper handling procedures. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance with all applicable organic regulations.",
-      image: "/images/certifications-ch.webp"
+      description: "Our Organic Ashwagandha Extract is certified by leading organic certification bodies including USDA Organic and EU Organic. These certifications verify our compliance with organic agricultural practices, proper handling procedures, and permitted processing methods. We maintain detailed records of our organic supply chain and undergo regular inspections to ensure ongoing compliance with all applicable organic regulations.",
+      image: "/certifications-ch.webp"
     },
     events: {
-      description: "Our team regularly presents our organic herbal extract line at major industry events including Biofach in Nuremberg, Natural Products Expo West and East, and Vitafoods Europe. These events provide opportunities to showcase our commitment to organic integrity and discuss the benefits of our certified organic extraction processes with customers and partners. We offer educational sessions on organic compliance and the advantages of truly organic herbal extracts.",
-      image: "/images/events.jpg"
+      description: "Our organic Ashwagandha extract is regularly featured at major industry events including Vitafoods Europe, Supply Side West, and Natural Products Expo. Our technical experts present the latest research on ashwagandha's benefits and our organic cultivation and extraction methods. These events provide opportunities to showcase our commitment to organic integrity and discuss specific formulation requirements with customers.",
+      image: "/events.jpg"
     },
     faqs: [
       {
         id: 1,
-        question: "What are andrographolides and how do they support immune health?",
-        answer: "Andrographolides are bioactive compounds that help modulate immune response and support the body's natural defense mechanisms."
+        question: "What are withanolides and why are they important?",
+        answer: "Withanolides are the key bioactive compounds in Ashwagandha responsible for its adaptogenic effects. They help support stress relief, energy, and cognitive function."
       },
       {
         id: 2,
-        question: "How does organic certification affect the extraction process?",
-        answer: "Organic certification requires using only approved extraction methods and processing aids, typically water-based extraction without synthetic solvents."
+        question: "Is your Ashwagandha extract certified organic?",
+        answer: "Yes, our Ashwagandha extract is USDA and EU Organic certified, ensuring compliance with strict organic cultivation and processing standards."
       },
       {
         id: 3,
-        question: "What is the difference between the various standardization percentages?",
-        answer: "Higher percentages (30%) provide more concentrated andrographolides for targeted applications, while lower percentages (10-15%) offer a broader phytochemical profile."
+        question: "What forms are available for this extract?",
+        answer: "We offer the extract in powder and granule forms to suit different formulation needs."
       },
       {
         id: 4,
-        question: "How is organic andrographis different from conventional extracts?",
-        answer: "Organic andrographis is grown without synthetic pesticides or fertilizers and processed according to organic standards, preserving the natural phytocomplex."
+        question: "What is the typical dosage of your Ashwagandha extract?",
+        answer: "Typical dosages range from 300mg to 600mg daily, depending on the standardization and formulation goals."
       },
       {
         id: 5,
-        question: "What testing methods are used to verify organic compliance?",
-        answer: "We use HPLC for andrographolide content verification and additional testing for pesticide residues, heavy metals, and microbial contaminants to ensure organic compliance."
+        question: "Do you test for contaminants in the extract?",
+        answer: "Yes, we conduct rigorous testing for heavy metals, microbial contaminants, and pesticide residues to ensure safety and compliance."
       }
     ]
   },
   {
-    id: "organic-andrographis-1",
-    name: "Organic Andrographis Extract",
-    slug: "organic-andrographis-extract",
-    categoryId: "organic-extracts",
-    categorySlug: "organic-extracts",
-    categoryName: "Organic Extracts",
-    standardization: "10%, 15%, 30% Andrographolides",
-    latinName: "Andrographis paniculata",
-    plantPart: "Leaf",
-    description: "Organic Andrographis Extract is derived from certified organic Andrographis paniculata leaves through a clean extraction process. Standardized to contain 10%, 15%, or 30% andrographolides, this extract offers powerful immune support and anti-inflammatory properties. Available in both powder and granule forms, our organic extract maintains the full spectrum of beneficial compounds found in the plant while meeting strict organic certification requirements. Ideal for immune formulations, respiratory support products, and general wellness supplements.",
-    shortDescription: "Organic Andrographis extract with standardized andrographolide content",
-    image: "/products/organic-andrographis-extract.jpg",
-    gallery: [
-      '/images/products/turmeric-extract-1.jpg',
-      '/images/products/turmeric-extract-2.jpg',
-      '/images/products/turmeric-extract-3.jpg',
+    "id": "organic-bacopa-powder",
+    "name": "Organic Bacopa Monnieri Extract Powder",
+    "slug": "organic-bacopa-monnieri-extract-powder",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "20%, 40%, 50% Bacosides",
+    "latinName": "Bacopa monnieri",
+    "plantPart": "Whole herb",
+    "description": "Organic Bacopa Monnieri Extract Powder is derived from certified organic Bacopa monnieri plants, carefully harvested and processed to preserve the cognitive-enhancing compounds. Our extract is standardized to contain 20%, 40%, or 50% bacosides, the key bioactive components responsible for bacopa's memory and cognitive benefits. Produced using organic-compliant extraction methods, this premium powder is ideal for cognitive enhancement supplements, stress management formulations, and products supporting mental clarity and focus.",
+    "shortDescription": "Organic Bacopa powder with standardized bacoside content",
+    "image": "/images/products/bacopa-extract.jpg",
+    "gallery": [
+      "/images/products/bacopa-extract-1.jpg",
+      "/images/products/bacopa-extract-2.jpg",
+      "/images/products/bacopa-extract-3.jpg"
     ],
-    applications: ["Immune support formulations", "Respiratory health products", "Liver support supplements", "Seasonal wellness formulations", "Inflammatory response management"],
-    benefits: [
-      "Supports healthy immune system function",
-      "Promotes respiratory health and comfort",
-      "Helps maintain healthy liver function",
-      "Provides antioxidant protection",
-      "Supports balanced inflammatory response"
+    "applications": [
+      "Cognitive enhancement supplements",
+      "Memory support products",
+      "Focus and concentration formulations",
+      "Stress management supplements",
+      "Brain health formulations"
     ],
-    specifications: {
-      activeCompounds: "Andrographolides",
-      standardization: "Available in 10%, 15%, and 30% andrographolide concentrations",
-      form: "Powder, Granules",
-      solubility: "Partially water soluble, soluble in ethanol",
-      appearance: "Fine greenish-brown powder",
-      testing: "HPLC analysis for andrographolide content verification",
-      heavyMetals: 'Meets USP <232> specifications',
-      shelfLife: '24 months when stored properly',
-      storage: 'Store in a cool, dry place away from direct sunlight'
+    "benefits": [
+      "Supports memory formation and recall",
+      "Enhances cognitive function and mental clarity",
+      "Promotes healthy stress response",
+      "Supports neurotransmitter balance",
+      "Provides neuroprotective antioxidant support"
+    ],
+    "specifications": {
+      "activeCompounds": "Bacosides",
+      "standardization": "Available in 20%, 40%, and 50% bacoside concentrations",
+      "form": "Fine Powder",
+      "solubility": "Partially water soluble",
+      "appearance": "Fine greenish-brown powder",
+      "testing": "HPLC analysis for bacoside content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "36 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
     },
-    research: "Andrographis extract has been extensively studied for its immune-modulating and anti-inflammatory properties. Research indicates significant benefits for respiratory health, with multiple clinical studies showing efficacy for supporting immune function during seasonal challenges.",
-    certifications: ["USDA Organic", "EU Organic", "FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
-    featured: true,
-   documents: [
-      { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
-      { id: 2, name: 'Safety Data Sheet', size: '1.8 MB' },
-      { id: 3, name: 'Certificate of Analysis', size: '956 KB' },
+    "research": "Bacopa monnieri extract has been studied extensively for its cognitive benefits. Clinical research demonstrates improvements in memory formation, information processing, and learning capacity. Studies also indicate benefits for attention, focus, and stress reduction.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
     ],
-    supplierInfo: {
-      points: [
-        "Confirm organic certification validity and scope",
-        "Request organic handling and processing documentation",
-        "Verify traceability systems for organic raw materials",
-        "Ensure standardization methods comply with organic regulations",
-        "Check for cross-contamination prevention protocols",
-        "Review organic certification of all processing aids used"
+    "featured": false,
+    // "documents": [
+    //   { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
+    //   { "id": 2, "name": "Safety Data Sheet", "size": "1.7 MB" },
+    //   { "id": 3, "name": "Certificate of Analysis", "size": "980 KB" }
+    // ],
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for cultivation and processing",
+        "Check standardization methods comply with organic standards",
+        "Request information about sustainable harvesting practices",
+        "Confirm absence of fillers and excipients in the powder",
+        "Review stability data for different bacoside concentrations",
+        "Assess particle size distribution for formulation compatibility"
       ]
     },
-    productionDetails: {
-      description: "Our Organic Andrographis Extract is produced using a specialized water-based extraction process that complies with organic regulations. The certified organic leaves are carefully harvested at peak potency and undergo gentle extraction to preserve the natural bioactive compounds. Our dedicated organic processing facility prevents cross-contamination with conventional materials, and we use only permitted processing aids that meet organic standards. The extract is standardized using compliant methods and carefully dried at controlled temperatures.",
-      image: "/process-organic.webp"
+    "productionDetails": {
+      "description": "Our Organic Bacopa Monnieri Extract Powder is produced from certified organic plants grown in controlled environments that optimize bacoside content. After careful harvesting, the plants undergo our proprietary organic-compliant extraction process that concentrates the bioactive compounds while adhering to strict organic regulations. The extract is carefully standardized to precise bacoside levels and undergoes gentle drying and milling to create a fine, uniform powder ideal for various formulations.",
+      "image": "/process-ch.webp"
     },
-    packaging: {
-      description: "Our Organic Andrographis Extract is packaged in food-grade materials that maintain product integrity and comply with organic handling requirements. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. Smaller quantities are available in 1kg and 5kg aluminum foil bags with appropriate organic labeling. All packaging materials are selected to prevent contamination and preserve the extract's potency during shipping and storage.",
-      image: "/packaging-organic.webp"
+    "packaging": {
+      "description": "Our Organic Bacopa Monnieri Extract Powder is available in packaging options that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials prevent moisture ingress and light exposure to maintain the stability of the bacosides throughout the product's shelf life.",
+      "image": "/packaging-ch.webp"
     },
-    factory: {
-      description: "Our dedicated organic manufacturing facility operates under strict organic handling protocols and is certified by major international organic certification bodies. The facility features separate processing areas for organic materials, specialized cleaning procedures, and comprehensive documentation systems to ensure organic integrity. Regular inspections by certification agencies verify our compliance with organic standards throughout the production process.",
-      image: "/factory-organic.webp"
+    "factory": {
+      "description": "Our organic manufacturing facility features specialized equipment for processing organic Bacopa monnieri with dedicated areas for organic material handling. The facility operates under strict protocols to prevent cross-contamination with conventional materials and maintains comprehensive documentation for organic integrity. Our quality control laboratory performs extensive testing on each batch, including verification of bacoside content and absence of contaminants.",
+      "image": "/factory-ch.webp"
     },
-    certificationsSection: {
-      description: "Our Organic Andrographis Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify our organic growing methods, clean processing techniques, and proper handling procedures. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance with all applicable organic regulations.",
-      image: "/certifications-organic.webp"
+    "certificationsSection": {
+      "description": "Our Organic Bacopa Monnieri Extract Powder is certified by leading organic certification bodies including USDA Organic and EU Organic. These certifications verify our compliance with organic agricultural practices, proper handling procedures, and permitted processing methods. We maintain detailed records of our organic supply chain and undergo regular inspections to ensure ongoing compliance with all applicable organic regulations.",
+      "image": "/certifications-ch.webp"
     },
-    events: {
-      description: "Our team regularly presents our organic herbal extract line at major industry events including Biofach in Nuremberg, Natural Products Expo West and East, and Vitafoods Europe. These events provide opportunities to showcase our commitment to organic integrity and discuss the benefits of our certified organic extraction processes with customers and partners. We offer educational sessions on organic compliance and the advantages of truly organic herbal extracts.",
-      image: "/events-organic.jpg"
+    "events": {
+      "description": "We regularly showcase our Organic Bacopa Extract Powder at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on bacopa's cognitive benefits and our organic cultivation and extraction methods. These events provide opportunities to discuss specific formulation requirements and applications with customers interested in premium organic cognitive health ingredients.",
+      "image": "/events.jpg"
     },
-  faqs: [
+    "faqs": [
       {
-        id: 1,
-        question: 'What makes your turmeric extract different from others?',
-        answer: 'Our extract is standardized to 95% curcuminoids using HPLC verification and offers enhanced bioavailability through proprietary processing techniques.'
+        "id": 1,
+        "question": "What is the recommended dosage for Bacopa Monnieri Extract Powder?",
+        "answer": "Typical dosages range from 300mg to 600mg daily of the 50% bacoside extract, though specific applications may vary."
       },
       {
-        id: 2,
-        question: 'Is your turmeric extract water-soluble?',
-        answer: 'We offer both standard and water-soluble versions. The water-soluble variant uses natural encapsulation technology for complete dispersibility in water.'
+        "id": 2,
+        "question": "Is your Bacopa Monnieri Extract Powder water-soluble?",
+        "answer": "The extract is partially water-soluble, making it suitable for various formulations. For enhanced solubility, specialized processing techniques can be employed."
       },
       {
-        id: 3,
-        question: 'What is the recommended dosage?',
-        answer: 'Typical dosages range from 500mg to 1000mg daily of the 95% extract, though specific applications may vary.'
+        "id": 3,
+        "question": "Is your Bacopa Monnieri Extract Powder organic?",
+        "answer": "Yes, our extract is certified organic, adhering to USDA and EU organic standards."
       },
       {
-        id: 4,
-        question: 'Is your turmeric extract organic?',
-        answer: 'Yes, we offer certified organic turmeric extract upon request.'
+        "id": 4,
+        "question": "How is the bacoside content verified in your extract?",
+        "answer": "We utilize HPLC analysis to ensure precise standardization of bacoside concentrations in our extract."
       },
       {
-        id: 5,
-        question: 'How is bioavailability enhanced in your extract?',
-        answer: 'We use proprietary processing techniques that preserve the natural matrix of compounds that support absorption, and our water-soluble version employs natural encapsulation technology.'
+        "id": 5,
+        "question": "What is the shelf life of your Bacopa Monnieri Extract Powder?",
+        "answer": "Our extract has a shelf life of 36 months when stored in a cool, dry place away from direct sunlight."
       }
     ]
   },
+  {
+    "id": "organic-bacopa-granules",
+    "name": "Organic Bacopa Monnieri Extract Granules",
+    "slug": "organic-bacopa-monnieri-extract-granules",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "20%, 40%, 50% Bacosides",
+    "latinName": "Bacopa monnieri",
+    "plantPart": "Whole herb",
+    "description": "Organic Bacopa Monnieri Extract Granules offer all the cognitive benefits of our powder extract in a convenient granular form that improves flowability and reduces dusting during manufacturing. Derived from certified organic Bacopa monnieri plants and standardized to contain 20%, 40%, or 50% bacosides, these granules are produced using organic-compliant processing methods. The granular format is ideal for tablets, capsules, and sachets, providing improved manufacturing efficiency while maintaining the full spectrum of cognitive-enhancing compounds.",
+    "shortDescription": "Organic Bacopa granules with standardized bacoside content",
+    "image": "/images/products/bacopa-extract.jpg",
+    "gallery": [
+      "/images/products/bacopa-extract-1.jpg",
+      "/images/products/bacopa-extract-2.jpg",
+      "/images/products/bacopa-extract-3.jpg"
+    ],
+    "applications": [
+      "Tablet formulations",
+      "Capsule products",
+      "Sachet formulations",
+      "Cognitive enhancement supplements",
+      "Memory support products"
+    ],
+    "benefits": [
+      "Enhanced flowability for manufacturing efficiency",
+      "Reduced dusting during production",
+      "Improved compression characteristics for tablets",
+      "Supports memory formation and recall",
+      "Enhances cognitive function and mental clarity"
+    ],
+    "specifications": {
+      "activeCompounds": "Bacosides",
+      "standardization": "Available in 20%, 40%, and 50% bacoside concentrations",
+      "form": "Granules",
+      "solubility": "Partially water soluble",
+      "appearance": "Uniform greenish-brown granules",
+      "testing": "HPLC analysis for bacoside content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "36 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Bacopa monnieri extract has been studied extensively for its cognitive benefits. Clinical research demonstrates improvements in memory formation, information processing, and learning capacity. Studies also indicate benefits for attention, focus, and stress reduction.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal",
+    ],
+    "featured": false,
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for cultivation, processing, and granulation",
+        "Check that granulation aids and binders meet organic standards",
+        "Request information about granule size distribution and flowability",
+        "Confirm absence of non-organic excipients in the granulation process",
+        "Review compression characteristics for tablet applications",
+        "Assess dissolution profile compared to powder extract"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Bacopa Monnieri Extract Granules begin with the same high-quality organic extract as our powder form. The extract then undergoes a specialized organic-compliant granulation process using only permitted processing aids that meet organic standards. This process creates uniform granules with excellent flow properties while maintaining the integrity and potency of the bacosides. Each batch is carefully tested to ensure consistent particle size distribution and active compound content.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Our Organic Bacopa Monnieri Extract Granules are packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials prevent moisture ingress and light exposure to maintain the stability of the bacosides throughout the product's shelf life.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our organic manufacturing facility features specialized granulation equipment for processing organic extracts with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the granulation process. Our quality control laboratory performs extensive testing on each batch, including verification of bacoside content, granule size distribution, and flow characteristics.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Bacopa Monnieri Extract Granules maintain all the certifications of our powder extract, including USDA Organic and EU Organic. These certifications verify that our granulation process and all materials used comply with organic standards. We maintain detailed records of our organic supply chain and undergo regular inspections to ensure ongoing compliance with all applicable organic regulations.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We regularly showcase our Organic Bacopa Extract Granules alongside our powder extract at major nutraceutical and natural product exhibitions worldwide. Our technical experts present comparative data on the manufacturing advantages of granules versus powders and discuss specific applications with customers interested in premium organic cognitive health ingredients with improved processing characteristics.",
+      "image": "/events.jpg"
+    }
+  },
+  {
+    "id": "organic-black-pepper",
+    "name": "Organic Black Pepper Extract",
+    "slug": "organic-black-pepper-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "95% Piperine",
+    "latinName": "Piper nigrum",
+    "plantPart": "Fruit",
+    "description": "Organic Black Pepper Extract is derived from certified organic Piper nigrum fruits through a clean extraction process that concentrates the bioactive compound piperine. Standardized to contain 95% piperine, this extract is widely used as a bioavailability enhancer for other nutrients and herbal compounds. Our organic extraction process ensures the highest purity and potency while meeting strict organic certification requirements. This premium ingredient is ideal for formulations where enhanced absorption of active ingredients is desired.",
+    "shortDescription": "Organic Black Pepper extract with 95% piperine for enhanced bioavailability",
+    "image": "/images/products/black-pepper-extract.jpg",
+    "gallery": [
+      "/images/products/black-pepper-extract-1.jpg",
+      "/images/products/black-pepper-extract-2.jpg",
+      "/images/products/black-pepper-extract-3.jpg"
+    ],
+    "applications": [
+      "Bioavailability enhancement",
+      "Curcumin formulations",
+      "Multi-herb supplements",
+      "Digestive support products",
+      "Thermogenic formulations"
+    ],
+    "benefits": [
+      "Enhances absorption of nutrients and herbal compounds",
+      "Supports digestive enzyme activity",
+      "Promotes healthy metabolic function",
+      "Provides antioxidant protection",
+      "Supports thermogenesis and metabolic rate"
+    ],
+    "specifications": {
+      "activeCompounds": "Piperine",
+      "standardization": "95% piperine content",
+      "form": "Powder",
+      "solubility": "Lipid soluble, dispersible in water with surfactants",
+      "appearance": "Off-white to light yellow fine powder",
+      "testing": "HPLC analysis for piperine content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "36 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Black pepper extract has been extensively studied for its bioavailability-enhancing properties. Research demonstrates significant increases in the absorption of curcumin, resveratrol, and various vitamins and minerals when combined with piperine. Studies also indicate benefits for digestive function and metabolic health.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal",
+    ],
+    "featured": false,
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for cultivation and processing",
+        "Confirm extraction solvents comply with organic standards",
+        "Request information about purity testing for the 95% piperine",
+        "Check stability data in different formulation environments",
+        "Review recommended usage levels for bioavailability enhancement",
+        "Assess compatibility with different delivery systems"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Black Pepper Extract production begins with certified organic black pepper fruits harvested at peak ripeness. The fruits undergo a specialized organic-compliant extraction process that concentrates the piperine while eliminating unwanted compounds. Our proprietary purification method achieves 95% piperine content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify piperine content and ensure absence of contaminants.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Our Organic Black Pepper Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 10kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 500g and 1kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from light, moisture, and oxidation to maintain the stability of the piperine throughout the product's shelf life.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our organic manufacturing facility features specialized equipment for processing organic black pepper with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and purification process. Our quality control laboratory performs extensive testing on each batch, including verification of piperine content and absence of residual solvents and contaminants.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Black Pepper Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and purification processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We regularly showcase our Organic Black Pepper Extract at major nutraceutical events worldwide. Our technical experts present research on bioavailability enhancement and optimal usage levels in different formulations. These events provide opportunities to discuss specific formulation requirements with customers interested in enhancing the efficacy of their organic supplement products.",
+      "image": "/events.jpg"
+    }
+  },
+  {
+    "id": "organic-boswellia",
+    "name": "Organic Boswellia Serrata Extract",
+    "slug": "organic-boswellia-serrata-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "65%, 85% Boswellic Acids",
+    "latinName": "Boswellia serrata",
+    "plantPart": "Resin",
+    "description": "Organic Boswellia Serrata Extract is derived from certified organic Boswellia serrata gum resin, carefully harvested and processed to preserve its anti-inflammatory properties. Our extract is standardized to contain either 65% or 85% boswellic acids, the key bioactive compounds responsible for boswellia's joint health and inflammatory response benefits. Produced using organic-compliant extraction methods, this premium ingredient is ideal for joint health formulations, inflammatory response management, and respiratory support products.",
+    "shortDescription": "Organic Boswellia extract with standardized boswellic acid content",
+    "image": "/images/products/boswellia-extract.jpg",
+    "gallery": [
+      "/images/products/boswellia-extract-1.jpg",
+      "/images/products/boswellia-extract-2.jpg",
+      "/images/products/boswellia-extract-4.jpg"
+    ],
+    "applications": [
+      "Joint health formulations",
+      "Inflammatory response supplements",
+      "Respiratory support products",
+      "Digestive health formulations",
+      "Sports recovery supplements"
+    ],
+    "benefits": [
+      "Supports healthy inflammatory response",
+      "Promotes joint comfort and mobility",
+      "Supports respiratory health and comfort",
+      "Maintains healthy digestive function",
+      "Provides antioxidant protection"
+    ],
+    "specifications": {
+      "activeCompounds": "Boswellic Acids",
+      "standardization": "Available in 65% and 85% boswellic acid concentrations",
+      "form": "Powder",
+      "solubility": "Lipid soluble, dispersible in water with surfactants",
+      "appearance": "Light beige to off-white powder",
+      "testing": "HPLC analysis for boswellic acid content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "36 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Boswellia serrata extract has been extensively studied for its anti-inflammatory properties. Clinical research demonstrates benefits for joint health, with improvements in comfort, mobility, and function. Studies also indicate benefits for respiratory health and digestive comfort.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": false,
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for resin harvesting and processing",
+        "Confirm extraction solvents comply with organic standards",
+        "Request information about sustainable harvesting practices",
+        "Check stability data of boswellic acids in different formulations",
+        "Review AKBA (Acetyl-11-keto-β-boswellic acid) content",
+        "Assess flowability and compression characteristics"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Boswellia Serrata Extract production begins with certified organic resin harvested using sustainable methods that protect the trees. The resin undergoes a specialized organic-compliant extraction process that concentrates the boswellic acids while eliminating unwanted compounds. Our proprietary purification method achieves either 65% or 85% boswellic acid content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Our Organic Boswellia Serrata Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from light, moisture, and oxidation to maintain the stability of the boswellic acids throughout the product's shelf life.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our organic manufacturing facility features specialized equipment for processing organic boswellia resin with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and purification process. Our quality control laboratory performs extensive testing on each batch, including verification of boswellic acid profiles and absence of residual solvents and contaminants.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Boswellia Serrata Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and purification processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We regularly showcase our Organic Boswellia Serrata Extract at major nutraceutical events worldwide. Our technical experts present research on joint health applications and the benefits of our sustainable organic harvesting practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic joint health ingredients.",
+      "image": "/events.jpg"
+    }
+  },
+  {
+    "id": "organic-cissus",
+    "name": "Organic Cissus Extract",
+    "slug": "organic-cissus-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "20%, 40% Ketosterones",
+    "latinName": "Cissus quadrangularis",
+    "plantPart": "Stem",
+    "description": "Organic Cissus Extract is derived from certified organic Cissus quadrangularis stems, carefully harvested and processed to preserve its bone and joint health properties. Our extract is standardized to contain either 20% or 40% ketosterones, the key bioactive compounds responsible for cissus's bone health and weight management benefits. Produced using organic-compliant extraction methods, this premium ingredient is ideal for bone and joint health formulations, sports recovery supplements, and weight management products.",
+    "shortDescription": "Organic Cissus extract with standardized ketosterone content",
+    "image": "/images/products/cissus-extract.jpg",
+    "gallery": [
+      "/images/products/cissus-extract.jpg",
+      "/images/products/cissus-extract.jpg",
+      "/images/products/cissus-extract.jpg"
+    ],
+    "applications": [
+      "Bone health formulations",
+      "Joint support supplements",
+      "Sports recovery products",
+      "Weight management formulations",
+      "Metabolic health supplements"
+    ],
+    "benefits": [
+      "Supports healthy bone density and strength",
+      "Promotes joint comfort and mobility",
+      "Enhances recovery after physical activity",
+      "Supports healthy weight management",
+      "Promotes metabolic wellness"
+    ],
+    "specifications": {
+      "activeCompounds": "Ketosterones",
+      "standardization": "Available in 20% and 40% ketosterone concentrations",
+      "form": "Powder",
+      "solubility": "Partially water soluble",
+      "appearance": "Light green to greenish-brown powder",
+      "testing": "HPLC analysis for ketosterone content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "36 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Cissus quadrangularis extract has been studied for its bone and joint health properties. Research indicates benefits for bone mineral density, joint comfort, and recovery from exercise. Studies also suggest potential applications for metabolic health and weight management.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": false,
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for cultivation and processing",
+        "Check standardization methods comply with organic standards",
+        "Request information about sustainable harvesting practices",
+        "Review stability data of ketosterones in different formulations",
+        "Assess compatibility with other joint health ingredients",
+        "Confirm absence of fillers and excipients"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Cissus Extract production begins with certified organic Cissus quadrangularis stems harvested at optimal maturity. The stems undergo a specialized organic-compliant extraction process that concentrates the ketosterones while preserving the plant's natural compound profile. Our proprietary standardization method achieves either 20% or 40% ketosterone content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Our Organic Cissus Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from light, moisture, and oxidation to maintain the stability of the ketosterones throughout the product's shelf life.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our organic manufacturing facility features specialized equipment for processing organic cissus with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and standardization process. Our quality control laboratory performs extensive testing on each batch, including verification of ketosterone content and absence of contaminants.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Cissus Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and standardization processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We regularly showcase our Organic Cissus Extract at major nutraceutical events worldwide. Our technical experts present research on bone health applications and the benefits of our sustainable organic harvesting practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic bone and joint health ingredients.",
+      "image": "/events.jpg"
+    }
+  },
+  {
+    "id": "organic-turmeric",
+    "name": "Organic Turmeric Extract",
+    "slug": "organic-turmeric-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "95% Curcuminoids",
+    "latinName": "Curcuma longa",
+    "plantPart": "Rhizome",
+    "description": "Organic Turmeric Extract is derived from certified organic Curcuma longa rhizomes, carefully cultivated and processed to preserve its powerful anti-inflammatory properties. Our extract is standardized to contain 95% curcuminoids, the key bioactive compounds responsible for turmeric's health benefits. Produced using organic-compliant extraction methods, this premium ingredient is ideal for inflammatory response management, joint health formulations, cognitive support products, and antioxidant supplements.",
+    "shortDescription": "Organic Turmeric extract with 95% curcuminoids",
+    "image": "/images/products/turmeric-extract.jpg",
+    "gallery": [
+      "/images/products/turmeric-extract-1.jpg",
+      "/images/products/turmeric-extract-2.jpg",
+      "/images/products/turmeric-extract-3.jpg"
+    ],
+    "applications": [
+      "Joint health formulations",
+      "Inflammatory response supplements",
+      "Cognitive support products",
+      "Antioxidant formulations",
+      "Digestive health supplements"
+    ],
+    "benefits": [
+      "Supports healthy inflammatory response",
+      "Promotes joint comfort and mobility",
+      "Enhances cognitive function and brain health",
+      "Provides powerful antioxidant protection",
+      "Supports digestive wellness and liver function"
+    ],
+    "specifications": {
+      "activeCompounds": "Curcuminoids",
+      "standardization": "95% curcuminoid content",
+      "form": "Powder, Granules",
+      "solubility": "Lipid soluble, dispersible in water with surfactants",
+      "appearance": "Bright yellow to orange powder",
+      "testing": "HPLC analysis for curcuminoid content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "36 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Turmeric extract has been extensively studied for its anti-inflammatory and antioxidant properties. Clinical research demonstrates benefits for joint health, cognitive function, and inflammatory response management. Studies also indicate benefits for digestive wellness and liver support.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": true,
+    // "documents": {
+    //   "specSheet": "/documents/organic-turmeric-spec-sheet.pdf",
+    //   "coa": "/documents/organic-turmeric-coa.pdf",
+    //   "msds": "/documents/organic-turmeric-msds.pdf"
+    // },
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for cultivation and processing",
+        "Check extraction methods comply with organic standards",
+        "Request information about curcuminoid profile (curcumin, demethoxycurcumin, bisdemethoxycurcumin)",
+        "Review bioavailability data and combination recommendations",
+        "Assess color intensity and stability in different formulations",
+        "Confirm absence of synthetic additives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Turmeric Extract production begins with certified organic turmeric rhizomes grown under optimal conditions to maximize curcuminoid content. The rhizomes undergo a specialized organic-compliant extraction process that concentrates the curcuminoids while preserving their natural ratios. Our proprietary purification method achieves 95% curcuminoid content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Our Organic Turmeric Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from light, moisture, and oxidation to maintain the stability of the curcuminoids throughout the product's shelf life.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our organic manufacturing facility features specialized equipment for processing organic turmeric with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and purification process. Our quality control laboratory performs extensive testing on each batch, including verification of curcuminoid content and absence of residual solvents and contaminants.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Turmeric Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and purification processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We regularly showcase our Organic Turmeric Extract at major nutraceutical events worldwide. Our technical experts present research on inflammatory response applications and the benefits of our sustainable organic cultivation practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic anti-inflammatory ingredients.",
+      "image": "/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What is the curcuminoid content in your Organic Turmeric Extract?",
+        "answer": "Our Organic Turmeric Extract is standardized to contain 95% curcuminoids, ensuring a high concentration of active compounds for maximum health benefits."
+      },
+      {
+        "id": 2,
+        "question": "Is your Organic Turmeric Extract certified organic?",
+        "answer": "Yes, our extract is certified USDA Organic and EU Organic, meeting stringent organic farming and processing standards."
+      },
+      {
+        "id": 3,
+        "question": "What extraction methods are used for the Organic Turmeric Extract?",
+        "answer": "We utilize organic-compliant extraction methods that preserve the natural curcuminoid profile while ensuring the absence of harmful solvents."
+      },
+      {
+        "id": 4,
+        "question": "How should the Organic Turmeric Extract be stored?",
+        "answer": "Store in a cool, dry place away from direct sunlight to maintain the stability and potency of the curcuminoids."
+      },
+      {
+        "id": 5,
+        "question": "Can your Organic Turmeric Extract be used in dietary supplements?",
+        "answer": "Absolutely. Our extract is ideal for use in dietary supplements, functional foods, and beverages aimed at supporting joint health, cognitive function, and overall wellness."
+      }
+    ]
+  },
+  {
+    "id": "organic-turmeric-extract-granules",
+    "name": "Organic Turmeric Extract Granules",
+    "slug": "organic-turmeric-extract-granules",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "95% Curcuminoids",
+    "latinName": "Curcuma longa",
+    "plantPart": "Rhizome",
+    "description": "Organic Turmeric Extract Granules offer all the anti-inflammatory benefits of our powder extract in a convenient granular form that improves flowability and reduces dusting during manufacturing. Derived from certified organic Curcuma longa rhizomes and standardized to contain 95% curcuminoids, these granules are produced using organic-compliant processing methods. The granular format is ideal for tablets, capsules, and sachets, providing improved manufacturing efficiency while maintaining the full spectrum of health-promoting compounds.",
+    "shortDescription": "Organic Turmeric granules with 95% curcuminoids",
+    "image": "/images/products/turmeric-extract.jpg",
+    "gallery": [
+      "/images/products/turmeric-extract-1.jpg",
+      "/images/products/turmeric-extract-2.jpg",
+      "/images/products/turmeric-extract-3.jpg"
+    ],
+    "applications": [
+      "Tablet formulations",
+      "Capsule products",
+      "Sachet formulations",
+      "Joint health supplements",
+      "Inflammatory response management"
+    ],
+    "benefits": [
+      "Enhanced flowability for manufacturing efficiency",
+      "Reduced dusting during production",
+      "Improved compression characteristics for tablets",
+      "Supports healthy inflammatory response",
+      "Provides powerful antioxidant protection"
+    ],
+    "specifications": {
+      "activeCompounds": "Curcuminoids",
+      "standardization": "95% curcuminoid content",
+      "form": "Granules",
+      "solubility": "Lipid soluble, dispersible in water with surfactants",
+      "appearance": "Uniform bright yellow to orange granules",
+      "testing": "HPLC analysis for curcuminoid content verification",
+      "heavyMetals": "Complies with USP limits",
+      "shelfLife": "3 years when properly stored",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Turmeric extract has been extensively studied for its anti-inflammatory and antioxidant properties. Clinical research demonstrates benefits for joint health, cognitive function, and inflammatory response management. Studies also indicate benefits for digestive wellness and liver support.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": false,
+    // "documents": {
+    //   "technicalDataSheet": "/documents/organic-turmeric-extract-granules-TDS.pdf",
+    //   "safetyDataSheet": "/documents/organic-turmeric-extract-granules-SDS.pdf",
+    //   "certificateOfAnalysis": "/documents/organic-turmeric-extract-granules-COA.pdf"
+    // },
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for cultivation, processing, and granulation",
+        "Check that granulation aids and binders meet organic standards",
+        "Request information about granule size distribution and flowability",
+        "Review compression characteristics for tablet applications",
+        "Assess color intensity and stability compared to powder form",
+        "Confirm absence of non-organic excipients in the granulation process"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Turmeric Extract Granules begin with the same high-quality organic extract as our powder form. The extract then undergoes a specialized organic-compliant granulation process using only permitted processing aids that meet organic standards. This process creates uniform granules with excellent flow properties while maintaining the integrity and potency of the curcuminoids. Each batch is carefully tested to ensure consistent particle size distribution and active compound content.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Our Organic Turmeric Extract Granules are packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the granules from light, moisture, and oxidation to maintain the stability of the curcuminoids throughout the product's shelf life.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our organic manufacturing facility features specialized granulation equipment for processing organic extracts with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the granulation process. Our quality control laboratory performs extensive testing on each batch, including verification of curcuminoid content, granule size distribution, and flow characteristics.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Turmeric Extract Granules maintain all the certifications of our powder extract, including USDA Organic and EU Organic. These certifications verify that our granulation process and all materials used comply with organic standards. We maintain detailed records of our organic supply chain and undergo regular inspections to ensure ongoing compliance with all applicable organic regulations.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We regularly showcase our Organic Turmeric Extract Granules alongside our powder extract at major nutraceutical and natural product exhibitions worldwide. Our technical experts present comparative data on the manufacturing advantages of granules versus powders and discuss specific applications with customers interested in premium organic anti-inflammatory ingredients with improved processing characteristics.",
+      "image": "/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What are the main advantages of granules over powder extract?",
+        "answer": "Granules improve flowability, reduce dusting, and offer better compression properties, making them ideal for tablet and capsule formulations."
+      },
+      {
+        "id": 2,
+        "question": "Is the granulation process organic certified?",
+        "answer": "Yes, the entire granulation process complies with organic standards and uses only organic-approved binders and processing aids."
+      },
+      {
+        "id": 3,
+        "question": "Can these granules be used in sachets or stick packs?",
+        "answer": "Yes, the uniform particle size and reduced dusting make them suitable for sachet and stick pack applications."
+      },
+      {
+        "id": 4,
+        "question": "Do the granules maintain the same curcuminoid content as the powder?",
+        "answer": "Yes, they are standardized to 95% curcuminoids and tested via HPLC to ensure potency is maintained."
+      },
+      {
+        "id": 5,
+        "question": "How should the product be stored?",
+        "answer": "Store in a cool, dry place away from direct sunlight to preserve the stability of curcuminoids."
+      }
+    ]
+  },
+  {
+    "id": "organic-fenugreek",
+    "name": "Organic Fenugreek Extract",
+    "slug": "organic-fenugreek-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "50% Saponins",
+    "latinName": "Trigonella foenum",
+    "plantPart": "Seed",
+    "description": "Organic Fenugreek Extract is derived from certified organic Trigonella foenum-graecum seeds, carefully harvested and processed to preserve its beneficial compounds. Our extract is standardized to contain 50% saponins and 4% trigonelline, the key bioactive components responsible for fenugreek's health benefits. Produced using organic-compliant extraction methods, this premium ingredient is ideal for blood sugar management formulations, digestive health supplements, and products supporting hormonal balance and lactation.",
+    "shortDescription": "Organic Fenugreek extract standardized for saponins and trigonelline",
+    "image": "/images/products/fenugreek-extract.jpg",
+    "gallery": [
+      "/images/products/fenugreek-extract-1.jpg",
+      "/images/products/fenugreek-extract-2.jpg",
+      "/images/products/fenugreek-extract-3.jpg"
+    ],
+    "applications": [
+      "Blood sugar management formulations",
+      "Digestive health supplements",
+      "Hormonal balance products",
+      "Lactation support supplements",
+      "Sports nutrition formulations"
+    ],
+    "benefits": [
+      "Supports healthy blood glucose levels",
+      "Promotes digestive comfort and function",
+      "Supports hormonal balance in men and women",
+      "Enhances lactation in nursing mothers",
+      "Supports healthy cholesterol levels"
+    ],
+    "specifications": {
+      "activeCompounds": "Saponins, Trigonelline",
+      "standardization": "50% saponins, 4% trigonelline",
+      "form": "Powder",
+      "solubility": "Partially water soluble",
+      "appearance": "Light tan to brown powder",
+      "testing": "HPLC analysis for saponin and trigonelline content verification",
+      "heavyMetals": "Complies with USP limits",
+      "shelfLife": "3 years when properly stored",
+      "storage": "Store in a cool, dry place away from moisture and sunlight"
+    },
+    "research": "Fenugreek extract has been studied for its benefits on blood glucose management and digestive health. Clinical research demonstrates improvements in glycemic control and insulin sensitivity. Studies also indicate benefits for lactation support, digestive comfort, and male hormonal health.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": false,
+    // "documents": {
+    //   "technicalDataSheet": "/documents/organic-fenugreek-extract-TDS.pdf",
+    //   "safetyDataSheet": "/documents/organic-fenugreek-extract-SDS.pdf",
+    //   "certificateOfAnalysis": "/documents/organic-fenugreek-extract-COA.pdf"
+    // },
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for cultivation and processing",
+        "Check extraction methods comply with organic standards",
+        "Request information about odor control in the extract",
+        "Review stability data in different formulation environments",
+        "Assess compatibility with other blood sugar management ingredients",
+        "Confirm absence of fillers and excipients"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Fenugreek Extract production begins with certified organic seeds grown under optimal conditions to maximize bioactive compound content. The seeds undergo a specialized organic-compliant extraction process that concentrates the saponins and trigonelline while minimizing the characteristic odor of fenugreek. Our proprietary standardization method achieves 50% saponin and 4% trigonelline content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Our Organic Fenugreek Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from moisture and oxidation to maintain the stability of the saponins and trigonelline throughout the product's shelf life.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our organic manufacturing facility features specialized equipment for processing organic fenugreek with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and standardization process. Our quality control laboratory performs extensive testing on each batch, including verification of saponin and trigonelline content and absence of contaminants.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Fenugreek Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and standardization processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We regularly showcase our Organic Fenugreek Extract at major nutraceutical events worldwide. Our technical experts present research on blood sugar management applications and the benefits of our odor-controlled extraction process. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic blood sugar management ingredients.",
+      "image": "/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What are the primary bioactives in this extract?",
+        "answer": "The extract is standardized to contain 50% saponins known for their metabolic and hormonal benefits."
+      },
+      {
+        "id": 2,
+        "question": "Is the extract suitable for use in capsules and tablets?",
+        "answer": "Yes, the fine powder is designed for easy encapsulation and tableting, and its odor has been minimized for consumer acceptance."
+      },
+      {
+        "id": 3,
+        "question": "Can this ingredient be used in lactation supplements?",
+        "answer": "Absolutely. Fenugreek is widely used to support milk production in nursing mothers and our organic extract maintains this benefit."
+      },
+      {
+        "id": 4,
+        "question": "Is this extract water soluble?",
+        "answer": "It is partially water soluble and disperses well in most formulations."
+      },
+      {
+        "id": 5,
+        "question": "How is the characteristic odor of fenugreek handled?",
+        "answer": "Our extraction method is designed to reduce the natural strong odor while maintaining bioactivity."
+      }
+    ]
+  },
+  {
+    "id": "organic-ginger",
+    "slug": "organic-ginger-extract",
+    "name": "Organic Ginger Extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "5%, 10% Gingerols",
+    "latinName": "Zingiber officinale",
+    "plantPart": "Rhizome",
+    "description": "Organic Ginger Extract is derived from certified organic Zingiber officinale rhizomes, carefully cultivated and processed to preserve its bioactive compounds. Our extract is standardized to contain either 5% or 10% gingerols, the key compounds responsible for ginger's digestive and anti-inflammatory benefits. Produced using organic-compliant extraction methods, this premium ingredient is ideal for digestive comfort formulations, nausea relief products, and supplements supporting healthy inflammatory response.",
+    "shortDescription": "Organic Ginger extract with standardized gingerol content",
+    "image": "/images/products/ginger-extract.jpg",
+    "gallery": [
+      "/images/products/ginger-extract-1.jpg",
+      "/images/products/ginger-extract-2.jpg",
+      "/images/products/ginger-extract-3.jpg"
+    ],
+    "applications": [
+      "Digestive comfort formulations",
+      "Nausea relief products",
+      "Morning sickness supplements",
+      "Inflammatory response management",
+      "Joint health formulations"
+    ],
+    "benefits": [
+      "Supports digestive comfort and function",
+      "Helps relieve nausea and motion sickness",
+      "Promotes healthy inflammatory response",
+      "Supports joint comfort and mobility",
+      "Provides warming thermogenic effect"
+    ],
+    "specifications": {
+      "activeCompounds": "Gingerols",
+      "standardization": "Available in 5% and 10% gingerol concentrations",
+      "form": "Powder",
+      "solubility": "Partially water soluble",
+      "appearance": "Light tan to yellowish powder",
+      "testing": "HPLC analysis for gingerol content verification",
+      "heavyMetals": "Complies with USP <231> / <233>",
+      "shelfLife": "24 months when properly stored",
+      "storage": "Store in a cool, dry place away from direct sunlight in tightly sealed containers"
+    },
+    "research": "Ginger extract has been extensively studied for its digestive and anti-inflammatory properties. Clinical research demonstrates benefits for digestive comfort, nausea relief, and inflammatory response management. Studies also indicate benefits for joint health and metabolic wellness.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": false,
+    // "documents": {
+    //   "Technical Data Sheet": "/documents/organic-ginger-tds.pdf",
+    //   "Safety Data Sheet": "/documents/organic-ginger-sds.pdf",
+    //   "Certificate of Analysis": "/documents/organic-ginger-coa.pdf"
+    // },
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for cultivation and processing",
+        "Check extraction methods comply with organic standards",
+        "Request information about gingerol to shogaol conversion rate",
+        "Review stability data in different formulation environments",
+        "Assess flavor profile and potential encapsulation needs",
+        "Confirm absence of fillers and excipients"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Ginger Extract production begins with certified organic ginger rhizomes grown under optimal conditions to maximize gingerol content. The rhizomes undergo a specialized organic-compliant extraction process that concentrates the gingerols while preserving their natural ratios. Our proprietary standardization method achieves either 5% or 10% gingerol content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Our Organic Ginger Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from moisture and oxidation to maintain the stability of the gingerols throughout the product's shelf life.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our organic manufacturing facility features specialized equipment for processing organic ginger with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and standardization process. Our quality control laboratory performs extensive testing on each batch, including verification of gingerol content and absence of contaminants.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Ginger Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and standardization processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We regularly showcase our Organic Ginger Extract at major nutraceutical events worldwide. Our technical experts present research on digestive health applications and the benefits of our sustainable organic cultivation practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic digestive health ingredients.",
+      "image": "/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What is the difference between 5% and 10% gingerol extract?",
+        "answer": "The main difference lies in the concentration of gingerols. 10% provides a higher potency for applications requiring stronger anti-inflammatory or digestive effects, while 5% is suitable for general use."
+      },
+      {
+        "id": 2,
+        "question": "Is this product suitable for use in beverages?",
+        "answer": "Yes, it is partially water-soluble and can be used in certain beverage formats, but testing for stability and flavor masking is recommended."
+      },
+      {
+        "id": 3,
+        "question": "Does the extract retain the pungency of fresh ginger?",
+        "answer": "The extract retains a mild flavor and aroma profile of ginger. For applications requiring minimal taste impact, encapsulation is advised."
+      }
+    ]
+  },
+  {
+    "id": "organic-gymnema",
+    "name": "Organic Gymnema Sylvestre Extract",
+    "slug": "organic-gymnema-sylvestre-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "25%, 75% Gymnemic Acids",
+    "latinName": "Gymnema sylvestre",
+    "plantPart": "Leaf",
+    "description": "Organic Gymnema Sylvestre Extract is derived from certified organic Gymnema sylvestre leaves, carefully harvested and processed to preserve its blood sugar management properties. Our extract is standardized to contain either 25% or 75% gymnemic acids, the key bioactive compounds responsible for gymnema's ability to support healthy glucose metabolism. Produced using organic-compliant extraction methods, this premium ingredient is ideal for blood sugar management formulations, weight management products, and supplements supporting metabolic wellness.",
+    "shortDescription": "Organic Gymnema extract with standardized gymnemic acid content",
+    "image": "/images/products/gymnema-sylvestre-extract.jpg",
+    "gallery": [
+      "/images/products/gymnema-sylvestre-extract-1.jpg",
+      "/images/products/gymnema-sylvestre-extract-2.jpg",
+      "/images/products/gymnema-sylvestre-extract-3.jpg"
+    ],
+    "applications": [
+      "Blood sugar management formulations",
+      "Weight management products",
+      "Metabolic wellness supplements",
+      "Sugar craving reduction formulations",
+      "Comprehensive diabetes support"
+    ],
+    "benefits": [
+      "Supports healthy blood glucose levels",
+      "Promotes insulin sensitivity and function",
+      "Helps reduce sugar cravings",
+      "Supports weight management goals",
+      "Promotes pancreatic beta-cell function"
+    ],
+    "specifications": {
+      "activeCompounds": "Gymnemic Acids",
+      "standardization": "Available in 25% and 75% gymnemic acid concentrations",
+      "form": "Powder",
+      "solubility": "Partially water soluble",
+      "appearance": "Light to medium brown powder",
+      "testing": "HPLC analysis for gymnemic acid content verification",
+      "heavyMetals": "<10 ppm",
+      "shelfLife": "3 years when properly stored",
+      "storage": "Store in a cool, dry place away from sunlight and moisture"
+    },
+    "research": "Gymnema sylvestre extract has been studied extensively for its effects on blood glucose management. Clinical research demonstrates benefits for glycemic control, insulin sensitivity, and reduced sugar cravings. Studies also indicate potential benefits for weight management and metabolic health.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": false,
+    // "documents": {
+    //   "technicalDataSheet": "/documents/gymnema-tds.pdf",
+    //   "safetyDataSheet": "/documents/gymnema-sds.pdf",
+    //   "certificateOfAnalysis": "/documents/gymnema-coa.pdf"
+    // },
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for cultivation and processing",
+        "Check extraction methods comply with organic standards",
+        "Request information about gymnemic acid profile and characterization",
+        "Review stability data in different formulation environments",
+        "Assess compatibility with other blood sugar management ingredients",
+        "Confirm absence of fillers and excipients"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Gymnema Sylvestre Extract production begins with certified organic leaves grown under optimal conditions to maximize gymnemic acid content. The leaves undergo a specialized organic-compliant extraction process that concentrates the gymnemic acids while preserving their natural ratios. Our proprietary standardization method achieves either 25% or 75% gymnemic acid content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Our Organic Gymnema Sylvestre Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from moisture and oxidation to maintain the stability of the gymnemic acids throughout the product's shelf life.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our organic manufacturing facility features specialized equipment for processing organic gymnema with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and standardization process. Our quality control laboratory performs extensive testing on each batch, including verification of gymnemic acid content and absence of contaminants.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Gymnema Sylvestre Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and standardization processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We regularly showcase our Organic Gymnema Sylvestre Extract at major nutraceutical events worldwide. Our technical experts present research on blood sugar management applications and the benefits of our sustainable organic cultivation practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic blood sugar management ingredients.",
+      "image": "/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What is the standardization level of gymnemic acids in your extract?",
+        "answer": "Our Organic Gymnema Sylvestre Extract is available in 25% and 75% gymnemic acid concentrations."
+      },
+      {
+        "id": 2,
+        "question": "Is this extract suitable for diabetic support formulations?",
+        "answer": "Yes, it is widely used in supplements supporting blood sugar management and insulin sensitivity."
+      },
+      {
+        "id": 3,
+        "question": "Is your Gymnema Extract certified organic?",
+        "answer": "Yes, it is certified under USDA Organic, EU Organic, and other global standards."
+      },
+      {
+        "id": 4,
+        "question": "Does the product contain any fillers or excipients?",
+        "answer": "No, our extract is 100% pure and free from fillers, excipients, or synthetic additives."
+      }
+    ]
+  },
+  {
+    "id": "organic-mucuna",
+    "name": "Organic Mucuna Extract",
+    "slug": "organic-mucuna-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "15%, 40%, 98% L-Dopa",
+    "latinName": "Mucuna pruriens",
+    "plantPart": "Seed",
+    "description": "Organic Mucuna Extract is derived from certified organic Mucuna pruriens seeds, carefully harvested and processed to preserve its neurotransmitter-supporting properties. Our extract is standardized to contain 15%, 40%, or 98% L-Dopa (levodopa), the key bioactive compound responsible for mucuna's effects on dopamine levels and hormonal balance. Produced using organic-compliant extraction methods, this premium ingredient is ideal for mood support formulations, hormonal balance products, and supplements supporting cognitive function.",
+    "shortDescription": "Organic Mucuna extract with standardized L-Dopa content",
+    "image": "/images/products/mucuna-extract.jpg",
+    "gallery": [
+      "/images/products/mucuna-extract-1.jpg",
+      "/images/products/mucuna-extract-2.jpg",
+      "/images/products/mucuna-extract-3.jpg"
+    ],
+    "applications": [
+      "Mood support formulations",
+      "Hormonal balance products",
+      "Cognitive function supplements",
+      "Stress management formulations",
+      "Sleep support supplements"
+    ],
+    "benefits": [
+      "Supports healthy dopamine levels",
+      "Promotes balanced mood and emotional wellbeing",
+      "Supports hormonal balance in men and women",
+      "Helps manage stress and promotes relaxation",
+      "Supports healthy sleep patterns"
+    ],
+    "specifications": {
+      "activeCompounds": "L-Dopa (Levodopa)",
+      "standardization": "Available in 15%, 40%, and 98% L-Dopa concentrations",
+      "form": "Powder",
+      "solubility": "Partially water soluble",
+      "appearance": "Light to medium brown powder",
+      "testing": "HPLC analysis for L-Dopa content verification",
+      "heavyMetals": "<10 ppm total heavy metals",
+      "shelfLife": "24 months when properly stored",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Mucuna pruriens extract has been studied for its effects on dopamine levels and hormonal balance. Research indicates benefits for mood support, stress management, and reproductive health. Studies also suggest potential applications for cognitive function and sleep quality.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": false,
+    // "documents": {
+    //   "technicalDataSheet": "/documents/organic-mucuna-tds.pdf",
+    //   "safetyDataSheet": "/documents/organic-mucuna-sds.pdf",
+    //   "certificateOfAnalysis": "/documents/organic-mucuna-coa.pdf"
+    // },
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for cultivation and processing",
+        "Check extraction methods comply with organic standards",
+        "Request information about L-Dopa stability in different formulations",
+        "Review storage requirements for different L-Dopa concentrations",
+        "Assess compatibility with other mood support ingredients",
+        "Confirm absence of fillers and excipients"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Mucuna Extract production begins with certified organic seeds grown under optimal conditions to maximize L-Dopa content. The seeds undergo a specialized organic-compliant extraction process that concentrates the L-Dopa while removing antinutrients. Our proprietary standardization method achieves 15%, 40%, or 98% L-Dopa content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Our Organic Mucuna Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from light, moisture, and oxidation to maintain the stability of the L-Dopa throughout the product's shelf life.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our organic manufacturing facility features specialized equipment for processing organic mucuna with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and standardization process. Our quality control laboratory performs extensive testing on each batch, including verification of L-Dopa content and absence of contaminants.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Mucuna Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and standardization processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We regularly showcase our Organic Mucuna Extract at major nutraceutical events worldwide. Our technical experts present research on mood support applications and the benefits of our sustainable organic cultivation practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic mood and hormonal support ingredients.",
+      "image": "/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What is the L-Dopa content in your Organic Mucuna Extract?",
+        "answer": "We offer Organic Mucuna Extract standardized to 15%, 40%, and 98% L-Dopa to suit different formulation needs."
+      },
+      {
+        "id": 2,
+        "question": "Is this product suitable for vegetarian and vegan formulations?",
+        "answer": "Yes, our Organic Mucuna Extract is 100% plant-based and suitable for both vegetarian and vegan applications."
+      },
+      {
+        "id": 3,
+        "question": "How should this extract be stored?",
+        "answer": "Store in a cool, dry place away from moisture and sunlight to maintain product stability and efficacy."
+      },
+      {
+        "id": 4,
+        "question": "What testing is performed on each batch?",
+        "answer": "Each batch is tested using HPLC to verify L-Dopa content and screened for heavy metals, microbial load, and residual solvents."
+      }
+    ]
+  },
+  {
+    "id": "organic-tulsi",
+    "name": "Organic Ocimum Sanctum Extract",
+    "slug": "organic-ocimum-sanctum-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "2% Ursolic Acid, 2.5% Eugenol",
+    "latinName": "Ocimum sanctum",
+    "plantPart": "Leaf",
+    "description": "Organic Ocimum Sanctum Extract, also known as Holy Basil or Tulsi, is derived from certified organic Ocimum sanctum leaves, carefully harvested and processed to preserve its adaptogenic properties. Our extract is standardized to contain 2% ursolic acid and 2.5% eugenol, key bioactive compounds responsible for tulsi's stress-relieving and immune-supporting benefits. Produced using organic-compliant extraction methods, this premium ingredient is ideal for stress management formulations, immune support products, and supplements promoting overall wellness.",
+    "shortDescription": "Organic Holy Basil extract with standardized ursolic acid and eugenol",
+    "image": "/images/products/ocimum-sanctum-extract.jpg",
+    "gallery": [
+      "/images/products/ocimum-sanctum-extract.jpg",
+      "/images/products/ocimum-sanctum-extract.jpg",
+      "/images/products/ocimum-sanctum-extract.jpg"
+    ],
+    "applications": [
+      "Stress management formulations",
+      "Immune support products",
+      "Respiratory health supplements",
+      "Cognitive function formulations",
+      "Adaptogenic blends"
+    ],
+    "benefits": [
+      "Supports healthy stress response and adrenal function",
+      "Promotes immune system balance and function",
+      "Supports respiratory health and comfort",
+      "Enhances cognitive function and mental clarity",
+      "Provides adaptogenic support for overall wellness"
+    ],
+    "specifications": {
+      "activeCompounds": "Ursolic Acid, Eugenol",
+      "standardization": "2% ursolic acid, 2.5% eugenol",
+      "form": "Powder",
+      "solubility": "Partially water soluble",
+      "appearance": "Green to greenish-brown powder",
+      "testing": "HPLC analysis for ursolic acid and eugenol content verification",
+      "heavyMetals": "<10 ppm total heavy metals (As, Pb, Cd, Hg)",
+      "shelfLife": "24 months when stored in a cool, dry place in original packaging",
+      "storage": "Store in a tightly sealed container, in a cool, dry area away from direct sunlight"
+    },
+    "research": "Ocimum sanctum extract has been studied for its adaptogenic and immune-modulating properties. Research indicates benefits for stress management, immune function, and cognitive performance. Studies also suggest applications for respiratory health and metabolic wellness.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": false,
+    // "documents": {
+    //   "technicalDataSheet": "/documents/organic-tulsi-tds.pdf",
+    //   "safetyDataSheet": "/documents/organic-tulsi-sds.pdf",
+    //   "certificateOfAnalysis": "/documents/organic-tulsi-coa.pdf"
+    // },
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification for cultivation and processing",
+        "Check extraction methods comply with organic standards",
+        "Request information about ursolic acid and eugenol stability",
+        "Review aromatic profile and potential applications",
+        "Assess compatibility with other adaptogenic ingredients",
+        "Confirm absence of fillers and excipients"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Ocimum Sanctum Extract production begins with certified organic leaves grown under optimal conditions to maximize bioactive compound content. The leaves undergo a specialized organic-compliant extraction process that concentrates the ursolic acid and eugenol while preserving their therapeutic properties. Our proprietary standardization method ensures consistency in the active compound content across different batches. Each batch undergoes rigorous testing to verify active compound content and ensure product purity.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Our Organic Ocimum Sanctum Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with organic-compliant polyethylene liners to protect the extract from light and moisture. We also offer 1kg and 5kg compostable or recyclable packaging options. All packaging materials are food-grade and comply with organic product requirements to preserve quality and freshness.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our organic processing facility is certified to handle the extraction of Ocimum Sanctum in compliance with the highest organic standards. The facility is equipped with state-of-the-art equipment for extracting the bioactive compounds from the leaves while preventing cross-contamination. Stringent quality control protocols ensure that every batch meets our strict quality standards for purity, consistency, and organic compliance. Our factory undergoes regular audits by organic certifying bodies to ensure ongoing adherence to these standards.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Our Organic Ocimum Sanctum Extract is certified with USDA Organic and EU Organic standards, ensuring the highest quality organic product. Additionally, our facility holds certifications for FSSC 22000 for food safety and ISO 9001:2015 for quality management systems. These certifications demonstrate our commitment to organic integrity, safety, and quality, and we undergo regular audits to verify continued compliance.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "We showcase our Organic Ocimum Sanctum Extract at leading global nutraceutical trade shows and organic product exhibitions. Our experts attend events such as Natural Products Expo West, Biofach, and Vitafoods Europe, where they provide insights into the health benefits of tulsi and offer formulation guidance to companies in the wellness and nutraceutical industries.",
+      "image": "/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What is the recommended dosage of Organic Ocimum Sanctum Extract?",
+        "answer": "The recommended dosage varies depending on the specific formulation, but generally ranges from 500mg to 1g per day. It is advisable to follow the dosage instructions provided by the formulator or as per the guidance of a healthcare professional."
+      },
+      {
+        "id": 2,
+        "question": "Is the Organic Ocimum Sanctum Extract suitable for vegans?",
+        "answer": "Yes, our Organic Ocimum Sanctum Extract is suitable for vegans as it is derived from plant-based sources and is certified organic with no animal-derived ingredients."
+      },
+      {
+        "id": 3,
+        "question": "How should Organic Ocimum Sanctum Extract be stored?",
+        "answer": "It is recommended to store Organic Ocimum Sanctum Extract in a cool, dry place away from direct sunlight and moisture. Packaging should remain sealed to maintain product integrity and freshness."
+      },
+      {
+        "id": 4,
+        "question": "What testing methods are used to verify the active compounds?",
+        "answer": "HPLC (High-Performance Liquid Chromatography) is used to verify the presence and concentration of ursolic acid and eugenol in our extract."
+      }
+    ]
+  },
+  {
+    "id": "organic-piper-longum",
+    "name": "Organic Piper longum Extract",
+    "slug": "organic-piper-longum-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "5%,95% Piperine",
+    "latinName": "Piper longum",
+    "plantPart": "Fruit",
+    "description": "Organic Piper longum Extract, derived from organically cultivated long pepper fruits, is a potent bioavailability enhancer standardized to contain 1% piperine. Our extract is processed using certified organic methods that preserve the fruit's natural bioactive compounds. Available in powder and granule forms, this versatile ingredient enhances the absorption of nutrients and botanical actives in supplement formulations. The gentle extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium nutraceuticals, Ayurvedic formulations, and digestive health products.",
+    "shortDescription": "Premium organic long pepper extract standardized for piperine content",
+    "image": "/images/products/piper-longum-extract.jpg",
+    "gallery": [
+      "/images/products/piper-longum-extract-1.jpg",
+      "/images/products/piper-longum-extract-2.jpg",
+      "/images/products/piper-longum-extract-3.jpg"
+    ],
+    "applications": [
+      "Bioavailability enhancement in supplements",
+      "Digestive health formulations",
+      "Ayurvedic blends",
+      "Metabolism support products",
+      "Functional food applications"
+    ],
+    "benefits": [
+      "Natural bioavailability enhancer for nutrients and botanicals",
+      "Supports healthy digestion and nutrient absorption",
+      "Promotes gastrointestinal wellness",
+      "Provides thermogenic properties for metabolism support",
+      "Works synergistically with other botanical extracts"
+    ],
+    "specifications": {
+      "activeCompounds": "Piperine, Piplartine",
+      "standardization": "5%,95% Piperine",
+      "form": "Powder, Granules",
+      "solubility": "Dispersible in water, soluble in ethanol",
+      "appearance": "Fine dark brown powder",
+      "testing": "HPLC methods for piperine quantification",
+      "heavyMetals": "<10 ppm total heavy metals (As, Pb, Cd, Hg)",
+      "shelfLife": "24 months when stored in original packaging in a cool, dry place",
+      "storage": "Store in airtight containers away from heat, moisture, and direct sunlight"
+    },
+    "research": "Piper longum extract has been studied extensively for its bioavailability-enhancing properties, with research showing its ability to increase absorption of various nutrients and botanical compounds. Studies indicate it may enhance absorption by up to 30–200% for certain substances, making it valuable in formulations with poorly absorbed ingredients.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": false,
+    // "documents": {
+    //   "technicalDataSheet": "/documents/piper-tds.pdf",
+    //   "safetyDataSheet": "/documents/piper-sds.pdf",
+    //   "certificateOfAnalysis": "/documents/piper-coa.pdf"
+    // },
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification and traceability documentation",
+        "Ensure consistent standardization of piperine content",
+        "Check testing protocols for pesticide residue and microbial contaminants",
+        "Evaluate sustainability of organic farming practices",
+        "Request technical data on bioavailability enhancement properties",
+        "Assess stability in various formulation environments"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Piper longum Extract is produced using certified organic fruits harvested at optimal ripeness. After rigorous quality inspection, the fruits undergo gentle cleaning followed by our specialized extraction process that maximizes piperine retention while meeting all organic processing standards. Our state-of-the-art facility uses temperature-controlled extraction to preserve heat-sensitive compounds, followed by multiple filtration steps before careful drying and standardization to precise piperine concentrations.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Star Hi Herbs provides Organic Piper longum Extract in various packaging options designed to preserve potency. Our standard packaging includes 20kg fiber drums with food-grade polyethylene liners to protect the extract from moisture and oxidation. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with nitrogen flushing. All packaging materials comply with organic regulations and are designed to maintain product stability during shipping and storage. Custom packaging solutions are available upon request.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our dedicated organic processing facility features specialized equipment for processing high-piperine botanicals like Piper longum. The facility operates under strict organic protocols alongside GMP conditions, with designated areas for organic materials to prevent cross-contamination. We maintain rigorous cleaning validation protocols between production runs and conduct regular environmental monitoring to ensure organic integrity throughout the production process.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Piper longum Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We undergo regular audits by certification bodies and maintain detailed documentation of our organic processing methods. These certifications reflect our commitment to authentic organic ingredients and quality assurance.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs regularly showcases our organic botanical extracts, including Piper longum, at major natural product exhibitions worldwide. We participate in specialized Ayurvedic and bioavailability-focused symposiums in addition to major trade shows like Vitafoods Europe and Supply Side West. Our technical experts present educational sessions on bioavailability enhancement strategies using organic botanicals at these events, helping formulators understand optimal applications for our Piper longum extract.",
+      "image": "/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What is the main use of Organic Piper longum Extract?",
+        "answer": "Its primary use is to enhance the bioavailability of other nutrients and botanical actives in formulations, making it a synergistic component in supplements."
+      },
+      {
+        "id": 2,
+        "question": "Is this extract suitable for vegans and vegetarians?",
+        "answer": "Yes, our Organic Piper longum Extract is 100% plant-based and suitable for both vegans and vegetarians."
+      },
+      {
+        "id": 3,
+        "question": "How should this extract be stored?",
+        "answer": "Store in a tightly sealed container, in a cool, dry place away from direct sunlight to maintain its stability and potency."
+      },
+      {
+        "id": 4,
+        "question": "Can this extract be used in functional foods?",
+        "answer": "Yes, it is suitable for use in functional food applications, especially where bioavailability enhancement is desired."
+      }
+    ]
+  },
+  {
+    "id": "organic-tribulus",
+    "name": "Organic Tribulus Terrestris Extract",
+    "slug": "organic-tribulus-terrestris-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "40% Saponins",
+    "latinName": "Tribulus terrestris",
+    "plantPart": "Fruit",
+    "description": "Organic Tribulus Terrestris Extract, derived from organically cultivated fruits, is a powerful botanical standardized to contain 40% saponins and 20% protodioscin. Our extract is processed using certified organic methods that preserve the plant's bioactive compounds. Available in powder and granule forms, this versatile ingredient supports hormonal balance, vitality, and sports performance. The careful extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium nutraceuticals, sports nutrition products, and wellness formulations.",
+    "shortDescription": "Premium organic Tribulus extract standardized for saponin and protodioscin content",
+    "image": "/images/products/tribulus-terrestris-3.jpg",
+    "gallery": [
+      "/images/products/tribulus-terrestris.jpg",
+      "/images/products/tribulus-terrestris-1.jpg",
+      "/images/products/tribulus-terrestris-2.jpg"
+    ],
+    "applications": [
+      "Sports nutrition formulations",
+      "Men's health supplements",
+      "Vitality and energy products",
+      "Hormone balance formulations",
+      "Performance enhancement blends"
+    ],
+    "benefits": [
+      "Supports healthy testosterone levels within normal ranges",
+      "Promotes athletic performance and recovery",
+      "Enhances vitality and energy",
+      "Supports reproductive health",
+      "Provides adaptogenic properties for stress management"
+    ],
+    "specifications": {
+      "activeCompounds": "Saponins",
+      "standardization": "40% Saponins",
+      "form": "Powder, Granules",
+      "solubility": "Partially water dispersible, soluble in ethanol",
+      "appearance": "Fine yellowish-brown powder",
+      "testing": "HPLC methods for saponin and protodioscin quantification",
+      "heavyMetals": "<10 ppm (As, Pb, Cd, Hg) - ICP-MS",
+      "shelfLife": "36 months when stored in a cool, dry place",
+      "storage": "Store in airtight containers away from direct sunlight and moisture"
+    },
+    "research": "Tribulus terrestris extract has been studied for its potential to support healthy hormone levels, with research suggesting benefits for athletic performance and reproductive health. Clinical studies indicate its saponin compounds may help maintain testosterone within normal ranges and support overall vitality.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": true,
+    // "documents": {
+    //   "Technical Data Sheet": "/docs/tribulus-tds.pdf",
+    //   "Safety Data Sheet": "/docs/tribulus-sds.pdf",
+    //   "Certificate of Analysis": "/docs/tribulus-coa.pdf"
+    // },
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification and cultivation practices",
+        "Ensure consistent standardization of both saponins and protodioscin",
+        "Check testing protocols for heavy metals and microbial contaminants",
+        "Evaluate extraction methods for preserving bioactive compounds",
+        "Request sports performance application data",
+        "Assess stability studies and shelf-life documentation"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Tribulus Terrestris Extract is produced using certified organic fruits harvested at peak potency. After careful selection, the fruits undergo our specialized extraction process that maximizes saponin and protodioscin retention while adhering to organic processing standards. Our facility uses proprietary extraction technology specifically optimized for saponin-rich botanicals, followed by multiple purification steps before careful drying and standardization to precise active compound concentrations.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Star Hi Herbs provides Organic Tribulus Terrestris Extract in various packaging options designed to preserve potency. Our standard packaging includes 25kg fiber drums with double food-grade polyethylene liners to protect the saponin-rich extract from moisture and oxidation. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with nitrogen flushing. All packaging materials comply with organic regulations and are designed to maintain product stability during shipping and storage.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our dedicated organic processing facility features specialized equipment for saponin extraction and standardization. The facility operates under strict organic protocols alongside GMP conditions, with designated areas for organic materials to prevent cross-contamination. Our analytical laboratory performs ongoing testing for saponin and protodioscin content throughout the production process to ensure consistent standardization in every batch.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Tribulus Terrestris Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We undergo regular audits specific to saponin-containing botanicals to ensure both safety and efficacy, with particular attention to standardization consistency. These certifications reflect our commitment to authentic organic ingredients and quality assurance.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs regularly showcases our organic Tribulus Terrestris Extract at major sports nutrition and natural product exhibitions worldwide. We participate in specialized fitness and performance-focused trade shows in addition to major events like Supply Side West and Vitafoods Europe. Our sports nutrition specialists provide formulation guidance and technical support for optimizing the use of our organic Tribulus extract in various performance and vitality applications.",
+      "image": "/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "Is your Tribulus Terrestris extract suitable for vegan supplements?",
+        "answer": "Yes, our organic Tribulus extract is 100% plant-based, vegan, and free from animal-derived ingredients."
+      },
+      {
+        "id": 2,
+        "question": "What makes your Tribulus extract organic?",
+        "answer": "Our extract is made from organically cultivated fruits processed in a certified organic facility using organic-compliant solvents and practices."
+      },
+      {
+        "id": 3,
+        "question": "Can it be used in sports formulations?",
+        "answer": "Absolutely. It is ideal for sports and performance products aimed at promoting testosterone levels, energy, and recovery."
+      },
+      {
+        "id": 4,
+        "question": "What is the shelf life of this product?",
+        "answer": "It has a shelf life of 36 months under recommended storage conditions."
+      },
+      {
+        "id": 5,
+        "question": "Do you provide third-party test reports?",
+        "answer": "Yes, we provide third-party certified COAs, safety data, and technical documentation with every batch."
+      }
+    ]
+  },
+  {
+    "id": "organic-centella",
+    "name": "Organic Centella asiatica Extract",
+    "slug": "organic-centella-asiatica-extract",
+    "categoryId": "organic-extracts",
+    "categorySlug": "organic-extracts",
+    "categoryName": "Organic Extracts",
+    "standardization": "10%,20% Saponins",
+    "latinName": "Centella asiatica",
+    "plantPart": "Aerial parts",
+    "description": "Organic Centella asiatica Extract, derived from organically cultivated Gotu Kola plants, is a premium botanical standardized to contain 10% triterpenes and 40% asiaticoside. Our extract is processed using certified organic methods that preserve the plant's bioactive compounds. Available in powder and granule forms, this versatile ingredient supports cognitive function, skin health, and vascular integrity. The careful extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium nutraceuticals, cosmeceuticals, and traditional wellness formulations.",
+    "shortDescription": "Premium organic Gotu Kola extract standardized for triterpenes and asiaticoside content",
+    "image": "/images/products/centella-extract.jpg",
+    "gallery": [
+      "/images/products/centella-extract-1.jpg",
+      "/images/products/centella-extract-2.jpg",
+      "/images/products/centella-extract-3.jpg"
+    ],
+    "applications": [
+      "Skin health formulations",
+      "Cognitive support supplements",
+      "Vascular health products",
+      "Beauty-from-within supplements",
+      "Traditional wellness blends"
+    ],
+    "benefits": [
+      "Supports collagen synthesis and skin elasticity",
+      "Promotes cognitive function and mental clarity",
+      "Enhances vascular health and circulation",
+      "Provides adaptogenic properties for stress management",
+      "Supports wound healing and tissue repair"
+    ],
+    "specifications": {
+      "activeCompounds": "Triterpenes, Asiaticoside, Madecassoside",
+      "standardization": "10% Saponins",
+      "form": "Powder, Granules",
+      "solubility": "Partially water dispersible, soluble in ethanol",
+      "appearance": "Fine greenish-brown powder",
+      "testing": "HPLC methods for triterpenes and asiaticoside quantification",
+      "heavyMetals": "<10 ppm (complies with USP limits)",
+      "shelfLife": "36 months when stored in a cool, dry place away from sunlight",
+      "storage": "Store in airtight containers in a dry, well-ventilated area below 25°C"
+    },
+    "research": "Centella asiatica extract has been extensively studied for its dermatological and neurological benefits, with research demonstrating positive effects on collagen synthesis, wound healing, and cognitive function. Clinical studies suggest its triterpenes may support skin elasticity and vascular health while also offering neuroprotective properties.",
+    "certifications": [
+      "USDA Organic",
+      "EU Organic",
+      "FSSC 22000",
+      "ISO 9001:2015",
+      "Kosher",
+      "Halal"
+    ],
+    "featured": true,
+    // "documents": {
+    //   "technicalDataSheet": "/docs/centella-tds.pdf",
+    //   "safetyDataSheet": "/docs/centella-sds.pdf",
+    //   "certificateOfAnalysis": "/docs/centella-coa.pdf"
+    // },
+    "supplierInfo": {
+      "points": [
+        "Verify organic certification and sustainable harvesting practices",
+        "Ensure consistent standardization of both triterpenes and asiaticoside",
+        "Check testing protocols for pesticide residue and heavy metals",
+        "Evaluate stability in cosmetic and supplement applications",
+        "Request clinical studies on cognitive and dermatological benefits",
+        "Assess water solubility for beverage applications"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Organic Centella asiatica Extract is produced from carefully selected plants grown in certified organic conditions. After harvest, the aerial parts undergo gentle drying before our specialized low-temperature extraction process that maximizes retention of sensitive triterpenes and glycosides. Our facility uses proprietary technology to ensure optimal extraction of bioactive compounds while adhering to organic processing standards, followed by careful filtration, drying, and standardization.",
+      "image": "/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Star Hi Herbs provides Organic Centella asiatica Extract in various packaging options designed to preserve its sensitive compounds. Our standard packaging includes 20kg fiber drums with food-grade polyethylene liners and oxygen absorbers to protect the extract from moisture and oxidation. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with nitrogen flushing. All packaging materials comply with organic regulations and are designed to maintain triterpene stability during shipping and storage.",
+      "image": "/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our dedicated organic processing facility features specialized equipment for triterpene extraction and standardization. The facility operates under strict temperature and humidity controls to preserve heat-sensitive compounds, with designated areas for organic materials to prevent cross-contamination. Our analytical laboratory performs ongoing testing for triterpene and asiaticoside content throughout the production process to ensure consistent standardization in every batch.",
+      "image": "/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Centella asiatica Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. For cosmetic applications, we also maintain COSMOS organic certification. These certifications reflect our commitment to authentic organic ingredients and quality assurance across multiple application categories.",
+      "image": "/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs regularly showcases our organic Centella asiatica Extract at major cosmetic, nutraceutical and natural product exhibitions worldwide. We participate in specialized beauty and brain health symposiums in addition to major trade shows like in-cosmetics Global and Supply Side West. Our technical experts provide formulation guidance for both topical and internal applications, helping formulators maximize the benefits of our Centella extract across diverse product categories.",
+      "image": "/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "Is your Centella asiatica Extract suitable for topical formulations?",
+        "answer": "Yes, our extract is suitable for both topical and oral applications and complies with cosmetic-grade standards."
+      },
+      {
+        "id": 2,
+        "question": "What is the asiaticoside content in your standardized extract?",
+        "answer": "Our extract is standardized to contain 40% asiaticoside and 10% total triterpenes."
+      },
+      {
+        "id": 3,
+        "question": "Can it be used in liquid formulations?",
+        "answer": "Yes, it is partially water-dispersible and soluble in ethanol, making it suitable for liquid applications with proper formulation."
+      },
+      {
+        "id": 4,
+        "question": "Does this extract support skin regeneration?",
+        "answer": "Yes, Centella asiatica is clinically known to support skin regeneration, wound healing, and collagen synthesis."
+      }
+    ]
+  },
+
   {
     id: 'turmeric',
     slug: 'turmeric-extract',
