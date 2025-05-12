@@ -166,7 +166,7 @@ export default function StorgIndicationsChart({ products }: StorgIndicationsChar
                   return (
                     <td key={`${product.id}-${indication}`} className="p-0 border border-gray-200 text-center">
                       {hasIndication ? (
-                        <div className={`w-full h-16 ${productColors[product.id] || 'bg-gray-200'}`}></div>
+                        <div className={`w-full h-16 ${productColors[product.id as string] || 'bg-gray-200'}`}></div>
                       ) : (
                         <div className="w-full h-16"></div>
                       )}

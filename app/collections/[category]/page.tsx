@@ -107,7 +107,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
                 if (!mainProduct || !mainProduct.childProducts) return null;
 
                 const childProducts = products.filter(p =>
-                  mainProduct.childProducts.includes(p.id)
+                  mainProduct.childProducts?.includes(p.id as string)
                 );
 
                 return (

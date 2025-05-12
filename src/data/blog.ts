@@ -1385,7 +1385,7 @@ export function getBlogPostsByTag(tagSlug: string): BlogPost[] {
 
   // Convert tag.id to number to ensure type safety
   const tagId = Number(tag.id);
-  return blogPosts.filter(post => post.tagIds.includes(tagId));
+  return blogPosts.filter(post => post.tagIds.includes(tagId as number));
 }
 
 /**

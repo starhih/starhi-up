@@ -5,13 +5,13 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { Product, ProductCategory } from '@/src/data';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { 
-  Search, 
-  Filter, 
-  X, 
-  SortAsc, 
-  SortDesc, 
-  Check 
+import {
+  Search,
+  Filter,
+  X,
+  SortAsc,
+  SortDesc,
+  Check
 } from 'lucide-react';
 import ProductCard from '@/components/products/ProductCard';
 import {
@@ -45,21 +45,21 @@ type SortOption = {
 };
 
 const sortOptions: SortOption[] = [
-  { 
-    label: 'Name (A-Z)', 
-    value: 'name-asc', 
-    sortFn: (a, b) => a.name.localeCompare(b.name) 
+  {
+    label: 'Name (A-Z)',
+    value: 'name-asc',
+    sortFn: (a, b) => a.name.localeCompare(b.name)
   },
-  { 
-    label: 'Name (Z-A)', 
-    value: 'name-desc', 
-    sortFn: (a, b) => b.name.localeCompare(a.name) 
+  {
+    label: 'Name (Z-A)',
+    value: 'name-desc',
+    sortFn: (a, b) => b.name.localeCompare(a.name)
   },
-  { 
-    label: 'Newest', 
-    value: 'newest', 
+  {
+    label: 'Newest',
+    value: 'newest',
     // This is a placeholder - in a real app, you'd use createdAt
-    sortFn: (a, b) => 0 
+    sortFn: (a, b) => 0
   },
 ];
 
@@ -68,13 +68,13 @@ interface ProductListingClientProps {
   initialProducts: Product[];
 }
 
-export default function ProductListingClient({ 
-  category, 
-  initialProducts 
+export default function ProductListingClient({
+  category,
+  initialProducts
 }: ProductListingClientProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  
+
   // Get initial values from URL params
   const initialSearchQuery = searchParams.get('search') || '';
   const initialSortOption = searchParams.get('sort') || 'name-asc';
@@ -97,13 +97,13 @@ export default function ProductListingClient({
   // Apply filters and sorting
   useEffect(() => {
     setIsFiltering(true);
-    
+
     let filtered = [...initialProducts];
-    
+
     // Apply search filter
     if (searchQuery) {
       const query = searchQuery.toLowerCase();
-      filtered = filtered.filter(product => 
+      filtered = filtered.filter(product =>
         product.name.toLowerCase().includes(query) ||
         product.shortDescription?.toLowerCase().includes(query) ||
         product.description?.toLowerCase().includes(query) ||
@@ -111,34 +111,34 @@ export default function ProductListingClient({
         product.standardization.toLowerCase().includes(query)
       );
     }
-    
+
     // Apply certification filters
     if (selectedCertifications.length > 0) {
-      filtered = filtered.filter(product => 
-        selectedCertifications.every(cert => 
-          product.certifications.includes(cert)
+      filtered = filtered.filter(product =>
+        selectedCertifications.every(cert =>
+          product.certifications.includes(cert as string)
         )
       );
     }
-    
+
     // Apply sorting
     const selectedSortOption = sortOptions.find(option => option.value === sortOption);
     if (selectedSortOption) {
       filtered.sort(selectedSortOption.sortFn);
     }
-    
+
     setFilteredProducts(filtered);
     setIsFiltering(false);
-    
+
     // Update URL with filters
     const params = new URLSearchParams();
     if (searchQuery) params.set('search', searchQuery);
     if (sortOption !== 'name-asc') params.set('sort', sortOption);
     if (selectedCertifications.length > 0) params.set('certifications', selectedCertifications.join(','));
-    
+
     const newUrl = `${window.location.pathname}${params.toString() ? '?' + params.toString() : ''}`;
     window.history.replaceState({}, '', newUrl);
-    
+
   }, [searchQuery, sortOption, selectedCertifications, initialProducts]);
 
   // Handle search input
@@ -177,7 +177,7 @@ export default function ProductListingClient({
             onChange={(e) => setSearchQuery(e.target.value)}
           />
           {searchQuery && (
-            <button 
+            <button
               type="button"
               onClick={() => setSearchQuery('')}
               className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
@@ -201,7 +201,7 @@ export default function ProductListingClient({
               <DropdownMenuSeparator />
               <DropdownMenuGroup>
                 {sortOptions.map((option) => (
-                  <DropdownMenuItem 
+                  <DropdownMenuItem
                     key={option.value}
                     onClick={() => setSortOption(option.value)}
                     className="flex items-center justify-between"
@@ -234,16 +234,16 @@ export default function ProductListingClient({
                   Filter {category.name.toLowerCase()} by certifications and attributes.
                 </SheetDescription>
               </SheetHeader>
-              
+
               <div className="py-4">
                 <h3 className="text-sm font-medium mb-3">Certifications</h3>
                 <div className="space-y-2">
                   {allCertifications.map((certification) => (
                     <div key={certification} className="flex items-center space-x-2">
-                      <Checkbox 
-                        id={`cert-${certification}`} 
+                      <Checkbox
+                        id={`cert-${certification}`}
                         checked={selectedCertifications.includes(certification)}
-                        onCheckedChange={(checked) => 
+                        onCheckedChange={(checked) =>
                           handleCertificationChange(certification, checked as boolean)
                         }
                       />
@@ -252,10 +252,10 @@ export default function ProductListingClient({
                   ))}
                 </div>
               </div>
-              
+
               <SheetFooter className="flex justify-between sm:justify-between">
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   onClick={clearFilters}
                   className="mt-4"
                 >
@@ -281,7 +281,7 @@ export default function ProductListingClient({
               </button>
             </Badge>
           )}
-          
+
           {selectedCertifications.map(cert => (
             <Badge key={cert} variant="secondary" className="flex items-center gap-1">
               {cert}
@@ -290,11 +290,11 @@ export default function ProductListingClient({
               </button>
             </Badge>
           ))}
-          
+
           {(searchQuery || selectedCertifications.length > 0) && (
-            <Button 
-              variant="ghost" 
-              size="sm" 
+            <Button
+              variant="ghost"
+              size="sm"
               onClick={clearFilters}
               className="h-6 text-xs"
             >

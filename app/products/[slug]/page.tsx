@@ -273,7 +273,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
         <section className="section-padding bg-gray-50">
           <div className="container-custom">
             <StorgChildProducts
-              childProducts={products.filter(p => product.childProducts?.includes(p.id))}
+              childProducts={products.filter(p => product.childProducts?.includes(p.id as string))}
             />
           </div>
         </section>
