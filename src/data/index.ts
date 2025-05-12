@@ -4679,12 +4679,12 @@ export const products: Product[] = [
       "solubility": "Soluble in oil",
       "appearance": "Clear to yellowish oil",
       "testing": "Fatty acid content verified by GC analysis",
-      "heavyMetals": "Meets USP <232> specifications",
-      "shelfLife": "24 months when stored properly",
+      "heavyMetals": "Meets USP <233> specifications",
+      "shelfLife": "36 months when stored properly",
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Saw Palmetto Extract Oil is known for its potent fatty acid profile, making it a valuable ingredient for men's health, particularly for prostate support and hair vitality. It has been used traditionally for its anti-inflammatory, antioxidant, and hormone-balancing properties.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
