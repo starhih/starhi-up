@@ -8,6 +8,7 @@ import { Search, Filter, ArrowRight } from 'lucide-react';
 import { getProductCategoryBySlug, getProductsByCategorySlug, productCategories } from '@/src/data';
 import Breadcrumbs from '@/components/ui/breadcrumbs';
 import ProductCard from '@/components/products/ProductCard';
+import ProbioticsTable from '@/components/products/ProbioticsTable';
 
 // Generate static params for all categories
 export function generateStaticParams() {
@@ -109,6 +110,9 @@ export default function CategoryPage({ params }: { params: { category: string } 
       {/* Products Grid */}
       <section className="section-padding">
         <div className="container-custom">
+          {params.category === 'probiotics' && (
+            <ProbioticsTable />
+          )}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {categoryProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
