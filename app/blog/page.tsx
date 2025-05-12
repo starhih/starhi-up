@@ -32,13 +32,22 @@ export default function BlogPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[40vh] min-h-[300px] flex items-center">
-        <div className="absolute inset-0 bg-[#214842]"></div>
+      <section className="relative h-[60vh] min-h-[400px] flex items-center">
+        <Image
+          src="/images/hero/knowledge-center.jpeg"
+          alt="Knowledge Center"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-[#214842]/30"></div>
         <div className="relative z-10 container-custom text-white">
-          <h1 className="mb-4">Knowledge Center</h1>
-          <p className="text-xl max-w-2xl text-white/90">
-            Latest insights, research, and industry news from Star Hi Herbs
-          </p>
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="mb-4 text-shadow-sm">Knowledge Center</h1>
+            <p className="text-xl text-white text-shadow-sm">
+              Latest insights, research, and industry news from Star Hi Herbs
+            </p>
+          </div>
         </div>
       </section>
 

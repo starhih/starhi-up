@@ -35,9 +35,20 @@ export default function ProductCard({
     logError(`Failed to load image for product: ${product.name}`, 'ProductCard');
   };
 
+  // Determine the correct URL based on product type
+  const getProductUrl = () => {
+    if (product.productType === 'branded') {
+      return `/branded-ingredients/${product.slug}`;
+    }
+    if (product.productType === 'vitamin-mineral') {
+      return `/vitamins-minerals/${product.slug}`;
+    }
+    return `/products/${product.slug}`;
+  };
+
   return (
     <Link
-      href={`/products/${product.slug}`}
+      href={getProductUrl()}
       className={`group bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden ${className}`}
     >
       <div className="relative h-48">

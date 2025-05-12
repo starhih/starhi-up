@@ -2,11 +2,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Search, Filter, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { productCategories, getFeaturedProducts } from '@/src/data';
 import ProductCard from '@/components/products/ProductCard';
 import CategoryCard from '@/components/products/CategoryCard';
+import ProductsPageClient from '@/components/products/ProductsPageClient';
 
 // Get featured products
 const featuredProducts = getFeaturedProducts(3);
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: 'Explore our comprehensive range of high-quality herbal extracts and nutraceutical ingredients for health and wellness products.',
     images: [
       {
-        url: 'https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg',
+        url: '/images/hero/standardized-herbal-extracts.jpeg',
         width: 1200,
         height: 630,
         alt: 'Star Hi Herbs Products',
@@ -35,44 +35,32 @@ export default function ProductsPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[40vh] min-h-[300px] flex items-center">
+      <section className="relative h-[60vh] min-h-[400px] flex items-center">
         <Image
-          src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg"
+          src="/images/hero/standardized-herbal-extracts.jpeg"
           alt="Our Products"
           fill
-          sizes="100vw"
           className="object-cover"
           priority
-          quality={85}
-          placeholder="blur"
-          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+F/PQAJpgOUCc6crwAAAABJRU5ErkJggg=="
         />
-        <div className="absolute inset-0 bg-[#214842]/70"></div>
+        <div className="absolute inset-0 bg-[#214842]/30"></div>
         <div className="relative z-10 container-custom text-white">
-          <h1 className="mb-4">Our Products</h1>
-          <p className="text-xl max-w-2xl text-white/90">
-            Discover our comprehensive range of high-quality herbal extracts and nutraceutical ingredients.
-          </p>
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="mb-4 text-shadow-sm">Our Products</h1>
+            <p className="text-xl text-white text-shadow-sm">
+              Discover our comprehensive range of high-quality herbal extracts and nutraceutical ingredients.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Search and Filter */}
       <section className="py-8 bg-gray-50 border-b">
         <div className="container-custom">
-          <div className="flex flex-col md:flex-row gap-4 items-center">
-            <div className="relative flex-1">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
-              <Input
-                type="search"
-                placeholder="Search products..."
-                className="pl-10 w-full"
-              />
-            </div>
-            <Button variant="outline" className="flex items-center gap-2">
-              <Filter size={20} />
-              Filter Products
-            </Button>
-          </div>
+          <ProductsPageClient
+            categories={productCategories}
+            featuredProducts={featuredProducts}
+          />
         </div>
       </section>
 

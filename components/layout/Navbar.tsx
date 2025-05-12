@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { usePathname } from "next/navigation";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -20,11 +21,49 @@ const productCategories = dataProductCategories.map(category => ({
   href: `/collections/${category.slug}`
 }));
 
+// Pages with hero banners
+const pagesWithHero = [
+  '/',                    // Home page
+  '/about',               // About page
+  '/products',            // Products page
+  '/innovation',          // Innovation page
+  '/sustainability',      // Sustainability page
+  '/contact',             // Contact page
+];
+
+// Check if a path starts with any of the collection paths
+const isCollectionPage = (path: string) => {
+  return path.startsWith('/collections/');
+};
+
 export default function Navbar() {
+  const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
+  const [hasHero, setHasHero] = useState(true);
+
+  // Determine if the current page has a hero banner
+  useEffect(() => {
+    const pageHasHero = pagesWithHero.includes(pathname) || isCollectionPage(pathname);
+    setHasHero(pageHasHero);
+
+    // If page doesn't have a hero, set sticky immediately
+    if (!pageHasHero) {
+      setIsSticky(true);
+    } else {
+      // Check initial scroll position
+      if (window.scrollY > 60) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    }
+  }, [pathname]);
 
   useEffect(() => {
+    // Only add scroll listener if the page has a hero
+    if (!hasHero) return;
+
     const handleScroll = () => {
       if (window.scrollY > 60) {
         setIsSticky(true);
@@ -35,7 +74,7 @@ export default function Navbar() {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [hasHero]);
 
   return (
     <header
@@ -43,7 +82,9 @@ export default function Navbar() {
         "w-full py-4 md:py-5 z-50 transition-all duration-300",
         isSticky
           ? "sticky-nav"
-          : "bg-transparent absolute top-0 left-0 right-0"
+          : hasHero
+            ? "bg-transparent absolute top-0 left-0 right-0"
+            : "bg-white shadow-md"
       )}
     >
       <div className="container-custom">
@@ -51,8 +92,8 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center -ml-3">
             <div className="relative h-11 w-auto">
-              {/* Use white logo for transparent header and color logo for sticky header */}
-              {isSticky ? (
+              {/* Use white logo for transparent header and color logo for sticky header or pages without hero */}
+              {isSticky || !hasHero ? (
                 <Image
                   src="/images/starhiherbs-logo.png"
                   alt="Star Hi Herbs"
@@ -132,7 +173,7 @@ export default function Navbar() {
 
           {/* Mobile menu button */}
           <button
-            className={`lg:hidden ${isSticky ? 'text-[#214842]' : 'text-white'}`}
+            className={`lg:hidden ${isSticky || !hasHero ? 'text-[#214842]' : 'text-white'}`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}

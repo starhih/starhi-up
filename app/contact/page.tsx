@@ -41,20 +41,22 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[40vh] min-h-[300px] flex items-center">
+      <section className="relative h-[60vh] min-h-[400px] flex items-center">
         <Image
-          src="/images/contact-us.jpg"
+          src="/images/hero/contact-us.jpeg"
           alt="Contact Us"
           fill
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-[#214842]/70"></div>
+        <div className="absolute inset-0 bg-[#214842]/30"></div>
         <div className="relative z-10 container-custom text-white">
-          <h1 className="mb-4">Contact Us</h1>
-          <p className="text-xl max-w-2xl text-white/90">
-            Get in touch with our team for inquiries, support, or partnership opportunities.
-          </p>
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="mb-4 text-shadow-sm">Contact Us</h1>
+            <p className="text-xl text-white text-shadow-sm">
+              Get in touch with our team for inquiries, support, or partnership opportunities.
+            </p>
+          </div>
         </div>
       </section>
 

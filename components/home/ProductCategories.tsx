@@ -24,7 +24,7 @@ export default function ProductCategories() {
             >
               <div className="relative h-64 overflow-hidden rounded-t-2xl">
                 <Image
-                  src={category.image}
+                  src={category.homepageImage || category.image}
                   alt={category.name}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

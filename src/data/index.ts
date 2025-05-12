@@ -27,7 +27,9 @@ export interface ProductCategory extends BaseEntity {
   slug: string;
   name: string;
   description: string;
-  image: string;
+  image: string; // For backward compatibility
+  heroImage?: string; // Image used in hero sections
+  homepageImage?: string; // Image used on homepage
   count?: number;
   products?: Product[];
 }
@@ -92,6 +94,74 @@ export interface Product extends BaseEntity {
     image: string;
   };
   faqs?: ProductFAQ[];
+  // Parent-child relationship for product families
+  isParentProduct?: boolean;
+  childProducts?: string[];
+  parentProductId?: string;
+  indications?: string[];
+
+  // Product type discriminator
+  productType?: 'standard' | 'branded' | 'vitamin-mineral';
+
+  // Branded Ingredients specific fields
+  brandLogo?: string;
+  clinicalResearch?: {
+    title: string;
+    description: string;
+    studies: {
+      title: string;
+      description: string;
+      link?: string;
+      image?: string;
+    }[];
+  };
+  healthClaims?: {
+    title: string;
+    claims: string[];
+  };
+  whitepaper?: {
+    title: string;
+    description: string;
+    link: string;
+    image?: string;
+  };
+  mechanism?: {
+    title: string;
+    description: string;
+    image?: string;
+  };
+  sustainability?: {
+    title: string;
+    description: string;
+    points?: string[];
+    image?: string;
+  };
+  whyChoose?: {
+    title: string;
+    description: string;
+    points: string[];
+    image?: string;
+  };
+
+  // Vitamins & Minerals specific fields
+  productIndications?: {
+    title: string;
+    description?: string;
+    indications: {
+      name: string;
+      icon: string;
+      description?: string;
+    }[];
+  };
+  productApplications?: {
+    title: string;
+    description?: string;
+    applications: {
+      name: string;
+      icon: string;
+      description?: string;
+    }[];
+  };
 }
 
 /**
@@ -251,7 +321,9 @@ export const productCategories: ProductCategory[] = [
     slug: 'standardized-extracts',
     name: 'Standardized Herbal Extracts',
     description: 'Premium extracts with standardized active compounds for consistent potency and efficacy.',
-    image: '/images/standardized-extract.jpg',
+    image: '/images/standardized-extract.jpg', // Original image for backward compatibility
+    heroImage: '/images/hero/standardized-herbal-extracts.jpeg', // Hero section image
+    homepageImage: '/images/standardized-extract.jpg', // Homepage image
     count: 45,
   },
   {
@@ -259,7 +331,9 @@ export const productCategories: ProductCategory[] = [
     slug: 'organic-extracts',
     name: 'Organic Extracts',
     description: 'Certified organic herbs processed without chemicals, maintaining natural goodness.',
-    image: '/images/organic-extract-1.jpg',
+    image: '/images/organic-extract-1.jpg', // Original image for backward compatibility
+    heroImage: '/images/hero/organic-herbal-extract.jpeg', // Hero section image
+    homepageImage: '/images/organic-extract-1.jpg', // Homepage image
     count: 32,
   },
   {
@@ -267,7 +341,9 @@ export const productCategories: ProductCategory[] = [
     slug: 'branded-ingredients',
     name: 'Branded Ingredients',
     description: 'Proprietary formulations with clinical backing',
-    image: '/images/branded-ingredients-1.jpg',
+    image: '/images/branded-ingredients-1.jpg', // Original image for backward compatibility
+    heroImage: '/images/hero/branded-ingredients.jpeg', // Hero section image
+    homepageImage: '/images/branded-ingredients-1.jpg', // Homepage image
     count: 18,
   },
   {
@@ -275,7 +351,9 @@ export const productCategories: ProductCategory[] = [
     slug: 'probiotics',
     name: 'Probiotics',
     description: 'Shelf-stable probiotic strains for gut health',
-    image: '/images/probiotics-1.jpg',
+    image: '/images/probiotics-1.jpg', // Original image for backward compatibility
+    heroImage: '/images/hero/probiotics.jpeg', // Hero section image
+    homepageImage: '/images/probiotics-1.jpg', // Homepage image
     count: 12,
   },
   {
@@ -283,7 +361,9 @@ export const productCategories: ProductCategory[] = [
     slug: 'vitamins-minerals',
     name: 'Vitamins & Minerals',
     description: 'Essential nutrients for optimal health',
-    image: '/images/vitamins-minerals-1.jpg',
+    image: '/images/vitamins-minerals-1.jpg', // Original image for backward compatibility
+    heroImage: '/images/hero/vitamins-minerals.jpeg', // Hero section image
+    homepageImage: '/images/vitamins-minerals-1.jpg', // Homepage image
     count: 24,
   },
   {
@@ -291,7 +371,9 @@ export const productCategories: ProductCategory[] = [
     slug: 'bulk-formulations',
     name: 'Bulk Formulations',
     description: 'Custom formulations for specific needs',
-    image: '/images/bulk-formulations-2.jpeg',
+    image: '/images/bulk-formulations-2.jpeg', // Original image for backward compatibility
+    heroImage: '/images/hero/bulk-formulations.jpeg', // Hero section image
+    homepageImage: '/images/bulk-formulations-2.jpeg', // Homepage image
     count: 10,
   },
 ];
@@ -300,6 +382,1715 @@ export const productCategories: ProductCategory[] = [
  * Products Data
  */
 export const products: Product[] = [
+  {
+    "id": "storg-main",
+    "name": "Storg® Plant-based Vitamins & Minerals",
+    "slug": "storg-plant-based-vitamins-minerals",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Standardized Plant-based Vitamin & Mineral Complex",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg® is our premium line of plant-based vitamins and minerals derived from natural sources. Unlike synthetic alternatives, Storg® products provide bioavailable nutrients in their natural matrix, enhancing absorption and utilization by the body. Each Storg® variant is formulated to address specific nutritional needs while maintaining the synergistic benefits of whole-food derived nutrients. Our proprietary extraction and standardization process ensures consistent potency and purity across all Storg® products.",
+    "shortDescription": "Premium plant-based vitamins and minerals with enhanced bioavailability",
+    "image": "/images/storg/storg-main.jpg",
+    "gallery": [
+      "/images/storg/storg-main.jpg",
+      "/images/storg/storg-indications.jpg"
+    ],
+    "applications": [
+      "Dietary supplements",
+      "Functional foods and beverages",
+      "Nutritional formulations",
+      "Sports nutrition products",
+      "Condition-specific supplements"
+    ],
+    "benefits": [
+      "Enhanced bioavailability compared to synthetic vitamins",
+      "Complete nutrient matrix with natural co-factors",
+      "Gentle on the digestive system",
+      "Sustainable and environmentally friendly sourcing",
+      "Free from synthetic additives and fillers"
+    ],
+    "specifications": {
+      "activeCompounds": "Various vitamins and minerals",
+      "standardization": "Standardized to specific nutrient levels",
+      "form": "Powder, Granules",
+      "solubility": "Water dispersible",
+      "appearance": "Fine powder, color varies by variant",
+      "testing": "HPLC, ICP-MS for nutrient content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Storg® plant-based vitamins and minerals have been developed based on extensive research into nutrient bioavailability and absorption. Studies indicate that nutrients delivered in their natural food matrix, as found in Storg® products, provide superior bioavailability compared to isolated synthetic vitamins. Our ongoing research continues to optimize the extraction and standardization processes to maximize nutrient retention and stability.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": true,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.4 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.8 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "956 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify that the supplier has proper certifications (FSSC 22000, ISO 9001:2015, etc.)",
+        "Ensure they provide standardized extracts with consistent nutrient levels",
+        "Check if they perform thorough testing for contaminants and active compounds",
+        "Evaluate their manufacturing capabilities and capacity",
+        "Request samples to verify quality before placing large orders",
+        "Assess their technical support and documentation capabilities"
+      ]
+    },
+    "productionDetails": {
+      "description": "Our Storg® products are produced using a proprietary extraction and concentration process that preserves the natural nutrient matrix found in plant sources. We carefully select the highest quality raw materials and employ gentle processing techniques to maintain nutrient integrity. Each batch undergoes rigorous testing to ensure consistent nutrient levels and purity.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg® products are packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags. All packaging materials are selected to preserve nutrient stability throughout the product's shelf life.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg® products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications for our products.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg® product line at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based nutrients and discuss specific formulation requirements with customers interested in premium natural vitamin and mineral ingredients.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "How do plant-based vitamins differ from synthetic vitamins?",
+        "answer": "Plant-based vitamins contain the natural nutrient matrix found in foods, including co-factors and enzymes that enhance absorption and utilization by the body."
+      },
+      {
+        "id": 2,
+        "question": "Are Storg® products organic?",
+        "answer": "While not all Storg® products are certified organic, we do offer organic options for many variants. All products are non-GMO and sustainably sourced."
+      },
+      {
+        "id": 3,
+        "question": "What testing methods are used to verify nutrient content?",
+        "answer": "We use HPLC for vitamin analysis and ICP-MS for mineral content verification, following USP and AOAC methods."
+      },
+      {
+        "id": 4,
+        "question": "How should Storg® products be stored?",
+        "answer": "Store in a cool, dry place away from direct sunlight. Once opened, ensure containers are tightly sealed to prevent moisture ingress."
+      },
+      {
+        "id": 5,
+        "question": "Are Storg® products suitable for vegan formulations?",
+        "answer": "Yes, all Storg® products are 100% plant-derived and suitable for vegan and vegetarian formulations."
+      }
+    ],
+    "isParentProduct": true,
+    "childProducts": ["storg-b", "storg-c", "storg-e", "storg-fa", "storg-i", "storg-n", "storg-se", "storg-zn", "storg-him", "storg-her", "storg-kid", "storg-bs", "storg-bio", "storg-bt"]
+  },
+  {
+    "id": "storg-b",
+    "name": "Storg-B",
+    "slug": "storg-b",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Natural vitamin B1, B2, B3, B5, B6, and B9 from plant sources",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-B is a comprehensive plant-based B-vitamin complex derived from natural sources. It provides the full spectrum of essential B vitamins (B1, B2, B3, B5, B6, and B9) in their natural form, along with the co-factors that enhance their absorption and utilization. Unlike synthetic B vitamins, Storg-B delivers these nutrients in their natural matrix, making them more bioavailable and effective. This premium ingredient is ideal for energy support formulations, stress management supplements, and products targeting cognitive and nervous system health.",
+    "shortDescription": "Natural vitamin B complex from plant sources for energy and cognitive support",
+    "image": "/images/storg/storg-b.jpg",
+    "gallery": [
+      "/images/storg/storg-b.jpg"
+    ],
+    "applications": [
+      "Energy support supplements",
+      "Stress management formulations",
+      "Cognitive health products",
+      "Sports nutrition",
+      "Multivitamin blends"
+    ],
+    "benefits": [
+      "Supports energy metabolism and cellular function",
+      "Promotes healthy nervous system function",
+      "Enhances cognitive performance and mental clarity",
+      "Supports stress response and mood balance",
+      "Improves nutrient metabolism and utilization"
+    ],
+    "specifications": {
+      "activeCompounds": "B1 (Thiamine), B2 (Riboflavin), B3 (Niacin), B5 (Pantothenic Acid), B6 (Pyridoxine), B9 (Folate)",
+      "standardization": "Standardized to specific B-vitamin levels",
+      "form": "Powder, Granules",
+      "solubility": "Water soluble",
+      "appearance": "Light brown powder",
+      "testing": "HPLC analysis for vitamin content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that B vitamins from natural sources offer superior bioavailability compared to synthetic alternatives. Studies show that the natural co-factors present in Storg-B enhance absorption and cellular utilization of these essential nutrients, supporting energy production, cognitive function, and nervous system health.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.7 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "920 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify vitamin content through HPLC analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for each B vitamin",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-B is produced using a gentle extraction process that preserves the natural vitamin matrix found in plant sources. We carefully select nutrient-rich botanicals and employ proprietary techniques to concentrate the B vitamins while maintaining their natural co-factors and synergists.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-B is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-B product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-B product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based B vitamins and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-B?",
+        "answer": "Storg-B is derived from a proprietary blend of nutrient-rich botanicals including quinoa sprouts, guava, holy basil, and lemon peel."
+      },
+      {
+        "id": 2,
+        "question": "How does natural B vitamin complex compare to synthetic B vitamins?",
+        "answer": "Natural B vitamins come with co-factors and synergists that enhance absorption and utilization, making them more bioavailable than isolated synthetic vitamins."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-B suitable for vegan formulations?",
+        "answer": "Yes, Storg-B is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-B?",
+        "answer": "Typical dosages range from 50-200mg daily, depending on the specific formulation and target B vitamin levels."
+      },
+      {
+        "id": 5,
+        "question": "How stable are the B vitamins in Storg-B?",
+        "answer": "The natural matrix helps protect the B vitamins from degradation, providing excellent stability under proper storage conditions."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Stress", "Neurological Function", "Energy"]
+  },
+
+  {
+    "id": "storg-c",
+    "name": "Storg-C",
+    "slug": "storg-c",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Natural vitamin C from plant sources",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-C is a premium plant-based vitamin C derived from natural botanical sources. Unlike synthetic ascorbic acid, Storg-C provides this essential nutrient in its natural form with associated bioflavonoids and co-factors that enhance absorption and cellular utilization. This specialized ingredient is ideal for immune support formulations, antioxidant products, and skin health supplements.",
+    "shortDescription": "Natural vitamin C from plant sources for immune, antioxidant, and skin health",
+    "image": "/images/storg/storg-c.jpg",
+    "gallery": [
+      "/images/storg/storg-c.jpg"
+    ],
+    "applications": [
+      "Immune support supplements",
+      "Antioxidant formulations",
+      "Skin health products",
+      "Sports nutrition",
+      "Multivitamin blends"
+    ],
+    "benefits": [
+      "Supports immune system function",
+      "Provides powerful antioxidant protection",
+      "Enhances collagen production for skin health",
+      "Improves iron absorption",
+      "Supports cardiovascular health"
+    ],
+    "specifications": {
+      "activeCompounds": "Vitamin C (Ascorbic acid), Bioflavonoids",
+      "standardization": "Standardized to specific vitamin C levels",
+      "form": "Powder, Granules",
+      "solubility": "Water soluble",
+      "appearance": "Light yellow to tan powder",
+      "testing": "HPLC analysis for vitamin C content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that natural vitamin C from plant sources offers superior bioavailability compared to synthetic ascorbic acid. Studies show that the natural bioflavonoids present in Storg-C enhance absorption and cellular utilization of this essential nutrient, supporting immune function, antioxidant protection, and collagen synthesis.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.7 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "920 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify vitamin C content through HPLC analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for vitamin C potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-C is produced using a gentle extraction process that preserves the natural vitamin C complex found in plant sources. We carefully select vitamin C-rich botanicals and employ proprietary techniques to concentrate the vitamin C while maintaining its natural bioflavonoids and co-factors.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-C is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-C product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-C product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based vitamin C and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-C?",
+        "answer": "Storg-C is derived from a proprietary blend of vitamin C-rich botanicals including amla (Indian gooseberry), acerola cherry, and camu camu."
+      },
+      {
+        "id": 2,
+        "question": "How does natural vitamin C compare to synthetic vitamin C?",
+        "answer": "Natural vitamin C comes with bioflavonoids and co-factors that enhance absorption and utilization, making it more bioavailable than isolated synthetic ascorbic acid."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-C suitable for vegan formulations?",
+        "answer": "Yes, Storg-C is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-C?",
+        "answer": "Typical dosages range from 50-500mg daily, depending on the specific formulation and target vitamin C levels."
+      },
+      {
+        "id": 5,
+        "question": "How stable is the vitamin C in Storg-C?",
+        "answer": "The natural matrix helps protect the vitamin C from degradation, providing better stability than isolated ascorbic acid under proper storage conditions."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Immune Function", "Skin Health"]
+  },
+  {
+    "id": "storg-e",
+    "name": "Storg-E",
+    "slug": "storg-e",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Natural vitamin E complex from plant sources",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-E is a premium plant-based vitamin E complex derived from natural botanical sources. Unlike synthetic vitamin E that typically contains only alpha-tocopherol, Storg-E provides the complete spectrum of tocopherols and tocotrienols in their natural ratios. This specialized ingredient is ideal for antioxidant formulations, cardiovascular health products, and skin health supplements.",
+    "shortDescription": "Natural vitamin E complex from plant sources for antioxidant and cardiovascular support",
+    "image": "/images/storg/storg-e.jpg",
+    "gallery": [
+      "/images/storg/storg-e.jpg"
+    ],
+    "applications": [
+      "Antioxidant formulations",
+      "Cardiovascular health products",
+      "Skin health supplements",
+      "Anti-aging formulations",
+      "Multivitamin blends"
+    ],
+    "benefits": [
+      "Provides powerful antioxidant protection",
+      "Supports cardiovascular health",
+      "Enhances skin health and appearance",
+      "Protects cell membranes from oxidative damage",
+      "Supports immune system function"
+    ],
+    "specifications": {
+      "activeCompounds": "Mixed tocopherols (alpha, beta, gamma, delta) and tocotrienols",
+      "standardization": "Standardized to specific vitamin E levels",
+      "form": "Oil, Powder (microencapsulated)",
+      "solubility": "Oil soluble, water dispersible (microencapsulated form)",
+      "appearance": "Light amber oil or off-white powder",
+      "testing": "HPLC analysis for vitamin E content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight and oxygen"
+    },
+    "research": "Research indicates that natural vitamin E complex offers superior bioactivity compared to synthetic alpha-tocopherol. Studies show that the complete spectrum of tocopherols and tocotrienols in Storg-E provides comprehensive antioxidant protection and supports cardiovascular health through multiple mechanisms.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.8 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "930 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify vitamin E content through HPLC analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for vitamin E potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-E is produced using a gentle extraction process that preserves the natural vitamin E complex found in plant sources. We carefully select vitamin E-rich botanicals and employ proprietary techniques to concentrate the vitamin E while maintaining the natural ratios of tocopherols and tocotrienols.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-E is packaged in light-resistant, oxygen-barrier containers to maintain potency and freshness. Standard packaging includes 25kg drums with nitrogen flush for oil form, and 25kg fiber drums with food-grade polyethylene liners for powder form. Smaller quantities are available in 1kg and 5kg containers.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-E product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-E product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based vitamin E and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-E?",
+        "answer": "Storg-E is derived from a proprietary blend of vitamin E-rich botanicals including sunflower, rice bran, and annatto."
+      },
+      {
+        "id": 2,
+        "question": "How does natural vitamin E complex compare to synthetic vitamin E?",
+        "answer": "Natural vitamin E complex contains all eight forms of vitamin E (four tocopherols and four tocotrienols) in their natural ratios, while synthetic vitamin E typically contains only alpha-tocopherol."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-E suitable for vegan formulations?",
+        "answer": "Yes, Storg-E is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-E?",
+        "answer": "Typical dosages range from 10-100mg daily, depending on the specific formulation and target vitamin E levels."
+      },
+      {
+        "id": 5,
+        "question": "How stable is the vitamin E in Storg-E?",
+        "answer": "Vitamin E is relatively stable, but should be protected from light, heat, and oxygen for maximum stability."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Cardiovascular Health", "Skin Health"]
+  },
+  {
+    "id": "storg-fa",
+    "name": "Storg-FA",
+    "slug": "storg-fa",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Natural folate (Vitamin B9) from plant sources",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-FA is a premium plant-based folate (vitamin B9) derived from natural botanical sources. Unlike synthetic folic acid, Storg-FA provides this essential nutrient in its natural methylated forms with associated co-factors that enhance absorption and cellular utilization. This specialized ingredient is ideal for prenatal formulations, cardiovascular health products, and cognitive support supplements.",
+    "shortDescription": "Natural folate from plant sources for prenatal, cardiovascular, and cognitive support",
+    "image": "/images/storg/storg-fa.jpg",
+    "gallery": [
+      "/images/storg/storg-fa.jpg"
+    ],
+    "applications": [
+      "Prenatal supplements",
+      "Cardiovascular health formulations",
+      "Cognitive support products",
+      "Homocysteine management",
+      "Multivitamin blends"
+    ],
+    "benefits": [
+      "Supports healthy fetal development",
+      "Promotes cardiovascular health",
+      "Enhances cognitive function",
+      "Supports healthy homocysteine levels",
+      "Aids in red blood cell formation"
+    ],
+    "specifications": {
+      "activeCompounds": "Natural folates (5-MTHF, folinic acid)",
+      "standardization": "Standardized to specific folate levels",
+      "form": "Powder, Granules",
+      "solubility": "Water soluble",
+      "appearance": "Light green to tan powder",
+      "testing": "HPLC analysis for folate content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that natural folates from plant sources offer superior bioavailability compared to synthetic folic acid. Studies show that the methylated forms of folate present in Storg-FA are more readily utilized by the body, particularly in individuals with MTHFR gene variations that affect folate metabolism.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.6 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "890 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify folate content through HPLC analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for folate potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-FA is produced using a gentle extraction process that preserves the natural folate forms found in plant sources. We carefully select folate-rich botanicals and employ proprietary techniques to concentrate the folates while maintaining their natural co-factors and synergists.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-FA is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-FA product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-FA product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based folate and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-FA?",
+        "answer": "Storg-FA is derived from a proprietary blend of folate-rich botanicals including leafy greens, legumes, and specific fruit extracts."
+      },
+      {
+        "id": 2,
+        "question": "How does natural folate compare to synthetic folic acid?",
+        "answer": "Natural folate exists primarily in methylated forms that are more bioavailable and readily utilized by the body compared to synthetic folic acid, which requires conversion in the liver."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-FA suitable for vegan formulations?",
+        "answer": "Yes, Storg-FA is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-FA?",
+        "answer": "Typical dosages range from 200-800mcg daily, depending on the specific formulation and target folate levels."
+      },
+      {
+        "id": 5,
+        "question": "Is Storg-FA suitable for individuals with MTHFR gene variations?",
+        "answer": "Yes, Storg-FA contains naturally methylated folates that bypass the conversion step affected by MTHFR gene variations."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Prenatal Support", "Cardiovascular Health", "Neurological Function"]
+  },
+  {
+    "id": "storg-i",
+    "name": "Storg-I",
+    "slug": "storg-i",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Natural iodine from plant sources",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-I is a premium plant-based iodine derived from natural botanical sources, primarily sea vegetables. Unlike synthetic iodine compounds, Storg-I provides this essential mineral in its natural organic form with associated co-factors that enhance absorption and cellular utilization. This specialized ingredient is ideal for thyroid support formulations, metabolic health products, and cognitive function supplements.",
+    "shortDescription": "Natural iodine from plant sources for thyroid, metabolic, and cognitive support",
+    "image": "/images/storg/storg-i.jpg",
+    "gallery": [
+      "/images/storg/storg-i.jpg"
+    ],
+    "applications": [
+      "Thyroid support supplements",
+      "Metabolic health formulations",
+      "Cognitive function products",
+      "Energy support blends",
+      "Multivitamin and mineral formulations"
+    ],
+    "benefits": [
+      "Supports healthy thyroid function",
+      "Promotes optimal metabolic rate",
+      "Enhances cognitive function and development",
+      "Supports energy production at the cellular level",
+      "Aids in detoxification processes"
+    ],
+    "specifications": {
+      "activeCompounds": "Organic iodine compounds",
+      "standardization": "Standardized to specific iodine levels",
+      "form": "Powder, Granules",
+      "solubility": "Water soluble",
+      "appearance": "Light brown to tan powder",
+      "testing": "ICP-MS analysis for iodine content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that natural iodine from sea vegetables offers excellent bioavailability and safety advantages over synthetic iodine compounds. Studies show that the organic iodine compounds in Storg-I are more readily utilized by the thyroid gland and other tissues, supporting optimal thyroid function and metabolic health.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.7 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "910 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify iodine content through ICP-MS analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for iodine potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-I is produced using a gentle extraction process that preserves the natural organic iodine compounds found in sea vegetables. We carefully select iodine-rich botanicals and employ proprietary techniques to concentrate the iodine while maintaining its natural co-factors and synergists.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-I is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-I product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-I product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based iodine and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-I?",
+        "answer": "Storg-I is derived from a proprietary blend of iodine-rich sea vegetables including kelp, bladderwrack, and dulse."
+      },
+      {
+        "id": 2,
+        "question": "How does natural iodine compare to synthetic iodine compounds?",
+        "answer": "Natural iodine from sea vegetables exists in organic forms that are more bioavailable and better tolerated than synthetic iodine compounds like potassium iodide."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-I suitable for vegan formulations?",
+        "answer": "Yes, Storg-I is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-I?",
+        "answer": "Typical dosages range from 50-150mcg daily, depending on the specific formulation and target iodine levels."
+      },
+      {
+        "id": 5,
+        "question": "Is Storg-I tested for heavy metals and contaminants?",
+        "answer": "Yes, Storg-I undergoes rigorous testing for heavy metals, microbiological contaminants, and environmental pollutants to ensure purity and safety."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Thyroid Health", "Energy", "Neurological Function"]
+  },
+  {
+    "id": "storg-n",
+    "name": "Storg-N",
+    "slug": "storg-n",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Natural niacin (Vitamin B3) from plant sources",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-N is a premium plant-based niacin (vitamin B3) derived from natural botanical sources. Unlike synthetic niacin, Storg-N provides this essential nutrient in its natural form with associated co-factors that enhance absorption and cellular utilization. This specialized ingredient is ideal for energy support formulations, cardiovascular health products, and cognitive function supplements.",
+    "shortDescription": "Natural niacin from plant sources for energy, cardiovascular, and cognitive support",
+    "image": "/images/storg/storg-n.jpg",
+    "gallery": [
+      "/images/storg/storg-n.jpg"
+    ],
+    "applications": [
+      "Energy support supplements",
+      "Cardiovascular health formulations",
+      "Cognitive function products",
+      "Cholesterol management",
+      "Multivitamin blends"
+    ],
+    "benefits": [
+      "Supports energy production at the cellular level",
+      "Promotes cardiovascular health",
+      "Enhances cognitive function",
+      "Supports healthy cholesterol levels",
+      "Aids in DNA repair and cellular function"
+    ],
+    "specifications": {
+      "activeCompounds": "Niacin (Vitamin B3), Niacinamide",
+      "standardization": "Standardized to specific niacin levels",
+      "form": "Powder, Granules",
+      "solubility": "Water soluble",
+      "appearance": "Light brown to tan powder",
+      "testing": "HPLC analysis for niacin content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that natural niacin from plant sources offers excellent bioavailability and reduced side effects compared to synthetic niacin. Studies show that the natural co-factors present in Storg-N enhance absorption and cellular utilization of this essential nutrient, supporting energy production, cardiovascular health, and cognitive function.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.6 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "890 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify niacin content through HPLC analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for niacin potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-N is produced using a gentle extraction process that preserves the natural niacin forms found in plant sources. We carefully select niacin-rich botanicals and employ proprietary techniques to concentrate the niacin while maintaining its natural co-factors and synergists.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-N is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-N product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-N product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based niacin and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-N?",
+        "answer": "Storg-N is derived from a proprietary blend of niacin-rich botanicals including mushrooms, brown rice, and specific seed extracts."
+      },
+      {
+        "id": 2,
+        "question": "How does natural niacin compare to synthetic niacin?",
+        "answer": "Natural niacin comes with co-factors that enhance absorption and utilization, making it more bioavailable and less likely to cause flushing than isolated synthetic niacin."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-N suitable for vegan formulations?",
+        "answer": "Yes, Storg-N is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-N?",
+        "answer": "Typical dosages range from 10-50mg daily, depending on the specific formulation and target niacin levels."
+      },
+      {
+        "id": 5,
+        "question": "Does Storg-N cause the flushing effect associated with niacin?",
+        "answer": "Storg-N is less likely to cause flushing than synthetic niacin due to its natural matrix and balanced forms of niacin compounds."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Energy", "Cardiovascular Health", "Neurological Function"]
+  },
+  {
+    "id": "storg-se",
+    "name": "Storg-SE",
+    "slug": "storg-se",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Natural selenium from plant sources",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-SE is a premium plant-based selenium derived from natural botanical sources. Unlike synthetic selenium compounds, Storg-SE provides this essential mineral in its natural organic form with associated co-factors that enhance absorption and cellular utilization. This specialized ingredient is ideal for antioxidant formulations, immune support products, and thyroid health supplements.",
+    "shortDescription": "Natural selenium from plant sources for antioxidant, immune, and thyroid support",
+    "image": "/images/storg/storg-se.jpg",
+    "gallery": [
+      "/images/storg/storg-se.jpg"
+    ],
+    "applications": [
+      "Antioxidant formulations",
+      "Immune support supplements",
+      "Thyroid health products",
+      "Cardiovascular health blends",
+      "Multivitamin and mineral formulations"
+    ],
+    "benefits": [
+      "Provides powerful antioxidant protection",
+      "Supports immune system function",
+      "Promotes healthy thyroid function",
+      "Enhances cardiovascular health",
+      "Aids in detoxification processes"
+    ],
+    "specifications": {
+      "activeCompounds": "Organic selenium compounds, Selenomethionine",
+      "standardization": "Standardized to specific selenium levels",
+      "form": "Powder, Granules",
+      "solubility": "Water soluble",
+      "appearance": "Light tan to brown powder",
+      "testing": "ICP-MS analysis for selenium content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that natural selenium from plant sources offers superior bioavailability compared to inorganic selenium compounds. Studies show that the organic selenium forms in Storg-SE are more readily incorporated into selenoproteins, providing enhanced antioxidant protection and immune support.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.7 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "900 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify selenium content through ICP-MS analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for selenium potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-SE is produced using a gentle extraction process that preserves the natural organic selenium compounds found in plant sources. We carefully select selenium-rich botanicals and employ proprietary techniques to concentrate the selenium while maintaining its natural co-factors and synergists.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-SE is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-SE product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-SE product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based selenium and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-SE?",
+        "answer": "Storg-SE is derived from a proprietary blend of selenium-rich botanicals including brazil nuts, mustard seeds, and specific mushroom species."
+      },
+      {
+        "id": 2,
+        "question": "How does natural selenium compare to synthetic selenium compounds?",
+        "answer": "Natural selenium exists primarily as selenomethionine and other organic forms that are more bioavailable and readily utilized by the body compared to inorganic selenium compounds."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-SE suitable for vegan formulations?",
+        "answer": "Yes, Storg-SE is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-SE?",
+        "answer": "Typical dosages range from 25-200mcg daily, depending on the specific formulation and target selenium levels."
+      },
+      {
+        "id": 5,
+        "question": "Is Storg-SE tested for heavy metals and contaminants?",
+        "answer": "Yes, Storg-SE undergoes rigorous testing for heavy metals, microbiological contaminants, and environmental pollutants to ensure purity and safety."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Immune Function", "Thyroid Health", "Antioxidant"]
+  },
+  {
+    "id": "storg-zn",
+    "name": "Storg-ZN",
+    "slug": "storg-zn",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Natural zinc from plant sources",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-ZN is a premium plant-based zinc derived from natural botanical sources. Unlike synthetic zinc compounds, Storg-ZN provides this essential mineral in its natural organic form with associated co-factors that enhance absorption and cellular utilization. This specialized ingredient is ideal for immune support formulations, skin health products, and reproductive health supplements.",
+    "shortDescription": "Natural zinc from plant sources for immune, skin, and reproductive health",
+    "image": "/images/storg/storg-zn.jpg",
+    "gallery": [
+      "/images/storg/storg-zn.jpg",
+      "/images/storg/storg-zn.jpg",
+      "/images/storg/storg-zn.jpg"
+    ],
+    "applications": [
+      "Immune support supplements",
+      "Skin health formulations",
+      "Reproductive health products",
+      "Hormone support blends",
+      "Multivitamin and mineral formulations"
+    ],
+    "benefits": [
+      "Supports immune system function: Zinc is essential for immune cell development and function",
+      "Promotes healthy skin and wound healing: Zinc plays a vital role in skin integrity and repair",
+      "Enhances reproductive health and fertility: Zinc is crucial for hormone production and reproductive function",
+      "Supports protein synthesis and growth: Zinc is involved in hundreds of enzymatic reactions related to metabolism",
+      "Aids in DNA synthesis and cell division: Zinc is required for proper cellular growth and development"
+    ],
+    "specifications": {
+      "activeCompounds": "Organic zinc compounds",
+      "standardization": "Standardized to specific zinc levels",
+      "form": "Powder, Granules",
+      "solubility": "Water soluble",
+      "appearance": "Light tan to brown powder",
+      "testing": "ICP-MS analysis for zinc content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight",
+      "bioavailability": "46% higher absorption compared to zinc oxide",
+      "particleSize": "95% passes through 80 mesh",
+      "dosageRange": "5-30mg daily recommended"
+    },
+    "research": "Research indicates that natural zinc from plant sources offers superior bioavailability compared to inorganic zinc compounds. Studies show that the organic zinc forms in Storg-ZN are more readily absorbed and utilized by the body, supporting immune function, skin health, and reproductive health. A recent clinical study demonstrated that Storg-ZN increased serum zinc levels by 24% more effectively than zinc sulfate, with fewer gastrointestinal side effects. Another study showed improved markers of immune function in elderly subjects supplemented with plant-based zinc compared to synthetic forms.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO", "Organic"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.7 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "900 KB" },
+      { "id": 4, "name": "Clinical Study Summary", "size": "1.5 MB" },
+      { "id": 5, "name": "Formulation Guide", "size": "3.2 MB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify zinc content through ICP-MS analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for zinc potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-ZN is produced using a gentle extraction process that preserves the natural organic zinc compounds found in plant sources. We carefully select zinc-rich botanicals and employ proprietary techniques to concentrate the zinc while maintaining its natural co-factors and synergists. Our process begins with sustainable harvesting of zinc-rich plants, followed by water-based extraction, concentration, and standardization. This approach ensures maximum bioavailability while preserving the natural matrix of compounds that support zinc absorption and utilization in the body.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-ZN is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags. All packaging materials are recyclable and sourced from sustainable suppliers, aligning with our commitment to environmental responsibility.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production. Our state-of-the-art laboratory conducts rigorous testing for potency, purity, and bioavailability, ensuring consistent quality in every batch of Storg-ZN.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-ZN product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, Non-GMO, and Organic certifications, reflecting our commitment to quality, purity, and sustainability.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-ZN product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based zinc and discuss specific formulation requirements with customers. Visit us at upcoming events to learn more about our innovative plant-based vitamins and minerals and how they can enhance your product formulations.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-ZN?",
+        "answer": "Storg-ZN is derived from a proprietary blend of zinc-rich botanicals including pumpkin seeds, sesame seeds, and specific legume extracts. These plants naturally accumulate zinc in organic forms that are highly bioavailable."
+      },
+      {
+        "id": 2,
+        "question": "How does natural zinc compare to synthetic zinc compounds?",
+        "answer": "Natural zinc exists in organic forms that are more bioavailable and better tolerated than inorganic zinc compounds like zinc oxide or zinc sulfate. The natural co-factors present in Storg-ZN enhance absorption and reduce the gastrointestinal side effects commonly associated with synthetic zinc supplements."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-ZN suitable for vegan formulations?",
+        "answer": "Yes, Storg-ZN is 100% plant-derived and suitable for vegan and vegetarian formulations. It contains no animal-derived ingredients and is certified vegan."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-ZN?",
+        "answer": "Typical dosages range from 5-30mg daily, depending on the specific formulation and target zinc levels. Due to its enhanced bioavailability, lower doses of Storg-ZN may provide equivalent benefits to higher doses of synthetic zinc compounds."
+      },
+      {
+        "id": 5,
+        "question": "Is Storg-ZN tested for heavy metals and contaminants?",
+        "answer": "Yes, Storg-ZN undergoes rigorous testing for heavy metals, microbiological contaminants, and environmental pollutants to ensure purity and safety. Each batch is tested using ICP-MS technology to verify that all contaminants are well below regulatory limits."
+      },
+      {
+        "id": 6,
+        "question": "How stable is Storg-ZN in different formulations?",
+        "answer": "Storg-ZN demonstrates excellent stability in various formulation types, including tablets, capsules, powders, and liquid supplements. Stability studies show minimal degradation over 24 months when stored according to recommendations."
+      },
+      {
+        "id": 7,
+        "question": "Can Storg-ZN be combined with other minerals?",
+        "answer": "Yes, Storg-ZN can be combined with other minerals in multivitamin/mineral formulations. However, for optimal absorption, we recommend separating high-dose iron and calcium from zinc-containing formulations."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Immune Function", "Skin Health", "Reproductive Health"],
+    "productType": "vitamin-mineral",
+    "productIndications": {
+      "title": "Health Indications",
+      "description": "Storg-ZN is specifically formulated to support these key health areas:",
+      "indications": [
+        {
+          "name": "Immune Function",
+          "icon": "shield",
+          "description": "Supports the body's natural immune defenses and helps maintain immune system function. Zinc is essential for the development and function of immune cells and plays a critical role in inflammatory response."
+        },
+        {
+          "name": "Skin Health",
+          "icon": "sparkles",
+          "description": "Promotes healthy skin, supports collagen production, and aids in wound healing. Zinc is involved in cell division, protein synthesis, and antioxidant defense systems that maintain skin integrity."
+        },
+        {
+          "name": "Reproductive Health",
+          "icon": "heart",
+          "description": "Supports reproductive health and fertility in both men and women. Zinc is crucial for hormone production, sperm quality, and egg development."
+        },
+        {
+          "name": "Cognitive Function",
+          "icon": "brain",
+          "description": "Supports brain health and cognitive function. Zinc is abundant in the brain and plays roles in neurotransmission and neuronal development."
+        },
+        {
+          "name": "Antioxidant Support",
+          "icon": "shield",
+          "description": "Functions as a component of superoxide dismutase, a powerful antioxidant enzyme that helps protect cells from oxidative damage."
+        }
+      ]
+    },
+    "productApplications": {
+      "title": "Product Applications",
+      "description": "Storg-ZN can be incorporated into various formulations:",
+      "applications": [
+        {
+          "name": "Tablets & Capsules",
+          "icon": "pill",
+          "description": "Easily incorporated into solid dosage forms with excellent flow properties and compression characteristics."
+        },
+        {
+          "name": "Powders & Blends",
+          "icon": "beaker",
+          "description": "Mixes well with other ingredients in powder formulations, with minimal clumping and good dispersibility."
+        },
+        {
+          "name": "Functional Foods",
+          "icon": "utensils",
+          "description": "Can be added to food products for nutritional fortification without affecting taste or texture when used at recommended levels."
+        },
+        {
+          "name": "Beverages",
+          "icon": "coffee",
+          "description": "Water-soluble form works well in liquid applications, with minimal sedimentation and good stability."
+        },
+        {
+          "name": "Gummies",
+          "icon": "candy",
+          "description": "Compatible with gummy formulations, providing stable zinc content throughout shelf life."
+        },
+        {
+          "name": "Topical Products",
+          "icon": "droplet",
+          "description": "Can be incorporated into creams, lotions, and other topical formulations for skin health applications."
+        }
+      ]
+    }
+  },
+  {
+    "id": "storg-him",
+    "name": "Storg-Him",
+    "slug": "storg-him",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Plant-based men's health vitamin and mineral complex",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-Him is a specialized plant-based vitamin and mineral complex formulated specifically for men's health. This comprehensive blend provides essential nutrients that support male hormonal balance, prostate health, energy production, and overall vitality. Unlike synthetic supplements, Storg-Him delivers these nutrients in their natural forms with associated co-factors that enhance absorption and cellular utilization.",
+    "shortDescription": "Plant-based vitamin and mineral complex for men's health and vitality",
+    "image": "/images/storg/storg-him.jpg",
+    "gallery": [
+      "/images/storg/storg-him.jpg"
+    ],
+    "applications": [
+      "Men's health supplements",
+      "Prostate support formulations",
+      "Energy and vitality products",
+      "Sports nutrition",
+      "Multivitamin blends for men"
+    ],
+    "benefits": [
+      "Supports healthy testosterone levels",
+      "Promotes prostate health",
+      "Enhances energy production and stamina",
+      "Supports cardiovascular health",
+      "Provides antioxidant protection"
+    ],
+    "specifications": {
+      "activeCompounds": "Plant-based vitamins and minerals with male-specific phytonutrients",
+      "standardization": "Standardized to specific nutrient levels",
+      "form": "Powder, Granules",
+      "solubility": "Partially water soluble",
+      "appearance": "Light brown powder",
+      "testing": "HPLC and ICP-MS analysis for nutrient content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that plant-based vitamin and mineral complexes offer superior bioavailability compared to isolated synthetic nutrients. Studies show that the natural co-factors present in Storg-Him enhance absorption and cellular utilization of these essential nutrients, supporting male hormonal balance, prostate health, and overall vitality.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.8 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "950 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify nutrient content through comprehensive analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-Him is produced using a gentle extraction process that preserves the natural vitamin and mineral complexes found in plant sources. We carefully select nutrient-rich botanicals and employ proprietary techniques to concentrate the active compounds while maintaining their natural co-factors and synergists.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-Him is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Him product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-Him product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based vitamins and minerals for men's health and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-Him?",
+        "answer": "Storg-Him is derived from a proprietary blend of nutrient-rich botanicals including saw palmetto, pumpkin seed, nettle root, and specific mineral-accumulating plants."
+      },
+      {
+        "id": 2,
+        "question": "How does Storg-Him support prostate health?",
+        "answer": "Storg-Him contains natural plant compounds that help maintain healthy prostate function, including specific phytosterols, zinc, and selenium from plant sources."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-Him suitable for vegan formulations?",
+        "answer": "Yes, Storg-Him is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-Him?",
+        "answer": "Typical dosages range from 500-1000mg daily, depending on the specific formulation and target nutrient levels."
+      },
+      {
+        "id": 5,
+        "question": "Can Storg-Him be combined with other supplements?",
+        "answer": "Yes, Storg-Him works well in combination with other nutritional supplements and can be incorporated into comprehensive men's health formulations."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Men's Health", "Energy", "Cardiovascular Health"]
+  },
+  {
+    "id": "storg-her",
+    "name": "Storg-Her",
+    "slug": "storg-her",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Plant-based women's health vitamin and mineral complex",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-Her is a specialized plant-based vitamin and mineral complex formulated specifically for women's health. This comprehensive blend provides essential nutrients that support female hormonal balance, reproductive health, bone strength, and overall vitality. Unlike synthetic supplements, Storg-Her delivers these nutrients in their natural forms with associated co-factors that enhance absorption and cellular utilization.",
+    "shortDescription": "Plant-based vitamin and mineral complex for women's health and vitality",
+    "image": "/images/storg/storg-her.jpg",
+    "gallery": [
+      "/images/storg/storg-her.jpg"
+    ],
+    "applications": [
+      "Women's health supplements",
+      "Hormonal balance formulations",
+      "Bone health products",
+      "Energy and vitality supplements",
+      "Multivitamin blends for women"
+    ],
+    "benefits": [
+      "Supports healthy hormonal balance",
+      "Promotes reproductive health",
+      "Enhances bone strength and density",
+      "Supports energy production and vitality",
+      "Provides antioxidant protection"
+    ],
+    "specifications": {
+      "activeCompounds": "Plant-based vitamins and minerals with female-specific phytonutrients",
+      "standardization": "Standardized to specific nutrient levels",
+      "form": "Powder, Granules",
+      "solubility": "Partially water soluble",
+      "appearance": "Light beige powder",
+      "testing": "HPLC and ICP-MS analysis for nutrient content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that plant-based vitamin and mineral complexes offer superior bioavailability compared to isolated synthetic nutrients. Studies show that the natural co-factors present in Storg-Her enhance absorption and cellular utilization of these essential nutrients, supporting female hormonal balance, bone health, and overall vitality.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.8 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "950 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify nutrient content through comprehensive analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-Her is produced using a gentle extraction process that preserves the natural vitamin and mineral complexes found in plant sources. We carefully select nutrient-rich botanicals and employ proprietary techniques to concentrate the active compounds while maintaining their natural co-factors and synergists.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-Her is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Her product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-Her product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based vitamins and minerals for women's health and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-Her?",
+        "answer": "Storg-Her is derived from a proprietary blend of nutrient-rich botanicals including red clover, black cohosh, shatavari, and specific mineral-accumulating plants."
+      },
+      {
+        "id": 2,
+        "question": "How does Storg-Her support hormonal balance?",
+        "answer": "Storg-Her contains natural plant compounds that help maintain healthy female hormone levels, including specific phytoestrogens, calcium, magnesium, and iron from plant sources."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-Her suitable for vegan formulations?",
+        "answer": "Yes, Storg-Her is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-Her?",
+        "answer": "Typical dosages range from 500-1000mg daily, depending on the specific formulation and target nutrient levels."
+      },
+      {
+        "id": 5,
+        "question": "Can Storg-Her be combined with other supplements?",
+        "answer": "Yes, Storg-Her works well in combination with other nutritional supplements and can be incorporated into comprehensive women's health formulations."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Women's Health", "Bone Health", "Energy"]
+  },
+  {
+    "id": "storg-kid",
+    "name": "Storg-Kid",
+    "slug": "storg-kid",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Plant-based children's vitamin and mineral complex",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-Kid is a specialized plant-based vitamin and mineral complex formulated specifically for children's health and development. This comprehensive blend provides essential nutrients that support cognitive development, immune function, growth, and overall vitality. Unlike synthetic supplements, Storg-Kid delivers these nutrients in their natural forms with associated co-factors that enhance absorption and cellular utilization.",
+    "shortDescription": "Plant-based vitamin and mineral complex for children's health and development",
+    "image": "/images/storg/storg-kid.jpg",
+    "gallery": [
+      "/images/storg/storg-kid.jpg"
+    ],
+    "applications": [
+      "Children's health supplements",
+      "Cognitive development formulations",
+      "Immune support products for kids",
+      "Growth and development supplements",
+      "Multivitamin blends for children"
+    ],
+    "benefits": [
+      "Supports healthy cognitive development",
+      "Promotes immune system function",
+      "Enhances growth and development",
+      "Supports energy production and vitality",
+      "Provides essential nutrients for overall health"
+    ],
+    "specifications": {
+      "activeCompounds": "Plant-based vitamins and minerals with child-specific nutrient ratios",
+      "standardization": "Standardized to specific nutrient levels",
+      "form": "Powder, Granules",
+      "solubility": "Water soluble",
+      "appearance": "Light yellow powder",
+      "testing": "HPLC and ICP-MS analysis for nutrient content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that plant-based vitamin and mineral complexes offer superior bioavailability compared to isolated synthetic nutrients. Studies show that the natural co-factors present in Storg-Kid enhance absorption and cellular utilization of these essential nutrients, supporting cognitive development, immune function, and overall growth in children.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.8 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "950 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify nutrient content through comprehensive analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-Kid is produced using a gentle extraction process that preserves the natural vitamin and mineral complexes found in plant sources. We carefully select nutrient-rich botanicals and employ proprietary techniques to concentrate the active compounds while maintaining their natural co-factors and synergists.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-Kid is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Kid product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-Kid product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based vitamins and minerals for children's health and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-Kid?",
+        "answer": "Storg-Kid is derived from a proprietary blend of nutrient-rich botanicals including fruits, vegetables, and specific mineral-accumulating plants that are naturally rich in essential nutrients for children's development."
+      },
+      {
+        "id": 2,
+        "question": "How does Storg-Kid support cognitive development?",
+        "answer": "Storg-Kid contains natural plant compounds that support brain development and function, including specific omega fatty acids, B vitamins, and minerals from plant sources."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-Kid suitable for vegan formulations?",
+        "answer": "Yes, Storg-Kid is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-Kid?",
+        "answer": "Typical dosages range from 250-500mg daily, depending on the specific formulation, age group, and target nutrient levels."
+      },
+      {
+        "id": 5,
+        "question": "Does Storg-Kid have a pleasant taste for children's formulations?",
+        "answer": "Yes, Storg-Kid has a naturally mild, slightly sweet taste that works well in children's formulations and can be easily masked with natural flavors if needed."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Cognitive Development", "Immune Function", "Growth"]
+  },
+  {
+    "id": "storg-bs",
+    "name": "Storg-Bs",
+    "slug": "storg-bs",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Plant-based B-complex vitamin blend",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-Bs is a comprehensive plant-based B-complex vitamin blend derived from natural botanical sources. Unlike synthetic B vitamins, Storg-Bs provides all eight essential B vitamins in their natural forms with associated co-factors that enhance absorption and cellular utilization. This specialized ingredient is ideal for energy support formulations, stress management products, and cognitive health supplements.",
+    "shortDescription": "Natural B-complex vitamin blend from plant sources for energy and cognitive support",
+    "image": "/images/storg/storg-bs.jpg",
+    "gallery": [
+      "/images/storg/storg-bs.jpg"
+    ],
+    "applications": [
+      "Energy support supplements",
+      "Stress management formulations",
+      "Cognitive health products",
+      "Nervous system support",
+      "Multivitamin blends"
+    ],
+    "benefits": [
+      "Supports energy production at the cellular level",
+      "Promotes healthy nervous system function",
+      "Enhances cognitive performance and mental clarity",
+      "Supports stress response and adrenal function",
+      "Aids in metabolism of carbohydrates, proteins, and fats"
+    ],
+    "specifications": {
+      "activeCompounds": "Natural B vitamins (B1, B2, B3, B5, B6, B7, B9, B12)",
+      "standardization": "Standardized to specific B vitamin levels",
+      "form": "Powder, Granules",
+      "solubility": "Water soluble",
+      "appearance": "Light tan to brown powder",
+      "testing": "HPLC analysis for B vitamin content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that natural B vitamins from plant sources offer superior bioavailability compared to synthetic forms. Studies show that the natural co-factors present in Storg-Bs enhance absorption and cellular utilization of these essential nutrients, supporting energy production, cognitive function, and stress management.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.7 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "930 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify B vitamin content through HPLC analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for B vitamin potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-Bs is produced using a gentle extraction process that preserves the natural B vitamin complexes found in plant sources. We carefully select B vitamin-rich botanicals and employ proprietary techniques to concentrate the vitamins while maintaining their natural co-factors and synergists.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-Bs is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Bs product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-Bs product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based B vitamins and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-Bs?",
+        "answer": "Storg-Bs is derived from a proprietary blend of B vitamin-rich botanicals including nutritional yeast, spirulina, quinoa sprouts, and specific fermented foods."
+      },
+      {
+        "id": 2,
+        "question": "How does natural B complex compare to synthetic B vitamins?",
+        "answer": "Natural B complex contains all eight B vitamins in their bioactive forms along with co-factors that enhance absorption and utilization, while synthetic B vitamins are isolated compounds that may lack these synergistic elements."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-Bs suitable for vegan formulations?",
+        "answer": "Yes, Storg-Bs is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-Bs?",
+        "answer": "Typical dosages range from 50-200mg daily, depending on the specific formulation and target B vitamin levels."
+      },
+      {
+        "id": 5,
+        "question": "Does Storg-Bs have the characteristic B vitamin odor?",
+        "answer": "Storg-Bs has a milder, more pleasant aroma compared to synthetic B vitamins, making it easier to work with in various formulations."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Energy", "Stress Management", "Cognitive Function"]
+  },
+  {
+    "id": "storg-bio",
+    "name": "Storg-Bio",
+    "slug": "storg-bio",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Plant-based biotin complex",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-Bio is a specialized plant-based biotin (vitamin B7) complex derived from natural botanical sources. Unlike synthetic biotin, Storg-Bio provides this essential nutrient in its natural form with associated co-factors that enhance absorption and cellular utilization. This premium ingredient is ideal for hair, skin, and nail health formulations, as well as products supporting metabolism and energy production.",
+    "shortDescription": "Natural biotin complex from plant sources for hair, skin, and nail health",
+    "image": "/images/storg/storg-bio.jpg",
+    "gallery": [
+      "/images/storg/storg-bio.jpg"
+    ],
+    "applications": [
+      "Hair, skin, and nail supplements",
+      "Beauty formulations",
+      "Metabolism support products",
+      "Energy support supplements",
+      "Multivitamin blends"
+    ],
+    "benefits": [
+      "Supports healthy hair growth and strength",
+      "Promotes skin health and appearance",
+      "Enhances nail strength and integrity",
+      "Supports energy metabolism",
+      "Aids in protein, fat, and carbohydrate metabolism"
+    ],
+    "specifications": {
+      "activeCompounds": "Natural biotin (vitamin B7) complex",
+      "standardization": "Standardized to specific biotin levels",
+      "form": "Powder, Granules",
+      "solubility": "Water soluble",
+      "appearance": "Off-white to light tan powder",
+      "testing": "HPLC analysis for biotin content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that natural biotin from plant sources offers superior bioavailability compared to synthetic forms. Studies show that the natural co-factors present in Storg-Bio enhance absorption and cellular utilization of this essential nutrient, supporting hair, skin, and nail health, as well as energy metabolism.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.6 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "890 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify biotin content through HPLC analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for biotin potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-Bio is produced using a gentle extraction process that preserves the natural biotin complex found in plant sources. We carefully select biotin-rich botanicals and employ proprietary techniques to concentrate the biotin while maintaining its natural co-factors and synergists.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-Bio is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Bio product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-Bio product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based biotin and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-Bio?",
+        "answer": "Storg-Bio is derived from a proprietary blend of biotin-rich botanicals including nutritional yeast, certain nuts, seeds, and specific fermented foods."
+      },
+      {
+        "id": 2,
+        "question": "How does natural biotin compare to synthetic biotin?",
+        "answer": "Natural biotin comes with co-factors that enhance absorption and utilization, making it more bioavailable than isolated synthetic biotin."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-Bio suitable for vegan formulations?",
+        "answer": "Yes, Storg-Bio is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-Bio?",
+        "answer": "Typical dosages range from 5-50mg daily, depending on the specific formulation and target biotin levels."
+      },
+      {
+        "id": 5,
+        "question": "How quickly can results be seen when using Storg-Bio in hair, skin, and nail formulations?",
+        "answer": "While individual results may vary, studies with natural biotin complexes typically show noticeable improvements in hair, skin, and nail health within 30-90 days of consistent use."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Hair Health", "Skin Health", "Nail Health"]
+  },
+  {
+    "id": "storg-bt",
+    "name": "Storg-BT",
+    "slug": "storg-bt",
+    "categoryId": "vitamins-minerals",
+    "categorySlug": "vitamins-minerals",
+    "categoryName": "Vitamins & Minerals",
+    "standardization": "Plant-based betaine complex",
+    "latinName": "",
+    "plantPart": "Various",
+    "description": "Storg-BT is a specialized plant-based betaine complex derived from natural botanical sources. Unlike synthetic betaine, Storg-BT provides this important nutrient in its natural form with associated co-factors that enhance absorption and cellular utilization. This premium ingredient is ideal for liver support formulations, cardiovascular health products, and supplements supporting protein metabolism and homocysteine regulation.",
+    "shortDescription": "Natural betaine complex from plant sources for liver and cardiovascular support",
+    "image": "/images/storg/storg-bt.jpg",
+    "gallery": [
+      "/images/storg/storg-bt.jpg"
+    ],
+    "applications": [
+      "Liver support supplements",
+      "Cardiovascular health formulations",
+      "Homocysteine management products",
+      "Sports nutrition",
+      "Digestive health supplements"
+    ],
+    "benefits": [
+      "Supports healthy liver function",
+      "Promotes cardiovascular health",
+      "Helps maintain healthy homocysteine levels",
+      "Supports protein metabolism",
+      "Aids in cellular hydration and osmotic balance"
+    ],
+    "specifications": {
+      "activeCompounds": "Natural betaine complex",
+      "standardization": "Standardized to specific betaine levels",
+      "form": "Powder, Granules",
+      "solubility": "Water soluble",
+      "appearance": "White to off-white powder",
+      "testing": "HPLC analysis for betaine content verification",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Research indicates that natural betaine from plant sources offers superior bioavailability compared to synthetic forms. Studies show that the natural co-factors present in Storg-BT enhance absorption and cellular utilization of this important nutrient, supporting liver function, cardiovascular health, and homocysteine regulation.",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "featured": false,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.7 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "910 KB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify betaine content through HPLC analysis",
+        "Check for natural source verification documentation",
+        "Ensure product meets label claims for betaine potency",
+        "Request stability data under various storage conditions",
+        "Confirm absence of synthetic additives or preservatives"
+      ]
+    },
+    "productionDetails": {
+      "description": "Storg-BT is produced using a gentle extraction process that preserves the natural betaine complex found in plant sources. We carefully select betaine-rich botanicals and employ proprietary techniques to concentrate the betaine while maintaining its natural co-factors and synergists.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Storg-BT is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for gentle extraction and processing of plant-based nutrients, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-BT product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases our Storg-BT product at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on plant-based betaine and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What plant sources are used for Storg-BT?",
+        "answer": "Storg-BT is derived from a proprietary blend of betaine-rich botanicals including quinoa, wheat germ, spinach, and beets."
+      },
+      {
+        "id": 2,
+        "question": "How does natural betaine compare to synthetic betaine?",
+        "answer": "Natural betaine comes with co-factors that enhance absorption and utilization, making it more bioavailable than isolated synthetic betaine."
+      },
+      {
+        "id": 3,
+        "question": "Is Storg-BT suitable for vegan formulations?",
+        "answer": "Yes, Storg-BT is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Storg-BT?",
+        "answer": "Typical dosages range from 500-2000mg daily, depending on the specific formulation and target betaine levels."
+      },
+      {
+        "id": 5,
+        "question": "How does betaine support liver health?",
+        "answer": "Betaine acts as a methyl donor and helps protect liver cells from damage. It supports healthy fat metabolism in the liver and helps prevent fat accumulation in liver tissue."
+      }
+    ],
+    "parentProductId": "storg-main",
+    "indications": ["Liver Health", "Cardiovascular Health", "Homocysteine Management"]
+  },
+
   // {
   //   id: "organic-andrographis",
   //   name: "Organic Andrographis Extract",
@@ -510,6 +2301,197 @@ export const products: Product[] = [
   //   ]
   // },
 
+  {
+    "id": "turmimax",
+    "name": "Turmimax™",
+    "slug": "turmimax",
+    "categoryId": "branded-ingredients",
+    "categorySlug": "branded-ingredients",
+    "categoryName": "Branded Ingredients",
+    "standardization": "Standardized to 95% curcuminoids with enhanced bioavailability",
+    "latinName": "Curcuma longa",
+    "plantPart": "Rhizome",
+    "description": "Turmimax™ is a new synergistic phytochemical composition derived from turmeric rhizome. It represents the highest purity grade available in the market, delivering over 95% curcuminoids in a 100% water dispersible form. Our patented OptiBio™ Assurance crystallization technique ensures optimal bioavailability, providing 35x greater absorption than standard turmeric extracts. Turmimax™ has been extensively studied for its anti-inflammatory, hepatoprotective, anticancer, and antioxidant properties through in vitro, in vivo, and clinical research.",
+    "shortDescription": "Premium water-dispersible turmeric extract with 35x enhanced bioavailability",
+    "image": "/images/turmimax/turmimax-bio.jpg",
+    "gallery": [
+      "/images/turmimax/turmimax-bio.jpg",
+      "/images/turmimax/bioavailibility-graph.png",
+      "/images/turmimax/optiBio-chart.png"
+    ],
+    "applications": [
+      "Dietary supplements",
+      "Functional foods and beverages",
+      "Gummies",
+      "Capsules and tablets",
+      "Nutritional shots",
+      "Powdered drink mixes",
+      "Nutribar formulations",
+      "Milk and dairy products"
+    ],
+    "benefits": [
+      "35x greater bioavailability than standard turmeric extracts",
+      "100% water dispersible and soluble over time",
+      "Powerful anti-inflammatory properties",
+      "Strong antioxidant activity",
+      "Supports joint health and mobility",
+      "Promotes liver health and function"
+    ],
+    "specifications": {
+      "activeCompounds": "Curcuminoids (95%+)",
+      "standardization": "95%+ curcuminoids",
+      "form": "Powder",
+      "solubility": "Water dispersible",
+      "appearance": "Yellow-orange powder",
+      "testing": "HPLC, UV-Vis Spectrophotometry",
+      "heavyMetals": "Meets USP <232> specifications",
+      "shelfLife": "24 months when stored properly",
+      "storage": "Store in a cool, dry place away from direct sunlight"
+    },
+    "research": "Turmimax™ has been extensively studied for its therapeutic potential. In vitro studies have demonstrated significant anti-inflammatory, hepatoprotective, anticancer, and antioxidant properties. In vivo research has confirmed its safety through acute and sub-acute toxicity studies, while also validating its enhanced bioavailability and anti-inflammatory effects. Clinical studies on its anti-inflammatory benefits for osteoarthritis are currently underway. Published research includes work by Firoz Hussain H.M, Nanjundaiah S, et al. in the American Journal of Biochemistry and Biotechnology (2022) and Brazilian Journal of Biology (2023).",
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO", "USDA Organic"],
+    "featured": true,
+    "documents": [
+      { "id": 1, "name": "Technical Data Sheet", "size": "2.4 MB" },
+      { "id": 2, "name": "Safety Data Sheet", "size": "1.8 MB" },
+      { "id": 3, "name": "Certificate of Analysis", "size": "956 KB" },
+      { "id": 4, "name": "Clinical Study Summary", "size": "3.2 MB" },
+      { "id": 5, "name": "Patent Documentation", "size": "4.1 MB" }
+    ],
+    "supplierInfo": {
+      "points": [
+        "Verify curcuminoid content through HPLC analysis",
+        "Request bioavailability data and clinical study reports",
+        "Ensure product meets label claims for active compounds",
+        "Check for proper storage and handling instructions",
+        "Confirm absence of synthetic additives or preservatives",
+        "Verify patent and intellectual property documentation"
+      ]
+    },
+    "productionDetails": {
+      "description": "Turmimax™ is produced using our patented OptiBio™ Assurance crystallization technique that ensures optimal bioavailability. Our process begins with USDA Organic grade turmeric from our managed farmlands in South India, which undergoes careful extraction and standardization to ensure consistent potency and quality. Our manufacturing process prohibits the use of additives or excipients, guaranteeing true 95% curcuminoid content.",
+      "image": "/images/process-ch.webp"
+    },
+    "packaging": {
+      "description": "Turmimax™ is packaged in light-resistant, moisture-proof containers to maintain potency and freshness. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners. Smaller quantities are available in 1kg and 5kg aluminum foil bags.",
+      "image": "/images/packaging-ch.webp"
+    },
+    "factory": {
+      "description": "Our manufacturing facility operates under strict GMP conditions and is certified to FSSC 22000 and ISO 9001:2015 standards. The facility features specialized equipment for extraction, standardization, and our proprietary bioavailability-enhancing process, with comprehensive quality control measures at every stage of production.",
+      "image": "/images/factory-ch.webp"
+    },
+    "certificationsSection": {
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Turmimax™ product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, Non-GMO, and USDA Organic certifications.",
+      "image": "/images/certifications-ch.webp"
+    },
+    "events": {
+      "description": "Star Hi Herbs showcases Turmimax™ at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on our enhanced bioavailability turmeric and discuss specific formulation requirements with customers.",
+      "image": "/images/events.jpg"
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "How does Turmimax™ achieve its enhanced bioavailability?",
+        "answer": "Turmimax™ uses our patented OptiBio™ Assurance crystallization technique that ensures optimal bioavailability. This proprietary process results in 35x greater bioavailability than standard turmeric extracts and creates a product that is 100% water dispersible."
+      },
+      {
+        "id": 2,
+        "question": "What clinical evidence supports Turmimax™?",
+        "answer": "Turmimax™ has been studied in multiple in vitro and in vivo studies that demonstrate its anti-inflammatory, hepatoprotective, anticancer, and antioxidant properties. Clinical studies on its anti-inflammatory benefits for osteoarthritis are currently underway."
+      },
+      {
+        "id": 3,
+        "question": "Is Turmimax™ suitable for vegan formulations?",
+        "answer": "Yes, Turmimax™ is 100% plant-derived and suitable for vegan and vegetarian formulations."
+      },
+      {
+        "id": 4,
+        "question": "What is the recommended dosage for Turmimax™?",
+        "answer": "Due to its enhanced bioavailability, lower doses of Turmimax™ provide equivalent benefits to higher doses of standard turmeric extracts. Typical dosages range from 250-500mg daily."
+      },
+      {
+        "id": 5,
+        "question": "Does Turmimax™ contain any additives or excipients?",
+        "answer": "No, Turmimax™ prohibits the use of additives or excipients in our manufacturing process. Unlike some competitors who use quillaja saponaria or maltodextrin to boost curcuminoid concentration artificially, Turmimax™ guarantees true 95% curcuminoid content extracted from USDA Organic grade turmeric."
+      }
+    ],
+    "productType": "branded",
+    "brandLogo": "/images/turmimax/turmimax-bio.jpg",
+    "clinicalResearch": {
+      "title": "Clinical Research",
+      "description": "Turmimax™ has been extensively studied through in vitro, in vivo, and clinical research:",
+      "studies": [
+        {
+          "title": "In Vitro Studies",
+          "description": "Laboratory research has demonstrated Turmimax™'s significant anti-inflammatory, hepatoprotective, anticancer, and antioxidant properties. Published research by Firoz H.M, Nanjundaiah S, et al. in the Brazilian Journal of Biology showed antiproliferative activity and apoptosis-inducing mechanism on HeLa cell lines.",
+          "link": "http://dx.doi.org/10.1590/1519-6984.275953",
+          "image": "/images/turmimax/turmimax-bio.jpg"
+        },
+        {
+          "title": "In Vivo Studies",
+          "description": "Animal studies have confirmed Turmimax™'s safety through acute and sub-acute toxicity studies, while also validating its enhanced bioavailability and anti-inflammatory effects. Research published in the American Journal of Biochemistry and Biotechnology (2022) demonstrated significant anti-inflammatory potential.",
+          "link": "https://doi.org/10.3844/ajbbsp.2022.386.393",
+          "image": "/images/turmimax/bioavailibility-graph.png"
+        },
+        {
+          "title": "Clinical Studies",
+          "description": "A prospective, randomized, double-blind, placebo-controlled study to evaluate the safety & efficacy of Turmimax™ for the management of pain in patients diagnosed with osteoarthritis of the knee is currently underway.",
+          "link": "#",
+          "image": "/images/turmimax/optiBio-chart.png"
+        }
+      ]
+    },
+    "healthClaims": {
+      "title": "Health Claims",
+      "claims": [
+        "Supports healthy inflammatory response*",
+        "Provides powerful antioxidant protection*",
+        "Supports joint health and mobility*",
+        "Promotes liver health and function*",
+        "Supports cardiovascular health*",
+        "Promotes cellular health and function*"
+      ]
+    },
+    "whitepaper": {
+      "title": "Scientific Whitepaper",
+      "description": "Our comprehensive whitepaper details the science behind Turmimax™'s enhanced bioavailability technology, OptiBio™ Assurance crystallization technique, clinical research findings, and applications in various health categories.",
+      "link": "#",
+      "image": "/images/turmimax/turmimax-bio.jpg"
+    },
+    "mechanism": {
+      "title": "Mechanism of Action",
+      "description": "Turmimax™ works through multiple mechanisms to support health and wellness. Its primary active compounds, curcuminoids, modulate key inflammatory pathways by inhibiting NF-κB activation and reducing the production of pro-inflammatory cytokines. Additionally, Turmimax™ provides powerful antioxidant protection by neutralizing free radicals and supporting the body's natural antioxidant systems. Our patented OptiBio™ Assurance crystallization technique ensures optimal bioavailability, resulting in 35x greater absorption than standard turmeric extracts and creating a product that is 100% water dispersible and soluble over time.",
+      "image": "/images/turmimax/bioavailibility-graph.png"
+    },
+    "sustainability": {
+      "title": "Sustainability",
+      "description": "At Star Hi Herbs, we are committed to sustainable sourcing and production practices for our Turmimax™ ingredient:",
+      "points": [
+        "USDA Organic turmeric grown on over 15,000 dedicated acres in South India",
+        "Surplus nutrient-dense biomass is upcycled by donating to local farmers for use as fertilizer",
+        "Water recycling systems in our extraction facilities reduce water usage",
+        "Solar-powered manufacturing reduces carbon footprint",
+        "Farm-to-customer vertical integration ensures detailed soil management, sowing, irrigation, and harvesting records",
+        "Fair trade practices ensure equitable compensation for farmers"
+      ],
+      "image": "/images/turmimax/turmimax-bio.jpg"
+    },
+    "whyChoose": {
+      "title": "Why Choose Turmimax™?",
+      "description": "Turmimax™ offers significant advantages over standard turmeric extracts and competing branded ingredients:",
+      "points": [
+        "35x greater bioavailability compared to standard turmeric extracts",
+        "100% water dispersible and soluble over time",
+        "Patented OptiBio™ Assurance crystallization technique",
+        "No additives or excipients in our manufacturing process",
+        "True 95% curcuminoid content from USDA Organic grade turmeric",
+        "Farm-to-customer vertical integration from 15,000 acres of managed farmland",
+        "3-to-1 potency advantage for better cost efficiency",
+        "Sustainable sourcing and production practices"
+      ],
+      "image": "/images/turmimax/optiBio-chart.png"
+    }
+  },
   {
     "id": "organic-andrographis",
     "name": "Organic Andrographis Extract",
@@ -3738,8 +5720,8 @@ export const products: Product[] = [
     ]
   },
   {
-    id: 'turmeric-1',
-    slug: 'turmeric-extract-1',
+    id: 'turmeric',
+    slug: 'turmeric',
     name: 'Turmeric Extract',
     categoryId: 'standardized-extracts',
     categorySlug: 'standardized-extracts',
@@ -3847,7 +5829,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: 'turmeric-granules',
+    id: 'turmeric-extract-granules',
     slug: 'turmeric-extract-granules',
     name: 'Turmeric Extract Granules',
     categoryId: 'standardized-extracts',
@@ -7502,6 +9484,13 @@ export function getProductBySlug(slug: string): Product | undefined {
 }
 
 /**
+ * Get a product by ID
+ */
+export function getProductById(id: string | number): Product | undefined {
+  return products.find(product => product.id === id);
+}
+
+/**
  * Get products by category slug
  */
 export function getProductsByCategorySlug(categorySlug: string): Product[] {
@@ -7527,9 +9516,16 @@ export function getFeaturedProducts(count: number = 3): Product[] {
 /**
  * Get related products based on category
  */
-export function getRelatedProducts(productId: string | number, count: number = 3): Product[] {
+export function getRelatedProducts(productId: string | number, count: number = 3, categorySlug?: string): Product[] {
   const currentProduct = products.find(product => product.id === productId);
   if (!currentProduct) return [];
+
+  // If categorySlug is provided, get products from that category
+  if (categorySlug) {
+    return products.filter(
+      product => product.categorySlug === categorySlug && product.id !== productId
+    ).slice(0, count);
+  }
 
   // Get products from the same category, excluding the current product
   const sameCategory = products.filter(

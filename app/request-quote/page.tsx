@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: 'Request pricing information for our herbal extracts, probiotics, and nutraceutical ingredients.',
     images: [
       {
-        url: 'https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg',
+        url: '/images/hero/standardized-herbal-extracts.jpeg',
         width: 1200,
         height: 630,
         alt: 'Star Hi Herbs - Request a Quote',
@@ -25,22 +25,22 @@ export default function RequestQuotePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[30vh] min-h-[250px] flex items-center">
+      <section className="relative h-[60vh] min-h-[400px] flex items-center">
         <Image
-          src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg"
+          src="/images/hero/standardized-herbal-extracts.jpeg"
           alt="Request a Quote"
           fill
-          sizes="100vw"
           className="object-cover"
           priority
-          quality={85}
         />
-        <div className="absolute inset-0 bg-[#214842]/70"></div>
+        <div className="absolute inset-0 bg-[#214842]/30"></div>
         <div className="relative z-10 container-custom text-white">
-          <h1 className="mb-4">Request a Quote</h1>
-          <p className="text-xl max-w-2xl text-white/90">
-            Get pricing information for our high-quality herbal extracts and nutraceutical ingredients.
-          </p>
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="mb-4 text-shadow-sm">Request a Quote</h1>
+            <p className="text-xl text-white text-shadow-sm">
+              Get pricing information for our high-quality herbal extracts and nutraceutical ingredients.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -51,11 +51,11 @@ export default function RequestQuotePage() {
             <div className="mb-8 text-center">
               <h2 className="text-2xl font-semibold text-[#214842] mb-4">Request Pricing Information</h2>
               <p className="text-gray-600">
-                Please fill out the form below with your requirements, and our team will provide you with a 
+                Please fill out the form below with your requirements, and our team will provide you with a
                 customized quote as soon as possible.
               </p>
             </div>
-            
+
             <RequestQuoteForm />
           </div>
         </div>

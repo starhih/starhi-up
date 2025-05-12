@@ -33,19 +33,19 @@ export default function JobDetailPage({ params }: { params: { slug: string } }) 
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[30vh] min-h-[250px] flex items-center">
+      <section className="relative h-[60vh] min-h-[400px] flex items-center">
         <Image
-          src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg"
+          src="/images/hero/standardized-herbal-extracts.jpeg"
           alt={job.title}
           fill
-          sizes="100vw"
           className="object-cover"
           priority
-          quality={85}
         />
-        <div className="absolute inset-0 bg-[#214842]/70"></div>
+        <div className="absolute inset-0 bg-[#214842]/30"></div>
         <div className="relative z-10 container-custom text-white">
-          <h1 className="mb-4">{job.title}</h1>
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="mb-4 text-shadow-sm">{job.title}</h1>
+          </div>
         </div>
       </section>
 

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: 'Download our comprehensive product catalogue featuring our herbal extracts, probiotics, and nutraceutical ingredients.',
     images: [
       {
-        url: 'https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg',
+        url: '/images/hero/standardized-herbal-extracts.jpeg',
         width: 1200,
         height: 630,
         alt: 'Star Hi Herbs - Download Catalogue',
@@ -26,22 +26,22 @@ export default function DownloadCataloguePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[30vh] min-h-[250px] flex items-center">
+      <section className="relative h-[60vh] min-h-[400px] flex items-center">
         <Image
-          src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg"
+          src="/images/hero/standardized-herbal-extracts.jpeg"
           alt="Download Catalogue"
           fill
-          sizes="100vw"
           className="object-cover"
           priority
-          quality={85}
         />
-        <div className="absolute inset-0 bg-[#214842]/70"></div>
+        <div className="absolute inset-0 bg-[#214842]/30"></div>
         <div className="relative z-10 container-custom text-white">
-          <h1 className="mb-4">Download Our Catalogue</h1>
-          <p className="text-xl max-w-2xl text-white/90">
-            Access our comprehensive product catalogue featuring our complete range of herbal extracts and nutraceutical ingredients.
-          </p>
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="mb-4 text-shadow-sm">Download Our Catalogue</h1>
+            <p className="text-xl text-white text-shadow-sm">
+              Access our comprehensive product catalogue featuring our complete range of herbal extracts and nutraceutical ingredients.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -58,12 +58,12 @@ export default function DownloadCataloguePage() {
                   </div>
                   <h2 className="text-2xl font-semibold text-[#214842]">Our Product Catalogue</h2>
                 </div>
-                
+
                 <p className="text-gray-600 mb-6">
-                  Our comprehensive product catalogue provides detailed information about our complete range of herbal extracts, 
+                  Our comprehensive product catalogue provides detailed information about our complete range of herbal extracts,
                   probiotics, and nutraceutical ingredients. It includes:
                 </p>
-                
+
                 <ul className="space-y-4 mb-8">
                   <li className="flex items-start">
                     <div className="bg-[#214842]/10 p-2 rounded-lg mr-3 mt-0.5">
@@ -93,7 +93,7 @@ export default function DownloadCataloguePage() {
                     </div>
                   </li>
                 </ul>
-                
+
                 <div className="bg-gray-50 p-4 rounded-lg border border-gray-100">
                   <h3 className="font-medium text-[#214842] mb-2">Available Formats</h3>
                   <div className="grid grid-cols-2 gap-4">
@@ -108,7 +108,7 @@ export default function DownloadCataloguePage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="bg-[#214842] text-white p-6 rounded-xl">
                 <h3 className="text-xl font-semibold mb-4">Need More Information?</h3>
                 <p className="mb-4">
@@ -122,7 +122,7 @@ export default function DownloadCataloguePage() {
                 </div>
               </div>
             </div>
-            
+
             {/* Right Column - Download Form */}
             <div className="bg-white p-8 rounded-xl shadow-md">
               <div className="flex items-center gap-4 mb-6">
@@ -131,12 +131,12 @@ export default function DownloadCataloguePage() {
                 </div>
                 <h2 className="text-2xl font-semibold text-[#214842]">Download Now</h2>
               </div>
-              
+
               <p className="text-gray-600 mb-6">
-                Please fill out the form below to download our product catalogue. Your information helps us 
+                Please fill out the form below to download our product catalogue. Your information helps us
                 understand your needs better and provide you with relevant updates.
               </p>
-              
+
               <DownloadCatalogueForm />
             </div>
           </div>

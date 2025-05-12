@@ -9,18 +9,20 @@ export default function SustainabilityPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
         <Image
-          src="/images/sustainibility.jpg"
+          src="/images/hero/sustainibility.jpeg"
           alt="Sustainable Farming"
           fill
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-[#214842]/70"></div>
+        <div className="absolute inset-0 bg-[#214842]/30"></div>
         <div className="relative z-10 container-custom text-white">
-          <h1 className="mb-4">Sustainability</h1>
-          <p className="text-xl max-w-2xl text-white/90">
-            Our commitment to environmental stewardship and sustainable practices.
-          </p>
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="mb-4 text-shadow-sm">Sustainability</h1>
+            <p className="text-xl text-white text-shadow-sm">
+              Our commitment to environmental stewardship and sustainable practices.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -33,8 +35,8 @@ export default function SustainabilityPage() {
               <h2 className="text-[#214842] mb-6">Sustainable by Design</h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  At Star Hi Herbs, sustainability isn't just a buzzword—it's woven into every aspect 
-                  of our operations. From farming practices to processing methods, we prioritize 
+                  At Star Hi Herbs, sustainability isn't just a buzzword—it's woven into every aspect
+                  of our operations. From farming practices to processing methods, we prioritize
                   environmental stewardship while maintaining the highest quality standards.
                 </p>
                 <p>
@@ -142,7 +144,7 @@ export default function SustainabilityPage() {
               <h2 className="text-[#214842] mb-6">Organic & Regenerative Agriculture</h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Our farming practices go beyond organic certification to embrace regenerative 
+                  Our farming practices go beyond organic certification to embrace regenerative
                   agriculture principles that improve soil health and biodiversity.
                 </p>
                 <ul className="space-y-4">
@@ -249,8 +251,8 @@ export default function SustainabilityPage() {
                 image: '/images/certifications/shefexil.jpg',
               },
             ].map((cert, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="bg-white rounded-lg p-6 flex items-center justify-center shadow-md"
               >
                 <div className="w-32 h-32 relative">
@@ -274,7 +276,7 @@ export default function SustainabilityPage() {
             Join Us in Making a Difference
           </h2>
           <p className="text-white/80 max-w-2xl mx-auto mb-8">
-            Learn more about our sustainability initiatives and how you can partner with us 
+            Learn more about our sustainability initiatives and how you can partner with us
             to create a more sustainable future.
           </p>
           <Button asChild className="cta-primary">

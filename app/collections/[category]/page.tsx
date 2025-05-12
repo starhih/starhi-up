@@ -3,12 +3,13 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Search, Filter, ArrowRight } from 'lucide-react';
-import { getProductCategoryBySlug, getProductsByCategorySlug, productCategories } from '@/src/data';
+import { ArrowRight } from 'lucide-react';
+import { getProductCategoryBySlug, getProductsByCategorySlug, productCategories, products } from '@/src/data';
 import Breadcrumbs from '@/components/ui/breadcrumbs';
-import ProductCard from '@/components/products/ProductCard';
 import ProbioticsTable from '@/components/products/ProbioticsTable';
+import StorgProductFamily from '@/components/products/StorgProductFamily';
+import StorgIndicationsChart from '@/components/products/StorgIndicationsChart';
+import ProductListingClient from '@/components/products/ProductListingClient';
 
 // Generate static params for all categories
 export function generateStaticParams() {
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: { params: { category: string 
       description: category.description || `Explore our range of high-quality ${category.name.toLowerCase()} products by Star Hi Herbs.`,
       images: [
         {
-          url: category.image,
+          url: category.heroImage || category.image,
           width: 1200,
           height: 630,
           alt: category.name,
@@ -59,24 +60,22 @@ export default function CategoryPage({ params }: { params: { category: string } 
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[40vh] min-h-[300px] flex items-center">
+      <section className="relative h-[60vh] min-h-[400px] flex items-center">
         <Image
-          src={category.image}
+          src={category.heroImage || category.image}
           alt={category.name}
           fill
-          sizes="100vw"
           className="object-cover"
           priority
-          quality={85}
-          placeholder="blur"
-          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+F/PQAJpgOUCc6crwAAAABJRU5ErkJggg=="
         />
-        <div className="absolute inset-0 bg-[#214842]/70"></div>
+        <div className="absolute inset-0 bg-[#214842]/30"></div>
         <div className="relative z-10 container-custom text-white">
-          <h1 className="mb-4">{category.name}</h1>
-          <p className="text-xl max-w-2xl text-white/90">
-            {category.description}
-          </p>
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="mb-4 text-shadow-sm">{category.name}</h1>
+            <p className="text-xl text-white text-shadow-sm">
+              {category.description}
+            </p>
+          </div>
         </div>
       </section>
 
@@ -90,20 +89,6 @@ export default function CategoryPage({ params }: { params: { category: string } 
             ]}
             showHomeLink={true}
           />
-          <div className="flex flex-col md:flex-row gap-4 items-center mt-4">
-            <div className="relative flex-1">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
-              <Input
-                type="search"
-                placeholder={`Search ${category.name.toLowerCase()}...`}
-                className="pl-10 w-full"
-              />
-            </div>
-            <Button variant="outline" className="flex items-center gap-2">
-              <Filter size={20} />
-              Filter Products
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -113,11 +98,39 @@ export default function CategoryPage({ params }: { params: { category: string } 
           {params.category === 'probiotics' && (
             <ProbioticsTable />
           )}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {categoryProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
+
+          {params.category === 'vitamins-minerals' ? (
+            <>
+              {/* Storg Product Family */}
+              {(() => {
+                const mainProduct = products.find(p => p.id === 'storg-main');
+                if (!mainProduct || !mainProduct.childProducts) return null;
+
+                const childProducts = products.filter(p =>
+                  mainProduct.childProducts.includes(p.id)
+                );
+
+                return (
+                  <>
+                    <StorgProductFamily
+                      mainProduct={mainProduct}
+                      childProducts={childProducts}
+                    />
+
+                    {/* Storg Indications Chart */}
+                    <div className="mt-16 w-full">
+                      <StorgIndicationsChart products={childProducts} />
+                    </div>
+                  </>
+                );
+              })()}
+            </>
+          ) : (
+            <ProductListingClient
+              category={category}
+              initialProducts={categoryProducts}
+            />
+          )}
         </div>
       </section>
 

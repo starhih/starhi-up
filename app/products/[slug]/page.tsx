@@ -15,6 +15,8 @@ import CertificationsSection from '@/components/products/CertificationsSection';
 import Events from '@/components/products/Events';
 import Research from '@/components/products/Research';
 import ProductFAQs from '@/components/products/ProductFAQs';
+import StorgChildProducts from '@/components/products/StorgChildProducts';
+import StorgIndications from '@/components/products/StorgIndications';
 
 // Generate static params for all products
 export function generateStaticParams() {
@@ -59,6 +61,25 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
 
   if (!product) {
     notFound();
+  }
+
+  // Redirect to specialized templates based on product type
+  if (product.productType === 'branded') {
+    return (
+      <div className="container-custom py-12 text-center">
+        <p className="text-lg mb-4">Redirecting to branded ingredient page...</p>
+        <meta httpEquiv="refresh" content={`0;url=/branded-ingredients/${product.slug}`} />
+      </div>
+    );
+  }
+
+  if (product.productType === 'vitamin-mineral') {
+    return (
+      <div className="container-custom py-12 text-center">
+        <p className="text-lg mb-4">Redirecting to vitamins & minerals page...</p>
+        <meta httpEquiv="refresh" content={`0;url=/vitamins-minerals/${product.slug}`} />
+      </div>
+    );
   }
 
   return (
@@ -168,6 +189,22 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
         </div>
       </section>
 
+      {/* Storg Indications Section (for Storg products) */}
+      {product.categoryId === 'vitamins-minerals' && product.indications && product.indications.length > 0 && (
+        <section className="section-padding bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-12">
+              <h6 className="text-[#258F67] uppercase tracking-wider mb-2 font-medium">Health Support</h6>
+              <h2 className="text-[#214842] mb-4">Health Indications</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                {product.name} is specifically formulated to support these key health areas.
+              </p>
+            </div>
+            <StorgIndications product={product} />
+          </div>
+        </section>
+      )}
+
       {/* Product Details */}
       <section className="section-padding">
         <div className="container-custom">
@@ -230,6 +267,59 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           </div>
         </div>
       </section>
+
+      {/* Child Products Section (if this is a parent product) */}
+      {product.isParentProduct && product.childProducts && product.childProducts.length > 0 && (
+        <section className="section-padding bg-gray-50">
+          <div className="container-custom">
+            <StorgChildProducts
+              childProducts={products.filter(p => product.childProducts?.includes(p.id))}
+            />
+          </div>
+        </section>
+      )}
+
+      {/* Parent Product Section (if this is a child product) */}
+      {product.parentProductId && (
+        <section className="section-padding bg-gray-50">
+          <div className="container-custom">
+            <div className="text-center mb-8">
+              <h6 className="text-[#258F67] uppercase tracking-wider mb-2 font-medium">Product Family</h6>
+              <h2 className="text-[#214842] mb-4">Part of Storg® Product Line</h2>
+            </div>
+
+            {(() => {
+              const parentProduct = products.find(p => p.id === product.parentProductId);
+              if (!parentProduct) return null;
+
+              return (
+                <div className="bg-white rounded-2xl shadow-md overflow-hidden">
+                  <div className="grid md:grid-cols-2 gap-8">
+                    <div className="relative h-[300px] md:h-full">
+                      <Image
+                        src={parentProduct.image}
+                        alt={parentProduct.name}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="p-8">
+                      <h3 className="text-2xl font-semibold text-[#214842] mb-4">{parentProduct.name}</h3>
+                      <p className="text-gray-700 mb-6">{parentProduct.shortDescription}</p>
+                      <Button asChild className="bg-[#214842] hover:bg-[#214842]/90">
+                        <Link href={`/products/${parentProduct.slug}`} className="flex items-center gap-2">
+                          View Product Family <ArrowRight size={16} />
+                        </Link>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              );
+            })()}
+          </div>
+        </section>
+      )}
 
       {/* Research Section (if available) */}
       {product.research && (
