@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, FlaskRound as Flask, Microscope, Lightbulb, Award } from 'lucide-react';
@@ -8,8 +8,7 @@ export default function InnovationPage() {
     <>
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
-        <Image
-          src="/images/hero/innovation-research.jpeg"
+        <Image src="/images/hero/innovation-research.jpeg"
           alt="Research and Development"
           fill
           className="object-cover"

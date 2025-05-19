@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { Award } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { awards } from '@/src/data';

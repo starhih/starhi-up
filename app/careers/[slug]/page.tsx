@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { jobOpenings } from '@/src/data';
 import { Briefcase, MapPin, Clock, Calendar } from 'lucide-react';
 import Breadcrumbs from '@/components/ui/breadcrumbs';
@@ -34,8 +34,7 @@ export default function JobDetailPage({ params }: { params: { slug: string } }) 
     <>
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
-        <Image
-          src="/images/hero/standardized-herbal-extracts.jpeg"
+        <Image src="/images/hero/standardized-herbal-extracts.jpeg"
           alt={job.title}
           fill
           className="object-cover"

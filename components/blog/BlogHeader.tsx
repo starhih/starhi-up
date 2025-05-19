@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { Clock, Calendar } from 'lucide-react';
 import { formatDate } from '@/utils/date';
 import { BlogPost, getAuthorById, getReviewerById, getCategoryById } from '@/src/data/blog';

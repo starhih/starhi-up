@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import DownloadCatalogueForm from '@/components/forms/DownloadCatalogueForm';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { FileText, Download, BookOpen, Leaf, Award, FlaskRound } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -27,8 +27,7 @@ export default function DownloadCataloguePage() {
     <>
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
-        <Image
-          src="/images/hero/standardized-herbal-extracts.jpeg"
+        <Image src="/images/hero/standardized-herbal-extracts.jpeg"
           alt="Download Catalogue"
           fill
           className="object-cover"

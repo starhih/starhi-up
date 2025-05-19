@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Leaf, Recycle, Users, Globe } from 'lucide-react';
@@ -8,8 +8,7 @@ export default function SustainabilityPage() {
     <>
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
-        <Image
-          src="/images/hero/sustainibility.jpeg"
+        <Image src="/images/hero/sustainibility.jpeg"
           alt="Sustainable Farming"
           fill
           className="object-cover"
@@ -59,8 +58,7 @@ export default function SustainabilityPage() {
               </div>
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-lg">
-              <Image
-                src="/images/sustainibility-1.jpg"
+              <Image src="/images/sustainibility-1.jpg"
                 alt="Sustainable Practices"
                 fill
                 className="object-cover"
@@ -131,8 +129,7 @@ export default function SustainabilityPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-lg">
-                <Image
-                  src="/images/organic-turmeric-contract-farming.png"
+                <Image src="/images/organic-turmeric-contract-farming.png"
                   alt="Organic Farming"
                   fill
                   className="object-cover"

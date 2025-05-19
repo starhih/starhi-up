@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { BlogAuthor } from '@/src/data/blog';
 import { Award } from 'lucide-react';
 

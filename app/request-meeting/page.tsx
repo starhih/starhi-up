@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import RequestMeetingForm from '@/components/forms/RequestMeetingForm';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 
 export const metadata: Metadata = {
   title: 'Request a Meeting | Star Hi Herbs',
@@ -26,8 +26,7 @@ export default function RequestMeetingPage() {
     <>
       {/* Hero Section */}
       <section className="relative h-[30vh] min-h-[250px] flex items-center">
-        <Image
-          src="/images/events/event-meeting.jpg"
+        <Image src="/images/events/event-meeting.jpg"
           alt="Request a Meeting"
           fill
           sizes="100vw"

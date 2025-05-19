@@ -1,7 +1,7 @@
 'use client';
 
 import { BaseComponentProps } from '@/types/component';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { Package } from 'lucide-react';
 
 interface PackagingProps extends BaseComponentProps {

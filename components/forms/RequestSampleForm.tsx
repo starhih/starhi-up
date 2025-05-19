@@ -64,7 +64,7 @@ export default function RequestSampleForm() {
   const handleCategoryChange = (value: string) => {
     setSelectedCategory(value);
     setValue('productCategory', value);
-    
+
     // Filter products by category
     if (value) {
       const filtered = products.filter(product => product.categorySlug === value);
@@ -79,22 +79,26 @@ export default function RequestSampleForm() {
     setSubmitError(null);
 
     try {
-      // In a real application, you would send this data to your backend
-      console.log('Form data submitted:', data);
-      
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      
-      // Success
-      setSubmitSuccess(true);
-      reset();
-      setSelectedCategory('');
-      setFilteredProducts([]);
-      
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setSubmitSuccess(false);
-      }, 5000);
+      // Import the email service dynamically to avoid SSR issues
+      const { sendSampleRequestEmail } = await import('@/lib/email-service');
+
+      // Send the email
+      const result = await sendSampleRequestEmail(data);
+
+      if (result.success) {
+        // Success
+        setSubmitSuccess(true);
+        reset();
+        setSelectedCategory('');
+        setFilteredProducts([]);
+
+        // Reset success message after 5 seconds
+        setTimeout(() => {
+          setSubmitSuccess(false);
+        }, 5000);
+      } else {
+        throw new Error(result.error || 'Failed to submit the form');
+      }
     } catch (error) {
       const errorMessage = handleError(error, 'Failed to submit the form. Please try again.');
       setSubmitError(errorMessage);
@@ -258,7 +262,7 @@ export default function RequestSampleForm() {
         <label htmlFor="productCategory" className="text-sm font-medium text-gray-700">
           Product Category <span className="text-red-500">*</span>
         </label>
-        <Select 
+        <Select
           onValueChange={handleCategoryChange}
           defaultValue=""
         >

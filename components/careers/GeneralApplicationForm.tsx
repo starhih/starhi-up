@@ -62,24 +62,24 @@ export default function GeneralApplicationForm() {
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = e.target.files?.[0];
     setFileError(null);
-    
+
     if (!selectedFile) {
       return;
     }
-    
+
     // Check file type
     const allowedTypes = ['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
     if (!allowedTypes.includes(selectedFile.type)) {
       setFileError('Please upload a PDF or Word document');
       return;
     }
-    
+
     // Check file size (max 5MB)
     if (selectedFile.size > 5 * 1024 * 1024) {
       setFileError('File size must be less than 5MB');
       return;
     }
-    
+
     setFile(selectedFile);
   };
 
@@ -99,16 +99,39 @@ export default function GeneralApplicationForm() {
     setIsSubmitting(true);
 
     try {
-      // In a real application, you would send the form data and file to your server here
-      // For now, we'll just simulate a successful submission after a delay
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      
-      console.log('Form submitted:', { ...data, resume: file.name });
-      setIsSubmitted(true);
-      form.reset();
-      setFile(null);
+      // Convert file to base64 for email sending
+      const fileBase64 = await new Promise<string>((resolve, reject) => {
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => resolve(reader.result as string);
+        reader.onerror = error => reject(error);
+      });
+
+      // Prepare data for email
+      const emailData = {
+        ...data,
+        resumeFileName: file.name,
+        resumeFileSize: `${(file.size / 1024 / 1024).toFixed(2)} MB`,
+        resumeFileType: file.type,
+        resumeFileBase64: fileBase64
+      };
+
+      // Import the email service dynamically to avoid SSR issues
+      const { sendGeneralApplicationEmail } = await import('@/lib/email-service');
+
+      // Send the email
+      const result = await sendGeneralApplicationEmail(emailData);
+
+      if (result.success) {
+        setIsSubmitted(true);
+        form.reset();
+        setFile(null);
+      } else {
+        throw new Error(result.error || 'Failed to submit application');
+      }
     } catch (error) {
       console.error('Error submitting form:', error);
+      setFileError('There was a problem submitting your application. Please try again.');
     } finally {
       setIsSubmitting(false);
     }
@@ -122,8 +145,8 @@ export default function GeneralApplicationForm() {
           <p>Thank you for your interest in joining Star Hi Herbs.</p>
           <p className="mt-2">We will review your application and contact you if there's a suitable opening.</p>
         </div>
-        <Button 
-          onClick={() => setIsSubmitted(false)} 
+        <Button
+          onClick={() => setIsSubmitted(false)}
           variant="outline"
         >
           Submit Another Application

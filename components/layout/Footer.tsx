@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { Facebook, Instagram, Linkedin, Mail, PhoneCall, MapPin } from 'lucide-react';
 import { productCategories } from '@/src/data';
 
@@ -13,8 +13,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="mb-5 -ml-3">
-              <Image
-                src="/images/starhiherbs-logo-white.png"
+              <Image src="/images/starhiherbs-logo-white.png"
                 alt="Star Hi Herbs"
                 width={180}
                 height={42}

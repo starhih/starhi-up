@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { jobOpenings } from '@/src/data';
 import CareersPageClient from '@/components/careers/CareersPageClient';
 
@@ -14,8 +14,7 @@ export default function CareersPage() {
     <>
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
-        <Image
-          src="/images/hero/standardized-herbal-extracts.jpeg"
+        <Image src="/images/hero/standardized-herbal-extracts.jpeg"
           alt="Careers at Star Hi Herbs"
           fill
           className="object-cover"

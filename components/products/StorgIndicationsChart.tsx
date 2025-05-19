@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { Product } from '@/src/data';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';

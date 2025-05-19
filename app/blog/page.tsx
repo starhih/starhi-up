@@ -1,7 +1,7 @@
 'use client';
 
 import { Metadata } from 'next';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { useSearchParams } from 'next/navigation';
 import { blogCategories, blogPosts, getLatestBlogPosts } from '@/src/data/blog';
 import BlogCard from '@/components/blog/BlogCard';
@@ -33,8 +33,7 @@ export default function BlogPage() {
     <>
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
-        <Image
-          src="/images/hero/knowledge-center.jpeg"
+        <Image src="/images/hero/knowledge-center.jpeg"
           alt="Knowledge Center"
           fill
           className="object-cover"

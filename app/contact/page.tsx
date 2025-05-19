@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -17,17 +17,36 @@ export default function ContactPage() {
     setIsSubmitting(true);
 
     try {
-      // TODO: Implement form submission logic
-      await new Promise(resolve => setTimeout(resolve, 1000)); // Simulated API call
+      // Get form data
+      const formData = new FormData(e.currentTarget);
+      const formValues = {
+        name: formData.get('name') as string,
+        email: formData.get('email') as string,
+        company: formData.get('company') as string,
+        phone: formData.get('phone') as string,
+        subject: formData.get('subject') as string,
+        message: formData.get('message') as string,
+      };
 
-      toast({
-        title: "Message Sent",
-        description: "Thank you for your message. We'll get back to you soon!",
-      });
+      // Import the email service dynamically to avoid SSR issues
+      const { sendContactEmail } = await import('@/lib/email-service');
 
-      // Reset form
-      (e.target as HTMLFormElement).reset();
+      // Send the email
+      const result = await sendContactEmail(formValues);
+
+      if (result.success) {
+        toast({
+          title: "Message Sent",
+          description: "Thank you for your message. We'll get back to you soon!",
+        });
+
+        // Reset form
+        (e.target as HTMLFormElement).reset();
+      } else {
+        throw new Error(result.error || 'Failed to send message');
+      }
     } catch (error) {
+      console.error('Contact form error:', error);
       toast({
         title: "Error",
         description: "There was a problem sending your message. Please try again.",
@@ -42,8 +61,7 @@ export default function ContactPage() {
     <>
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
-        <Image
-          src="/images/hero/contact-us.jpeg"
+        <Image src="/images/hero/contact-us.jpeg"
           alt="Contact Us"
           fill
           className="object-cover"

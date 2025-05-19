@@ -1,7 +1,7 @@
 'use client';
 
 import { BaseComponentProps } from '@/types/component';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { Calendar } from 'lucide-react';
 
 interface EventsProps extends BaseComponentProps {

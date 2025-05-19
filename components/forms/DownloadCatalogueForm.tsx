@@ -55,24 +55,29 @@ export default function DownloadCatalogueForm() {
     setSubmitError(null);
 
     try {
-      // In a real application, you would send this data to your backend
-      console.log('Form data submitted:', data);
-      
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      
-      // Success
-      setSubmitSuccess(true);
-      
-      // In a real application, you would redirect to the download or trigger the download here
-      
-      // Reset form after successful submission
-      reset();
-      
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setSubmitSuccess(false);
-      }, 5000);
+      // Import the email service dynamically to avoid SSR issues
+      const { sendCatalogueRequestEmail } = await import('@/lib/email-service');
+
+      // Send the email
+      const result = await sendCatalogueRequestEmail(data);
+
+      if (result.success) {
+        // Success
+        setSubmitSuccess(true);
+
+        // In a real application, you would redirect to the download or trigger the download here
+        // For now, we'll just show a success message with a download link
+
+        // Reset form after successful submission
+        reset();
+
+        // Reset success message after 5 seconds
+        setTimeout(() => {
+          setSubmitSuccess(false);
+        }, 5000);
+      } else {
+        throw new Error(result.error || 'Failed to submit the form');
+      }
     } catch (error) {
       const errorMessage = handleError(error, 'Failed to submit the form. Please try again.');
       setSubmitError(errorMessage);
@@ -170,7 +175,7 @@ export default function DownloadCatalogueForm() {
           <label htmlFor="industry" className="text-sm font-medium text-gray-700">
             Industry <span className="text-red-500">*</span>
           </label>
-          <Select 
+          <Select
             onValueChange={(value) => setValue('industry', value)}
             defaultValue=""
           >
@@ -197,7 +202,7 @@ export default function DownloadCatalogueForm() {
           <label htmlFor="marketInterest" className="text-sm font-medium text-gray-700">
             Market of Interest <span className="text-red-500">*</span>
           </label>
-          <Select 
+          <Select
             onValueChange={(value) => setValue('marketInterest', value)}
             defaultValue=""
           >

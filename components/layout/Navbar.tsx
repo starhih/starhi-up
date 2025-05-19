@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from '@/components/ui/image';
 import { Menu, X, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -94,8 +94,7 @@ export default function Navbar() {
             <div className="relative h-11 w-auto">
               {/* Use white logo for transparent header and color logo for sticky header or pages without hero */}
               {isSticky || !hasHero ? (
-                <Image
-                  src="/images/starhiherbs-logo.png"
+                <Image src="/images/starhiherbs-logo.png"
                   alt="Star Hi Herbs"
                   width={180}
                   height={42}
@@ -104,8 +103,7 @@ export default function Navbar() {
                   priority
                 />
               ) : (
-                <Image
-                  src="/images/starhiherbs-logo-white.png"
+                <Image src="/images/starhiherbs-logo-white.png"
                   alt="Star Hi Herbs"
                   width={180}
                   height={42}

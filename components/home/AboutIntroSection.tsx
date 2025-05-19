@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { Counter } from "@/components/ui/animated-counter";
 
 export default function AboutIntroSection() {
@@ -31,8 +31,7 @@ export default function AboutIntroSection() {
 
           {/* Right Column - Image */}
           <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-lg">
-            <Image
-              src="/images/hassan-plant.jpg"
+            <Image src="/images/hassan-plant.jpg"
               alt="Star Hi Herbs Manufacturing Facility"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

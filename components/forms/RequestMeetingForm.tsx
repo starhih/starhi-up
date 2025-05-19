@@ -76,21 +76,38 @@ export default function RequestMeetingForm() {
     setSubmitError(null);
 
     try {
-      // In a real application, you would send this data to your backend
-      console.log('Form data submitted:', data);
-      
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      
-      // Success
-      setSubmitSuccess(true);
-      reset();
-      setSelectedEvent('');
-      
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setSubmitSuccess(false);
-      }, 5000);
+      // Get the selected event details for the email
+      const selectedEventDetails = upcomingEvents.find(event => event.id.toString() === data.eventId);
+
+      // Prepare data for email with event details
+      const emailData = {
+        ...data,
+        eventName: selectedEventDetails?.name || 'Unknown Event',
+        eventLocation: selectedEventDetails?.location || 'Unknown Location',
+        eventDates: selectedEventDetails ?
+          `${new Date(selectedEventDetails.startDate).toLocaleDateString()} - ${new Date(selectedEventDetails.endDate).toLocaleDateString()}` :
+          'Unknown Dates'
+      };
+
+      // Import the email service dynamically to avoid SSR issues
+      const { sendMeetingRequestEmail } = await import('@/lib/email-service');
+
+      // Send the email
+      const result = await sendMeetingRequestEmail(emailData);
+
+      if (result.success) {
+        // Success
+        setSubmitSuccess(true);
+        reset();
+        setSelectedEvent('');
+
+        // Reset success message after 5 seconds
+        setTimeout(() => {
+          setSubmitSuccess(false);
+        }, 5000);
+      } else {
+        throw new Error(result.error || 'Failed to submit the form');
+      }
     } catch (error) {
       const errorMessage = handleError(error, 'Failed to submit the form. Please try again.');
       setSubmitError(errorMessage);

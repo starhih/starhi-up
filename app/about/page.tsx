@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Award, Users, Globe, Leaf, CheckCircle, Building, Beaker, FileCheck, FileText, Mail, PhoneCall } from 'lucide-react';
@@ -15,8 +15,7 @@ export default function AboutPage() {
     <>
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
-        <Image
-          src="/images/hero/standardized-herbal-extracts.jpeg"
+        <Image src="/images/hero/standardized-herbal-extracts.jpeg"
           alt="Star Hi Herbs Manufacturing Facility"
           fill
           className="object-cover"
@@ -74,8 +73,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-lg">
-              <Image
-                src="/images/mission-vision.jpg"
+              <Image src="/images/mission-vision.jpg"
                 alt="Star Hi Herbs Laboratory"
                 fill
                 className="object-cover"
@@ -328,8 +326,7 @@ export default function AboutPage() {
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="md:grid md:grid-cols-3 gap-0">
                 <div className="relative h-80 md:h-auto">
-                  <Image
-                    src="/images/hm-firoz-hussain-1.jpg"
+                  <Image src="/images/hm-firoz-hussain-1.jpg"
                     alt="Mr. Firoz Hussain"
                     fill
                     className="object-cover"
@@ -428,8 +425,7 @@ export default function AboutPage() {
             {/* Jigani Unit */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="relative h-64">
-                <Image
-                  src="/images/jigani-plant.jpg"
+                <Image src="/images/jigani-plant.jpg"
                   alt="Jigani Manufacturing Unit"
                   fill
                   className="object-cover"
@@ -461,8 +457,7 @@ export default function AboutPage() {
             {/* Hassan SEZ Unit */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="relative h-64">
-                <Image
-                  src="/images/hassan-plant.jpg"
+                <Image src="/images/hassan-plant.jpg"
                   alt="Hassan SEZ Manufacturing Unit"
                   fill
                   className="object-cover"
@@ -612,8 +607,7 @@ export default function AboutPage() {
               </Button>
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-lg">
-              <Image
-                src="/images/hassan-plant.jpg"
+              <Image src="/images/hassan-plant.jpg"
                 alt="Sustainable Farming"
                 fill
                 className="object-cover"
@@ -638,8 +632,7 @@ export default function AboutPage() {
             {/* Times Business Award */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="relative h-64">
-                <Image
-                  src="/images/times-business-award-2020.jpg"
+                <Image src="/images/times-business-award-2020.jpg"
                   alt="Times Business Award 2020"
                   fill
                   className="object-cover"
@@ -654,8 +647,7 @@ export default function AboutPage() {
             {/* World Signature Award */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="relative h-64">
-                <Image
-                  src="/images/world-signature-award-2023.jpg"
+                <Image src="/images/world-signature-award-2023.jpg"
                   alt="World Signature Award 2023"
                   fill
                   className="object-cover"

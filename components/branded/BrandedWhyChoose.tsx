@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { CheckCircle } from 'lucide-react';
 import { Product } from '@/src/data';
 

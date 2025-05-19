@@ -1,7 +1,7 @@
 'use client';
 
 import { BaseComponentProps } from '@/types/component';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 import { Building2 } from 'lucide-react';
 
 interface FactoryProps extends BaseComponentProps {

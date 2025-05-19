@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import RequestQuoteForm from '@/components/forms/RequestQuoteForm';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 
 export const metadata: Metadata = {
   title: 'Request a Quote | Star Hi Herbs',
@@ -26,8 +26,7 @@ export default function RequestQuotePage() {
     <>
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
-        <Image
-          src="/images/hero/standardized-herbal-extracts.jpeg"
+        <Image src="/images/hero/standardized-herbal-extracts.jpeg"
           alt="Request a Quote"
           fill
           className="object-cover"

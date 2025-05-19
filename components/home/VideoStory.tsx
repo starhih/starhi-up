@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Play } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import Image from 'next/image';
+import Image from '@/components/ui/image';
 
 export default function VideoStory() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -35,8 +35,7 @@ export default function VideoStory() {
                 >
                   <Play size={36} fill="white" />
                 </Button>
-                <Image
-                  src="/images/team-hassan-unit-starhiherbs.png"
+                <Image src="/images/team-hassan-unit-starhiherbs.png"
                   alt="Video thumbnail"
                   fill
                   className="object-cover -z-10"
