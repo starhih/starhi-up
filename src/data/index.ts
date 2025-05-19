@@ -361,9 +361,9 @@ export const productCategories: ProductCategory[] = [
     slug: 'vitamins-minerals',
     name: 'Vitamins & Minerals',
     description: 'Essential nutrients for optimal health',
-    image: '/images/vitamins-minerals1.jpg', // Original image for backward compatibility
+    image: '/images/vitamins-minerals-1.jpg', // Original image for backward compatibility
     heroImage: '/images/hero/vitamins-minerals.jpeg', // Hero section image
-    homepageImage: '/images/vitamins-minerals1.jpg', // Homepage image
+    homepageImage: '/images/vitamins-minerals-1.jpg', // Homepage image
     count: 24,
   },
   {
