@@ -96,7 +96,7 @@ export default function ContactPage() {
               {
                 icon: Mail,
                 title: 'Email Us',
-                content: 'info@starhiherbs.com (General)\nstarhi@starhiherbs.com (Sales)',
+                content: 'najish.n@starhiherbs.com (General)\nstarhi@starhiherbs.com (Sales)',
               },
               {
                 icon: Clock,

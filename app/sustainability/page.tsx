@@ -240,8 +240,8 @@ export default function SustainabilityPage() {
                 image: '/images/certifications/organic.jpg',
               },
               {
-                name: 'Non GMO',
-                image: '/images/certifications/non-gmo.jpg',
+                name: 'WHO GMP',
+                image: '/images/certifications/who-gmp.jpg',
               },
               {
                 name: 'Shefexil',

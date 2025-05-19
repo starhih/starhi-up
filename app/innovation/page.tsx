@@ -57,7 +57,7 @@ export default function InnovationPage() {
                 <div className="bg-[#214842]/10 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
                   <Award className="h-7 w-7 text-[#214842]" />
                 </div>
-                <h3 className="text-lg font-semibold text-[#214842] mb-2">12+ Publications</h3>
+                <h3 className="text-lg font-semibold text-[#214842] mb-2">20+ Publications</h3>
                 <p className="text-gray-600 text-sm">In international journals</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
