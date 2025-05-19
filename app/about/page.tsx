@@ -249,7 +249,7 @@ export default function AboutPage() {
               <div className="text-white/80">Herbal Ingredients</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold mb-2">20+</div>
+              <div className="text-4xl font-bold mb-2">27+</div>
               <div className="text-white/80">Branded Products</div>
             </div>
             <div className="text-center">
@@ -257,7 +257,7 @@ export default function AboutPage() {
               <div className="text-white/80">International Certifications</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold mb-2">300+</div>
+              <div className="text-4xl font-bold mb-2">550+</div>
               <div className="text-white/80">Global Clients</div>
             </div>
             <div className="text-center">
@@ -384,7 +384,7 @@ export default function AboutPage() {
               },
               {
                 name: 'Chetan Bhasin',
-                position: 'CFO',
+                position: 'Financial Advisor',
                 image: '/images/chetan-bhasin.png',
                 bio: 'Chartered Accountant & PGDBA (IIM). 20+ years in finance, operations, and business strategy.',
               },
@@ -517,9 +517,9 @@ export default function AboutPage() {
                 image: '/images/certifications/fssc.png',
               },
               {
-                name: 'HACCP Certified',
-                description: 'Hazard Analysis Critical Control Point',
-                image: '/images/certifications/haccp.jpg',
+                name: 'WHO GMP Certified',
+                description: 'Meets WHO Good Manufacturing Practices',
+                image: '/images/certifications/who-gmp.jpg',
               },
               {
                 name: 'Organic Certified',
@@ -534,12 +534,12 @@ export default function AboutPage() {
               {
                 name: 'Halal Certified',
                 description: 'Meets Halal Requirements',
-                image: '/images/certifications/halal.jpg',
+                image: '/images/certifications/halal-1.jpg',
               },
               {
-                name: 'Non-GMO Project',
-                description: 'Verified Non-GMO Products',
-                image: '/images/certifications/non-gmo.jpg',
+                name: 'FSSAI Certified',
+                description: 'Meets Indian Food Safety Standards',
+                image: '/images/certifications/fssai.jpg',
               },
               {
                 name: 'GMP Certified',
@@ -607,7 +607,7 @@ export default function AboutPage() {
               </Button>
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-lg">
-              <Image src="/images/hassan-plant.jpg"
+              <Image src="/images/csr.jpg"
                 alt="Sustainable Farming"
                 fill
                 className="object-cover"
@@ -660,7 +660,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="text-center mt-10">
+          {/* <div className="text-center mt-10">
             <div className="inline-flex items-center justify-center gap-3 bg-white px-6 py-3 rounded-full shadow-sm">
               <span className="text-[#214842] font-medium">Our Research Impact:</span>
               <div className="flex items-center gap-6">
@@ -678,7 +678,7 @@ export default function AboutPage() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
