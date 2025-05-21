@@ -2578,11 +2578,11 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Produced from certified organic Andrographis leaves using a solvent-free, water-based extraction process. The raw material is carefully harvested, dried, and extracted in a dedicated organic facility. The extract is then standardized for andrographolide content and gently dried under controlled conditions to preserve bioactivity and meet global organic standards.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Packaged in 25kg food-grade fiber drums with inner food grade double polyethylene liners. Smaller pack sizes (1kg and 5kg) are available in aluminum foil pouches. All packaging materials are certified for organic products and are designed to protect the product from moisture, light, and contamination.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Manufactured in a certified organic facility with separate processing areas for organic materials. The factory complies with international quality and food safety standards and is regularly audited for organic compliance and GMP adherence.",
@@ -2590,11 +2590,11 @@ export const products: Product[] = [
     },
     "certificationsSection": {
       "description": "Our Organic Andrographis Extract is certified USDA Organic and EU Organic, confirming our commitment to organic integrity and quality. These certifications ensure that our entire supply chain—from cultivation to final extract—is free of synthetic chemicals, meets stringent regulatory requirements, and supports sustainable practices.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We showcase our organic extracts at top nutraceutical trade shows including Vitafoods Europe, SupplySide West, and BioFach. At these events, our experts discuss the clinical research, sustainability, and certification standards behind our organic herbal range, including Andrographis.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -2695,23 +2695,23 @@ export const products: Product[] = [
     },
     productionDetails: {
       description: "Our Organic Ashwagandha Extract production begins with certified organic roots cultivated using traditional practices that enhance withanolide content. The roots undergo thorough cleaning followed by our proprietary organic-compliant extraction process that maximizes the concentration of bioactive compounds while adhering to organic regulations. The extract is carefully standardized to precise withanolide levels and undergoes gentle drying to preserve potency.",
-      image: "/process-ch.webp"
+      image: "/images/process-ch.webp"
     },
     packaging: {
       description: "Our Organic Ashwagandha Extract is available in various packaging options that maintain organic integrity. Standard packaging includes 25kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials prevent moisture ingress and light exposure to maintain the stability of the withanolides throughout the product's shelf life.",
-      image: "/packaging-ch.webp"
+      image: "/images/packaging-ch.webp"
     },
     factory: {
       description: "Our organic manufacturing facility is specifically designed for organic herbal extracts with dedicated areas for organic material handling and processing. The facility operates under strict protocols to prevent cross-contamination with conventional materials and maintains comprehensive documentation for organic integrity. Our quality control laboratory performs extensive testing on each batch, including verification of withanolide content and absence of contaminants.",
-      image: "/factory-ch.webp"
+      image: "/images/factory-ch.webp"
     },
     certificationsSection: {
       description: "Our Organic Ashwagandha Extract is certified by leading organic certification bodies including USDA Organic and EU Organic. These certifications verify our compliance with organic agricultural practices, proper handling procedures, and permitted processing methods. We maintain detailed records of our organic supply chain and undergo regular inspections to ensure ongoing compliance with all applicable organic regulations.",
-      image: "/certifications-ch.webp"
+      image: "/images/certifications-ch.webp"
     },
     events: {
       description: "Our organic Ashwagandha extract is regularly featured at major industry events including Vitafoods Europe, Supply Side West, and Natural Products Expo. Our technical experts present the latest research on ashwagandha's benefits and our organic cultivation and extraction methods. These events provide opportunities to showcase our commitment to organic integrity and discuss specific formulation requirements with customers.",
-      image: "/events.jpg"
+      image: "/images/events.jpg"
     },
     faqs: [
       {
@@ -2812,23 +2812,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Bacopa Monnieri Extract Powder is produced from certified organic plants grown in controlled environments that optimize bacoside content. After careful harvesting, the plants undergo our proprietary organic-compliant extraction process that concentrates the bioactive compounds while adhering to strict organic regulations. The extract is carefully standardized to precise bacoside levels and undergoes gentle drying and milling to create a fine, uniform powder ideal for various formulations.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Bacopa Monnieri Extract Powder is available in packaging options that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials prevent moisture ingress and light exposure to maintain the stability of the bacosides throughout the product's shelf life.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic manufacturing facility features specialized equipment for processing organic Bacopa monnieri with dedicated areas for organic material handling. The facility operates under strict protocols to prevent cross-contamination with conventional materials and maintains comprehensive documentation for organic integrity. Our quality control laboratory performs extensive testing on each batch, including verification of bacoside content and absence of contaminants.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Bacopa Monnieri Extract Powder is certified by leading organic certification bodies including USDA Organic and EU Organic. These certifications verify our compliance with organic agricultural practices, proper handling procedures, and permitted processing methods. We maintain detailed records of our organic supply chain and undergo regular inspections to ensure ongoing compliance with all applicable organic regulations.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We regularly showcase our Organic Bacopa Extract Powder at major nutraceutical and natural product exhibitions worldwide. Our technical experts present the latest research on bacopa's cognitive benefits and our organic cultivation and extraction methods. These events provide opportunities to discuss specific formulation requirements and applications with customers interested in premium organic cognitive health ingredients.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -2924,23 +2924,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Bacopa Monnieri Extract Granules begin with the same high-quality organic extract as our powder form. The extract then undergoes a specialized organic-compliant granulation process using only permitted processing aids that meet organic standards. This process creates uniform granules with excellent flow properties while maintaining the integrity and potency of the bacosides. Each batch is carefully tested to ensure consistent particle size distribution and active compound content.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Bacopa Monnieri Extract Granules are packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials prevent moisture ingress and light exposure to maintain the stability of the bacosides throughout the product's shelf life.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic manufacturing facility features specialized granulation equipment for processing organic extracts with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the granulation process. Our quality control laboratory performs extensive testing on each batch, including verification of bacoside content, granule size distribution, and flow characteristics.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Bacopa Monnieri Extract Granules maintain all the certifications of our powder extract, including USDA Organic and EU Organic. These certifications verify that our granulation process and all materials used comply with organic standards. We maintain detailed records of our organic supply chain and undergo regular inspections to ensure ongoing compliance with all applicable organic regulations.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We regularly showcase our Organic Bacopa Extract Granules alongside our powder extract at major nutraceutical and natural product exhibitions worldwide. Our technical experts present comparative data on the manufacturing advantages of granules versus powders and discuss specific applications with customers interested in premium organic cognitive health ingredients with improved processing characteristics.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     }
   },
   // // Organic Products - Organic Black Pepper Extract - 95% Piperine
@@ -3009,23 +3009,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Black Pepper Extract production begins with certified organic black pepper fruits harvested at peak ripeness. The fruits undergo a specialized organic-compliant extraction process that concentrates the piperine while eliminating unwanted compounds. Our proprietary purification method achieves 95% piperine content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify piperine content and ensure absence of contaminants.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Black Pepper Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 10kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 500g and 1kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from light, moisture, and oxidation to maintain the stability of the piperine throughout the product's shelf life.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic manufacturing facility features specialized equipment for processing organic black pepper with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and purification process. Our quality control laboratory performs extensive testing on each batch, including verification of piperine content and absence of residual solvents and contaminants.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Black Pepper Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and purification processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We regularly showcase our Organic Black Pepper Extract at major nutraceutical events worldwide. Our technical experts present research on bioavailability enhancement and optimal usage levels in different formulations. These events provide opportunities to discuss specific formulation requirements with customers interested in enhancing the efficacy of their organic supplement products.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     }
   },
   // // Organic Products - Organic Boswellia Serrata Extract - 65% & 85% Boswellic Acids
@@ -3094,23 +3094,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Boswellia Serrata Extract production begins with certified organic resin harvested using sustainable methods that protect the trees. The resin undergoes a specialized organic-compliant extraction process that concentrates the boswellic acids while eliminating unwanted compounds. Our proprietary purification method achieves either 65% or 85% boswellic acid content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Boswellia Serrata Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from light, moisture, and oxidation to maintain the stability of the boswellic acids throughout the product's shelf life.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic manufacturing facility features specialized equipment for processing organic boswellia resin with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and purification process. Our quality control laboratory performs extensive testing on each batch, including verification of boswellic acid profiles and absence of residual solvents and contaminants.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Boswellia Serrata Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and purification processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We regularly showcase our Organic Boswellia Serrata Extract at major nutraceutical events worldwide. Our technical experts present research on joint health applications and the benefits of our sustainable organic harvesting practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic joint health ingredients.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     }
   },
   // // Organic Products - Organic Cissus Extract - 20% & 40% Ketosterones
@@ -3179,23 +3179,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Cissus Extract production begins with certified organic Cissus quadrangularis stems harvested at optimal maturity. The stems undergo a specialized organic-compliant extraction process that concentrates the ketosterones while preserving the plant's natural compound profile. Our proprietary standardization method achieves either 20% or 40% ketosterone content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Cissus Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from light, moisture, and oxidation to maintain the stability of the ketosterones throughout the product's shelf life.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic manufacturing facility features specialized equipment for processing organic cissus with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and standardization process. Our quality control laboratory performs extensive testing on each batch, including verification of ketosterone content and absence of contaminants.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Cissus Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and standardization processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We regularly showcase our Organic Cissus Extract at major nutraceutical events worldwide. Our technical experts present research on bone health applications and the benefits of our sustainable organic harvesting practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic bone and joint health ingredients.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     }
   },
   // // Organic Products - Organic Turmeric Extract - 95% Curcuminoids
@@ -3269,23 +3269,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Turmeric Extract production begins with certified organic turmeric rhizomes grown under optimal conditions to maximize curcuminoid content. The rhizomes undergo a specialized organic-compliant extraction process that concentrates the curcuminoids while preserving their natural ratios. Our proprietary purification method achieves 95% curcuminoid content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Turmeric Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from light, moisture, and oxidation to maintain the stability of the curcuminoids throughout the product's shelf life.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic manufacturing facility features specialized equipment for processing organic turmeric with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and purification process. Our quality control laboratory performs extensive testing on each batch, including verification of curcuminoid content and absence of residual solvents and contaminants.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Turmeric Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and purification processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We regularly showcase our Organic Turmeric Extract at major nutraceutical events worldwide. Our technical experts present research on inflammatory response applications and the benefits of our sustainable organic cultivation practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic anti-inflammatory ingredients.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3386,23 +3386,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Turmeric Extract Granules begin with the same high-quality organic extract as our powder form. The extract then undergoes a specialized organic-compliant granulation process using only permitted processing aids that meet organic standards. This process creates uniform granules with excellent flow properties while maintaining the integrity and potency of the curcuminoids. Each batch is carefully tested to ensure consistent particle size distribution and active compound content.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Turmeric Extract Granules are packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the granules from light, moisture, and oxidation to maintain the stability of the curcuminoids throughout the product's shelf life.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic manufacturing facility features specialized granulation equipment for processing organic extracts with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the granulation process. Our quality control laboratory performs extensive testing on each batch, including verification of curcuminoid content, granule size distribution, and flow characteristics.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Turmeric Extract Granules maintain all the certifications of our powder extract, including USDA Organic and EU Organic. These certifications verify that our granulation process and all materials used comply with organic standards. We maintain detailed records of our organic supply chain and undergo regular inspections to ensure ongoing compliance with all applicable organic regulations.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We regularly showcase our Organic Turmeric Extract Granules alongside our powder extract at major nutraceutical and natural product exhibitions worldwide. Our technical experts present comparative data on the manufacturing advantages of granules versus powders and discuss specific applications with customers interested in premium organic anti-inflammatory ingredients with improved processing characteristics.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3503,23 +3503,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Fenugreek Extract production begins with certified organic seeds grown under optimal conditions to maximize bioactive compound content. The seeds undergo a specialized organic-compliant extraction process that concentrates the saponins and trigonelline while minimizing the characteristic odor of fenugreek. Our proprietary standardization method achieves 50% saponin and 4% trigonelline content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Fenugreek Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from moisture and oxidation to maintain the stability of the saponins and trigonelline throughout the product's shelf life.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic manufacturing facility features specialized equipment for processing organic fenugreek with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and standardization process. Our quality control laboratory performs extensive testing on each batch, including verification of saponin and trigonelline content and absence of contaminants.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Fenugreek Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and standardization processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We regularly showcase our Organic Fenugreek Extract at major nutraceutical events worldwide. Our technical experts present research on blood sugar management applications and the benefits of our odor-controlled extraction process. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic blood sugar management ingredients.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3620,23 +3620,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Ginger Extract production begins with certified organic ginger rhizomes grown under optimal conditions to maximize gingerol content. The rhizomes undergo a specialized organic-compliant extraction process that concentrates the gingerols while preserving their natural ratios. Our proprietary standardization method achieves either 5% or 10% gingerol content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Ginger Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from moisture and oxidation to maintain the stability of the gingerols throughout the product's shelf life.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic manufacturing facility features specialized equipment for processing organic ginger with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and standardization process. Our quality control laboratory performs extensive testing on each batch, including verification of gingerol content and absence of contaminants.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Ginger Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and standardization processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We regularly showcase our Organic Ginger Extract at major nutraceutical events worldwide. Our technical experts present research on digestive health applications and the benefits of our sustainable organic cultivation practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic digestive health ingredients.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3727,23 +3727,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Gymnema Sylvestre Extract production begins with certified organic leaves grown under optimal conditions to maximize gymnemic acid content. The leaves undergo a specialized organic-compliant extraction process that concentrates the gymnemic acids while preserving their natural ratios. Our proprietary standardization method achieves either 25% or 75% gymnemic acid content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Gymnema Sylvestre Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from moisture and oxidation to maintain the stability of the gymnemic acids throughout the product's shelf life.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic manufacturing facility features specialized equipment for processing organic gymnema with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and standardization process. Our quality control laboratory performs extensive testing on each batch, including verification of gymnemic acid content and absence of contaminants.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Gymnema Sylvestre Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and standardization processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We regularly showcase our Organic Gymnema Sylvestre Extract at major nutraceutical events worldwide. Our technical experts present research on blood sugar management applications and the benefits of our sustainable organic cultivation practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic blood sugar management ingredients.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3839,23 +3839,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Mucuna Extract production begins with certified organic seeds grown under optimal conditions to maximize L-Dopa content. The seeds undergo a specialized organic-compliant extraction process that concentrates the L-Dopa while removing antinutrients. Our proprietary standardization method achieves 15%, 40%, or 98% L-Dopa content while adhering to strict organic standards. Each batch undergoes rigorous testing to verify active compound content and ensure absence of contaminants.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Mucuna Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. We also offer 1kg and 5kg aluminum foil bags with proper organic labeling. All packaging materials protect the extract from light, moisture, and oxidation to maintain the stability of the L-Dopa throughout the product's shelf life.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic manufacturing facility features specialized equipment for processing organic mucuna with dedicated areas to prevent cross-contamination. The facility operates under strict protocols to maintain organic integrity throughout the extraction and standardization process. Our quality control laboratory performs extensive testing on each batch, including verification of L-Dopa content and absence of contaminants.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Mucuna Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify that our extraction and standardization processes use only permitted substances and comply with organic handling requirements. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We regularly showcase our Organic Mucuna Extract at major nutraceutical events worldwide. Our technical experts present research on mood support applications and the benefits of our sustainable organic cultivation practices. These events provide opportunities to discuss specific formulation requirements with customers interested in premium organic mood and hormonal support ingredients.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -3951,23 +3951,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Ocimum Sanctum Extract production begins with certified organic leaves grown under optimal conditions to maximize bioactive compound content. The leaves undergo a specialized organic-compliant extraction process that concentrates the ursolic acid and eugenol while preserving their therapeutic properties. Our proprietary standardization method ensures consistency in the active compound content across different batches. Each batch undergoes rigorous testing to verify active compound content and ensure product purity.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Our Organic Ocimum Sanctum Extract is packaged in materials that maintain organic integrity and product stability. Standard packaging includes 20kg fiber drums with organic-compliant polyethylene liners to protect the extract from light and moisture. We also offer 1kg and 5kg compostable or recyclable packaging options. All packaging materials are food-grade and comply with organic product requirements to preserve quality and freshness.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our organic processing facility is certified to handle the extraction of Ocimum Sanctum in compliance with the highest organic standards. The facility is equipped with state-of-the-art equipment for extracting the bioactive compounds from the leaves while preventing cross-contamination. Stringent quality control protocols ensure that every batch meets our strict quality standards for purity, consistency, and organic compliance. Our factory undergoes regular audits by organic certifying bodies to ensure ongoing adherence to these standards.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Our Organic Ocimum Sanctum Extract is certified with USDA Organic and EU Organic standards, ensuring the highest quality organic product. Additionally, our facility holds certifications for FSSC 22000 for food safety and ISO 9001:2015 for quality management systems. These certifications demonstrate our commitment to organic integrity, safety, and quality, and we undergo regular audits to verify continued compliance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "We showcase our Organic Ocimum Sanctum Extract at leading global nutraceutical trade shows and organic product exhibitions. Our experts attend events such as Natural Products Expo West, Biofach, and Vitafoods Europe, where they provide insights into the health benefits of tulsi and offer formulation guidance to companies in the wellness and nutraceutical industries.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4063,23 +4063,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Piper longum Extract is produced using certified organic fruits harvested at optimal ripeness. After rigorous quality inspection, the fruits undergo gentle cleaning followed by our specialized extraction process that maximizes piperine retention while meeting all organic processing standards. Our state-of-the-art facility uses temperature-controlled extraction to preserve heat-sensitive compounds, followed by multiple filtration steps before careful drying and standardization to precise piperine concentrations.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Star Hi Herbs provides Organic Piper longum Extract in various packaging options designed to preserve potency. Our standard packaging includes 20kg fiber drums with food-grade polyethylene liners to protect the extract from moisture and oxidation. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with nitrogen flushing. All packaging materials comply with organic regulations and are designed to maintain product stability during shipping and storage. Custom packaging solutions are available upon request.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our dedicated organic processing facility features specialized equipment for processing high-piperine botanicals like Piper longum. The facility operates under strict organic protocols alongside GMP conditions, with designated areas for organic materials to prevent cross-contamination. We maintain rigorous cleaning validation protocols between production runs and conduct regular environmental monitoring to ensure organic integrity throughout the production process.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Piper longum Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We undergo regular audits by certification bodies and maintain detailed documentation of our organic processing methods. These certifications reflect our commitment to authentic organic ingredients and quality assurance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs regularly showcases our organic botanical extracts, including Piper longum, at major natural product exhibitions worldwide. We participate in specialized Ayurvedic and bioavailability-focused symposiums in addition to major trade shows like Vitafoods Europe and Supply Side West. Our technical experts present educational sessions on bioavailability enhancement strategies using organic botanicals at these events, helping formulators understand optimal applications for our Piper longum extract.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4175,23 +4175,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Tribulus Terrestris Extract is produced using certified organic fruits harvested at peak potency. After careful selection, the fruits undergo our specialized extraction process that maximizes saponin and protodioscin retention while adhering to organic processing standards. Our facility uses proprietary extraction technology specifically optimized for saponin-rich botanicals, followed by multiple purification steps before careful drying and standardization to precise active compound concentrations.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Star Hi Herbs provides Organic Tribulus Terrestris Extract in various packaging options designed to preserve potency. Our standard packaging includes 25kg fiber drums with double food-grade polyethylene liners to protect the saponin-rich extract from moisture and oxidation. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with nitrogen flushing. All packaging materials comply with organic regulations and are designed to maintain product stability during shipping and storage.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our dedicated organic processing facility features specialized equipment for saponin extraction and standardization. The facility operates under strict organic protocols alongside GMP conditions, with designated areas for organic materials to prevent cross-contamination. Our analytical laboratory performs ongoing testing for saponin and protodioscin content throughout the production process to ensure consistent standardization in every batch.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Tribulus Terrestris Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We undergo regular audits specific to saponin-containing botanicals to ensure both safety and efficacy, with particular attention to standardization consistency. These certifications reflect our commitment to authentic organic ingredients and quality assurance.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs regularly showcases our organic Tribulus Terrestris Extract at major sports nutrition and natural product exhibitions worldwide. We participate in specialized fitness and performance-focused trade shows in addition to major events like Supply Side West and Vitafoods Europe. Our sports nutrition specialists provide formulation guidance and technical support for optimizing the use of our organic Tribulus extract in various performance and vitality applications.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4562,122 +4562,601 @@ export const products: Product[] = [
     }
   ]
 },
-
-
-
-
-
-
-  // Standardized Products - Turmeric Extract - Repeat- 95% Curcuminoids
-  // {
-  //   id: 'turmeric',
-  //   slug: 'turmeric-extract',
-  //   name: 'Turmeric Extract',
-  //   categoryId: 'standardized-extracts',
-  //   categorySlug: 'standardized-extracts',
-  //   categoryName: 'Standardized Herbal Extracts',
-  //   standardization: '95% Curcuminoids',
-  //   latinName: 'Curcuma longa',
-  //   plantPart: 'Rhizome',
-  //   description: 'Our flagship turmeric extract contains 95% curcuminoids with enhanced bioavailability. Sourced from organic farms in India, this extract is perfect for supplements targeting inflammation and joint health. Each batch undergoes rigorous HPLC testing to ensure consistent potency and purity. The extract is available in both standard and water-soluble forms to meet diverse formulation needs.',
-  //   shortDescription: 'Premium Turmeric extract standardized for curcuminoid content with enhanced bioavailability',
-  //   image: '/images/turmeric-extract.jpeg',
-  //   gallery: [
-  //     '/images/products/turmeric-extract-1.jpg',
-  //     '/images/products/turmeric-extract-2.jpg',
-  //     '/images/products/turmeric-extract-3.jpg',
-  //   ],
-  //   applications: [
-  //     'Joint health supplements',
-  //     'Anti-inflammatory formulations',
-  //     'Cognitive support products',
-  //     'Antioxidant blends',
-  //     'Sports recovery supplements'
-  //   ],
-  //   benefits: [
-  //     'Anti-inflammatory: Helps modulate inflammatory pathways and supports joint comfort',
-  //     'Antioxidant: Provides powerful free radical scavenging activity',
-  //     'Cognitive Support: Promotes brain health and cognitive function',
-  //     'Cardiovascular: Supports heart health and circulation',
-  //     'Digestive: Traditionally used to support digestive function'
-  //   ],
-  //   specifications: {
-  //     activeCompounds: 'Curcuminoids (curcumin, demethoxycurcumin, bisdemethoxycurcumin)',
-  //     standardization: 'Available in 95% curcuminoids concentration',
-  //     form: 'Powder, Granules, Water-soluble',
-  //     solubility: 'Standard: Partially water-soluble, soluble in ethanol; Water-soluble: Fully dispersible in water',
-  //     appearance: 'Fine yellow-orange powder with characteristic odor',
-  //     testing: 'HPLC analysis for curcuminoid content verification',
-  //     heavyMetals: 'Meets USP <232> specifications',
-  //     shelfLife: '24 months when stored properly',
-  //     storage: 'Store in a cool, dry place away from direct sunlight'
-  //   },
-  //   research: 'Turmeric extract has been extensively studied for its anti-inflammatory and antioxidant properties. Research demonstrates curcumin\'s ability to modulate multiple inflammatory pathways, including COX-2, LOX, and NF-κB. Clinical studies support its benefits for joint health, cognitive function, and overall wellness. Enhanced formulations show improved bioavailability, addressing curcumin\'s naturally low absorption rate.',
-  //   certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
-  //   featured: true,
-  //   documents: [
-  //     { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
-  //     { id: 2, name: 'Safety Data Sheet', size: '1.8 MB' },
-  //     { id: 3, name: 'Certificate of Analysis', size: '956 KB' },
-  //   ],
-  //   supplierInfo: {
-  //     points: [
-  //       'Verify that the supplier has proper certifications (FSSC 22000, ISO 9001:2015, etc.)',
-  //       'Ensure they provide standardized extracts with consistent curcuminoid levels',
-  //       'Check if they perform thorough testing for contaminants and active compounds',
-  //       'Evaluate their manufacturing capabilities and capacity',
-  //       'Request samples to verify quality before placing large orders',
-  //       'Assess their technical support and documentation capabilities'
-  //     ]
-  //   },
-  //   productionDetails: {
-  //     description: 'Our Turmeric Extract production follows a meticulous process that begins with carefully selected rhizomes sourced from organic farms in India. The rhizomes undergo thorough cleaning and preparation before extraction using our proprietary methods with USP-grade ethanol. Our state-of-the-art extraction facility employs advanced technology to ensure consistent potency and purity in every batch. For water-soluble variants, we utilize a specialized encapsulation technology that enhances both solubility and bioavailability without synthetic additives.',
-  //     image: '/images/process-ch.webp'
-  //   },
-  //   packaging: {
-  //     description: 'Star Hi Herbs provides Turmeric Extract in various packaging options to meet different customer needs. Our standard packaging includes 25kg fiber drums with double polyethylene liners to protect the extract from moisture and contamination. For smaller quantities, we offer 1kg and 5kg aluminum foil bags. All packaging materials are food-grade and designed to maintain product stability during shipping and storage. Custom packaging solutions are available upon request.',
-  //     image: '/images/packaging-ch.webp'
-  //   },
-  //   factory: {
-  //     description: 'Our manufacturing facility in Hassan, Karnataka spans over 50,000 square feet and is equipped with the latest extraction and processing technology. The plant operates under strict GMP conditions with controlled environments for each production stage. Our facility includes dedicated areas for raw material handling, extraction, filtration, drying, standardization, quality control testing, and packaging. The entire operation is designed to ensure efficiency, quality, and compliance with international standards.',
-  //     image: '/images/factory-ch.webp'
-  //   },
-  //   certificationsSection: {
-  //     description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, Non-GMO, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
-  //     image: '/images/certifications-ch.webp'
-  //   },
-  //   events: {
-  //     description: 'Since 2016, Star Hi Herbs has been an active participant in major nutraceutical and natural product exhibitions worldwide. We regularly exhibit at Vitafoods Europe, Supply Side West, CPhI Worldwide, and Natural Products Expo. These events allow us to showcase our latest innovations, connect with customers, and stay updated on industry trends. Our team of experts is always available at these exhibitions to discuss specific requirements and provide technical information about our products.',
-  //     image: '/images/events.jpg'
-  //   },
-  //   faqs: [
-  //     {
-  //       id: 1,
-  //       question: 'What makes your turmeric extract different from others?',
-  //       answer: 'Our extract is standardized to 95% curcuminoids using HPLC verification and offers enhanced bioavailability through proprietary processing techniques.'
-  //     },
-  //     {
-  //       id: 2,
-  //       question: 'Is your turmeric extract water-soluble?',
-  //       answer: 'We offer both standard and water-soluble versions. The water-soluble variant uses natural encapsulation technology for complete dispersibility in water.'
-  //     },
-  //     {
-  //       id: 3,
-  //       question: 'What is the recommended dosage?',
-  //       answer: 'Typical dosages range from 500mg to 1000mg daily of the 95% extract, though specific applications may vary.'
-  //     },
-  //     {
-  //       id: 4,
-  //       question: 'Is your turmeric extract organic?',
-  //       answer: 'Yes, we offer certified organic turmeric extract upon request.'
-  //     },
-  //     {
-  //       id: 5,
-  //       question: 'How is bioavailability enhanced in your extract?',
-  //       answer: 'We use proprietary processing techniques that preserve the natural matrix of compounds that support absorption, and our water-soluble version employs natural encapsulation technology.'
-  //     }
-  //   ]
+// Organic Products - Organic Terminalia Bellerica Extract - 40%, 45% Tannins
+{
+  "id": "organic-terminalia-bellerica",
+  "name": "Organic Terminalia Bellerica Extract",
+  "slug": "organic-terminalia-bellerica-extract",
+  "categoryId": "organic-extracts",
+  "categorySlug": "organic-extracts",
+  "categoryName": "Organic Extracts",
+  "standardization": "40%, 45% Tannins",
+  "latinName": "Terminalia bellerica",
+  "plantPart": "Fruit",
+  "description": "Organic Terminalia bellerica Extract, derived from organically cultivated Bibhitaki fruits, is a powerful Ayurvedic botanical standardized to contain 40%, 45% tannins. Our extract is processed using certified organic methods that preserve the fruit's bioactive compounds including gallic acid, ellagic acid, and chebulagic acid. Available in powder and granule forms, this versatile ingredient supports digestive health, detoxification, and immune function. The careful extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium Ayurvedic formulations, digestive health products, and traditional wellness supplements.",
+  "shortDescription": "Premium organic Bibhitaki extract standardized for tannin content",
+  "image": "/images/products/terminalia-bellerica.jpg",
+  "gallery": [
+    "/images/products/terminalia-bellerica-1.jpg",
+    "/images/products/terminalia-bellerica-1.jpg",
+    "/images/products/terminalia-bellerica-1.jpg"
+  ],
+  "applications": [
+    "Ayurvedic formulations",
+    "Digestive health supplements",
+    "Detoxification products",
+    "Immune support blends",
+    "Traditional wellness formulations"
+  ],
+  "benefits": [
+    "Supports healthy digestive function",
+    "Promotes natural detoxification processes",
+    "Offers potent antioxidant protection",
+    "Supports respiratory system health",
+    "Contains beneficial tannins and polyphenols"
+  ],
+  "specifications": {
+    "activeCompounds": "Tannins, Gallic Acid, Ellagic Acid",
+    "standardization": "40%, 45% Tannins",
+    "form": "Powder, Granules",
+    "solubility": "Partially water dispersible, soluble in ethanol",
+    "appearance": "Fine brown powder",
+    "testing": "UV spectrophotometry for tannin quantification",
+    "heavyMetals": "<10ppm (Lead, Arsenic, Cadmium, Mercury)",
+    "shelfLife": "36 months when properly stored",
+    "storage": "Store in a cool, dry place away from direct sunlight and moisture"
+  },
+  "research": "Terminalia bellerica extract has been studied for its traditional Ayurvedic applications, with research confirming its high antioxidant capacity and beneficial effects on digestive health. Clinical studies suggest its tannins and polyphenols may support gastrointestinal function and healthy inflammatory response in the digestive tract.",
+  "certifications": [
+    "USDA Organic",
+    "EU Organic",
+    "FSSC 22000",
+    "ISO 9001:2015",
+    "Kosher",
+    "Halal"
+  ],
+  "featured": false,
+  // "documents": {
+  //   "technicalDataSheet": "/documents/terminalia-bellerica-tds.pdf",
+  //   "safetyDataSheet": "/documents/terminalia-bellerica-sds.pdf",
+  //   "certificateOfAnalysis": "/documents/terminalia-bellerica-coa.pdf"
   // },
+  "supplierInfo": {
+    "points": [
+      "Verify organic certification and sustainable harvesting practices",
+      "Ensure consistent standardization of tannin content",
+      "Check testing protocols for pesticide residue and heavy metals",
+      "Evaluate compatibility with other Ayurvedic herbs",
+      "Request stability studies in various formulation environments",
+      "Assess astringency levels for sensory compatibility"
+    ]
+  },
+  "productionDetails": {
+    "description": "Our Organic Terminalia bellerica Extract is produced using certified organic fruits harvested at optimal ripeness. After careful selection, the fruits undergo our specialized extraction process that maximizes tannin retention while adhering to organic processing standards. Our facility uses proprietary technology specifically designed for tannin-rich botanicals, followed by multiple purification steps before careful drying and standardization to precise tannin concentrations.",
+    "image": "/images/process-ch.webp"
+  },
+  "packaging": {
+    "description": "Star Hi Herbs provides Organic Terminalia bellerica Extract in various packaging options designed to preserve tannin content. Our standard packaging includes 25kg fiber drums with double food-grade polyethylene liners to protect the extract from moisture and oxidation. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with nitrogen flushing. All packaging materials comply with organic regulations and are designed to maintain product stability during shipping and storage.",
+    "image": "/images/packaging-ch.webp"
+  },
+  "factory": {
+    "description": "Our dedicated organic processing facility features specialized equipment for tannin extraction and standardization. The facility operates under strict organic protocols alongside GMP conditions, with designated areas for organic materials to prevent cross-contamination. Our analytical laboratory performs ongoing testing for tannin content throughout the production process to ensure consistent standardization in every batch.",
+    "image": "/images/factory-ch.webp"
+  },
+  "certificationsSection": {
+    "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Terminalia bellerica Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We undergo regular audits specific to Ayurvedic botanicals to ensure both authenticity and efficacy. These certifications reflect our commitment to authentic organic ingredients and traditional Ayurvedic quality.",
+    "image": "/images/certifications-ch.webp"
+  },
+  "events": {
+    "description": "Star Hi Herbs regularly showcases our organic Terminalia bellerica Extract at major Ayurvedic, nutraceutical, and natural product exhibitions worldwide. We participate in specialized Ayurvedic symposiums in addition to major trade shows like Ayurveda Expo and Supply Side West. Our Ayurvedic specialists provide formulation guidance based on traditional principles while incorporating modern standardization techniques for optimal efficacy in contemporary applications.",
+    "image": "/images/events.jpg"
+  },
+  "faqs": [
+    {
+      "id": "1",
+      "question": "What is the standard tannin content in your Terminalia bellerica Extract?",
+      "answer": "Our extract is standardized to contain 25% tannins, ensuring consistent quality and efficacy."
+    },
+    {
+      "id": "2",
+      "question": "Is your Terminalia bellerica Extract suitable for organic Ayurvedic formulations?",
+      "answer": "Yes, it is certified organic and processed under strict Ayurvedic and organic compliance."
+    },
+    {
+      "id": "3",
+      "question": "What forms is the extract available in?",
+      "answer": "It is available in fine powder and granule forms to suit different formulation needs."
+    },
+    {
+      "id": "4",
+      "question": "Can this extract be used in combination with other Ayurvedic herbs?",
+      "answer": "Yes, it is often used in synergy with other herbs like Terminalia chebula and Emblica officinalis in Triphala formulations."
+    },
+    {
+      "id": "5",
+      "question": "What is the shelf life and recommended storage conditions?",
+      "answer": "The shelf life is 36 months when stored in a cool, dry place away from sunlight and moisture."
+    }
+  ]
+},
+// Organic Products - Organic Terminalia chebula Extract - 40%, 45% Tannins
+{
+  "id": "organic-terminalia-chebula",
+  "name": "Organic Terminalia chebula Extract",
+  "slug": "organic-terminalia-chebula-extract",
+  "categoryId": "organic-extracts",
+  "categorySlug": "organic-extracts",
+  "categoryName": "Organic Extracts",
+  "standardization": "40%, 45% Tannins",
+  "latinName": "Terminalia chebula",
+  "plantPart": "Fruit",
+  "description": "Organic Terminalia chebula Extract, derived from organically cultivated Haritaki fruits, is a premium Ayurvedic botanical standardized to contain 40%, 45% Tannins. Our extract is processed using certified organic methods that preserve the fruit's potent bioactive compounds including gallic acid, ellagic acid, and chebulagic acid. Available in powder and granule forms, this versatile ingredient supports digestive health, detoxification, and antioxidant protection. The careful extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium Ayurvedic formulations, rejuvenative tonics, and wellness supplements.",
+  "shortDescription": "Premium organic Haritaki extract standardized for tannin and chebulinic acid content",
+  "image": "/images/products/terminalia-chebula.jpg",
+  "gallery": [
+    "/images/products/terminalia-chebula-1.jpg",
+    "/images/products/terminalia-chebula-2.jpg",
+    "/images/products/terminalia-chebula-3.jpg"
+  ],
+  "applications": [
+    "Ayurvedic formulations",
+    "Digestive wellness products",
+    "Antioxidant supplements",
+    "Rejuvenative tonics",
+    "Traditional wellness blends"
+  ],
+  "benefits": [
+    "Supports healthy digestive function and elimination",
+    "Provides potent antioxidant protection",
+    "Promotes natural detoxification processes",
+    "Supports oral and respiratory health",
+    "Contains beneficial tannins and polyphenols"
+  ],
+  "specifications": {
+    "activeCompounds": "Tannins, Chebulinic Acid, Gallic Acid",
+    "standardization": "40%, 45% Tannins",
+    "form": "Powder, Granules",
+    "solubility": "Partially water dispersible, soluble in ethanol",
+    "appearance": "Fine dark brown powder",
+    "testing": "HPLC methods for tannin and chebulinic acid quantification",
+    "heavyMetals": "Complies with USP <232>",
+    "shelfLife": "36 months if stored properly",
+    "storage": "Keep in a cool, dry place away from direct sunlight"
+  },
+  "research": "Terminalia chebula extract has been extensively studied in Ayurvedic medicine, with modern research confirming its exceptional antioxidant capacity and benefits for digestive health. Clinical studies suggest its unique tannin profile may support gastrointestinal function, healthy elimination, and cellular protection from oxidative stress.",
+  "certifications": [
+    "USDA Organic",
+    "EU Organic",
+    "FSSC 22000",
+    "ISO 9001:2015",
+    "Kosher",
+    "Halal"
+  ],
+  "featured": true,
+  // "documents": [
+  //   {
+  //     "id": 1,
+  //     "name": "Technical Data Sheet",
+  //     "size": "2.2 MB"
+  //   },
+  //   {
+  //     "id": 2,
+  //     "name": "Safety Data Sheet",
+  //     "size": "1.9 MB"
+  //   },
+  //   {
+  //     "id": 3,
+  //     "name": "Certificate of Analysis",
+  //     "size": "1.1 MB"
+  //   }
+  // ],
+  "supplierInfo": {
+    "points": [
+      "Verify organic certification and sustainable wild-crafting practices",
+      "Ensure consistent standardization of both tannins and chebulinic acid",
+      "Check testing protocols for heavy metals and microbial contaminants",
+      "Evaluate antioxidant capacity with ORAC testing",
+      "Request stability studies in various formulation environments",
+      "Assess compatibility with other Ayurvedic botanicals"
+    ]
+  },
+  "productionDetails": {
+    "description": "Our Organic Terminalia chebula Extract is produced using certified organic fruits harvested at optimal ripeness from sustainable organic farms. After careful selection, the fruits undergo our specialized extraction process that maximizes retention of tannins and chebulinic acid while adhering to organic processing standards. Our facility uses proprietary technology specifically designed for polyphenol-rich botanicals, followed by multiple purification steps before careful drying and standardization.",
+    "image": "/images/process-ch.webp"
+  },
+  "packaging": {
+    "description": "Star Hi Herbs provides Organic Terminalia chebula Extract in various packaging options designed to preserve polyphenol content. Our standard packaging includes 25kg fiber drums with double food-grade polyethylene liners to protect the extract from moisture and oxidation. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with nitrogen flushing. All packaging materials comply with organic regulations and are designed to maintain antioxidant potency during shipping and storage.",
+    "image": "/images/packaging-ch.webp"
+  },
+  "factory": {
+    "description": "Our dedicated organic processing facility features specialized equipment for polyphenol extraction and standardization. The facility operates under strict organic protocols alongside GMP conditions, with designated areas for organic materials to prevent cross-contamination. Our analytical laboratory performs ongoing testing for tannin and chebulinic acid content throughout the production process to ensure consistent standardization in every batch.",
+    "image": "/images/factory-ch.webp"
+  },
+  "certificationsSection": {
+    "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Terminalia chebula Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We undergo regular audits specific to Ayurvedic botanicals to ensure both authenticity and efficacy. These certifications reflect our commitment to authentic organic ingredients and traditional Ayurvedic quality.",
+    "image": "/images/certifications-ch.webp"
+  },
+  "events": {
+    "description": "Star Hi Herbs regularly showcases our organic Terminalia chebula Extract at major Ayurvedic, nutraceutical, and natural product exhibitions worldwide. We participate in specialized antioxidant research symposiums in addition to major trade shows like Ayurveda Expo and Vitafoods Europe. Our Ayurvedic specialists provide formulation guidance based on traditional principles while incorporating modern scientific understanding of Haritaki's antioxidant mechanisms for optimal efficacy.",
+    "image": "/images/events.jpg"
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "question": "Is your Terminalia chebula extract certified organic?",
+      "answer": "Yes, it is certified USDA and EU Organic, processed in compliance with organic standards using no synthetic solvents."
+    },
+    {
+      "id": 2,
+      "question": "What are the key active compounds?",
+      "answer": "The extract is standardized to 30% tannins and 15% chebulinic acid, with naturally occurring gallic and ellagic acids."
+    },
+    {
+      "id": 3,
+      "question": "Can this extract be used in traditional Ayurvedic formulas?",
+      "answer": "Absolutely. It is ideal for formulations aligned with traditional Ayurvedic principles, including Triphala and digestive tonics."
+    },
+    {
+      "id": 4,
+      "question": "Is the extract vegan and non-GMO?",
+      "answer": "Yes, it is 100% plant-based, vegan-friendly, and certified non-GMO."
+    },
+    {
+      "id": 5,
+      "question": "How should this extract be stored?",
+      "answer": "Store in a cool, dry place away from sunlight in airtight containers to preserve its polyphenol content and antioxidant activity."
+    }
+  ]
+},
+// Organic Products - Organic Trikatu Extract - 1.5% Piperine 1% Gingerols
+{
+  "id": "organic-trikatu",
+  "name": "Organic Trikatu Extract",
+  "slug": "organic-trikatu-extract",
+  "categoryId": "organic-extracts",
+  "categorySlug": "organic-extracts",
+  "categoryName": "Organic Extracts",
+  "standardization": "1.5% Piperine 1% Gingerols",
+  "latinName": "Piper nigrum, Piper longum, Zingiber officinale",
+  "plantPart": "Fruit and Rhizome",
+  "description": "Organic Trikatu Extract, derived from the traditional Ayurvedic blend of organically cultivated black pepper, long pepper, and ginger, is a premium botanical formulation standardized to contain 1.5% Piperine and 1% Gingerols. Our extract is processed using certified organic methods that preserve the bioactive compounds from all three botanicals. Available in powder and granule forms, this versatile ingredient supports digestive fire (agni), bioavailability enhancement, and respiratory health. The careful extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium Ayurvedic formulations, digestive supplements, and bioavailability enhancers.",
+  "shortDescription": "Premium organic Trikatu extract standardized for piperine and gingerol content",
+  "image": "/images/products/trikatu.jpg",
+  "gallery": [
+    "/images/products/trikatu-1.jpg",
+    "/images/products/trikatu-2.jpg",
+    "/images/products/trikatu-3.jpg"
+  ],
+  "applications": [
+    "Bioavailability enhancement",
+    "Digestive support formulations",
+    "Respiratory health products",
+    "Ayurvedic blends",
+    "Thermogenic supplements"
+  ],
+  "benefits": [
+    "Enhances bioavailability of nutrients and botanical actives",
+    "Supports healthy digestive fire (agni) and metabolism",
+    "Promotes respiratory health and clear breathing",
+    "Provides warming, kapha-balancing properties",
+    "Supports thermogenesis and metabolic function"
+  ],
+  "specifications": {
+    "activeCompounds": "Piperine, Gingerols, Volatile Oils",
+    "standardization": "1.5% Piperine 1% Gingerols",
+    "form": "Powder, Granules",
+    "solubility": "Partially water dispersible, soluble in ethanol",
+    "appearance": "Fine dark brown powder",
+    "testing": "HPLC methods for piperine and gingerol quantification",
+    "heavyMetals": "<10 ppm (Lead <3 ppm, Arsenic <2 ppm, Cadmium <1 ppm, Mercury <1 ppm)",
+    "shelfLife": "36 months when stored in recommended conditions",
+    "storage": "Store in a cool, dry place away from direct sunlight"
+  },
+  "research": "Trikatu extract has been studied both in traditional Ayurvedic applications and modern research for its bioavailability-enhancing properties. Studies indicate the piperine content may increase absorption of nutrients and botanical actives by 30-200%, while the combination with gingerols provides synergistic benefits for digestive and respiratory health.",
+  "certifications": [
+    "USDA Organic",
+    "EU Organic",
+    "FSSC 22000",
+    "ISO 9001:2015",
+    "Kosher",
+    "Halal"
+  ],
+  "featured": true,
+  // "documents": {
+  //   "technicalDataSheet": "/documents/trikatu-tds.pdf",
+  //   "safetyDataSheet": "/documents/trikatu-sds.pdf",
+  //   "certificateOfAnalysis": "/documents/trikatu-coa.pdf"
+  // },
+  "supplierInfo": {
+    "points": [
+      "Verify organic certification for all three botanical components",
+      "Ensure consistent standardization of both piperine and gingerols",
+      "Check testing protocols for pesticide residue and heavy metals",
+      "Evaluate bioavailability enhancement capabilities",
+      "Request stability studies in various formulation environments",
+      "Assess sensory profile for food and beverage applications"
+    ]
+  },
+  "productionDetails": {
+    "description": "Our Organic Trikatu Extract is produced using certified organic black pepper, long pepper, and ginger from carefully selected organic farms. Each botanical undergoes rigorous quality testing before being precisely combined according to traditional Ayurvedic proportions. Our specialized extraction process maximizes retention of bioactive compounds from all three ingredients while adhering to organic processing standards, followed by careful standardization to consistent piperine and gingerol levels.",
+    "image": "/images/process-ch.webp"
+  },
+  "packaging": {
+    "description": "Star Hi Herbs provides Organic Trikatu Extract in various packaging options designed to preserve aromatic compounds and bioactive content. Our standard packaging includes 25kg fiber drums with food-grade polyethylene liners and oxygen absorbers. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with aroma-protection technology. All packaging materials comply with organic regulations and are designed to maintain product stability and potency during shipping and storage.",
+    "image": "/images/packaging-ch.webp"
+  },
+  "factory": {
+    "description": "Our dedicated organic processing facility features specialized equipment for extracting and standardizing complex botanical blends like Trikatu. The facility operates with advanced air filtration systems to prevent cross-contamination of aromatic compounds, with designated areas for organic materials. Our analytical laboratory performs ongoing testing for piperine and gingerol content throughout the production process to ensure consistent standardization and potency in every batch.",
+    "image": "/images/factory-ch.webp"
+  },
+  "certificationsSection": {
+    "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Trikatu Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We undergo regular audits specific to Ayurvedic herbal combinations to ensure both authenticity and efficacy. These certifications reflect our commitment to authentic organic ingredients and traditional Ayurvedic formulation principles.",
+    "image": "/images/certifications-ch.webp"
+  },
+  "events": {
+    "description": "Star Hi Herbs regularly showcases our organic Trikatu Extract at major Ayurvedic, nutraceutical, and natural product exhibitions worldwide. We participate in specialized bioavailability enhancement symposiums in addition to major trade shows like Supply Side West and Ayurveda Expo. Our formulation specialists provide guidance on incorporating Trikatu for optimal ingredient synergy and bioavailability enhancement in various supplement and functional food applications.",
+    "image": "/images/events.jpg"
+  },
+  "faqs": [
+    {
+      "id": "1",
+      "question": "What is the primary function of Organic Trikatu Extract?",
+      "answer": "The primary function of Trikatu Extract is to enhance the bioavailability of nutrients and support digestion and metabolism, making it a valuable component in Ayurvedic and functional formulations."
+    },
+    {
+      "id": "2",
+      "question": "How is the standardization of piperine and gingerols ensured?",
+      "answer": "Standardization is achieved through precise HPLC testing and batch-to-batch quality control during production to ensure consistent levels of 2% piperine and 1% gingerols."
+    },
+    {
+      "id": "3",
+      "question": "Is the extract suitable for vegetarian and vegan formulations?",
+      "answer": "Yes, the Organic Trikatu Extract is plant-based and suitable for both vegetarian and vegan applications."
+    },
+    {
+      "id": "4",
+      "question": "Can Trikatu be used in beverages?",
+      "answer": "Yes, with its warming and digestive properties, it is suitable for inclusion in herbal beverages and teas, although sensory and solubility profiles should be evaluated."
+    }
+  ]
+},
+// Organic Products - Organic Triphala Extract - 20% - 45% Tannins
+{
+  "id": "organic-triphala",
+  "name": "Organic Triphala Extract",
+  "slug": "organic-triphala-extract",
+  "categoryId": "organic-extracts",
+  "categorySlug": "organic-extracts",
+  "categoryName": "Organic Extracts",
+  "standardization": "20% - 45% Tannins",
+  "latinName": "Emblica officinalis, Terminalia bellerica, Terminalia chebula",
+  "plantPart": "Fruit",
+  "description": "Organic Triphala Extract, derived from the traditional Ayurvedic blend of organically cultivated amla, bibhitaki, and haritaki fruits, is a premium herbal formulation standardized to contain 20% - 45% tannins. Our extract is processed using certified organic methods that preserve the synergistic bioactive compounds from all three fruits. Available in powder and granule forms, this versatile ingredient supports digestive health, gentle detoxification, and overall wellness according to Ayurvedic principles. The careful extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium Ayurvedic formulations, digestive wellness products, and cleansing programs.",
+  "shortDescription": "Premium organic Triphala extract standardized for tannin content",
+  "image": "/images/products/triphala-extract.jpg",
+  "gallery": [
+    "/images/products/triphala-extract-1.jpg",
+    "/images/products/triphala-extract-2.jpg",
+    "/images/products/triphala-extract-3.jpg"
+  ],
+  "applications": [
+    "Digestive wellness formulations",
+    "Gentle cleansing supplements",
+    "Ayurvedic blends",
+    "Antioxidant products",
+    "Traditional wellness supplements"
+  ],
+  "benefits": [
+    "Supports healthy digestion and elimination",
+    "Promotes gentle, natural detoxification",
+    "Provides potent antioxidant protection",
+    "Balances all three doshas according to Ayurvedic principles",
+    "Supports overall gastrointestinal health and comfort"
+  ],
+  "specifications": {
+    "activeCompounds": "Tannins, Gallic Acid, Chebulinic Acid, Vitamin C",
+    "standardization": "20% - 45% Tannins",
+    "form": "Powder, Granules",
+    "solubility": "Partially water dispersible, soluble in ethanol",
+    "appearance": "Fine brown powder",
+    "testing": "UV spectrophotometry for tannin quantification",
+    "heavyMetals": "Complies with USP limits",
+    "shelfLife": "3 years when properly stored",
+    "storage": "Store in a cool, dry place away from direct sunlight in airtight containers"
+  },
+  "research": "Triphala extract has been extensively studied both in traditional Ayurvedic applications and modern clinical research. Studies confirm its benefits for digestive health, with research demonstrating prebiotic effects, support for healthy elimination, and potent antioxidant protection. Clinical trials suggest benefits for gastrointestinal comfort and regularity.",
+  "certifications": [
+    "USDA Organic",
+    "EU Organic",
+    "FSSC 22000",
+    "ISO 9001:2015",
+    "Kosher",
+    "Halal"
+  ],
+  "featured": true,
+  // "documents": {
+  //   "technicalDataSheet": "/docs/triphala-tds.pdf",
+  //   "safetyDataSheet": "/docs/triphala-sds.pdf",
+  //   "certificateOfAnalysis": "/docs/triphala-coa.pdf"
+  // },
+  "supplierInfo": {
+    "points": [
+      "Verify organic certification for all three fruit components",
+      "Ensure consistent ratio of fruits according to traditional formulation",
+      "Check testing protocols for heavy metals and microbial contaminants",
+      "Evaluate taste profile for palatability in various applications",
+      "Request stability studies in various formulation environments",
+      "Assess prebiotic potential with appropriate testing"
+    ]
+  },
+  "productionDetails": {
+    "description": "Our Organic Triphala Extract is produced using certified organic fruits from sustainable organic farms. Each fruit—amla, bibhitaki, and haritaki—undergoes careful selection before being precisely combined according to traditional Ayurvedic proportions. Our specialized extraction process maximizes retention of bioactive compounds from all three fruits while adhering to organic processing standards, followed by careful standardization to consistent tannin levels while preserving the synergistic nature of the formulation.",
+    "image": "/images/process-ch.webp"
+  },
+  "packaging": {
+    "description": "Star Hi Herbs provides Organic Triphala Extract in various packaging options designed to preserve tannin content and bioactive compounds. Our standard packaging includes 25kg fiber drums with double food-grade polyethylene liners to protect the extract from moisture and oxidation. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with nitrogen flushing. All packaging materials comply with organic regulations and are designed to maintain product stability during shipping and storage.",
+    "image": "/images/packaging-ch.webp"
+  },
+  "factory": {
+    "description": "Our dedicated organic processing facility features specialized equipment for extracting and standardizing complex botanical blends like Triphala. The facility operates under strict organic protocols alongside GMP conditions, with designated areas for organic materials to prevent cross-contamination. Our analytical laboratory performs ongoing testing for tannin content and bioactive marker compounds throughout the production process to ensure consistent standardization in every batch.",
+    "image": "/images/factory-ch.webp"
+  },
+  "certificationsSection": {
+    "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Triphala Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We undergo regular audits specific to Ayurvedic herbal combinations to ensure both authenticity and efficacy. These certifications reflect our commitment to authentic organic ingredients and traditional Ayurvedic formulation principles.",
+    "image": "/images/certifications-ch.webp"
+  },
+  "events": {
+    "description": "Star Hi Herbs regularly showcases our organic Triphala Extract at major Ayurvedic, digestive health, and natural product exhibitions worldwide. We participate in specialized gut health symposiums in addition to major trade shows like Supply Side West and Ayurveda Expo. Our Ayurvedic specialists provide formulation guidance based on traditional principles while incorporating modern understanding of Triphala's prebiotic and digestive benefits for contemporary applications.",
+    "image": "/images/events.jpg"
+  },
+  "faqs": [
+    {
+      "id": "1",
+      "question": "What is the standardization of tannins in your Organic Triphala Extract?",
+      "answer": "Our Organic Triphala Extract is standardized to contain 45% tannins to ensure consistent potency and efficacy."
+    },
+    {
+      "id": "2",
+      "question": "What forms is the extract available in?",
+      "answer": "We offer Organic Triphala Extract in both fine powder and granule forms to suit different formulation needs."
+    },
+    {
+      "id": "3",
+      "question": "Is your extract suitable for use in certified organic supplements?",
+      "answer": "Yes, our Triphala Extract is certified USDA Organic and EU Organic, and complies with organic supplement manufacturing standards."
+    },
+    {
+      "id": "4",
+      "question": "How should Triphala Extract be stored?",
+      "answer": "Store in a cool, dry place away from direct sunlight, in airtight packaging to maintain stability and potency."
+    },
+    {
+      "id": "5",
+      "question": "Does this extract support gut health?",
+      "answer": "Yes, Triphala is traditionally used for digestive wellness and modern studies support its prebiotic and gut-supportive properties."
+    }
+  ]
+},
+// Organic Products - Organic Triphala Extract - 20% - 45% Tannins
+{
+  "id": "turmeric-water",
+  "name": "Organic Turmeric Water Extract",
+  "slug": "organic-turmeric-water-extract",
+  "categoryId": "organic-extracts",
+  "categorySlug": "organic-extracts",
+  "categoryName": "Organic Extracts",
+  "standardization": "Upto 10% Polysaccharides",
+  "latinName": "Curcuma longa",
+  "plantPart": "Rhizome",
+  "description": "Organic Turmeric with Water Extract, derived from organically cultivated Curcuma longa rhizomes, is a premium botanical extract standardized to contain Upto 10% Polysaccharides. Unlike conventional extracts, our unique water-based extraction technology eliminates the need for chemical solvents while maintaining exceptional potency. Available in powder and granule forms, this versatile ingredient delivers potent anti-inflammatory support, antioxidant protection, and joint health benefits. The eco-friendly water extraction process ensures both efficacy and adherence to the strictest organic standards for use in premium nutraceuticals, functional foods, and natural wellness formulations.",
+  "shortDescription": "Premium organic turmeric extract using water-based technology, standardized for curcuminoid content",
+  "image": "/images/products/turmeric-water.jpg",
+  "gallery": [
+    "/images/products/turmeric-water.jpg",
+    "/images/products/turmeric-water.jpg",
+    "/images/products/turmeric-water.jpg"
+  ],
+  "applications": [
+    "Joint health formulations",
+    "Inflammatory response supplements",
+    "Antioxidant products",
+    "Cognitive support blends",
+    "Functional food and beverage applications"
+  ],
+  "benefits": [
+    "Supports healthy inflammatory response",
+    "Provides potent antioxidant protection",
+    "Promotes joint comfort and mobility",
+    "Supports cognitive health and function",
+    "Environmentally sustainable water extraction process"
+  ],
+  "specifications": {
+    "activeCompounds": "Curcuminoids (Curcumin, Demethoxycurcumin, Bisdemethoxycurcumin)",
+    "standardization": "Upto 10% Polysaccharides",
+    "form": "Powder, Granules",
+    "solubility": "Enhanced water dispersibility, soluble in ethanol",
+    "appearance": "Fine bright yellow-orange powder",
+    "testing": "HPLC methods for curcuminoid quantification",
+    "heavyMetals": "<10 ppm (Lead, Arsenic, Mercury, Cadmium)",
+    "shelfLife": "24 months when stored in a cool, dry place",
+    "storage": "Store in airtight containers, protected from heat, light, and moisture"
+  },
+  "research": "Turmeric extract has been extensively studied with thousands of published research papers documenting its benefits. Clinical studies confirm its powerful support for healthy inflammatory response, joint comfort, and antioxidant protection. Our water extraction process has been shown to maintain the full spectrum of curcuminoids while enhancing bioavailability without synthetic additives.",
+  "certifications": [
+    "USDA Organic",
+    "EU Organic",
+    "FSSC 22000",
+    "ISO 9001:2015",
+    "Kosher",
+    "Halal"
+  ],
+  "featured": true,
+  // "documents": {
+  //   "technicalDataSheet": "/documents/turmeric-water-tds.pdf",
+  //   "safetyDataSheet": "/documents/turmeric-water-sds.pdf",
+  //   "certificateOfAnalysis": "/documents/turmeric-water-coa.pdf"
+  // },
+  "supplierInfo": {
+    "points": [
+      "Verify organic certification and sustainable farming practices",
+      "Ensure consistent standardization of curcuminoid content",
+      "Check solvent-free water extraction documentation",
+      "Evaluate color stability in various applications",
+      "Request bioavailability data compared to conventional extracts",
+      "Assess stability studies in various formulation environments"
+    ]
+  },
+  "productionDetails": {
+    "description": "Our Organic Turmeric with Water Extract is produced using certified organic rhizomes harvested at peak curcuminoid content. After careful washing and preparation, the rhizomes undergo our proprietary water-based extraction process that uses advanced technology to achieve high curcuminoid concentration without chemical solvents. This eco-friendly process preserves the full spectrum of beneficial compounds while adhering to the strictest organic standards, followed by gentle drying and standardization to precise curcuminoid levels.",
+    "image": "/images/process-ch.webp"
+  },
+  "packaging": {
+    "description": "Star Hi Herbs provides Organic Turmeric with Water Extract in various packaging options designed to preserve curcuminoid content and vibrant color. Our standard packaging includes 20kg fiber drums with food-grade polyethylene liners, oxygen absorbers, and light protection. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with nitrogen flushing. All packaging materials comply with organic regulations and are designed to maintain product stability and potency during shipping and storage.",
+    "image": "/images/packaging-ch.webp"
+  },
+  "factory": {
+    "description": "Our dedicated organic processing facility features specialized equipment for water-based extraction technology. The facility operates with advanced filtration and purification systems to eliminate the need for chemical solvents, with designated areas for organic materials to prevent cross-contamination. Our analytical laboratory performs ongoing testing for curcuminoid content throughout the production process to ensure consistent standardization and potency in every batch.",
+    "image": "/images/factory-ch.webp"
+  },
+  "certificationsSection": {
+    "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Turmeric with Water Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. Our water extraction technology has received special recognition for sustainable processing innovation. These certifications reflect our commitment to environmentally friendly extraction methods and organic ingredient quality.",
+    "image": "/images/certifications-ch.webp"
+  },
+  "events": {
+    "description": "Star Hi Herbs regularly showcases our innovative Organic Turmeric with Water Extract at major nutraceutical, sustainability, and natural product exhibitions worldwide. We participate in specialized clean label and green technology symposiums in addition to major trade shows like Supply Side West and Vitafoods Europe. Our sustainability specialists provide information on our water extraction technology and its environmental benefits alongside formulation support for maximizing curcuminoid bioavailability in various applications.",
+    "image": "/images/events.jpg"
+  },
+  "faqs": [
+    {
+      "id": "1",
+      "question": "What makes this turmeric extract different from conventional ones?",
+      "answer": "Our Organic Turmeric with Water Extract is produced using a chemical-free water extraction method, preserving the full curcuminoid profile while maintaining organic integrity and enhanced bioavailability."
+    },
+    {
+      "id": "2",
+      "question": "Is this extract suitable for beverages or functional drinks?",
+      "answer": "Yes, the enhanced water dispersibility makes it suitable for functional food and beverage applications including health drinks, shots, and powders."
+    },
+    {
+      "id": "3",
+      "question": "What is the shelf life of this product?",
+      "answer": "When stored in a cool, dry place away from light and moisture, the extract maintains stability for 24 months."
+    },
+    {
+      "id": "4",
+      "question": "Is this extract compliant with clean-label formulations?",
+      "answer": "Absolutely. This product is ideal for clean-label formulations as it contains no synthetic solvents, preservatives, or additives."
+    },
+    {
+      "id": "5",
+      "question": "Can we get COA and third-party lab test results?",
+      "answer": "Yes, we provide a Certificate of Analysis with every batch, and third-party test reports can be shared on request."
+    }
+  ]
+},
+
+
+
   // Standardized Products - Berberis Aristata Extract - 1%, 5%, 6%, 10%, 60%, 70%, 98% Berberine
   {
     id: 'berberis',
