@@ -382,6 +382,7 @@ export const productCategories: ProductCategory[] = [
  * Products Data
  */
 export const products: Product[] = [
+  //Here are Storg products - Storg Main, 
   {
     "id": "storg-main",
     "name": "Storg® Plant-based Vitamins & Minerals",
@@ -492,6 +493,7 @@ export const products: Product[] = [
     "isParentProduct": true,
     "childProducts": ["storg-b", "storg-c", "storg-e", "storg-fa", "storg-i", "storg-n", "storg-se", "storg-zn", "storg-him", "storg-her", "storg-kid", "storg-bs", "storg-bio", "storg-bt"]
   },
+// Storg B, 
   {
     "id": "storg-b",
     "name": "Storg-B",
@@ -600,7 +602,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Stress", "Neurological Function", "Energy"]
   },
-
+// Storg C, 
   {
     "id": "storg-c",
     "name": "Storg-C",
@@ -709,6 +711,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Immune Function", "Skin Health"]
   },
+// Storg E, 
   {
     "id": "storg-e",
     "name": "Storg-E",
@@ -817,6 +820,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Cardiovascular Health", "Skin Health"]
   },
+// Storg FA, 
   {
     "id": "storg-fa",
     "name": "Storg-FA",
@@ -925,6 +929,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Prenatal Support", "Cardiovascular Health", "Neurological Function"]
   },
+  // Storg I, 
   {
     "id": "storg-i",
     "name": "Storg-I",
@@ -1033,6 +1038,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Thyroid Health", "Energy", "Neurological Function"]
   },
+  // Storg N, 
   {
     "id": "storg-n",
     "name": "Storg-N",
@@ -1141,6 +1147,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Energy", "Cardiovascular Health", "Neurological Function"]
   },
+// Storg Se,
   {
     "id": "storg-se",
     "name": "Storg-SE",
@@ -1249,6 +1256,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Immune Function", "Thyroid Health", "Antioxidant"]
   },
+  // Storg Zn, 
   {
     "id": "storg-zn",
     "name": "Storg-ZN",
@@ -1442,6 +1450,7 @@ export const products: Product[] = [
       ]
     }
   },
+// Storg Him, 
   {
     "id": "storg-him",
     "name": "Storg-Him",
@@ -1550,6 +1559,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Men's Health", "Energy", "Cardiovascular Health"]
   },
+  // Storg Her, 
   {
     "id": "storg-her",
     "name": "Storg-Her",
@@ -1658,6 +1668,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Women's Health", "Bone Health", "Energy"]
   },
+// Storg Kid
   {
     "id": "storg-kid",
     "name": "Storg-Kid",
@@ -1766,6 +1777,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Cognitive Development", "Immune Function", "Growth"]
   },
+  // Storg-Bs
   {
     "id": "storg-bs",
     "name": "Storg-Bs",
@@ -1874,6 +1886,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Energy", "Stress Management", "Cognitive Function"]
   },
+  // Storg-Bio
   {
     "id": "storg-bio",
     "name": "Storg-Bio",
@@ -1982,6 +1995,7 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Hair Health", "Skin Health", "Nail Health"]
   },
+  // Storg-BT
   {
     "id": "storg-bt",
     "name": "Storg-BT",
@@ -2301,6 +2315,7 @@ export const products: Product[] = [
   //   ]
   // },
 
+  // Branded Ingredients - Turmimax
   {
     "id": "turmimax",
     "name": "Turmimax™",
@@ -2492,6 +2507,7 @@ export const products: Product[] = [
       "image": "/images/turmimax/optiBio-chart.png"
     }
   },
+  // Organic Products - Organic Andrographis Extract - 10%, 15%, 30% Andrographolides
   {
     "id": "organic-andrographis",
     "name": "Organic Andrographis Extract",
@@ -2608,6 +2624,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products - Organic Ashwagandha Extract - 2.5%, 5%, 10% Withanolides
   {
     id: "organic-ashwagandha",
     name: "Organic Ashwagandha Extract",
@@ -2724,6 +2741,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products - Organic Bacopa Monnieri Extract - 20%, 40%, 50% Bacosides
   {
     "id": "organic-bacopa-powder",
     "name": "Organic Bacopa Monnieri Extract Powder",
@@ -2840,6 +2858,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // // Organic Products - Organic Bacopa Monnieri Extract Granules - 20%, 40%, 50% Bacosides
   {
     "id": "organic-bacopa-granules",
     "name": "Organic Bacopa Monnieri Extract Granules",
@@ -2924,6 +2943,7 @@ export const products: Product[] = [
       "image": "/events.jpg"
     }
   },
+  // // Organic Products - Organic Black Pepper Extract - 95% Piperine
   {
     "id": "organic-black-pepper",
     "name": "Organic Black Pepper Extract",
@@ -3008,6 +3028,7 @@ export const products: Product[] = [
       "image": "/events.jpg"
     }
   },
+  // // Organic Products - Organic Boswellia Serrata Extract - 65% & 85% Boswellic Acids
   {
     "id": "organic-boswellia",
     "name": "Organic Boswellia Serrata Extract",
@@ -3092,6 +3113,7 @@ export const products: Product[] = [
       "image": "/events.jpg"
     }
   },
+  // // Organic Products - Organic Cissus Extract - 20% & 40% Ketosterones
   {
     "id": "organic-cissus",
     "name": "Organic Cissus Extract",
@@ -3176,6 +3198,7 @@ export const products: Product[] = [
       "image": "/events.jpg"
     }
   },
+  // // Organic Products - Organic Turmeric Extract - 95% Curcuminoids
   {
     "id": "organic-turmeric",
     "name": "Organic Turmeric Extract",
@@ -3292,6 +3315,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products  - Organic Turmeric Extract Granules - 95% Curcuminoids
   {
     "id": "organic-turmeric-extract-granules",
     "name": "Organic Turmeric Extract Granules",
@@ -3408,6 +3432,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products - Organic Fenugreek Extract - 50% Saponins
   {
     "id": "organic-fenugreek",
     "name": "Organic Fenugreek Extract",
@@ -3524,6 +3549,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products - Organic Ginger Extract - 5%, 10% Gingerols
   {
     "id": "organic-ginger",
     "slug": "organic-ginger-extract",
@@ -3630,6 +3656,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products - Organic Gymnema Sylvestre Extract - 25%, 75% Gymnemic Acids
   {
     "id": "organic-gymnema",
     "name": "Organic Gymnema Sylvestre Extract",
@@ -3741,6 +3768,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products - Organic Mucuna Extract - 15%, 40%, 98% L-Dopa
   {
     "id": "organic-mucuna",
     "name": "Organic Mucuna Extract",
@@ -3852,6 +3880,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products - Organic Tulsi - 2% Ursolic Acid, 2.5% Eugenol
   {
     "id": "organic-tulsi",
     "name": "Organic Ocimum Sanctum Extract",
@@ -3963,6 +3992,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products - Organic Piper longum Extract - 5%,95% Piperine
   {
     "id": "organic-piper-longum",
     "name": "Organic Piper longum Extract",
@@ -4074,6 +4104,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products - Organic Tribulus Terrestris Extract - 40% Saponins
   {
     "id": "organic-tribulus",
     "name": "Organic Tribulus Terrestris Extract",
@@ -4190,6 +4221,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products - Organic Centella asiatica Extract - 10%,20% Saponins
   {
     "id": "organic-centella",
     "name": "Organic Centella asiatica Extract",
@@ -4301,116 +4333,117 @@ export const products: Product[] = [
       }
     ]
   },
-
-  {
-    id: 'turmeric',
-    slug: 'turmeric-extract',
-    name: 'Turmeric Extract',
-    categoryId: 'standardized-extracts',
-    categorySlug: 'standardized-extracts',
-    categoryName: 'Standardized Herbal Extracts',
-    standardization: '95% Curcuminoids',
-    latinName: 'Curcuma longa',
-    plantPart: 'Rhizome',
-    description: 'Our flagship turmeric extract contains 95% curcuminoids with enhanced bioavailability. Sourced from organic farms in India, this extract is perfect for supplements targeting inflammation and joint health. Each batch undergoes rigorous HPLC testing to ensure consistent potency and purity. The extract is available in both standard and water-soluble forms to meet diverse formulation needs.',
-    shortDescription: 'Premium Turmeric extract standardized for curcuminoid content with enhanced bioavailability',
-    image: '/images/turmeric-extract.jpeg',
-    gallery: [
-      '/images/products/turmeric-extract-1.jpg',
-      '/images/products/turmeric-extract-2.jpg',
-      '/images/products/turmeric-extract-3.jpg',
-    ],
-    applications: [
-      'Joint health supplements',
-      'Anti-inflammatory formulations',
-      'Cognitive support products',
-      'Antioxidant blends',
-      'Sports recovery supplements'
-    ],
-    benefits: [
-      'Anti-inflammatory: Helps modulate inflammatory pathways and supports joint comfort',
-      'Antioxidant: Provides powerful free radical scavenging activity',
-      'Cognitive Support: Promotes brain health and cognitive function',
-      'Cardiovascular: Supports heart health and circulation',
-      'Digestive: Traditionally used to support digestive function'
-    ],
-    specifications: {
-      activeCompounds: 'Curcuminoids (curcumin, demethoxycurcumin, bisdemethoxycurcumin)',
-      standardization: 'Available in 95% curcuminoids concentration',
-      form: 'Powder, Granules, Water-soluble',
-      solubility: 'Standard: Partially water-soluble, soluble in ethanol; Water-soluble: Fully dispersible in water',
-      appearance: 'Fine yellow-orange powder with characteristic odor',
-      testing: 'HPLC analysis for curcuminoid content verification',
-      heavyMetals: 'Meets USP <232> specifications',
-      shelfLife: '24 months when stored properly',
-      storage: 'Store in a cool, dry place away from direct sunlight'
-    },
-    research: 'Turmeric extract has been extensively studied for its anti-inflammatory and antioxidant properties. Research demonstrates curcumin\'s ability to modulate multiple inflammatory pathways, including COX-2, LOX, and NF-κB. Clinical studies support its benefits for joint health, cognitive function, and overall wellness. Enhanced formulations show improved bioavailability, addressing curcumin\'s naturally low absorption rate.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
-    featured: true,
-    documents: [
-      { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
-      { id: 2, name: 'Safety Data Sheet', size: '1.8 MB' },
-      { id: 3, name: 'Certificate of Analysis', size: '956 KB' },
-    ],
-    supplierInfo: {
-      points: [
-        'Verify that the supplier has proper certifications (FSSC 22000, ISO 9001:2015, etc.)',
-        'Ensure they provide standardized extracts with consistent curcuminoid levels',
-        'Check if they perform thorough testing for contaminants and active compounds',
-        'Evaluate their manufacturing capabilities and capacity',
-        'Request samples to verify quality before placing large orders',
-        'Assess their technical support and documentation capabilities'
-      ]
-    },
-    productionDetails: {
-      description: 'Our Turmeric Extract production follows a meticulous process that begins with carefully selected rhizomes sourced from organic farms in India. The rhizomes undergo thorough cleaning and preparation before extraction using our proprietary methods with USP-grade ethanol. Our state-of-the-art extraction facility employs advanced technology to ensure consistent potency and purity in every batch. For water-soluble variants, we utilize a specialized encapsulation technology that enhances both solubility and bioavailability without synthetic additives.',
-      image: '/images/process-ch.webp'
-    },
-    packaging: {
-      description: 'Star Hi Herbs provides Turmeric Extract in various packaging options to meet different customer needs. Our standard packaging includes 25kg fiber drums with double polyethylene liners to protect the extract from moisture and contamination. For smaller quantities, we offer 1kg and 5kg aluminum foil bags. All packaging materials are food-grade and designed to maintain product stability during shipping and storage. Custom packaging solutions are available upon request.',
-      image: '/images/packaging-ch.webp'
-    },
-    factory: {
-      description: 'Our manufacturing facility in Hassan, Karnataka spans over 50,000 square feet and is equipped with the latest extraction and processing technology. The plant operates under strict GMP conditions with controlled environments for each production stage. Our facility includes dedicated areas for raw material handling, extraction, filtration, drying, standardization, quality control testing, and packaging. The entire operation is designed to ensure efficiency, quality, and compliance with international standards.',
-      image: '/images/factory-ch.webp'
-    },
-    certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, Non-GMO, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
-      image: '/images/certifications-ch.webp'
-    },
-    events: {
-      description: 'Since 2016, Star Hi Herbs has been an active participant in major nutraceutical and natural product exhibitions worldwide. We regularly exhibit at Vitafoods Europe, Supply Side West, CPhI Worldwide, and Natural Products Expo. These events allow us to showcase our latest innovations, connect with customers, and stay updated on industry trends. Our team of experts is always available at these exhibitions to discuss specific requirements and provide technical information about our products.',
-      image: '/images/events.jpg'
-    },
-    faqs: [
-      {
-        id: 1,
-        question: 'What makes your turmeric extract different from others?',
-        answer: 'Our extract is standardized to 95% curcuminoids using HPLC verification and offers enhanced bioavailability through proprietary processing techniques.'
-      },
-      {
-        id: 2,
-        question: 'Is your turmeric extract water-soluble?',
-        answer: 'We offer both standard and water-soluble versions. The water-soluble variant uses natural encapsulation technology for complete dispersibility in water.'
-      },
-      {
-        id: 3,
-        question: 'What is the recommended dosage?',
-        answer: 'Typical dosages range from 500mg to 1000mg daily of the 95% extract, though specific applications may vary.'
-      },
-      {
-        id: 4,
-        question: 'Is your turmeric extract organic?',
-        answer: 'Yes, we offer certified organic turmeric extract upon request.'
-      },
-      {
-        id: 5,
-        question: 'How is bioavailability enhanced in your extract?',
-        answer: 'We use proprietary processing techniques that preserve the natural matrix of compounds that support absorption, and our water-soluble version employs natural encapsulation technology.'
-      }
-    ]
-  },
+  // Standardized Products - Turmeric Extract - Repeat- 95% Curcuminoids
+  // {
+  //   id: 'turmeric',
+  //   slug: 'turmeric-extract',
+  //   name: 'Turmeric Extract',
+  //   categoryId: 'standardized-extracts',
+  //   categorySlug: 'standardized-extracts',
+  //   categoryName: 'Standardized Herbal Extracts',
+  //   standardization: '95% Curcuminoids',
+  //   latinName: 'Curcuma longa',
+  //   plantPart: 'Rhizome',
+  //   description: 'Our flagship turmeric extract contains 95% curcuminoids with enhanced bioavailability. Sourced from organic farms in India, this extract is perfect for supplements targeting inflammation and joint health. Each batch undergoes rigorous HPLC testing to ensure consistent potency and purity. The extract is available in both standard and water-soluble forms to meet diverse formulation needs.',
+  //   shortDescription: 'Premium Turmeric extract standardized for curcuminoid content with enhanced bioavailability',
+  //   image: '/images/turmeric-extract.jpeg',
+  //   gallery: [
+  //     '/images/products/turmeric-extract-1.jpg',
+  //     '/images/products/turmeric-extract-2.jpg',
+  //     '/images/products/turmeric-extract-3.jpg',
+  //   ],
+  //   applications: [
+  //     'Joint health supplements',
+  //     'Anti-inflammatory formulations',
+  //     'Cognitive support products',
+  //     'Antioxidant blends',
+  //     'Sports recovery supplements'
+  //   ],
+  //   benefits: [
+  //     'Anti-inflammatory: Helps modulate inflammatory pathways and supports joint comfort',
+  //     'Antioxidant: Provides powerful free radical scavenging activity',
+  //     'Cognitive Support: Promotes brain health and cognitive function',
+  //     'Cardiovascular: Supports heart health and circulation',
+  //     'Digestive: Traditionally used to support digestive function'
+  //   ],
+  //   specifications: {
+  //     activeCompounds: 'Curcuminoids (curcumin, demethoxycurcumin, bisdemethoxycurcumin)',
+  //     standardization: 'Available in 95% curcuminoids concentration',
+  //     form: 'Powder, Granules, Water-soluble',
+  //     solubility: 'Standard: Partially water-soluble, soluble in ethanol; Water-soluble: Fully dispersible in water',
+  //     appearance: 'Fine yellow-orange powder with characteristic odor',
+  //     testing: 'HPLC analysis for curcuminoid content verification',
+  //     heavyMetals: 'Meets USP <232> specifications',
+  //     shelfLife: '24 months when stored properly',
+  //     storage: 'Store in a cool, dry place away from direct sunlight'
+  //   },
+  //   research: 'Turmeric extract has been extensively studied for its anti-inflammatory and antioxidant properties. Research demonstrates curcumin\'s ability to modulate multiple inflammatory pathways, including COX-2, LOX, and NF-κB. Clinical studies support its benefits for joint health, cognitive function, and overall wellness. Enhanced formulations show improved bioavailability, addressing curcumin\'s naturally low absorption rate.',
+  //   certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+  //   featured: true,
+  //   documents: [
+  //     { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
+  //     { id: 2, name: 'Safety Data Sheet', size: '1.8 MB' },
+  //     { id: 3, name: 'Certificate of Analysis', size: '956 KB' },
+  //   ],
+  //   supplierInfo: {
+  //     points: [
+  //       'Verify that the supplier has proper certifications (FSSC 22000, ISO 9001:2015, etc.)',
+  //       'Ensure they provide standardized extracts with consistent curcuminoid levels',
+  //       'Check if they perform thorough testing for contaminants and active compounds',
+  //       'Evaluate their manufacturing capabilities and capacity',
+  //       'Request samples to verify quality before placing large orders',
+  //       'Assess their technical support and documentation capabilities'
+  //     ]
+  //   },
+  //   productionDetails: {
+  //     description: 'Our Turmeric Extract production follows a meticulous process that begins with carefully selected rhizomes sourced from organic farms in India. The rhizomes undergo thorough cleaning and preparation before extraction using our proprietary methods with USP-grade ethanol. Our state-of-the-art extraction facility employs advanced technology to ensure consistent potency and purity in every batch. For water-soluble variants, we utilize a specialized encapsulation technology that enhances both solubility and bioavailability without synthetic additives.',
+  //     image: '/images/process-ch.webp'
+  //   },
+  //   packaging: {
+  //     description: 'Star Hi Herbs provides Turmeric Extract in various packaging options to meet different customer needs. Our standard packaging includes 25kg fiber drums with double polyethylene liners to protect the extract from moisture and contamination. For smaller quantities, we offer 1kg and 5kg aluminum foil bags. All packaging materials are food-grade and designed to maintain product stability during shipping and storage. Custom packaging solutions are available upon request.',
+  //     image: '/images/packaging-ch.webp'
+  //   },
+  //   factory: {
+  //     description: 'Our manufacturing facility in Hassan, Karnataka spans over 50,000 square feet and is equipped with the latest extraction and processing technology. The plant operates under strict GMP conditions with controlled environments for each production stage. Our facility includes dedicated areas for raw material handling, extraction, filtration, drying, standardization, quality control testing, and packaging. The entire operation is designed to ensure efficiency, quality, and compliance with international standards.',
+  //     image: '/images/factory-ch.webp'
+  //   },
+  //   certificationsSection: {
+  //     description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, Non-GMO, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+  //     image: '/images/certifications-ch.webp'
+  //   },
+  //   events: {
+  //     description: 'Since 2016, Star Hi Herbs has been an active participant in major nutraceutical and natural product exhibitions worldwide. We regularly exhibit at Vitafoods Europe, Supply Side West, CPhI Worldwide, and Natural Products Expo. These events allow us to showcase our latest innovations, connect with customers, and stay updated on industry trends. Our team of experts is always available at these exhibitions to discuss specific requirements and provide technical information about our products.',
+  //     image: '/images/events.jpg'
+  //   },
+  //   faqs: [
+  //     {
+  //       id: 1,
+  //       question: 'What makes your turmeric extract different from others?',
+  //       answer: 'Our extract is standardized to 95% curcuminoids using HPLC verification and offers enhanced bioavailability through proprietary processing techniques.'
+  //     },
+  //     {
+  //       id: 2,
+  //       question: 'Is your turmeric extract water-soluble?',
+  //       answer: 'We offer both standard and water-soluble versions. The water-soluble variant uses natural encapsulation technology for complete dispersibility in water.'
+  //     },
+  //     {
+  //       id: 3,
+  //       question: 'What is the recommended dosage?',
+  //       answer: 'Typical dosages range from 500mg to 1000mg daily of the 95% extract, though specific applications may vary.'
+  //     },
+  //     {
+  //       id: 4,
+  //       question: 'Is your turmeric extract organic?',
+  //       answer: 'Yes, we offer certified organic turmeric extract upon request.'
+  //     },
+  //     {
+  //       id: 5,
+  //       question: 'How is bioavailability enhanced in your extract?',
+  //       answer: 'We use proprietary processing techniques that preserve the natural matrix of compounds that support absorption, and our water-soluble version employs natural encapsulation technology.'
+  //     }
+  //   ]
+  // },
+  // Standardized Products - Berberis Aristata Extract - 1%, 5%, 6%, 10%, 60%, 70%, 98% Berberine
   {
     id: 'berberis',
     slug: 'berberis-aristata-extract',
@@ -4520,6 +4553,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Black Pepper Extract - 5%, 95% Piperine
  {
     id: 'black-pepper',
     slug: 'black-pepper-extract',
@@ -4629,6 +4663,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Boswellia Serrata Extract - Boswellic Acids-25%, AKBBA-30%, 40%, 45%, 50%, 65%
  {
     id: 'boswellia',
     slug: 'boswellia-serrata-extract',
@@ -4636,7 +4671,7 @@ export const products: Product[] = [
     categoryId: 'standardized-extracts',
     categorySlug: 'standardized-extracts',
     categoryName: 'Standardized Herbal Extracts',
-    standardization: 'Boswellic Acids-25%, AKBBA-30%, 40%, 45%, 50%, 65%',
+    standardization: 'Boswellic Acids-25%, AKBBA-30%, 40%, 45%, 50%, 65%, 70%, 75%',
     latinName: 'Boswellia serrata',
     plantPart: 'Gum resin',
     description: 'Boswellia Serrata Extract is derived from the gum resin of the Boswellia tree, standardized to contain precise levels of boswellic acids—the primary compounds responsible for its anti-inflammatory properties. Our extract is available in various standardizations, including special grades with enhanced levels of AKBBA (Acetyl-11-keto-β-boswellic acid), the most potent of the boswellic acids. Both HPLC and titration methods are used to ensure accurate standardization. Each batch is processed using USP-grade ethanol and undergoes comprehensive quality testing.',
@@ -4738,6 +4773,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Capsicum Annum Extract - 2% (beadlets), 2%, 95% Capsaicin
  {
      id: 'capsicum',
      slug: 'capsicum-annum-extract',
@@ -4847,6 +4883,7 @@ export const products: Product[] = [
        }
      ]
    },
+   // Standardized Products - Cissus Extract - 2.5%, 5% 3-Ketosterones
  {
      id: 'cissus',
      slug: 'cissus-extract',
@@ -4956,6 +4993,7 @@ export const products: Product[] = [
        }
      ]
    },
+   // Standardized Products - Coffee Bean Extract - 25%, 35%, 45%, 50%, 60%, 75% Chlorogenic Acids
  {
      id: 'coffee',
      slug: 'coffee-bean-extract',
@@ -5065,6 +5103,7 @@ export const products: Product[] = [
        }
      ]
    },
+   // Standardized Products - Coleus Forskohlii Extract - 1%, 3.5%, 4%, 5%, 8%, 10%, 12%, 20%, 30%, 40%, 95%, 98% Forskolin
  {
      id: 'coleus',
      slug: 'coleus-forskohlii-extract',
@@ -5174,6 +5213,7 @@ export const products: Product[] = [
        }
      ]
    },
+   // Standardized Products - Commiphora Mukul Extract - 2%, 3%, 5%, 5.5% Guggulsterones
  {
      id: 'commiphora',
      slug: 'commiphora-mukul-extract',
@@ -5181,7 +5221,7 @@ export const products: Product[] = [
      categoryId: 'standardized-extracts',
      categorySlug: 'standardized-extracts',
      categoryName: 'Standardized Herbal Extracts',
-     standardization: '2%, 3%, 5%, 5.5% Guggulsterones',
+     standardization: '2%, 2.5%, 3%, 5%, 5.5%, 10% Guggulsterones',
      latinName: 'Commiphora mukul',
      plantPart: 'Resin',
      description: 'Commiphora Mukul Extract is derived from the resin of the guggul tree, standardized to contain precise levels of guggulsterones—plant steroids with bioactive properties particularly beneficial for lipid metabolism. Our extract is verified using both HPLC and UV spectroscopy to ensure accurate standardization, available in concentrations ranging from 2% to 5.5% guggulsterones. Each batch is carefully processed using USP-grade ethanol to preserve the integrity of the active compounds while ensuring purity and consistency.',
@@ -5283,6 +5323,7 @@ export const products: Product[] = [
        }
      ]
    },
+   // Standardized Products - Ashwagandha Extract - 1.5%, 2.5%, 5%, 8%, 10% Withanolides
   {
     id: 'ashwagandha',
     slug: 'ashwagandha-extract',
@@ -5290,7 +5331,7 @@ export const products: Product[] = [
     categoryId: 'standardized-extracts',
     categorySlug: 'standardized-extracts',
     categoryName: 'Standardized Herbal Extracts',
-    standardization: '1.5%, 2.5%, 5%, 8%, 10% Withanolides',
+    standardization: '0.35% Withaferin A; 1.5%, 2.5%, 3%, 4%, 5%, 8%, 10% Withanolides',
     latinName: 'Withania somnifera',
     plantPart: 'Root',
     description: 'Ashwagandha Extract is derived from the roots of Withania somnifera, an adaptogenic herb revered in Ayurvedic medicine for centuries. Our premium extract is standardized using both HPLC and gravimetric methods to ensure consistent levels of withanolides, the primary bioactive compounds. Available in various potencies ranging from 1.5% to 10% withanolides, our extract offers versatile options for different formulation needs. All extracts are processed using USP-grade ethanol, ensuring purity and quality.',
@@ -5392,6 +5433,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Andrographis Extract - 10%, 20%, 30%, 50%, 90% Andrographolides 
   {
     id: 'andrographis',
     slug: 'andrographis-extract',
@@ -5501,6 +5543,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Amla Extract - 20%, 40% Tannins
   {
     id: 'amla',
     slug: 'amla-extract',
@@ -5610,6 +5653,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Cucumis Sativus Extract - 1%, 1.5% Iminosugars
   {
     id: 'cucumis-sativus',
     slug: 'cucumis-sativus-extract',
@@ -5719,6 +5763,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Turmeric Extract - 35%, 50%, 75%, 85%, 90%, 95% Curcuminoids
   {
     id: 'turmeric',
     slug: 'turmeric',
@@ -5828,6 +5873,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Turmeric Extract Granules - 7.5%, 85%, 90% Curcuminoids
   {
     id: 'turmeric-extract-granules',
     slug: 'turmeric-extract-granules',
@@ -5937,6 +5983,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - DGL Extract - 5%, 20%, 25% Glycyrrhizic Acid
   {
     id: 'dgl',
     slug: 'dgl-extract',
@@ -5944,10 +5991,10 @@ export const products: Product[] = [
     categoryId: 'standardized-extracts',
     categorySlug: 'standardized-extracts',
     categoryName: 'Standardized Herbal Extracts',
-    standardization: '5%, 20%, 25% Glycyrrhizic Acid',
+    standardization: '<3% Glycyrrhizin',
     latinName: 'Glycyrrhiza glabra',
     plantPart: 'Root',
-    description: 'DGL (Deglycyrrhizinated Licorice) Extract is a specialized form of licorice extract where most of the glycyrrhizic acid has been removed while preserving the beneficial flavonoids and other compounds. Available in standardizations of 5%, 20%, and 25% residual glycyrrhizic acid, our extract provides options for various applications. Each batch undergoes HPLC analysis to verify glycyrrhizic acid content and is processed using USP-grade ethanol to ensure consistent quality and potency.',
+    description: 'DGL (Deglycyrrhizinated Licorice) Extract is a specialized form of licorice extract where most of the glycyrrhizic acid has been removed while preserving the beneficial flavonoids and other compounds. Available in standardizations of <3% residual glycyrrhizic acid, our extract provides options for various applications. Each batch undergoes HPLC analysis to verify glycyrrhizic acid content and is processed using USP-grade ethanol to ensure consistent quality and potency.',
     shortDescription: 'Specialized licorice extract with reduced glycyrrhizic acid content',
     image: "/images/products/dgl-extract.jpg",
     gallery: [
@@ -5971,11 +6018,11 @@ export const products: Product[] = [
     ],
     specifications: {
       activeCompounds: 'Glycyrrhizic Acid (reduced content)',
-      standardization: 'Available in 5%, 20%, and 25% glycyrrhizic acid concentrations',
+      standardization: 'Available in <3% Glycyrrhizin concentrations',
       form: 'Powder, Granules',
       solubility: 'Water dispersible',
       appearance: 'Fine powder',
-      testing: 'HPLC methods for glycyrrhizic acid content verification',
+      testing: 'HPLC methods for glycyrrhizincontent verification',
       heavyMetals: 'Meets USP <232> specifications',
       shelfLife: '24 months when stored properly',
       storage: 'Store in a cool, dry place away from direct sunlight'
@@ -6046,224 +6093,227 @@ export const products: Product[] = [
       }
     ]
   },
-  {
-    id: 'fenugreek',
-    slug: 'fenugreek-extract',
-    name: 'Fenugreek Extract',
-    categoryId: 'standardized-extracts',
-    categorySlug: 'standardized-extracts',
-    categoryName: 'Standardized Herbal Extracts',
-    standardization: '20%, 40%, 50%, 60% Saponins',
-    latinName: 'Trigonella foenum-graecum',
-    plantPart: 'Seeds',
-    description: 'Fenugreek Extract is derived from the seeds of Trigonella foenum-graecum, standardized to contain precise levels of saponins—compounds believed responsible for many of fenugreek\'s beneficial effects. Available in multiple potencies ranging from 20% to 60% saponins, our extract undergoes gravimetric analysis to ensure consistent standardization. Each batch is processed using USP-grade ethanol to preserve the active compounds while ensuring purity and quality.',
-    shortDescription: 'Premium fenugreek extract standardized for saponin content',
-    image: "/images/products/fenugreek-extract.jpg",
-    gallery: [
-      '/images/products/fenugreek-extract.jpg',
-      '/images/products/fenugreek-extract-1.jpg',
-      '/images/products/fenugreek-extract-2.jpg'
-    ],
-    applications: [
-      'Glucose management formulations',
-      'Lactation support supplements',
-      'Testosterone support products',
-      'Digestive health formulas',
-      'Culinary applications'
-    ],
-    benefits: [
-      'Supports healthy blood glucose levels and insulin sensitivity',
-      'Traditionally used to promote healthy milk production in nursing mothers',
-      'May help maintain healthy testosterone levels in men',
-      'Supports comfortable digestion and gastrointestinal function',
-      'Traditionally used to support healthy appetite and satiety'
-    ],
-    specifications: {
-      activeCompounds: 'Saponins',
-      standardization: 'Available in 20%, 40%, 50%, and 60% saponin concentrations',
-      form: 'Powder, Granules',
-      solubility: 'Water dispersible',
-      appearance: 'Fine powder',
-      testing: 'Gravimetric methods for saponin content verification',
-      heavyMetals: 'Meets USP <232> specifications',
-      shelfLife: '24 months when stored properly',
-      storage: 'Store in a cool, dry place away from direct sunlight'
-    },
-    research: 'Fenugreek extract has been studied for its potential benefits in glucose metabolism, lactation support, and hormonal balance. The saponins present in the extract are believed to be responsible for many of these beneficial effects.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
-    featured: false,
-    documents: [
-      { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
-      { id: 2, name: 'Safety Data Sheet', size: '1.8 MB' },
-      { id: 3, name: 'Certificate of Analysis', size: '956 KB' },
-    ],
-    supplierInfo: {
-      points: [
-        'Verify that the supplier has proper certifications',
-        'Ensure they provide standardized extracts with consistent active compound levels',
-        'Check if they perform thorough testing for contaminants and active compounds',
-        'Evaluate their manufacturing capabilities and capacity',
-        'Request samples to verify quality before placing large orders',
-        'Assess their technical support and documentation capabilities'
-      ]
-    },
-    productionDetails: {
-      description: 'Our Cucumis Sativus Extract production follows a rigorous process that begins with carefully selected cucumbers. The fruits are thoroughly cleaned and prepared for extraction using proprietary methods that preserve the natural bioactive compounds. Our extraction facility employs advanced technology to ensure consistent potency and purity in every batch. The extract undergoes HPLC analysis for standardization of iminosugar content.',
-      image: '/images/process-ch.webp'
-    },
-    packaging: {
-      description: 'We provide Cucumis Sativus Extract in various packaging options to meet different customer needs. Our standard packaging includes 25kg fiber drums with double polyethylene liners to protect the extract from moisture and contamination. For smaller quantities, we offer 1kg and 5kg aluminum foil bags. All packaging materials are food-grade and designed to maintain product stability during shipping and storage.',
-      image: '/images/packaging-ch.webp'
-    },
-    factory: {
-      description: 'Our manufacturing facility in Hassan, Karnataka spans over 50,000 square feet and is equipped with the latest extraction and processing technology. The plant operates under strict GMP conditions with controlled environments for each production stage. Our facility includes dedicated areas for raw material handling, extraction, filtration, drying, standardization, quality control testing, and packaging. The entire operation is designed to ensure efficiency, quality, and compliance with international standards.',
-      image: '/images/factory-ch.webp'
-    },
-    certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
-      image: '/images/certifications-ch.webp'
-    },
-    events: {
-      description: 'Since 2016, Star Hi Herbs has been an active participant in major nutraceutical and natural product exhibitions worldwide. We regularly exhibit at Vitafoods Europe, Supply Side West, CPhI Worldwide, and Natural Products Expo. These events allow us to showcase our latest innovations, connect with customers, and stay updated on industry trends. Our team of experts is always available at these exhibitions to discuss specific requirements and provide technical information about our products.',
-      image: '/images/events.jpg'
-    },
-    faqs: [
-      {
-        id: 1,
-        question: 'What are saponins and how do they support health?',
-        answer: 'Saponins are plant compounds that may help regulate glucose metabolism, influence hormone production, and support digestive function.'
-      },
-      {
-        id: 2,
-        question: 'What standardization method is used?',
-        answer: 'Gravimetric analysis ensures precise saponin content verification.'
-      },
-      {
-        id: 3,
-        question: 'What is the difference between the various standardization percentages?',
-        answer: 'Higher percentages offer more concentrated saponins for targeted applications where maximum potency is desired.'
-      },
-      {
-        id: 4,
-        question: 'Does fenugreek extract have a strong odor?',
-        answer: 'It has a characteristic maple-like aroma that can be incorporated into flavor systems or masked as needed.'
-      },
-      {
-        id: 5,
-        question: 'Is organic fenugreek extract available?',
-        answer: 'Yes, we offer organically certified fenugreek extract options.'
-      }
-    ]
-  },
-  {
-    id: 'garcinia-cambogia',
-    slug: 'garcinia-cambogia-extract',
-    name: 'Garcinia Cambogia Extract',
-    categoryId: 'standardized-extracts',
-    categorySlug: 'standardized-extracts',
-    categoryName: 'Standardized Herbal Extracts',
-    standardization: 'Ca Salt - 50%, 60%; Water Soluble - 50%, 60%, 65%, 70% HCA',
-    latinName: 'Garcinia gummi-gutta',
-    plantPart: 'Fruit Rind',
-    description: 'Garcinia cambogia Extract is derived from the fruit rind of Garcinia gummi-gutta, standardized to contain precise levels of hydroxycitric acid (HCA)—the primary active compound responsible for its metabolic benefits. Available in multiple formats including calcium salt forms (50% and 60%) and water-soluble forms (50% to 70%), our extract provides options for various application requirements. Each batch undergoes HPLC analysis to verify HCA content and is processed using USP-grade ethanol to ensure potency and purity.',
-    shortDescription: 'Premium garcinia extract standardized for hydroxycitric acid (HCA) content',
-    image: "/images/products/garcinia-cambogia-extract.jpg",
-    gallery: [
-      '/images/products/garcinia-cambogia-extract.jpg',
-      '/images/products/garcinia-cambogia-extract.jpg',
-      '/images/products/garcinia-cambogia-extract.jpg'
-    ],
-    applications: [
-      'Weight management formulations',
-      'Appetite control supplements',
-      'Metabolism support products',
-      'Carbohydrate metabolism formulas',
-      'Sports nutrition supplements'
-    ],
-    benefits: [
-      'Helps support feelings of fullness and reduced food intake',
-      'May influence the conversion of carbohydrates to fat',
-      'Assists with healthy weight management and energy utilization',
-      'May influence serotonin levels to support mood and appetite control',
-      'Supports energy utilization during physical activity'
-    ],
-    specifications: {
-      activeCompounds: 'Hydroxycitric Acid (HCA)',
-      standardization: 'Available in calcium salt forms (50%, 60%) and water-soluble forms (50%, 60%, 65%, 70%)',
-      form: 'Powder, Granules',
-      solubility: 'Water-soluble forms available for liquid applications',
-      appearance: 'Fine powder',
-      testing: 'HPLC methods for HCA content verification',
-      heavyMetals: 'Meets USP <232> specifications',
-      shelfLife: '24 months when stored properly',
-      storage: 'Store in a cool, dry place away from direct sunlight'
-    },
-    research: 'Garcinia cambogia extract has been studied for its potential benefits in weight management and metabolism. The hydroxycitric acid (HCA) present in the extract may inhibit citrate lyase, an enzyme involved in converting carbohydrates to fat, and may influence serotonin levels affecting appetite.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
-    featured: false,
-    documents: [
-      { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
-      { id: 2, name: 'Safety Data Sheet', size: '1.8 MB' },
-      { id: 3, name: 'Certificate of Analysis', size: '956 KB' },
-    ],
-    supplierInfo: {
-      points: [
-        'Verify that the supplier has proper certifications',
-        'Ensure they provide standardized extracts with consistent active compound levels',
-        'Check if they perform thorough testing for contaminants and active compounds',
-        'Evaluate their manufacturing capabilities and capacity',
-        'Request samples to verify quality before placing large orders',
-        'Assess their technical support and documentation capabilities'
-      ]
-    },
-    productionDetails: {
-      description: 'Our Cucumis Sativus Extract production follows a rigorous process that begins with carefully selected cucumbers. The fruits are thoroughly cleaned and prepared for extraction using proprietary methods that preserve the natural bioactive compounds. Our extraction facility employs advanced technology to ensure consistent potency and purity in every batch. The extract undergoes HPLC analysis for standardization of iminosugar content.',
-      image: '/images/process-ch.webp'
-    },
-    packaging: {
-      description: 'We provide Cucumis Sativus Extract in various packaging options to meet different customer needs. Our standard packaging includes 25kg fiber drums with double polyethylene liners to protect the extract from moisture and contamination. For smaller quantities, we offer 1kg and 5kg aluminum foil bags. All packaging materials are food-grade and designed to maintain product stability during shipping and storage.',
-      image: '/images/packaging-ch.webp'
-    },
-    factory: {
-      description: 'Our manufacturing facility in Hassan, Karnataka spans over 50,000 square feet and is equipped with the latest extraction and processing technology. The plant operates under strict GMP conditions with controlled environments for each production stage. Our facility includes dedicated areas for raw material handling, extraction, filtration, drying, standardization, quality control testing, and packaging. The entire operation is designed to ensure efficiency, quality, and compliance with international standards.',
-      image: '/images/factory-ch.webp'
-    },
-    certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
-      image: '/images/certifications-ch.webp'
-    },
-    events: {
-      description: 'Since 2016, Star Hi Herbs has been an active participant in major nutraceutical and natural product exhibitions worldwide. We regularly exhibit at Vitafoods Europe, Supply Side West, CPhI Worldwide, and Natural Products Expo. These events allow us to showcase our latest innovations, connect with customers, and stay updated on industry trends. Our team of experts is always available at these exhibitions to discuss specific requirements and provide technical information about our products.',
-      image: '/images/events.jpg'
-    },
-    faqs: [
-      {
-        id: 1,
-        question: 'What is hydroxycitric acid (HCA) and how does it work?',
-        answer: 'HCA is a natural compound that may inhibit citrate lyase, an enzyme involved in converting carbohydrates to fat, and may influence serotonin levels affecting appetite.'
-      },
-      {
-        id: 2,
-        question: 'What is the difference between calcium salt and water-soluble forms?',
-        answer: 'Calcium salt forms provide stability, while water-soluble forms offer enhanced dissolution for liquid applications.'
-      },
-      {
-        id: 3,
-        question: 'What standardization method is used?',
-        answer: 'HPLC analysis ensures precise HCA content verification.'
-      },
-      {
-        id: 4,
-        question: 'What is the recommended dosage range?',
-        answer: 'Typically 500-1500mg of 60% extract per day, divided into 2-3 doses before meals.'
-      },
-      {
-        id: 5,
-        question: 'Should this extract be taken with food or on an empty stomach?',
-        answer: 'For optimal results, it\'s typically recommended 30-60 minutes before meals.'
-      }
-    ]
-  },
+  // Standardized Products - Fenugreek Extract - 20%, 40%, 50%, 60% Saponins
+  // {
+  //   id: 'fenugreek',
+  //   slug: 'fenugreek-extract',
+  //   name: 'Fenugreek Extract',
+  //   categoryId: 'standardized-extracts',
+  //   categorySlug: 'standardized-extracts',
+  //   categoryName: 'Standardized Herbal Extracts',
+  //   standardization: '20%, 40%, 50%, 60% Saponins',
+  //   latinName: 'Trigonella foenum',
+  //   plantPart: 'Seeds',
+  //   description: 'Fenugreek Extract is derived from the seeds of Trigonella foenum-graecum, standardized to contain precise levels of saponins—compounds believed responsible for many of fenugreek\'s beneficial effects. Available in multiple potencies ranging from 20% to 60% saponins, our extract undergoes gravimetric analysis to ensure consistent standardization. Each batch is processed using USP-grade ethanol to preserve the active compounds while ensuring purity and quality.',
+  //   shortDescription: 'Premium fenugreek extract standardized for saponin content',
+  //   image: "/images/products/fenugreek-extract.jpg",
+  //   gallery: [
+  //     '/images/products/fenugreek-extract.jpg',
+  //     '/images/products/fenugreek-extract-1.jpg',
+  //     '/images/products/fenugreek-extract-2.jpg'
+  //   ],
+  //   applications: [
+  //     'Glucose management formulations',
+  //     'Lactation support supplements',
+  //     'Testosterone support products',
+  //     'Digestive health formulas',
+  //     'Culinary applications'
+  //   ],
+  //   benefits: [
+  //     'Supports healthy blood glucose levels and insulin sensitivity',
+  //     'Traditionally used to promote healthy milk production in nursing mothers',
+  //     'May help maintain healthy testosterone levels in men',
+  //     'Supports comfortable digestion and gastrointestinal function',
+  //     'Traditionally used to support healthy appetite and satiety'
+  //   ],
+  //   specifications: {
+  //     activeCompounds: 'Saponins',
+  //     standardization: 'Available in 20%, 40%, 50%, and 60% saponin concentrations',
+  //     form: 'Powder, Granules',
+  //     solubility: 'Water dispersible',
+  //     appearance: 'Fine powder',
+  //     testing: 'Gravimetric methods for saponin content verification',
+  //     heavyMetals: 'Meets USP <232> specifications',
+  //     shelfLife: '24 months when stored properly',
+  //     storage: 'Store in a cool, dry place away from direct sunlight'
+  //   },
+  //   research: 'Fenugreek extract has been studied for its potential benefits in glucose metabolism, lactation support, and hormonal balance. The saponins present in the extract are believed to be responsible for many of these beneficial effects.',
+  //   certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+  //   featured: false,
+  //   documents: [
+  //     { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
+  //     { id: 2, name: 'Safety Data Sheet', size: '1.8 MB' },
+  //     { id: 3, name: 'Certificate of Analysis', size: '956 KB' },
+  //   ],
+  //   supplierInfo: {
+  //     points: [
+  //       'Verify that the supplier has proper certifications',
+  //       'Ensure they provide standardized extracts with consistent active compound levels',
+  //       'Check if they perform thorough testing for contaminants and active compounds',
+  //       'Evaluate their manufacturing capabilities and capacity',
+  //       'Request samples to verify quality before placing large orders',
+  //       'Assess their technical support and documentation capabilities'
+  //     ]
+  //   },
+  //   productionDetails: {
+  //     description: 'Our Cucumis Sativus Extract production follows a rigorous process that begins with carefully selected cucumbers. The fruits are thoroughly cleaned and prepared for extraction using proprietary methods that preserve the natural bioactive compounds. Our extraction facility employs advanced technology to ensure consistent potency and purity in every batch. The extract undergoes HPLC analysis for standardization of iminosugar content.',
+  //     image: '/images/process-ch.webp'
+  //   },
+  //   packaging: {
+  //     description: 'We provide Cucumis Sativus Extract in various packaging options to meet different customer needs. Our standard packaging includes 25kg fiber drums with double polyethylene liners to protect the extract from moisture and contamination. For smaller quantities, we offer 1kg and 5kg aluminum foil bags. All packaging materials are food-grade and designed to maintain product stability during shipping and storage.',
+  //     image: '/images/packaging-ch.webp'
+  //   },
+  //   factory: {
+  //     description: 'Our manufacturing facility in Hassan, Karnataka spans over 50,000 square feet and is equipped with the latest extraction and processing technology. The plant operates under strict GMP conditions with controlled environments for each production stage. Our facility includes dedicated areas for raw material handling, extraction, filtration, drying, standardization, quality control testing, and packaging. The entire operation is designed to ensure efficiency, quality, and compliance with international standards.',
+  //     image: '/images/factory-ch.webp'
+  //   },
+  //   certificationsSection: {
+  //     description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+  //     image: '/images/certifications-ch.webp'
+  //   },
+  //   events: {
+  //     description: 'Since 2016, Star Hi Herbs has been an active participant in major nutraceutical and natural product exhibitions worldwide. We regularly exhibit at Vitafoods Europe, Supply Side West, CPhI Worldwide, and Natural Products Expo. These events allow us to showcase our latest innovations, connect with customers, and stay updated on industry trends. Our team of experts is always available at these exhibitions to discuss specific requirements and provide technical information about our products.',
+  //     image: '/images/events.jpg'
+  //   },
+  //   faqs: [
+  //     {
+  //       id: 1,
+  //       question: 'What are saponins and how do they support health?',
+  //       answer: 'Saponins are plant compounds that may help regulate glucose metabolism, influence hormone production, and support digestive function.'
+  //     },
+  //     {
+  //       id: 2,
+  //       question: 'What standardization method is used?',
+  //       answer: 'Gravimetric analysis ensures precise saponin content verification.'
+  //     },
+  //     {
+  //       id: 3,
+  //       question: 'What is the difference between the various standardization percentages?',
+  //       answer: 'Higher percentages offer more concentrated saponins for targeted applications where maximum potency is desired.'
+  //     },
+  //     {
+  //       id: 4,
+  //       question: 'Does fenugreek extract have a strong odor?',
+  //       answer: 'It has a characteristic maple-like aroma that can be incorporated into flavor systems or masked as needed.'
+  //     },
+  //     {
+  //       id: 5,
+  //       question: 'Is organic fenugreek extract available?',
+  //       answer: 'Yes, we offer organically certified fenugreek extract options.'
+  //     }
+  //   ]
+  // },
+  // Standardized Products - Garcinia Cambogia Extract - Ca Salt - 50%, 60%; Water Soluble - 50%, 60%, 65%, 70% HCA
+  // {
+  //   id: 'garcinia-cambogia',
+  //   slug: 'garcinia-cambogia-extract',
+  //   name: 'Garcinia Cambogia Extract',
+  //   categoryId: 'standardized-extracts',
+  //   categorySlug: 'standardized-extracts',
+  //   categoryName: 'Standardized Herbal Extracts',
+  //   standardization: 'Ca Salt - 50%, 60%; Water Soluble - 50%, 60%, 65%, 70% HCA',
+  //   latinName: 'Garcinia gummi-gutta',
+  //   plantPart: 'Fruit Rind',
+  //   description: 'Garcinia cambogia Extract is derived from the fruit rind of Garcinia gummi-gutta, standardized to contain precise levels of hydroxycitric acid (HCA)—the primary active compound responsible for its metabolic benefits. Available in multiple formats including calcium salt forms (50% and 60%) and water-soluble forms (50% to 70%), our extract provides options for various application requirements. Each batch undergoes HPLC analysis to verify HCA content and is processed using USP-grade ethanol to ensure potency and purity.',
+  //   shortDescription: 'Premium garcinia extract standardized for hydroxycitric acid (HCA) content',
+  //   image: "/images/products/garcinia-cambogia-extract.jpg",
+  //   gallery: [
+  //     '/images/products/garcinia-cambogia-extract.jpg',
+  //     '/images/products/garcinia-cambogia-extract.jpg',
+  //     '/images/products/garcinia-cambogia-extract.jpg'
+  //   ],
+  //   applications: [
+  //     'Weight management formulations',
+  //     'Appetite control supplements',
+  //     'Metabolism support products',
+  //     'Carbohydrate metabolism formulas',
+  //     'Sports nutrition supplements'
+  //   ],
+  //   benefits: [
+  //     'Helps support feelings of fullness and reduced food intake',
+  //     'May influence the conversion of carbohydrates to fat',
+  //     'Assists with healthy weight management and energy utilization',
+  //     'May influence serotonin levels to support mood and appetite control',
+  //     'Supports energy utilization during physical activity'
+  //   ],
+  //   specifications: {
+  //     activeCompounds: 'Hydroxycitric Acid (HCA)',
+  //     standardization: 'Available in calcium salt forms (50%, 60%) and water-soluble forms (50%, 60%, 65%, 70%)',
+  //     form: 'Powder, Granules',
+  //     solubility: 'Water-soluble forms available for liquid applications',
+  //     appearance: 'Fine powder',
+  //     testing: 'HPLC methods for HCA content verification',
+  //     heavyMetals: 'Meets USP <232> specifications',
+  //     shelfLife: '24 months when stored properly',
+  //     storage: 'Store in a cool, dry place away from direct sunlight'
+  //   },
+  //   research: 'Garcinia cambogia extract has been studied for its potential benefits in weight management and metabolism. The hydroxycitric acid (HCA) present in the extract may inhibit citrate lyase, an enzyme involved in converting carbohydrates to fat, and may influence serotonin levels affecting appetite.',
+  //   certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+  //   featured: false,
+  //   documents: [
+  //     { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
+  //     { id: 2, name: 'Safety Data Sheet', size: '1.8 MB' },
+  //     { id: 3, name: 'Certificate of Analysis', size: '956 KB' },
+  //   ],
+  //   supplierInfo: {
+  //     points: [
+  //       'Verify that the supplier has proper certifications',
+  //       'Ensure they provide standardized extracts with consistent active compound levels',
+  //       'Check if they perform thorough testing for contaminants and active compounds',
+  //       'Evaluate their manufacturing capabilities and capacity',
+  //       'Request samples to verify quality before placing large orders',
+  //       'Assess their technical support and documentation capabilities'
+  //     ]
+  //   },
+  //   productionDetails: {
+  //     description: 'Our Cucumis Sativus Extract production follows a rigorous process that begins with carefully selected cucumbers. The fruits are thoroughly cleaned and prepared for extraction using proprietary methods that preserve the natural bioactive compounds. Our extraction facility employs advanced technology to ensure consistent potency and purity in every batch. The extract undergoes HPLC analysis for standardization of iminosugar content.',
+  //     image: '/images/process-ch.webp'
+  //   },
+  //   packaging: {
+  //     description: 'We provide Cucumis Sativus Extract in various packaging options to meet different customer needs. Our standard packaging includes 25kg fiber drums with double polyethylene liners to protect the extract from moisture and contamination. For smaller quantities, we offer 1kg and 5kg aluminum foil bags. All packaging materials are food-grade and designed to maintain product stability during shipping and storage.',
+  //     image: '/images/packaging-ch.webp'
+  //   },
+  //   factory: {
+  //     description: 'Our manufacturing facility in Hassan, Karnataka spans over 50,000 square feet and is equipped with the latest extraction and processing technology. The plant operates under strict GMP conditions with controlled environments for each production stage. Our facility includes dedicated areas for raw material handling, extraction, filtration, drying, standardization, quality control testing, and packaging. The entire operation is designed to ensure efficiency, quality, and compliance with international standards.',
+  //     image: '/images/factory-ch.webp'
+  //   },
+  //   certificationsSection: {
+  //     description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+  //     image: '/images/certifications-ch.webp'
+  //   },
+  //   events: {
+  //     description: 'Since 2016, Star Hi Herbs has been an active participant in major nutraceutical and natural product exhibitions worldwide. We regularly exhibit at Vitafoods Europe, Supply Side West, CPhI Worldwide, and Natural Products Expo. These events allow us to showcase our latest innovations, connect with customers, and stay updated on industry trends. Our team of experts is always available at these exhibitions to discuss specific requirements and provide technical information about our products.',
+  //     image: '/images/events.jpg'
+  //   },
+  //   faqs: [
+  //     {
+  //       id: 1,
+  //       question: 'What is hydroxycitric acid (HCA) and how does it work?',
+  //       answer: 'HCA is a natural compound that may inhibit citrate lyase, an enzyme involved in converting carbohydrates to fat, and may influence serotonin levels affecting appetite.'
+  //     },
+  //     {
+  //       id: 2,
+  //       question: 'What is the difference between calcium salt and water-soluble forms?',
+  //       answer: 'Calcium salt forms provide stability, while water-soluble forms offer enhanced dissolution for liquid applications.'
+  //     },
+  //     {
+  //       id: 3,
+  //       question: 'What standardization method is used?',
+  //       answer: 'HPLC analysis ensures precise HCA content verification.'
+  //     },
+  //     {
+  //       id: 4,
+  //       question: 'What is the recommended dosage range?',
+  //       answer: 'Typically 500-1500mg of 60% extract per day, divided into 2-3 doses before meals.'
+  //     },
+  //     {
+  //       id: 5,
+  //       question: 'Should this extract be taken with food or on an empty stomach?',
+  //       answer: 'For optimal results, it\'s typically recommended 30-60 minutes before meals.'
+  //     }
+  //   ]
+  // },
+  // Standardized Products - Fenugreek Extract - 1- 20%, 40%, 50%, 60% Saponins
   {
     "id": "fenugreek-1",
     "slug": "fenugreek-extract-1",
@@ -6272,7 +6322,7 @@ export const products: Product[] = [
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
     "standardization": "20%, 40%, 50%, 60% Saponins",
-    "latinName": "Trigonella foenum-graecum",
+    "latinName": "Trigonella foenum",
     "plantPart": "Seed",
     "description": "Fenugreek Extract is derived from the seeds of Trigonella foenum-graecum, standardized to contain precise levels of saponins—compounds believed responsible for many of fenugreek's beneficial effects. Available in multiple potencies ranging from 20% to 60% saponins, our extract undergoes gravimetric analysis to ensure consistent standardization. Each batch is processed using USP-grade ethanol to preserve the active compounds while ensuring purity and quality.",
     "shortDescription": "Premium Fenugreek extract standardized for saponin content",
@@ -6373,6 +6423,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Garcinia Cambogia Extract - 1 - Ca Salt - 50%, 60%; Water Soluble - 50%, 60%, 65%, 70%
   {
     "id": "garcinia-cambogia-1",
     "slug": "garcinia-cambogia-extract-1",
@@ -6380,7 +6431,7 @@ export const products: Product[] = [
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "Ca Salt 50%, 60%; Water Soluble 50%, 60%, 65%, 70%",
+    "standardization": "Ca Salt 50%, 60%; Water Soluble 50%, 60%, 65%, 70%; Hydroxy Citric Acid",
     "latinName": "Garcinia gummi-gutta",
     "plantPart": "Fruit Rind",
     "description": "Garcinia Cambogia Extract is derived from the fruit rind of Garcinia gummi-gutta, standardized to contain precise levels of hydroxycitric acid (HCA)—the primary active compound responsible for its metabolic benefits. Available in multiple formats including calcium salt forms (50% and 60%) and water-soluble forms (50% to 70%), our extract provides options for various application requirements. Each batch undergoes HPLC analysis to verify HCA content and is processed using USP-grade ethanol to ensure potency and purity.",
@@ -6482,6 +6533,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Garcinia Indica Extract - Ca Salt 50%
   {
     "id": "garcinia-indica",
     "slug": "garcinia-indica-extract",
@@ -6489,7 +6541,7 @@ export const products: Product[] = [
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "Ca Salt 50%",
+    "standardization": "50% Hydroxy Citric Acid",
     "latinName": "Garcinia indica",
     "plantPart": "Fruit Rind",
     "description": "Garcinia Indica Extract is derived from the fruit rind of Garcinia Indica (Kokum), an Indian fruit closely related to Garcinia cambogia but with a distinct phytochemical profile. Standardized to contain 50% hydroxycitric acid (HCA) in calcium salt form, our extract utilizes the traditional Indian superfruit known for its culinary and health applications. Each batch undergoes HPLC analysis to verify HCA content and is processed using USP-grade ethanol to ensure consistent quality and potency.",
@@ -6591,6 +6643,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Ginger Extract - 5%, 10%, 20% Gingerols
   {
     "id": "ginger-extract",
     "slug": "ginger-extract",
@@ -6700,6 +6753,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Green Tea Extract - 50%, 60%, 90%, 95%, 98% Polyphenols
   {
     "id": "green-tea-extract",
     "slug": "green-tea-extract",
@@ -6809,6 +6863,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Gymnema Sylvestre Extract - 5%, 25% Gymnemic Acids (HPLC); 25%, 35%, 40%, 75% Gymnemic Acids (Gravimetry)
   {
     "id": "gymnema-sylvestre-extract",
     "slug": "gymnema-sylvestre-extract",
@@ -6816,7 +6871,7 @@ export const products: Product[] = [
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "5%, 25% Gymnemic Acids (HPLC); 25%, 35%, 40%, 75% Gymnemic Acids (Gravimetry)",
+    "standardization": "5%, 25%, 35%, 40%, 75% Gymnemic Acids",
     "latinName": "Gymnema sylvestre",
     "plantPart": "Leaves",
     "description": "Gymnema Sylvestre Extract is derived from the leaves of Gymnema sylvestre, standardized to contain precise levels of gymnemic acids—the primary active compounds responsible for its remarkable effects on sugar perception and glucose metabolism. Available in various potencies ranging from 5% to 75% gymnemic acids, our extract is verified using both HPLC and gravimetric analysis to ensure consistent standardization. Each batch is processed using USP-grade ethanol to preserve the integrity of the active compounds.",
@@ -6918,14 +6973,15 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - White Kidney Bean Extract - 3000IU/g, 4000IU/g, 8000IU/g, 10000IU/g, 10500IU/g, 14000IU/g 20000IU/g
   {
     "id": "kidney-bean-extract",
     "slug": "kidney-bean-extract",
-    "name": "Kidney Bean Extract",
+    "name": "White Kidney Bean Extract",
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "3000IU/g, 4000IU/g, 8000IU/g, 10000IU/g, 10500IU/g, 14000IU/g (UV Method)",
+    "standardization": "3000IU/g, 4000IU/g, 8000IU/g, 10000IU/g, 10500IU/g, 14000IU/g, 20000IU/g",
     "latinName": "Phaseolus vulgaris",
     "plantPart": "Beans",
     "description": "Kidney Bean Extract is derived from high-quality Phaseolus vulgaris beans and standardized for alpha-amylase inhibition activity. This specialized extract contains compounds that inhibit starch-digesting enzymes, potentially reducing carbohydrate absorption in the digestive tract. Our extract is carefully processed to preserve maximum enzymatic inhibitory activity and is available in multiple potencies ranging from 3000IU/g to 14000IU/g. Each batch undergoes rigorous UV spectroscopy testing to ensure accurate standardization and consistent potency.",
@@ -7026,6 +7082,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Licorice Extract - 40% Glabridin
   {
     "id": "licorice",
     "slug": "licorice-extract",
@@ -7033,7 +7090,7 @@ export const products: Product[] = [
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "40% Glabridin",
+    "standardization": "20%, 40% Glabridin",
     "latinName": "Glycyrrhiza glabra",
     "plantPart": "Root",
     "description": "Licorice Extract is derived from premium Glycyrrhiza glabra roots and standardized to contain 40% glabridin, a key isoflavone with significant bioactive properties. Our specialized extraction process preserves the integrity of this valuable compound while removing unwanted components. Each batch undergoes precise titration analysis to ensure consistent potency and purity. This highly concentrated extract delivers maximum efficacy for skin brightening applications and antioxidant support in various formulations, with minimal glycyrrhizin content compared to conventional licorice extracts.",
@@ -7135,6 +7192,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Momordica Extract - 5%, 8% Bitters
   {
     "id": "momordica",
     "slug": "momordica-extract",
@@ -7244,6 +7302,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Mucuna Extract - 10%, 15%, 20%, 30% L-Dopa
   {
     "id": "mucuna",
     "slug": "mucuna-extract",
@@ -7251,7 +7310,7 @@ export const products: Product[] = [
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "10%, 15%, 20%, 30% L-Dopa",
+    "standardization": "10%, 15%, 20%, 30%, 50% L-Dopa",
     "latinName": "Mucuna pruriens",
     "plantPart": "Seed",
     "description": "Mucuna Extract is derived from premium quality Mucuna pruriens seeds and standardized for L-Dopa (levodopa) content. Available in multiple standardization levels ranging from 10% to 30%, this extract provides a natural source of this important neurotransmitter precursor. Our specialized extraction process carefully preserves the delicate balance of naturally occurring compounds while ensuring consistent L-Dopa concentration. Each batch undergoes rigorous titration analysis to verify potency and purity. Both conventional and certified organic options are available to meet diverse formulation requirements.",
@@ -7353,6 +7412,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Ocimum Sanctum Extract - 2.5%, 3% Ursolic and oleanolic acids
   {
     "id": "ocimum-sanctum",
     "slug": "ocimum-sanctum-extract",
@@ -7462,6 +7522,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Piper Longum Extract - 5%, 95% Piperine
   {
     "id": "piper-longum",
     "slug": "piper-longum-extract",
@@ -7571,6 +7632,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Pomegranate Extract - 20%, 30%, 40% Ellagic Acid
   {
     "id": "pomegranate-extract",
     "slug": "pomegranate-extract",
@@ -7578,7 +7640,7 @@ export const products: Product[] = [
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "20%, 30%, 40% Ellagic Acid",
+    "standardization": "20%, 30%, 40%, 90% Ellagic Acid",
     "latinName": "Punica granatum",
     "plantPart": "Fruit",
     "description": "Pomegranate Extract is derived from premium Punica granatum fruit and standardized for ellagic acid content. Available in multiple concentrations (20%, 30%, and 40%), this extract captures the potent polyphenols responsible for pomegranate's exceptional antioxidant capacity. Our specialized extraction process carefully preserves the delicate balance of ellagitannins, punicalagins, and other beneficial compounds while ensuring consistent ellagic acid content. Each batch undergoes precise titration analysis to verify potency. The extract is available in both powder and granule forms to accommodate diverse formulation requirements.",
@@ -7680,14 +7742,15 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Sesamin Extract - 10%, 20%, 30%, 60%, 70%, 90%, 95%, 98% Sesamin and Sesamolin
   {
     "id": "sesamin-extract",
     "slug": "sesamin-extract",
-    "name": "Sesamin Extract",
+    "name": "Sesamin Complex Extract",
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "10%, 20%, 30%, 60%, 70%, 90%, 95%, 98% Sesamin and Sesamolin",
+    "standardization": "10%, 20%, 30%, 60%, 70%, 80%, 90%, 95%, 98% Sesamin and Sesamolin",
     "latinName": "Sesamum indicum",
     "plantPart": "Seeds",
     "description": "Sesamin Extract is derived from premium sesame seeds and standardized for sesamin and sesamolin content. Available in multiple concentrations ranging from 10% to 98%, this extract offers exceptional versatility for various applications requiring different potency levels. Our specialized extraction process carefully isolates and concentrates these valuable lignans while ensuring purity and consistency. Each batch undergoes precise titration analysis to verify lignan content. The extract is available in both powder and granule forms to accommodate diverse formulation requirements, from nutraceuticals to functional foods.",
@@ -7789,6 +7852,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Shilajit Extract - 1%, 10%, 20%, 40%, 50% Fulvic Acid
   {
     "id": "shilajit-extract",
     "slug": "shilajit-extract",
@@ -7898,6 +7962,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Tribulus Terrestris Extract - 40%, 45%, 60% Saponins
   {
     "id": "tribulus-terrestris-extract",
     "slug": "tribulus-terrestris-extract",
@@ -8006,6 +8071,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Centella Asiatica Extract - 6%, 10%, 20% Triterpene Saponins
   {
     "id": "centella-asiatica-extract",
     "slug": "centella-asiatica-extract",
@@ -8013,7 +8079,7 @@ export const products: Product[] = [
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "6%, 10%, 20% Triterpene Saponins",
+    "standardization": "6%, 10%, 20% Saponins",
     "latinName": "Centella asiatica",
     "plantPart": "Leaf",
     "description": "Centella asiatica extract is derived from premium quality leaves and standardized for triterpene saponins using precise gravimetric analysis. Available in multiple concentrations (6%, 10%, and 20%), this extract captures the beneficial triterpenes including asiaticoside, madecassoside, asiatic acid, and madecassic acid. Our careful extraction process preserves these delicate compounds while ensuring consistent potency between batches. Each production lot undergoes rigorous testing to verify triterpene content. Both conventional and certified organic options are available to meet diverse formulation requirements.",
@@ -8114,6 +8180,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Cinnamon Extract - 5%, 8%, 10%, 12% Polyphenols
   {
     "id": "cinnamon-extract",
     "slug": "cinnamon-extract",
@@ -8220,6 +8287,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Clove Extract - 15% Tannins
   {
     "id": "clove-extract",
     "slug": "clove-extract",
@@ -8327,6 +8395,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Moringa Leaves Extract - 5%, 10%, 20%, 25%, 40% Saponins
   {
     "id": "moringa-leaves-extract",
     "slug": "moringa-leaves-extract",
@@ -8434,6 +8503,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Saw Palmetto Extract (Oil) - 32%, 85% Fatty Acids by GC
   {
     "id": "saw-palmetto-extract-oil",
     "slug": "saw-palmetto-extract-oil",
@@ -8441,7 +8511,7 @@ export const products: Product[] = [
     "categoryId": "standardized-extracts",
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
-    "standardization": "32%, 85% Fatty Acids by GC",
+    "standardization": "25%,32%, 85%, 95% Fatty Acids",
     "latinName": "Serenoa repens",
     "plantPart": "Berries",
     "description": "Saw Palmetto Extract Oil, derived from the berries of Serenoa repens, is a specialized herbal ingredient known for its high fatty acid content. Our extract is standardized using Gas Chromatography (GC) to contain either 32% or 85% fatty acids and is available in oil form. The extraction process utilizes CO2 extraction technology to preserve the delicate fatty acid profile. This ingredient is particularly valued in men's health formulations, hair care products, and prostate support supplements for its traditional benefits.",
@@ -8541,6 +8611,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Senna Extract - 1.5%, 10%, 20%, 40% Sennosides
   {
     "id": "senna-extract",
     "slug": "senna-extract",
@@ -8549,7 +8620,7 @@ export const products: Product[] = [
     "categorySlug": "standardized-extracts",
     "categoryName": "Standardized Herbal Extracts",
     "standardization": "1.5%, 10%, 20%, 40% Sennosides",
-    "latinName": "Cassia angustifolia",
+    "latinName": "Senna alexandrina",
     "plantPart": "Leaves and Pods",
     "description": "Senna extract, derived from the leaves and pods of Cassia angustifolia, is a potent herbal ingredient known for its sennoside content. Our extract is available in multiple standardization levels (1.5%, 10%, 20%, 40% sennosides) and comes in both powder and granule forms to meet various formulation requirements. The extraction process employs USP-grade solvents to ensure product purity and potency. This ingredient is widely used in digestive health supplements and traditional cleansing formulations for its natural properties.",
     "shortDescription": "Senna Extract rich in sennosides, traditionally used for digestive health and detoxification.",
@@ -8647,6 +8718,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Terminalia Bellerica Extract - 40%, 45% Tannins
   {
     "id": "terminalia-bellerica-extract",
     "slug": "terminalia-bellerica-extract",
@@ -8754,6 +8826,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Terminalia Chebula Extract - 40% - 45% Tannins
   {
     "id": "terminalia-chebula-extract",
     "slug": "terminalia-chebula-extract",
@@ -8861,6 +8934,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Trikatu Extract - 1.5% Piperine and 1.0% Total Gingerols
   {
     "id": "trikatu-extract",
     "slug": "trikatu-extract",
@@ -8968,6 +9042,7 @@ export const products: Product[] = [
       }
     ]
   },
+  // Standardized Products - Turmeric Water Extract - Upto 10% Polysaccharides
   {
     "id": "turmeric-water-extract",
     "slug": "turmeric-water-extract",
