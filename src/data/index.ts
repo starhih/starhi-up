@@ -2637,7 +2637,7 @@ export const products: Product[] = [
     plantPart: "Root",
     description: "Organic Ashwagandha Extract is produced from certified organic roots of Withania somnifera, carefully harvested and processed to preserve the plant's adaptogenic properties. Our extract is standardized to contain 2.5%, 5%, or 10% withanolides, the key bioactive compounds responsible for ashwagandha's stress-relieving and rejuvenating effects. Produced using organic-compliant extraction methods, this premium ingredient is ideal for stress management formulations, energy supplements, and products supporting cognitive health and hormonal balance.",
     shortDescription: "Organic Ashwagandha root extract with standardized withanolide content",
-    image: "/images/products/ashwagandha-extract-3.jpg",
+    image: "/images/products/ashwagandha-extract-1.jpg",
     gallery: [
       "/images/products/ashwagandha-extract-1.jpg",
       "/images/products/ashwagandha-extract-2.jpg",
@@ -3211,9 +3211,9 @@ export const products: Product[] = [
     "plantPart": "Rhizome",
     "description": "Organic Turmeric Extract is derived from certified organic Curcuma longa rhizomes, carefully cultivated and processed to preserve its powerful anti-inflammatory properties. Our extract is standardized to contain 95% curcuminoids, the key bioactive compounds responsible for turmeric's health benefits. Produced using organic-compliant extraction methods, this premium ingredient is ideal for inflammatory response management, joint health formulations, cognitive support products, and antioxidant supplements.",
     "shortDescription": "Organic Turmeric extract with 95% curcuminoids",
-    "image": "/images/products/turmeric-extract.jpg",
+    "image": "/images/products/turmeric-extract-1.jpg",
     "gallery": [
-      "/images/products/turmeric-extract-1.jpg",
+      "/images/turmeric-extract.jpeg",
       "/images/products/turmeric-extract-2.jpg",
       "/images/products/turmeric-extract-3.jpg"
     ],
@@ -3328,11 +3328,11 @@ export const products: Product[] = [
     "plantPart": "Rhizome",
     "description": "Organic Turmeric Extract Granules offer all the anti-inflammatory benefits of our powder extract in a convenient granular form that improves flowability and reduces dusting during manufacturing. Derived from certified organic Curcuma longa rhizomes and standardized to contain 95% curcuminoids, these granules are produced using organic-compliant processing methods. The granular format is ideal for tablets, capsules, and sachets, providing improved manufacturing efficiency while maintaining the full spectrum of health-promoting compounds.",
     "shortDescription": "Organic Turmeric granules with 95% curcuminoids",
-    "image": "/images/products/turmeric-extract.jpg",
+    "image": "/images/products/turmeric-extract-3.jpg",
     "gallery": [
       "/images/products/turmeric-extract-1.jpg",
       "/images/products/turmeric-extract-2.jpg",
-      "/images/products/turmeric-extract-3.jpg"
+      "/images/turmeric-extract.jpeg"
     ],
     "applications": [
       "Tablet formulations",
@@ -4117,11 +4117,11 @@ export const products: Product[] = [
     "plantPart": "Fruit",
     "description": "Organic Tribulus Terrestris Extract, derived from organically cultivated fruits, is a powerful botanical standardized to contain 40% saponins and 20% protodioscin. Our extract is processed using certified organic methods that preserve the plant's bioactive compounds. Available in powder and granule forms, this versatile ingredient supports hormonal balance, vitality, and sports performance. The careful extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium nutraceuticals, sports nutrition products, and wellness formulations.",
     "shortDescription": "Premium organic Tribulus extract standardized for saponin and protodioscin content",
-    "image": "/images/products/tribulus-terrestris-3.jpg",
+    "image": "/images/products/tribulus-extract.jpg",
     "gallery": [
-      "/images/products/tribulus-terrestris.jpg",
-      "/images/products/tribulus-terrestris-1.jpg",
-      "/images/products/tribulus-terrestris-2.jpg"
+      "/images/products/tribulus-extract-1.jpg",
+      "/images/products/tribulus-extract-2.jpg",
+      "/images/products/tribulus-extract-3.jpg"
     ],
     "applications": [
       "Sports nutrition formulations",
@@ -4292,23 +4292,23 @@ export const products: Product[] = [
     },
     "productionDetails": {
       "description": "Our Organic Centella asiatica Extract is produced from carefully selected plants grown in certified organic conditions. After harvest, the aerial parts undergo gentle drying before our specialized low-temperature extraction process that maximizes retention of sensitive triterpenes and glycosides. Our facility uses proprietary technology to ensure optimal extraction of bioactive compounds while adhering to organic processing standards, followed by careful filtration, drying, and standardization.",
-      "image": "/process-ch.webp"
+      "image": "/images/process-ch.webp"
     },
     "packaging": {
       "description": "Star Hi Herbs provides Organic Centella asiatica Extract in various packaging options designed to preserve its sensitive compounds. Our standard packaging includes 20kg fiber drums with food-grade polyethylene liners and oxygen absorbers to protect the extract from moisture and oxidation. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with nitrogen flushing. All packaging materials comply with organic regulations and are designed to maintain triterpene stability during shipping and storage.",
-      "image": "/packaging-ch.webp"
+      "image": "/images/packaging-ch.webp"
     },
     "factory": {
       "description": "Our dedicated organic processing facility features specialized equipment for triterpene extraction and standardization. The facility operates under strict temperature and humidity controls to preserve heat-sensitive compounds, with designated areas for organic materials to prevent cross-contamination. Our analytical laboratory performs ongoing testing for triterpene and asiaticoside content throughout the production process to ensure consistent standardization in every batch.",
-      "image": "/factory-ch.webp"
+      "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
       "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Centella asiatica Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. For cosmetic applications, we also maintain COSMOS organic certification. These certifications reflect our commitment to authentic organic ingredients and quality assurance across multiple application categories.",
-      "image": "/certifications-ch.webp"
+      "image": "/images/certifications-ch.webp"
     },
     "events": {
       "description": "Star Hi Herbs regularly showcases our organic Centella asiatica Extract at major cosmetic, nutraceutical and natural product exhibitions worldwide. We participate in specialized beauty and brain health symposiums in addition to major trade shows like in-cosmetics Global and Supply Side West. Our technical experts provide formulation guidance for both topical and internal applications, helping formulators maximize the benefits of our Centella extract across diverse product categories.",
-      "image": "/events.jpg"
+      "image": "/images/events.jpg"
     },
     "faqs": [
       {
@@ -4333,6 +4333,241 @@ export const products: Product[] = [
       }
     ]
   },
+  // Organic Products - Organic Cinnamon Extract - 5%, 8%, 10%, 12% Polyphenols
+{
+  "id": "organic-cinnamon",
+  "name": "Organic Cinnamon Extract",
+  "slug": "organic-cinnamon-extract",
+  "categoryId": "organic-extracts",
+  "categorySlug": "organic-extracts",
+  "categoryName": "Organic Extracts",
+  "standardization": "5%, 8%, 10%, 12% Polyphenols",
+  "latinName": "Cinnamomum cassia",
+  "plantPart": "Bark",
+  "description": "Organic Cinnamon Extract, derived from organically cultivated Cinnamomum cassia bark, is a premium botanical standardized to contain 30% polyphenols and 10% Type-A polymers. Our extract is processed using certified organic methods that preserve the bark's bioactive compounds. Available in powder and granule forms, this versatile ingredient supports healthy blood glucose metabolism, antioxidant protection, and digestive wellness. The careful extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium nutraceuticals, functional foods, and metabolic health formulations.",
+  "shortDescription": "Premium organic cinnamon extract standardized for polyphenol and Type-A polymer content",
+  "image": "/images/products/cinnamon-extract.jpg",
+  "gallery": [
+    "/images/products/cinnamon-extract-1.jpg",
+    "/images/products/cinnamon-extract-2.jpg",
+    "/images/products/cinnamon-extract-3.jpg"
+  ],
+  "applications": [
+    "Blood glucose support formulations",
+    "Metabolic health supplements",
+    "Antioxidant products",
+    "Digestive wellness blends",
+    "Functional food and beverage applications"
+  ],
+  "benefits": [
+    "Supports healthy blood glucose metabolism",
+    "Provides potent antioxidant protection",
+    "Promotes digestive comfort and function",
+    "Offers antimicrobial properties",
+    "Supports cardiovascular health"
+  ],
+  "specifications": {
+    "activeCompounds": "Polyphenols, Type-A Polymers, Cinnamaldehyde",
+    "standardization": "30% Polyphenols, 10% Type-A Polymers",
+    "form": "Powder, Granules",
+    "solubility": "Water dispersible, partially soluble in ethanol",
+    "appearance": "Fine reddish-brown powder",
+    "testing": "HPLC methods for polyphenol and polymer quantification",
+    "heavyMetals": "<10 ppm (complies with USP limits)",
+    "shelfLife": "36 months when stored in a cool, dry place away from direct sunlight",
+    "storage": "Store in airtight containers in a cool, dry area below 25°C"
+  },
+  "research": "Cinnamon extract has been studied extensively for its potential benefits in supporting healthy blood glucose metabolism, with numerous clinical trials suggesting its polyphenols and Type-A polymers may help maintain blood sugar levels already within normal ranges. Research also indicates antioxidant and digestive benefits.",
+  "certifications": [
+    "USDA Organic",
+    "EU Organic",
+    "FSSC 22000",
+    "ISO 9001:2015",
+    "Kosher",
+    "Halal"
+  ],
+  "featured": false,
+  // "documents": {
+  //   "technicalDataSheet": "/docs/cinnamon-tds.pdf",
+  //   "safetyDataSheet": "/docs/cinnamon-sds.pdf",
+  //   "certificateOfAnalysis": "/docs/cinnamon-coa.pdf"
+  // },
+  "supplierInfo": {
+    "points": [
+      "Verify organic certification and sustainable harvesting practices",
+      "Ensure consistent standardization of both polyphenols and Type-A polymers",
+      "Check testing protocols for coumarin content and heavy metals",
+      "Evaluate stability in various pH and temperature conditions",
+      "Request clinical studies on metabolic benefits",
+      "Assess sensory profile for food and beverage applications"
+    ]
+  },
+  "productionDetails": {
+    "description": "Our Organic Cinnamon Extract is produced using certified organic bark from carefully selected Cinnamomum cassia trees. After harvest, the bark undergoes gentle drying before our specialized extraction process that maximizes retention of polyphenols and Type-A polymers while minimizing coumarin extraction. Our facility uses proprietary technology to ensure optimal bioactive compound extraction while adhering to organic processing standards, followed by careful filtration, drying, and standardization.",
+    "image": "/images/process-ch.webp"
+  },
+  "packaging": {
+    "description": "Star Hi Herbs provides Organic Cinnamon Extract in various packaging options designed to preserve aromatic compounds and polyphenol content. Our standard packaging includes 25kg fiber drums with food-grade polyethylene liners and moisture absorbers. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with aroma-protection technology. All packaging materials comply with organic regulations and are designed to maintain extract stability and sensory characteristics during shipping and storage.",
+    "image": "/images/packaging-ch.webp"
+  },
+  "factory": {
+    "description": "Our dedicated organic processing facility features specialized equipment for polyphenol extraction and standardization. The facility operates with advanced air filtration systems to prevent cross-contamination of aromatic compounds, with designated areas for organic materials. Our analytical laboratory performs ongoing testing for polyphenol content, Type-A polymers, and coumarin levels throughout the production process to ensure consistent standardization and safety in every batch.",
+    "image": "/images/factory-ch.webp"
+  },
+  "certificationsSection": {
+    "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Cinnamon Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We undergo regular audits specific to botanical extracts used in metabolic health applications. These certifications reflect our commitment to authentic organic ingredients and quality assurance for health-focused applications.",
+    "image": "/images/certifications-ch.webp"
+  },
+  "events": {
+    "description": "Star Hi Herbs regularly showcases our organic Cinnamon Extract at major food ingredient, nutraceutical, and natural product exhibitions worldwide. We participate in specialized diabetes and metabolic health conferences in addition to major trade shows like IFT Food Expo and Supply Side West. Our metabolic health specialists provide formulation guidance and share clinical research updates on our cinnamon extract's applications for blood glucose management and antioxidant protection.",
+    "image": "/images/events.jpg"
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "question": "Is this cinnamon extract low in coumarin?",
+      "answer": "Yes, our extraction process is optimized to minimize coumarin content while retaining key polyphenols and Type-A polymers."
+    },
+    {
+      "id": 2,
+      "question": "Can it be used in functional beverages?",
+      "answer": "Yes, it is water-dispersible and suitable for use in functional food and beverage formulations with proper solubility adjustment."
+    },
+    {
+      "id": 3,
+      "question": "What are Type-A polymers, and why are they important?",
+      "answer": "Type-A polymers are bioactive compounds in cinnamon associated with glucose metabolism support, and our extract is standardized to contain 10%."
+    },
+    {
+      "id": 4,
+      "question": "Is the extract suitable for vegetarians and vegans?",
+      "answer": "Yes, our Organic Cinnamon Extract is 100% plant-based and suitable for both vegetarians and vegans."
+    }
+  ]
+},
+// Organic Products - Organic Moringa Extract - 5%, 10%, 20%, 25%, 40% Saponins
+{
+  "id": "organic-moringa",
+  "name": "Organic Moringa Extract",
+  "slug": "organic-moringa-extract",
+  "categoryId": "organic-extracts",
+  "categorySlug": "organic-extracts",
+  "categoryName": "Organic Extracts",
+  "standardization": "5%, 10%, 20%, 25%, 40% Saponins",
+  "latinName": "Moringa oleifera",
+  "plantPart": "Leaves",
+  "description": "Organic Moringa Leaves Extract, derived from organically cultivated Moringa oleifera leaves, is a nutrient-dense botanical standardized to contain 5%, 10%, 20%, 25%, 40% Saponins. Our extract is processed using certified organic methods that preserve the leaves' exceptional nutritional profile. Available in powder and granule forms, this versatile ingredient delivers a complete array of vitamins, minerals, and antioxidants to support overall wellness, immune function, and energy metabolism. The careful extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium nutraceuticals, superfood products, and functional foods.",
+  "shortDescription": "Premium organic moringa extract standardized for flavonoid and polyphenol content",
+  "image": "/images/products/moringa-leaves-extract.jpg",
+    "gallery": [
+      "/images/products/moringa-leaves-extract-1.jpg",
+      "/images/products/moringa-leaves-extract-2.jpg",
+      "/images/products/moringa-leaves-extract-3.jpg"
+    ],
+  "applications": [
+    "Superfood supplements",
+    "Immune support formulations",
+    "Energy and vitality products",
+    "Green food blends",
+    "Nutritional powders and beverages"
+  ],
+  "benefits": [
+    "Provides comprehensive nutritional support with over 90 nutrients",
+    "Delivers potent antioxidant protection",
+    "Supports healthy immune system function",
+    "Promotes natural energy and vitality",
+    "Supports healthy inflammatory response"
+  ],
+  "specifications": {
+    "activeCompounds": "Saponins",
+    "standardization": "5%, 10%, 20%, 25%, 40% Saponins",
+    "form": "Powder, Granules",
+    "solubility": "Water dispersible, partially soluble in ethanol",
+    "appearance": "Fine green powder",
+    "testing": "HPLC methods for flavonoid and polyphenol quantification",
+    "heavyMetals": "Complies with USP <232>",
+    "shelfLife": "36 months if stored properly",
+    "storage": "Store in a cool, dry place away from direct light and moisture"
+  },
+  "research": "Moringa leaves extract has been studied for its exceptional nutritional profile, with research confirming its high content of vitamins, minerals, and bioactive compounds. Studies indicate potential benefits for immune function, energy metabolism, and antioxidant protection, with growing clinical evidence supporting its use in nutritional supplementation.",
+  "certifications": [
+    "USDA Organic",
+    "EU Organic",
+    "FSSC 22000",
+    "ISO 9001:2015",
+    "Kosher",
+    "Halal",
+  ],
+  "featured": true,
+  // "documents": [
+  //   { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
+  //   { "id": 2, "name": "Safety Data Sheet", "size": "1.7 MB" },
+  //   { "id": 3, "name": "Certificate of Analysis", "size": "998 KB" }
+  // ],
+  "supplierInfo": {
+    "points": [
+      "Verify organic certification and sustainable farming practices",
+      "Ensure comprehensive nutrient profile analysis",
+      "Check testing protocols for pesticide residue and heavy metals",
+      "Evaluate green color stability in various applications",
+      "Request oxidative stability studies",
+      "Assess sensory profile for food and beverage applications"
+    ]
+  },
+  "productionDetails": {
+    "description": "Our Organic Moringa Leaves Extract is produced using certified organic leaves harvested from our partner farms at peak nutritional content. After harvest, the leaves undergo gentle washing and drying in controlled environments to preserve sensitive nutrients. Our specialized low-temperature extraction process maximizes retention of vitamins, minerals, and bioactive compounds while adhering to organic processing standards, followed by careful filtration, drying, and standardization.",
+    "image": "/images/process-ch.webp"
+  },
+  "packaging": {
+    "description": "Star Hi Herbs provides Organic Moringa Leaves Extract in various packaging options designed to preserve sensitive nutrients and green color. Our standard packaging includes 20kg fiber drums with food-grade polyethylene liners, oxygen absorbers, and light protection. For smaller quantities, we offer 1kg and 5kg aluminum foil bags with nitrogen flushing. All packaging materials comply with organic regulations and are designed to maintain nutritional integrity during shipping and storage.",
+    "image": "/images/packaging-ch.webp"
+  },
+  "factory": {
+    "description": "Our dedicated organic processing facility features specialized equipment for gentle extraction of leafy greens like Moringa. The facility operates with advanced temperature controls to preserve heat-sensitive nutrients, with designated areas for organic materials to prevent cross-contamination. Our analytical laboratory performs comprehensive nutritional profiling throughout the production process to ensure consistent standardization and nutritional content in every batch.",
+    "image": "/images/factory-ch.webp"
+  },
+  "certificationsSection": {
+    "description": "Star Hi Herbs maintains comprehensive organic certifications including USDA Organic and EU Organic standards for our Moringa Leaves Extract. Our facility and processes are additionally certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We undergo regular audits specific to nutritional supplements and superfoods. These certifications reflect our commitment to authentic organic ingredients and comprehensive nutritional quality assurance.",
+    "image": "/images/certifications-ch.webp"
+  },
+  "events": {
+    "description": "Star Hi Herbs regularly showcases our organic Moringa Leaves Extract at major superfood, nutrition, and natural product exhibitions worldwide. We participate in specialized green food symposiums in addition to major trade shows like Natural Products Expo West and Vitafoods Europe. Our nutrition specialists provide comprehensive information on Moringa's exceptional nutritional profile and share formulation tips for maximizing bioavailability in various supplement and food applications.",
+    "image": "/images/events.jpg"
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "question": "Is your Moringa extract certified organic?",
+      "answer": "Yes, our Moringa extract is certified USDA and EU Organic, processed without synthetic additives or solvents."
+    },
+    {
+      "id": 2,
+      "question": "What are the active compounds in Moringa extract?",
+      "answer": "The extract is standardized to contain 3% flavonoids and 15% polyphenols, with additional bioactives like chlorogenic acid."
+    },
+    {
+      "id": 3,
+      "question": "Can this extract be used in green beverages?",
+      "answer": "Yes, it is suitable for green drinks, smoothies, and nutrition powders. It disperses well in water and retains a fresh green color."
+    },
+    {
+      "id": 4,
+      "question": "What is the shelf life of this extract?",
+      "answer": "The shelf life is 36 months when stored in a cool, dry environment away from sunlight and moisture."
+    },
+    {
+      "id": 5,
+      "question": "Is the extract vegan and non-GMO?",
+      "answer": "Yes, it is 100% plant-based, vegan, and produced from non-GMO organic Moringa leaves."
+    }
+  ]
+},
+
+
+
+
+
+
   // Standardized Products - Turmeric Extract - Repeat- 95% Curcuminoids
   // {
   //   id: 'turmeric',
