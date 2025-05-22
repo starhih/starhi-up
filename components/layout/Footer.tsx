@@ -15,10 +15,10 @@ export default function Footer() {
             <div className="mb-5 -ml-3">
               <Image src="/images/starhiherbs-logo-white.png"
                 alt="Star Hi Herbs"
-                width={180}
-                height={42}
+                width={200}
+                height={50}
                 className="object-contain"
-                style={{ maxHeight: '42px' }}
+                style={{ maxHeight: '50px' }}
                 priority
               />
             </div>
@@ -28,7 +28,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://linkedin.com"
+                href="https://in.linkedin.com/company/star-hi-herbs-pvt-ltd"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-[#EFC368] transition-colors"
@@ -37,7 +37,7 @@ export default function Footer() {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/StarHiHerbsNaturalExtracts/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-[#EFC368] transition-colors"
@@ -46,7 +46,7 @@ export default function Footer() {
                 <Facebook size={20} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/star.hi.herbs/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-[#EFC368] transition-colors"
