@@ -97,18 +97,18 @@ export default function Navbar() {
                 <Image src="/images/starhiherbs-logo.png"
                   alt="Star Hi Herbs"
                   width={180}
-                  height={42}
+                  height={45}
                   className="object-contain"
-                  style={{ maxHeight: '42px' }}
+                  style={{ maxHeight: '50px' }}
                   priority
                 />
               ) : (
                 <Image src="/images/starhiherbs-logo-white.png"
                   alt="Star Hi Herbs"
                   width={180}
-                  height={42}
+                  height={45}
                   className="object-contain"
-                  style={{ maxHeight: '42px' }}
+                  style={{ maxHeight: '50px' }}
                   priority
                 />
               )}

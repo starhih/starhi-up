@@ -9674,15 +9674,9 @@ export const certifications: Certification[] = [
     image: '/images/certifications/fssc.png',
   },
   {
-    id: 3,
-    name: 'Organic India Certified',
-    description: 'Organic Certification',
-    image: '/images/certifications/organic.jpg',
-  },
-  {
     id: 4,
     name: 'USDA Organic Certified',
-    description: 'USDA & EU Organic Standards',
+    description: 'USDA Organic Standards',
     image: '/images/certifications/usda-organic.jpg',
   },
   {
@@ -9690,6 +9684,12 @@ export const certifications: Certification[] = [
     name: 'WHO GMP Certified',
     description: 'Meets WHO GMP Standards',
     image: '/images/certifications/who-gmp.jpg',
+  },
+  {
+    id: 13,
+    name: 'EU Organic Certified',
+    description: 'Meets EU Organic Standards',
+    image: '/images/certifications/eu-organic.jpg',
   },
   {
     id: 6,
@@ -9702,6 +9702,12 @@ export const certifications: Certification[] = [
     name: 'Halal Certified',
     description: 'Meets Halal Requirements',
     image: '/images/certifications/halal-1.jpg',
+  },
+  {
+    id: 3,
+    name: 'Organic India Certified',
+    description: 'Organic Certification',
+    image: '/images/certifications/organic.jpg',
   },
   {
     id: 8,
