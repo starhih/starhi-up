@@ -2832,11 +2832,11 @@ export const products: Product[] = [
     "plantPart": "Resin",
     "description": "Organic Boswellia Serrata Extract is derived from certified organic Boswellia serrata gum resin, carefully harvested and processed to preserve its anti-inflammatory properties. Our extract is standardized to contain either 65% or 85% boswellic acids, the key bioactive compounds responsible for boswellia's joint health and inflammatory response benefits. Produced using organic-compliant extraction methods, this premium ingredient is ideal for joint health formulations, inflammatory response management, and respiratory support products.",
     "shortDescription": "Organic Boswellia extract with standardized boswellic acid content",
-    "image": "/images/products/boswellia-extract.jpg",
+    "image": '/images/products/boswellia-ser-extract.jpg',
     "gallery": [
-      "/images/products/boswellia-extract-1.jpg",
-      "/images/products/boswellia-extract-2.jpg",
-      "/images/products/boswellia-extract-4.jpg"
+      '/images/products/boswellia-ser-extract-1.jpg',
+      '/images/products/boswellia-extract-1.jpg',
+      '/images/products/boswellia-extract-2.jpg',
     ],
     "applications": [
       "Joint health formulations",
@@ -5181,9 +5181,9 @@ export const products: Product[] = [
     plantPart: 'Gum resin',
     description: 'Boswellia Serrata Extract is derived from the gum resin of the Boswellia tree, standardized to contain precise levels of boswellic acids—the primary compounds responsible for its anti-inflammatory properties. Our extract is available in various standardizations, including special grades with enhanced levels of AKBBA (Acetyl-11-keto-β-boswellic acid), the most potent of the boswellic acids. Both HPLC and titration methods are used to ensure accurate standardization. Each batch is processed using USP-grade ethanol and undergoes comprehensive quality testing.',
     shortDescription: 'Premium Boswellia extract standardized for boswellic acids content',
-    image: '/images/products/boswellia-extract.jpg',
+    image: '/images/products/boswellia-ser-extract.jpg',
     gallery: [
-      '/images/products/boswellia-extract.jpg',
+      '/images/products/boswellia-ser-extract-1.jpg',
       '/images/products/boswellia-extract-1.jpg',
       '/images/products/boswellia-extract-2.jpg',
     ],
@@ -7489,13 +7489,13 @@ export const products: Product[] = [
     "standardization": "3000IU/g, 4000IU/g, 8000IU/g, 10000IU/g, 10500IU/g, 14000IU/g, 20000IU/g",
     "latinName": "Phaseolus vulgaris",
     "plantPart": "Beans",
-    "description": "Kidney Bean Extract is derived from high-quality Phaseolus vulgaris beans and standardized for alpha-amylase inhibition activity. This specialized extract contains compounds that inhibit starch-digesting enzymes, potentially reducing carbohydrate absorption in the digestive tract. Our extract is carefully processed to preserve maximum enzymatic inhibitory activity and is available in multiple potencies ranging from 3000IU/g to 14000IU/g. Each batch undergoes rigorous UV spectroscopy testing to ensure accurate standardization and consistent potency.",
-    "shortDescription": "Kidney Bean extract standardized to 3000-14000IU/g alpha-amylase inhibition, supporting starch blocking, weight management, and blood sugar control.",
-    "image": "/images/products/kidney-bean-extract.jpg",
+    "description": "White Kidney Bean Extract is derived from high-quality Phaseolus vulgaris beans and standardized for alpha-amylase inhibition activity. This specialized extract contains compounds that inhibit starch-digesting enzymes, potentially reducing carbohydrate absorption in the digestive tract. Our extract is carefully processed to preserve maximum enzymatic inhibitory activity and is available in multiple potencies ranging from 3000IU/g to 14000IU/g. Each batch undergoes rigorous UV spectroscopy testing to ensure accurate standardization and consistent potency.",
+    "shortDescription": "White Kidney Bean extract standardized to 3000-14000IU/g alpha-amylase inhibition, supporting starch blocking, weight management, and blood sugar control.",
+    "image": "/images/products/white-kidney-bean-extract.jpg",
     "gallery": [
-      "/images/products/kidney-bean-extract-1.jpg",
-      "/images/products/kidney-bean-extract-2.jpg",
-      "/images/products/kidney-bean-extract-3.jpg"
+      "/images/products/white-kidney-bean-extract-1.jpg",
+      "/images/products/white-kidney-bean-extract-2.jpg",
+      "/images/products/white-kidney-bean-extract-3.jpg"
     ],
     "applications": [
       "Weight management formulations",
