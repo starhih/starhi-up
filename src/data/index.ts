@@ -426,7 +426,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Storg® plant-based vitamins and minerals have been developed based on extensive research into nutrient bioavailability and absorption. Studies indicate that nutrients delivered in their natural food matrix, as found in Storg® products, provide superior bioavailability compared to isolated synthetic vitamins. Our ongoing research continues to optimize the extraction and standardization processes to maximize nutrient retention and stability.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.4 MB" },
@@ -456,7 +456,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg® products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications for our products.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg® products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications for our products.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -472,7 +472,7 @@ export const products: Product[] = [
       {
         "id": 2,
         "question": "Are Storg® products organic?",
-        "answer": "While not all Storg® products are certified organic, we do offer organic options for many variants. All products are non-GMO and sustainably sourced."
+        "answer": "While not all Storg® products are certified organic, we do offer organic options for many variants. All products are sustainably sourced."
       },
       {
         "id": 3,
@@ -536,7 +536,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that B vitamins from natural sources offer superior bioavailability compared to synthetic alternatives. Studies show that the natural co-factors present in Storg-B enhance absorption and cellular utilization of these essential nutrients, supporting energy production, cognitive function, and nervous system health.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
@@ -565,7 +565,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-B product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-B product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -645,7 +645,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that natural vitamin C from plant sources offers superior bioavailability compared to synthetic ascorbic acid. Studies show that the natural bioflavonoids present in Storg-C enhance absorption and cellular utilization of this essential nutrient, supporting immune function, antioxidant protection, and collagen synthesis.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
@@ -674,7 +674,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-C product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-C product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -754,7 +754,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight and oxygen"
     },
     "research": "Research indicates that natural vitamin E complex offers superior bioactivity compared to synthetic alpha-tocopherol. Studies show that the complete spectrum of tocopherols and tocotrienols in Storg-E provides comprehensive antioxidant protection and supports cardiovascular health through multiple mechanisms.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -783,7 +783,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-E product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-E product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -863,7 +863,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that natural folates from plant sources offer superior bioavailability compared to synthetic folic acid. Studies show that the methylated forms of folate present in Storg-FA are more readily utilized by the body, particularly in individuals with MTHFR gene variations that affect folate metabolism.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
@@ -892,7 +892,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-FA product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-FA product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -972,7 +972,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that natural iodine from sea vegetables offers excellent bioavailability and safety advantages over synthetic iodine compounds. Studies show that the organic iodine compounds in Storg-I are more readily utilized by the thyroid gland and other tissues, supporting optimal thyroid function and metabolic health.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
@@ -1001,7 +1001,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-I product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-I product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -1081,7 +1081,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that natural niacin from plant sources offers excellent bioavailability and reduced side effects compared to synthetic niacin. Studies show that the natural co-factors present in Storg-N enhance absorption and cellular utilization of this essential nutrient, supporting energy production, cardiovascular health, and cognitive function.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
@@ -1110,7 +1110,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-N product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-N product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -1190,7 +1190,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that natural selenium from plant sources offers superior bioavailability compared to inorganic selenium compounds. Studies show that the organic selenium forms in Storg-SE are more readily incorporated into selenoproteins, providing enhanced antioxidant protection and immune support.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
@@ -1219,7 +1219,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-SE product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-SE product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -1304,7 +1304,7 @@ export const products: Product[] = [
       "dosageRange": "5-30mg daily recommended"
     },
     "research": "Research indicates that natural zinc from plant sources offers superior bioavailability compared to inorganic zinc compounds. Studies show that the organic zinc forms in Storg-ZN are more readily absorbed and utilized by the body, supporting immune function, skin health, and reproductive health. A recent clinical study demonstrated that Storg-ZN increased serum zinc levels by 24% more effectively than zinc sulfate, with fewer gastrointestinal side effects. Another study showed improved markers of immune function in elderly subjects supplemented with plant-based zinc compared to synthetic forms.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO", "Organic"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Organic"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
@@ -1335,7 +1335,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-ZN product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, Non-GMO, and Organic certifications, reflecting our commitment to quality, purity, and sustainability.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-ZN product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Organic certifications, reflecting our commitment to quality, purity, and sustainability.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -1493,7 +1493,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that plant-based vitamin and mineral complexes offer superior bioavailability compared to isolated synthetic nutrients. Studies show that the natural co-factors present in Storg-Him enhance absorption and cellular utilization of these essential nutrients, supporting male hormonal balance, prostate health, and overall vitality.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -1522,7 +1522,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Him product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Him product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -1602,7 +1602,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that plant-based vitamin and mineral complexes offer superior bioavailability compared to isolated synthetic nutrients. Studies show that the natural co-factors present in Storg-Her enhance absorption and cellular utilization of these essential nutrients, supporting female hormonal balance, bone health, and overall vitality.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -1631,7 +1631,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Her product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Her product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -1711,7 +1711,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that plant-based vitamin and mineral complexes offer superior bioavailability compared to isolated synthetic nutrients. Studies show that the natural co-factors present in Storg-Kid enhance absorption and cellular utilization of these essential nutrients, supporting cognitive development, immune function, and overall growth in children.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -1740,7 +1740,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Kid product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Kid product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -1820,7 +1820,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that natural B vitamins from plant sources offer superior bioavailability compared to synthetic forms. Studies show that the natural co-factors present in Storg-Bs enhance absorption and cellular utilization of these essential nutrients, supporting energy production, cognitive function, and stress management.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
@@ -1849,7 +1849,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Bs product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Bs product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -1929,7 +1929,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that natural biotin from plant sources offers superior bioavailability compared to synthetic forms. Studies show that the natural co-factors present in Storg-Bio enhance absorption and cellular utilization of this essential nutrient, supporting hair, skin, and nail health, as well as energy metabolism.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
@@ -1958,7 +1958,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Bio product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-Bio product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -2038,7 +2038,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that natural betaine from plant sources offers superior bioavailability compared to synthetic forms. Studies show that the natural co-factors present in Storg-BT enhance absorption and cellular utilization of this important nutrient, supporting liver function, cardiovascular health, and homocysteine regulation.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": false,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
@@ -2067,7 +2067,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-BT product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and Non-GMO certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Storg-BT product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and other certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -2104,216 +2104,6 @@ export const products: Product[] = [
     "parentProductId": "storg-main",
     "indications": ["Liver Health", "Cardiovascular Health", "Homocysteine Management"]
   },
-
-  // {
-  //   id: "organic-andrographis",
-  //   name: "Organic Andrographis Extract",
-  //   slug: "organic-andrographis-extract",
-  //   categoryId: "organic-extracts",
-  //   categorySlug: "organic-extracts",
-  //   categoryName: "Organic Extracts",
-  //   standardization: "10%, 15%, 30% Andrographolides",
-  //   latinName: "Andrographis paniculata",
-  //   plantPart: "Leaf",
-  //   description: "Organic Andrographis Extract is derived from certified organic Andrographis paniculata leaves through a clean extraction process. Standardized to contain 10%, 15%, or 30% andrographolides, this extract offers powerful immune support and anti-inflammatory properties. Available in both powder and granule forms, our organic extract maintains the full spectrum of beneficial compounds found in the plant while meeting strict organic certification requirements. Ideal for immune formulations, respiratory support products, and general wellness supplements.",
-  //   shortDescription: "Organic Andrographis extract with standardized andrographolide content",
-  //   image: "/images/products/organic-andrographis-extract.jpg",
-  //   gallery: [
-  //     "/images/products/organic-andrographis-extract.jpg",
-  //     "/images/products/organic-andrographis-extract-1.jpg",
-  //     "/images/products/organic-andrographis-extract-2.jpg",
-  //   ],
-  //   applications: ["Immune support formulations", "Respiratory health products", "Liver support supplements", "Seasonal wellness formulations", "Inflammatory response management"],
-  //   benefits: [
-  //     "Supports healthy immune system function",
-  //     "Promotes respiratory health and comfort",
-  //     "Helps maintain healthy liver function",
-  //     "Provides antioxidant protection",
-  //     "Supports balanced inflammatory response"
-  //   ],
-  //   specifications: {
-  //     activeCompounds: "Andrographolides",
-  //     standardization: "Available in 10%, 15%, and 30% andrographolide concentrations",
-  //     form: "Powder, Granules",
-  //     solubility: "Partially water soluble, soluble in ethanol",
-  //     appearance: "Fine greenish-brown powder with characteristic odor",
-  //     testing: "HPLC analysis for andrographolide content verification",
-  //     heavyMetals: "Meets USP <232> specifications",
-  //     shelfLife: "24 months when stored properly",
-  //     storage: "Store in a cool, dry place away from direct sunlight",
-  //     particleSize: "95% through 80 mesh",
-  //     moisture: "≤5%",
-  //     bulkDensity: "0.45-0.65 g/ml"
-  //   },
-  //   research: "Andrographis extract has been extensively studied for its immune-modulating and anti-inflammatory properties. Research indicates significant benefits for respiratory health, with multiple clinical studies showing efficacy for supporting immune function during seasonal challenges.",
-  //   certifications: ["USDA Organic", "EU Organic", "FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
-  //   featured: true,
-  //   documents: [
-  //     { id: 1, name: 'Technical Data Sheet', size: '2.5 MB' },
-  //     { id: 2, name: 'Safety Data Sheet', size: '1.9 MB' },
-  //     { id: 3, name: 'Certificate of Analysis', size: '980 KB' },
-  //   ],
-  //   supplierInfo: {
-  //     points: [
-  //       "Confirm organic certification validity and scope",
-  //       "Request organic handling and processing documentation",
-  //       "Verify traceability systems for organic raw materials",
-  //       "Ensure standardization methods comply with organic regulations",
-  //       "Check for cross-contamination prevention protocols",
-  //       "Review organic certification of all processing aids used"
-  //     ]
-  //   },
-  //   productionDetails: {
-  //     description: "Our Organic Andrographis Extract is produced using a specialized water-based extraction process that complies with organic regulations. The certified organic leaves are carefully harvested at peak potency and undergo gentle extraction to preserve the natural bioactive compounds. Our dedicated organic processing facility prevents cross-contamination with conventional materials, and we use only permitted processing aids that meet organic standards. The extract is standardized using compliant methods and carefully dried at controlled temperatures.",
-  //     image: "/images/process-ch.webp"
-  //   },
-  //   packaging: {
-  //     description: "Our Organic Andrographis Extract is packaged in food-grade materials that maintain product integrity and comply with organic handling requirements. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. Smaller quantities are available in 1kg and 5kg aluminum foil bags with appropriate organic labeling. All packaging materials are selected to prevent contamination and preserve the extract's potency during shipping and storage.",
-  //     image: "/images/packaging-ch.webp"
-  //   },
-  //   factory: {
-  //     description: "Our dedicated organic manufacturing facility operates under strict organic handling protocols and is certified by major international organic certification bodies. The facility features separate processing areas for organic materials, specialized cleaning procedures, and comprehensive documentation systems to ensure organic integrity. Regular inspections by certification agencies verify our compliance with organic standards throughout the production process.",
-  //     image: "/images/factory-ch.webp"
-  //   },
-  //   certificationsSection: {
-  //     description: "Our Organic Andrographis Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify our organic growing methods, clean processing techniques, and proper handling procedures. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance with all applicable organic regulations.",
-  //     image: "/images/certifications-ch.webp"
-  //   },
-  //   events: {
-  //     description: "Our team regularly presents our organic herbal extract line at major industry events including Biofach in Nuremberg, Natural Products Expo West and East, and Vitafoods Europe. These events provide opportunities to showcase our commitment to organic integrity and discuss the benefits of our certified organic extraction processes with customers and partners. We offer educational sessions on organic compliance and the advantages of truly organic herbal extracts.",
-  //     image: "/images/events.jpg"
-  //   },
-  //   faqs: [
-  //     {
-  //       id: 1,
-  //       question: "What are andrographolides and how do they support immune health?",
-  //       answer: "Andrographolides are bioactive compounds that help modulate immune response and support the body's natural defense mechanisms."
-  //     },
-  //     {
-  //       id: 2,
-  //       question: "How does organic certification affect the extraction process?",
-  //       answer: "Organic certification requires using only approved extraction methods and processing aids, typically water-based extraction without synthetic solvents."
-  //     },
-  //     {
-  //       id: 3,
-  //       question: "What is the difference between the various standardization percentages?",
-  //       answer: "Higher percentages (30%) provide more concentrated andrographolides for targeted applications, while lower percentages (10-15%) offer a broader phytochemical profile."
-  //     },
-  //     {
-  //       id: 4,
-  //       question: "How is organic andrographis different from conventional extracts?",
-  //       answer: "Organic andrographis is grown without synthetic pesticides or fertilizers and processed according to organic standards, preserving the natural phytocomplex."
-  //     },
-  //     {
-  //       id: 5,
-  //       question: "What testing methods are used to verify organic compliance?",
-  //       answer: "We use HPLC for andrographolide content verification and additional testing for pesticide residues, heavy metals, and microbial contaminants to ensure organic compliance."
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: "organic-andrographis-1",
-  //   name: "Organic Andrographis Extract",
-  //   slug: "organic-andrographis-extract",
-  //   categoryId: "organic-extracts",
-  //   categorySlug: "organic-extracts",
-  //   categoryName: "Organic Extracts",
-  //   standardization: "10%, 15%, 30% Andrographolides",
-  //   latinName: "Andrographis paniculata",
-  //   plantPart: "Leaf",
-  //   description: "Organic Andrographis Extract is derived from certified organic Andrographis paniculata leaves through a clean extraction process. Standardized to contain 10%, 15%, or 30% andrographolides, this extract offers powerful immune support and anti-inflammatory properties. Available in both powder and granule forms, our organic extract maintains the full spectrum of beneficial compounds found in the plant while meeting strict organic certification requirements. Ideal for immune formulations, respiratory support products, and general wellness supplements.",
-  //   shortDescription: "Organic Andrographis extract with standardized andrographolide content",
-  //   image: "/products/organic-andrographis-extract.jpg",
-  //   gallery: [
-  //     '/images/products/turmeric-extract-1.jpg',
-  //     '/images/products/turmeric-extract-2.jpg',
-  //     '/images/products/turmeric-extract-3.jpg',
-  //   ],
-  //   applications: ["Immune support formulations", "Respiratory health products", "Liver support supplements", "Seasonal wellness formulations", "Inflammatory response management"],
-  //   benefits: [
-  //     "Supports healthy immune system function",
-  //     "Promotes respiratory health and comfort",
-  //     "Helps maintain healthy liver function",
-  //     "Provides antioxidant protection",
-  //     "Supports balanced inflammatory response"
-  //   ],
-  //   specifications: {
-  //     activeCompounds: "Andrographolides",
-  //     standardization: "Available in 10%, 15%, and 30% andrographolide concentrations",
-  //     form: "Powder, Granules",
-  //     solubility: "Partially water soluble, soluble in ethanol",
-  //     appearance: "Fine greenish-brown powder",
-  //     testing: "HPLC analysis for andrographolide content verification",
-  //     heavyMetals: 'Meets USP <232> specifications',
-  //     shelfLife: '24 months when stored properly',
-  //     storage: 'Store in a cool, dry place away from direct sunlight'
-  //   },
-  //   research: "Andrographis extract has been extensively studied for its immune-modulating and anti-inflammatory properties. Research indicates significant benefits for respiratory health, with multiple clinical studies showing efficacy for supporting immune function during seasonal challenges.",
-  //   certifications: ["USDA Organic", "EU Organic", "FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
-  //   featured: true,
-  //  documents: [
-  //     { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
-  //     { id: 2, name: 'Safety Data Sheet', size: '1.8 MB' },
-  //     { id: 3, name: 'Certificate of Analysis', size: '956 KB' },
-  //   ],
-  //   supplierInfo: {
-  //     points: [
-  //       "Confirm organic certification validity and scope",
-  //       "Request organic handling and processing documentation",
-  //       "Verify traceability systems for organic raw materials",
-  //       "Ensure standardization methods comply with organic regulations",
-  //       "Check for cross-contamination prevention protocols",
-  //       "Review organic certification of all processing aids used"
-  //     ]
-  //   },
-  //   productionDetails: {
-  //     description: "Our Organic Andrographis Extract is produced using a specialized water-based extraction process that complies with organic regulations. The certified organic leaves are carefully harvested at peak potency and undergo gentle extraction to preserve the natural bioactive compounds. Our dedicated organic processing facility prevents cross-contamination with conventional materials, and we use only permitted processing aids that meet organic standards. The extract is standardized using compliant methods and carefully dried at controlled temperatures.",
-  //     image: "/process-organic.webp"
-  //   },
-  //   packaging: {
-  //     description: "Our Organic Andrographis Extract is packaged in food-grade materials that maintain product integrity and comply with organic handling requirements. Standard packaging includes 20kg fiber drums with food-grade polyethylene liners certified for organic products. Smaller quantities are available in 1kg and 5kg aluminum foil bags with appropriate organic labeling. All packaging materials are selected to prevent contamination and preserve the extract's potency during shipping and storage.",
-  //     image: "/packaging-organic.webp"
-  //   },
-  //   factory: {
-  //     description: "Our dedicated organic manufacturing facility operates under strict organic handling protocols and is certified by major international organic certification bodies. The facility features separate processing areas for organic materials, specialized cleaning procedures, and comprehensive documentation systems to ensure organic integrity. Regular inspections by certification agencies verify our compliance with organic standards throughout the production process.",
-  //     image: "/factory-organic.webp"
-  //   },
-  //   certificationsSection: {
-  //     description: "Our Organic Andrographis Extract holds multiple organic certifications including USDA Organic and EU Organic, ensuring compliance with the world's most stringent organic standards. These certifications verify our organic growing methods, clean processing techniques, and proper handling procedures. We maintain complete traceability documentation and undergo regular audits to verify ongoing compliance with all applicable organic regulations.",
-  //     image: "/certifications-organic.webp"
-  //   },
-  //   events: {
-  //     description: "Our team regularly presents our organic herbal extract line at major industry events including Biofach in Nuremberg, Natural Products Expo West and East, and Vitafoods Europe. These events provide opportunities to showcase our commitment to organic integrity and discuss the benefits of our certified organic extraction processes with customers and partners. We offer educational sessions on organic compliance and the advantages of truly organic herbal extracts.",
-  //     image: "/events-organic.jpg"
-  //   },
-  // faqs: [
-  //     {
-  //       id: 1,
-  //       question: 'What makes your turmeric extract different from others?',
-  //       answer: 'Our extract is standardized to 95% curcuminoids using HPLC verification and offers enhanced bioavailability through proprietary processing techniques.'
-  //     },
-  //     {
-  //       id: 2,
-  //       question: 'Is your turmeric extract water-soluble?',
-  //       answer: 'We offer both standard and water-soluble versions. The water-soluble variant uses natural encapsulation technology for complete dispersibility in water.'
-  //     },
-  //     {
-  //       id: 3,
-  //       question: 'What is the recommended dosage?',
-  //       answer: 'Typical dosages range from 500mg to 1000mg daily of the 95% extract, though specific applications may vary.'
-  //     },
-  //     {
-  //       id: 4,
-  //       question: 'Is your turmeric extract organic?',
-  //       answer: 'Yes, we offer certified organic turmeric extract upon request.'
-  //     },
-  //     {
-  //       id: 5,
-  //       question: 'How is bioavailability enhanced in your extract?',
-  //       answer: 'We use proprietary processing techniques that preserve the natural matrix of compounds that support absorption, and our water-soluble version employs natural encapsulation technology.'
-  //     }
-  //   ]
-  // },
 
   // Branded Ingredients - Turmimax
   {
@@ -2364,7 +2154,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Turmimax™ has been extensively studied for its therapeutic potential. In vitro studies have demonstrated significant anti-inflammatory, hepatoprotective, anticancer, and antioxidant properties. In vivo research has confirmed its safety through acute and sub-acute toxicity studies, while also validating its enhanced bioavailability and anti-inflammatory effects. Clinical studies on its anti-inflammatory benefits for osteoarthritis are currently underway. Published research includes work by Firoz Hussain H.M, Nanjundaiah S, et al. in the American Journal of Biochemistry and Biotechnology (2022) and Brazilian Journal of Biology (2023).",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO", "USDA Organic"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "USDA Organic"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.4 MB" },
@@ -2396,7 +2186,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Turmimax™ product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, Non-GMO, and USDA Organic certifications.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our Turmimax™ product meets the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management and ISO 9001:2015 for quality management systems. We also maintain Kosher, Halal, and USDA Organic certifications.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -2507,6 +2297,7 @@ export const products: Product[] = [
       "image": "/images/turmimax/optiBio-chart.png"
     }
   },
+
   // Organic Products - Organic Andrographis Extract - 10%, 15%, 30% Andrographolides
   {
     "id": "organic-andrographis",
@@ -4557,8 +4348,8 @@ export const products: Product[] = [
     },
     {
       "id": 5,
-      "question": "Is the extract vegan and non-GMO?",
-      "answer": "Yes, it is 100% plant-based, vegan, and produced from non-GMO organic Moringa leaves."
+      "question": "Is the extract vegan?",
+      "answer": "Yes, it is 100% plant-based, vegan, and produced from organic Moringa leaves."
     }
   ]
 },
@@ -4798,8 +4589,8 @@ export const products: Product[] = [
     },
     {
       "id": 4,
-      "question": "Is the extract vegan and non-GMO?",
-      "answer": "Yes, it is 100% plant-based, vegan-friendly, and certified non-GMO."
+      "question": "Is the extract vegan?",
+      "answer": "Yes, it is 100% plant-based, vegan-friendly, and certified organic."
     },
     {
       "id": 5,
@@ -4821,12 +4612,12 @@ export const products: Product[] = [
   "plantPart": "Fruit and Rhizome",
   "description": "Organic Trikatu Extract, derived from the traditional Ayurvedic blend of organically cultivated black pepper, long pepper, and ginger, is a premium botanical formulation standardized to contain 1.5% Piperine and 1% Gingerols. Our extract is processed using certified organic methods that preserve the bioactive compounds from all three botanicals. Available in powder and granule forms, this versatile ingredient supports digestive fire (agni), bioavailability enhancement, and respiratory health. The careful extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium Ayurvedic formulations, digestive supplements, and bioavailability enhancers.",
   "shortDescription": "Premium organic Trikatu extract standardized for piperine and gingerol content",
-  "image": "/images/products/trikatu.jpg",
+  "image": "/images/products/organic-trikatu-extract.jpg",
   "gallery": [
-    "/images/products/trikatu-1.jpg",
-    "/images/products/trikatu-2.jpg",
-    "/images/products/trikatu-3.jpg"
-  ],
+      "/images/products/tk-piper-longum.jpg",
+      "/images/products/tk-zingiber-officinale.jpg",
+      "/images/products/tk-piper-nigrum.jpg"
+    ],
   "applications": [
     "Bioavailability enhancement",
     "Digestive support formulations",
@@ -4933,11 +4724,11 @@ export const products: Product[] = [
   "plantPart": "Fruit",
   "description": "Organic Triphala Extract, derived from the traditional Ayurvedic blend of organically cultivated amla, bibhitaki, and haritaki fruits, is a premium herbal formulation standardized to contain 20% - 45% tannins. Our extract is processed using certified organic methods that preserve the synergistic bioactive compounds from all three fruits. Available in powder and granule forms, this versatile ingredient supports digestive health, gentle detoxification, and overall wellness according to Ayurvedic principles. The careful extraction process uses organic-compliant solvents, ensuring both efficacy and adherence to organic standards for use in premium Ayurvedic formulations, digestive wellness products, and cleansing programs.",
   "shortDescription": "Premium organic Triphala extract standardized for tannin content",
-  "image": "/images/products/triphala-extract.jpg",
+  "image": "/images/products/organic-triphala-extract.jpg",
   "gallery": [
-    "/images/products/triphala-extract-1.jpg",
-    "/images/products/triphala-extract-2.jpg",
-    "/images/products/triphala-extract-3.jpg"
+    "/images/products/tr-emblica-officinalis.jpg",
+    "/images/products/tr-terminalia-bellirica.jpg",
+    "/images/products/tr-terminalia-chebula.jpg"
   ],
   "applications": [
     "Digestive wellness formulations",
@@ -5037,9 +4828,9 @@ export const products: Product[] = [
     }
   ]
 },
-// Organic Products - Organic Triphala Extract - 20% - 45% Tannins
+// Organic Products - Organic Turmeric Water Extract - Upto 10% Polysaccharides
 {
-  "id": "turmeric-water",
+  "id": "organic-turmeric-water",
   "name": "Organic Turmeric Water Extract",
   "slug": "organic-turmeric-water-extract",
   "categoryId": "organic-extracts",
@@ -5202,7 +4993,7 @@ export const products: Product[] = [
       storage: 'Store in a cool, dry place away from direct sunlight'
     },
     research: 'Berberis aristata extract has been extensively studied for its metabolic and cardiovascular benefits. Research highlights berberine\'s ability to support healthy blood glucose levels through multiple mechanisms including AMPK activation. Clinical studies also demonstrate its potential for supporting healthy cholesterol levels, intestinal health, and immune function.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
     featured: true,
     documents: [
       { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -5232,7 +5023,7 @@ export const products: Product[] = [
       image: '/images/factory-ch.webp'
     },
     certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
       image: '/images/certifications-ch.webp'
     },
     events: {
@@ -5312,7 +5103,7 @@ export const products: Product[] = [
       storage: 'Store in a cool, dry place away from direct sunlight'
     },
     research: 'Black pepper extract has been extensively studied for its bioenhancement properties, with research demonstrating its ability to increase the absorption of various nutrients and botanical compounds by 30-2000%. Studies show that piperine inhibits certain metabolic enzymes and enhances permeability of the intestinal lining, allowing compounds to enter the bloodstream more efficiently. Research also supports its thermogenic, digestive, and anti-inflammatory benefits.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO', 'Organic Available'],
+    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Organic Available'],
     featured: true,
     documents: [
       { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -5342,7 +5133,7 @@ export const products: Product[] = [
       image: '/images/factory-ch.webp'
     },
     certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, Non-GMO, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
       image: '/images/certifications-ch.webp'
     },
     events: {
@@ -5422,7 +5213,7 @@ export const products: Product[] = [
       storage: 'Store in a cool, dry place away from direct sunlight'
     },
     research: 'Boswellia serrata extract has been extensively studied for its anti-inflammatory properties, with research demonstrating its ability to inhibit 5-lipoxygenase, a key enzyme in the inflammatory cascade. Clinical studies support its benefits for joint health, respiratory function, and intestinal wellness. Research shows that AKBBA, the most potent boswellic acid, delivers enhanced anti-inflammatory activity compared to other boswellic acids.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
     featured: true,
     documents: [
       { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -5452,7 +5243,7 @@ export const products: Product[] = [
       image: '/images/factory-ch.webp'
     },
     certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, Non-GMO, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
       image: '/images/certifications-ch.webp'
     },
     events: {
@@ -5532,7 +5323,7 @@ export const products: Product[] = [
        storage: 'Store in a cool, dry place away from direct sunlight'
      },
      research: 'Capsicum extract has been studied extensively for its thermogenic properties and potential benefits for weight management. Research suggests capsaicin may increase energy expenditure, enhance fat oxidation, and provide temporary relief for muscle and joint discomfort when applied topically.',
-     certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+     certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
      featured: true,
      documents: [
        { id: 1, name: 'Technical Data Sheet', size: '2.2 MB' },
@@ -5562,7 +5353,7 @@ export const products: Product[] = [
        image: "/images/factory-ch.webp"
      },
      certificationsSection: {
-       description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+       description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
        image: "/images/certifications-ch.webp"
      },
      events: {
@@ -5642,7 +5433,7 @@ export const products: Product[] = [
        storage: 'Store in a cool, dry place away from direct sunlight'
      },
      research: 'Cissus extract has been studied for its effects on bone metabolism, with research suggesting potential benefits for bone mineral density and joint function. Studies indicate it may support collagen synthesis and modulate cortisol levels, which could contribute to its traditional uses in bone health, joint comfort, and metabolic support.',
-     certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO', 'Organic'],
+     certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Organic'],
      featured: true,
      documents: [
        { id: 1, name: 'Technical Data Sheet', size: '2.1 MB' },
@@ -5672,7 +5463,7 @@ export const products: Product[] = [
        image: "/images/factory-ch.webp"
      },
      certificationsSection: {
-       description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, Non-GMO, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+       description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
        image: "/images/certifications-ch.webp"
      },
      events: {
@@ -5752,7 +5543,7 @@ export const products: Product[] = [
        storage: 'Store in a cool, dry place away from direct sunlight'
      },
      research: 'Coffee Bean Extract has been extensively studied for its effects on metabolism and glucose management. Research suggests that chlorogenic acids may help modulate glucose absorption and utilization, while providing significant antioxidant activity. Studies indicate potential benefits for weight management, cardiovascular health, and metabolic function.',
-     certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+     certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
      featured: true,
      documents: [
        { id: 1, name: 'Technical Data Sheet', size: '2.3 MB' },
@@ -5782,7 +5573,7 @@ export const products: Product[] = [
        image: "/images/factory-ch.webp"
      },
      certificationsSection: {
-       description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+       description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
        image: "/images/certifications-ch.webp"
      },
      events: {
@@ -5862,7 +5653,7 @@ export const products: Product[] = [
        storage: 'Store in tightly closed containers away from heat, moisture, and direct light'
      },
      research: 'Coleus Forskohlii Extract has been studied extensively for its effects on cellular signaling via cAMP activation. Research suggests potential benefits for metabolic function, body composition, testosterone levels, cardiovascular health, and respiratory function. The compound forskolin is also used in research settings as a tool to understand cellular signaling pathways.',
-     certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+     certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
      featured: true,
      documents: [
        { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -5892,7 +5683,7 @@ export const products: Product[] = [
        image: "/images/factory-ch.webp"
      },
      certificationsSection: {
-       description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+       description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
        image: "/images/certifications-ch.webp"
      },
      events: {
@@ -5972,7 +5763,7 @@ export const products: Product[] = [
        storage: 'Store in a cool, dry place away from direct sunlight'
      },
      research: 'Commiphora Mukul Extract has been studied for its effects on lipid metabolism, with research suggesting potential benefits for cholesterol management and thyroid function. Studies indicate guggulsterones may modulate bile acid synthesis and thyroid hormone activity, which could contribute to its traditional uses in metabolic health, weight management, and joint function.',
-     certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+     certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
      featured: true,
      documents: [
        { id: 1, name: 'Technical Data Sheet', size: '2.2 MB' },
@@ -6002,7 +5793,7 @@ export const products: Product[] = [
        image: "/images/factory-ch.webp"
      },
      certificationsSection: {
-       description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+       description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
        image: "/images/certifications-ch.webp"
      },
      events: {
@@ -6082,7 +5873,7 @@ export const products: Product[] = [
       storage: 'Store in a cool, dry place away from direct sunlight'
     },
     research: 'Ashwagandha extract has been extensively studied for its adaptogenic properties and stress-reducing effects. Clinical research supports its benefits for reducing cortisol levels, improving sleep quality, enhancing cognitive function, and supporting recovery after physical exertion. Multiple studies have demonstrated its potential in supporting overall wellbeing and resilience to everyday stressors.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO', 'Organic Available'],
+    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Organic Available'],
     featured: true,
     documents: [
       { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -6112,7 +5903,7 @@ export const products: Product[] = [
       image: '/images/factory-ch.webp'
     },
     certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, Non-GMO, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
       image: '/images/certifications-ch.webp'
     },
     events: {
@@ -6192,7 +5983,7 @@ export const products: Product[] = [
       storage: 'Store in a cool, dry place away from direct sunlight'
     },
     research: 'Andrographis extract has been extensively studied for its immunomodulatory and anti-inflammatory properties. Clinical research has demonstrated its efficacy in supporting respiratory health and reducing the duration and severity of common cold symptoms. Studies also suggest potential benefits for liver function and digestive health.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO', 'Organic Available'],
+    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Organic Available'],
     featured: true,
     documents: [
       { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -6222,7 +6013,7 @@ export const products: Product[] = [
       image: '/images/factory-ch.webp'
     },
     certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, Non-GMO, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Organic certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
       image: '/images/certifications-ch.webp'
     },
     events: {
@@ -6302,7 +6093,7 @@ export const products: Product[] = [
       storage: 'Store in a cool, dry place away from direct sunlight'
     },
     research: 'Amla extract has been studied for its potent antioxidant properties, with research showing it contains one of the highest concentrations of vitamin C and polyphenols among natural sources. Studies indicate potential benefits for immune function, skin health, and digestive wellness.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
     featured: true,
     documents: [
       { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -6332,7 +6123,7 @@ export const products: Product[] = [
       image: '/images/factory-ch.webp'
     },
     certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
       image: '/images/certifications-ch.webp'
     },
     events: {
@@ -6412,7 +6203,7 @@ export const products: Product[] = [
       storage: 'Store in a cool, dry place away from direct sunlight'
     },
     research: 'Cucumis Sativus extract has been studied for its potential benefits in carbohydrate metabolism and kidney health. The iminosugars present in the extract have unique structural properties that may influence glucose absorption and metabolism.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
     featured: false,
     documents: [
       { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -6442,7 +6233,7 @@ export const products: Product[] = [
       image: '/images/factory-ch.webp'
     },
     certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
       image: '/images/certifications-ch.webp'
     },
     events: {
@@ -6522,7 +6313,7 @@ export const products: Product[] = [
       storage: 'Store in a cool, dry place away from direct sunlight'
     },
     research: 'Turmeric extract has been extensively studied for its anti-inflammatory, antioxidant, and joint-supporting properties. The curcuminoids present in the extract have demonstrated effects on multiple inflammatory pathways and provide powerful free radical scavenging activity.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
     featured: false,
     documents: [
       { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -6552,7 +6343,7 @@ export const products: Product[] = [
       image: '/images/factory-ch.webp'
     },
     certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
       image: '/images/certifications-ch.webp'
     },
     events: {
@@ -6632,7 +6423,7 @@ export const products: Product[] = [
       storage: 'Store in a cool, dry place away from direct sunlight'
     },
     research: 'Turmeric extract has been extensively studied for its anti-inflammatory properties. The granular format maintains all the therapeutic benefits while offering significant manufacturing advantages for tablet and capsule production.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
     featured: false,
     documents: [
       { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -6662,7 +6453,7 @@ export const products: Product[] = [
       image: '/images/factory-ch.webp'
     },
     certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
       image: '/images/certifications-ch.webp'
     },
     events: {
@@ -6742,7 +6533,7 @@ export const products: Product[] = [
       storage: 'Store in a cool, dry place away from direct sunlight'
     },
     research: 'DGL extract has been studied for its benefits in digestive health, particularly for its ability to support the integrity of the gastric mucosal barrier. By reducing the glycyrrhizic acid content, DGL provides the beneficial properties of licorice while minimizing potential side effects associated with glycyrrhizic acid.',
-    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+    certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
     featured: false,
     documents: [
       { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -6772,7 +6563,7 @@ export const products: Product[] = [
       image: '/images/factory-ch.webp'
     },
     certificationsSection: {
-      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+      description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
       image: '/images/certifications-ch.webp'
     },
     events: {
@@ -6852,7 +6643,7 @@ export const products: Product[] = [
   //     storage: 'Store in a cool, dry place away from direct sunlight'
   //   },
   //   research: 'Fenugreek extract has been studied for its potential benefits in glucose metabolism, lactation support, and hormonal balance. The saponins present in the extract are believed to be responsible for many of these beneficial effects.',
-  //   certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+  //   certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
   //   featured: false,
   //   documents: [
   //     { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -6882,7 +6673,7 @@ export const products: Product[] = [
   //     image: '/images/factory-ch.webp'
   //   },
   //   certificationsSection: {
-  //     description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+  //     description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
   //     image: '/images/certifications-ch.webp'
   //   },
   //   events: {
@@ -6962,7 +6753,7 @@ export const products: Product[] = [
   //     storage: 'Store in a cool, dry place away from direct sunlight'
   //   },
   //   research: 'Garcinia cambogia extract has been studied for its potential benefits in weight management and metabolism. The hydroxycitric acid (HCA) present in the extract may inhibit citrate lyase, an enzyme involved in converting carbohydrates to fat, and may influence serotonin levels affecting appetite.',
-  //   certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+  //   certifications: ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
   //   featured: false,
   //   documents: [
   //     { id: 1, name: 'Technical Data Sheet', size: '2.4 MB' },
@@ -6992,7 +6783,7 @@ export const products: Product[] = [
   //     image: '/images/factory-ch.webp'
   //   },
   //   certificationsSection: {
-  //     description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
+  //     description: 'Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies and customers to verify ongoing compliance. These certifications reflect our commitment to quality, safety, and continuous improvement.',
   //     image: '/images/certifications-ch.webp'
   //   },
   //   events: {
@@ -7072,7 +6863,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Fenugreek extract has been extensively studied for its potential role in supporting glucose metabolism, promoting lactation, and influencing hormonal balance. Clinical studies suggest that fenugreek saponins may contribute to improved insulin sensitivity, healthy testosterone levels, and digestive support.",
-    "certifications": ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal', 'Non-GMO'],
+    "certifications": ['FSSC 22000', 'ISO 9001:2015', 'Kosher', 'Halal'],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.5 MB" },
@@ -7102,7 +6893,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains world-class certifications to ensure product quality, safety, and compliance. Our facility holds FSSC 22000, ISO 9001:2015 certifications, and our products are Kosher, Halal, and Non-GMO certified. Organic certification is also available for select products. We undergo regular audits to maintain the highest standards.",
+      "description": "Star Hi Herbs maintains world-class certifications to ensure product quality, safety, and compliance. Our facility holds FSSC 22000, ISO 9001:2015 certifications, and our products are Kosher, Halal certified. Organic certification is also available for select products. We undergo regular audits to maintain the highest standards.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -7182,7 +6973,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Garcinia cambogia extract has been studied for its potential role in supporting healthy weight management, appetite regulation, and carbohydrate metabolism. Clinical research suggests that hydroxycitric acid (HCA) may inhibit the enzyme citrate lyase and influence serotonin levels, contributing to reduced food intake and fat storage.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.7 MB" },
@@ -7212,7 +7003,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs' manufacturing plant is certified under FSSC 22000 and ISO 9001:2015. All extracts are Kosher and Halal certified and produced under strict quality control. Our processes align with Non-GMO practices to meet global compliance requirements.",
+      "description": "Star Hi Herbs' manufacturing plant is certified under FSSC 22000 and ISO 9001:2015. All extracts are Kosher and Halal certified and produced under strict quality control. Our processes align with good manufacturing practices to meet global compliance requirements.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -7292,7 +7083,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Garcinia Indica Extract has been studied for its HCA-mediated benefits in weight management and metabolic health. In addition to HCA, the presence of unique antioxidants like garcinol and anthocyanins offers added support for oxidative balance, digestive comfort, and anti-inflammatory action, making it a valuable functional ingredient for various health-focused formulations.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.5 MB" },
@@ -7322,7 +7113,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains industry-leading certifications such as FSSC 22000 and ISO 9001:2015 for quality and safety. All products are manufactured following Non-GMO standards and are Kosher and Halal certified.",
+      "description": "Star Hi Herbs maintains industry-leading certifications such as FSSC 22000 and ISO 9001:2015 for quality and safety. All products are manufactured following good standards and are Kosher and Halal certified.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -7402,7 +7193,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Ginger Extract has been extensively studied for its gastrointestinal, anti-inflammatory, and anti-nausea properties. The gingerols in ginger have demonstrated support for digestive enzyme activity, modulation of inflammatory pathways, and antioxidant effects. Clinical research suggests ginger may be beneficial in addressing motion sickness, joint discomfort, and respiratory health.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
@@ -7432,7 +7223,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs ensures every batch of Ginger Extract meets global quality standards with certifications including FSSC 22000, ISO 9001:2015, Organic, Kosher, Halal, and Non-GMO compliance.",
+      "description": "Star Hi Herbs ensures every batch of Ginger Extract meets global quality standards with certifications including FSSC 22000, ISO 9001:2015, Organic, Kosher, Halal compliance.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -7512,7 +7303,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Green Tea Extract is rich in polyphenols, particularly catechins like EGCG, known for their antioxidant, anti-inflammatory, metabolic, and neuroprotective effects. Clinical studies have demonstrated benefits in weight management, cardiovascular health, skin aging, and cognitive function, making green tea extract a highly versatile ingredient in modern nutraceutical formulations.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
@@ -7542,7 +7333,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Our Green Tea Extract is manufactured under FSSC 22000 and ISO 9001:2015 quality systems and meets Kosher, Halal, and Non-GMO standards.",
+      "description": "Our Green Tea Extract is manufactured under FSSC 22000 and ISO 9001:2015 quality systems and meets Kosher, Halal, and USDA organic standards.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -7622,7 +7413,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Gymnema Sylvestre has been widely studied for its unique ability to modulate sugar perception and glucose metabolism. Clinical research suggests that gymnemic acids can help lower blood sugar levels, reduce sugar cravings, and support insulin function, making it an essential herb for metabolic health and diabetic support formulations.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -7732,7 +7523,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Kidney Bean Extract has been studied for its ability to inhibit alpha-amylase, the enzyme responsible for breaking down carbohydrates into simple sugars. Clinical research shows that alpha-amylase inhibitors can significantly reduce postprandial blood glucose spikes and calorie absorption from starchy foods, making it an effective natural aid in weight management and metabolic health programs.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.2 MB" },
@@ -7841,7 +7632,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Licorice extract has been researched for its potent skin brightening and antioxidant properties, showing that glabridin helps in reducing hyperpigmentation and even skin tone while also supporting digestive and immune health.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.4 MB" },
@@ -7871,7 +7662,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies to verify ongoing compliance.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies to verify ongoing compliance.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -7951,7 +7742,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research on Momordica extract highlights its role in blood sugar regulation, with studies showing its ability to enhance insulin sensitivity and glucose uptake while reducing glucose production. The bitter principles also offer metabolic support and digestive benefits.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.4 MB" },
@@ -7981,7 +7772,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and Non-GMO certifications for our products. We undergo regular audits by certification bodies to verify ongoing compliance.",
+      "description": "Star Hi Herbs maintains comprehensive certifications to ensure our products meet the highest quality and safety standards. Our facility and processes are certified by FSSC 22000 for food safety management, ISO 9001:2015 for quality management systems, and we maintain Kosher, Halal, and other certifications for our products. We undergo regular audits by certification bodies to verify ongoing compliance.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -8061,7 +7852,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that Mucuna pruriens, through its L-Dopa content, has potential benefits for cognitive health, mood regulation, and male reproductive health. It is used for its neuroprotective properties and adaptogenic effects, supporting the body’s ability to manage stress.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -8091,7 +7882,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Mucuna Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic-certified extracts. We maintain Kosher, Halal, and Non-GMO certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
+      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Mucuna Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic-certified extracts. We maintain Kosher, Halal, and other certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -8171,7 +7962,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Research indicates that Ocimum Sanctum, or Holy Basil, contains ursolic and oleanolic acids which contribute to its adaptogenic, immune-modulating, and antioxidant properties. These compounds help balance physiological functions, support cognitive health, and enhance overall wellness, making it a valuable ingredient in both traditional and modern wellness formulations.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
@@ -8201,7 +7992,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Ocimum Sanctum Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic-certified extracts. We maintain Kosher, Halal, and Non-GMO certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
+      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Ocimum Sanctum Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic-certified extracts. We maintain Kosher, Halal, and other certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -8281,7 +8072,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Piperine from Piper longum has been studied for its ability to enhance the bioavailability of other compounds by inhibiting certain liver and intestinal enzymes that metabolize drugs and nutrients. This makes it a valuable ingredient in supplements aimed at improving the absorption of other active ingredients.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -8311,7 +8102,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Piper Longum Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic-certified extracts. We maintain Kosher, Halal, and Non-GMO certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
+      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Piper Longum Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic-certified extracts. We maintain Kosher, Halal, and other certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -8391,7 +8182,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Pomegranate extract is rich in polyphenols, particularly ellagic acid, which provides powerful antioxidant and anti-inflammatory benefits. Studies show its potential in cardiovascular health by supporting endothelial function and managing oxidative stress. It also helps in skin health by supporting collagen production and reducing inflammation.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -8421,7 +8212,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Pomegranate Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer Non-GMO certified extracts. We maintain Kosher and Halal certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
+      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Pomegranate Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic certified extracts. We maintain Kosher and Halal certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -8501,7 +8292,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Sesamin is a potent lignan with numerous health benefits, particularly for liver detoxification, cholesterol metabolism, and antioxidant protection. Studies suggest that sesamin helps support cardiovascular health by improving blood circulation and has potential benefits in reducing inflammation and oxidative stress. It is also beneficial for exercise recovery due to its antioxidant properties.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -8531,7 +8322,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Sesamin Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer Non-GMO certified extracts. We maintain Kosher and Halal certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
+      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Sesamin Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic certified extracts. We maintain Kosher and Halal certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -8611,7 +8402,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Shilajit is known for its high mineral content and fulvic acid, which enhances nutrient absorption and boosts energy levels. It has been traditionally used in Ayurvedic medicine as a rejuvenative agent, offering support for vitality, stamina, and male reproductive health. Studies also suggest its antioxidant and adaptogenic properties may support the body during physical stress and aid in faster recovery after exercise.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.3 MB" },
@@ -8641,7 +8432,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Shilajit Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer Non-GMO certified extracts. We maintain Kosher and Halal certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
+      "description": "Star Hi Herbs holds multiple certifications to guarantee the safety and quality of our Shilajit Extract. Our facility is FSSC 22000 and ISO 9001:2015 certified, and we also offer organic certified extracts. We maintain Kosher and Halal certifications for our products, and undergo regular audits to ensure ongoing compliance with these standards.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -8721,7 +8512,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Tribulus Terrestris is traditionally used in Ayurvedic and Chinese medicine for enhancing vitality and promoting reproductive health. Studies suggest its active compounds, particularly saponins like protodioscin, may help boost luteinizing hormone production, which in turn supports testosterone levels. Additionally, it has been investigated for its role in improving physical performance and recovery, especially in athletes.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
@@ -8750,7 +8541,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs holds certifications to ensure the safety and quality of our Tribulus Terrestris Extract. We are FSSC 22000 and ISO 9001:2015 certified, and we also offer Non-GMO and Organic Certified extracts. Regular audits ensure ongoing compliance with these standards, providing transparency and trust in our products.",
+      "description": "Star Hi Herbs holds certifications to ensure the safety and quality of our Tribulus Terrestris Extract. We are FSSC 22000 and ISO 9001:2015 certified, and we also offer Organic Certified extracts. Regular audits ensure ongoing compliance with these standards, providing transparency and trust in our products.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -8830,7 +8621,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Centella asiatica has been used for centuries in traditional medicine for its cognitive, skin, and vascular health benefits. The primary bioactive compounds, including asiaticoside, madecassoside, and asiatic acid, have been shown to stimulate collagen synthesis, enhance skin strength and elasticity, and improve memory and cognitive function. Additionally, Centella has adaptogenic properties that may help modulate the stress response.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.1 MB" },
@@ -8859,7 +8650,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs holds certifications to ensure the safety and quality of our Centella Asiatica Extract. We are FSSC 22000 and ISO 9001:2015 certified, and we also offer Non-GMO and Organic Certified extracts. Regular audits ensure ongoing compliance with these standards, providing transparency and trust in our products.",
+      "description": "Star Hi Herbs holds certifications to ensure the safety and quality of our Centella Asiatica Extract. We are FSSC 22000 and ISO 9001:2015 certified, and we also offer Organic Certified extracts. Regular audits ensure ongoing compliance with these standards, providing transparency and trust in our products.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -8937,7 +8728,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Cinnamon Extract is recognized for its beneficial properties, especially in supporting metabolic health and combating oxidative stress. The polyphenols, especially type-A polymeric procyanidins, contribute to its ability to modulate blood sugar levels and provide antioxidant protection. This extract is widely researched for its cardiovascular and weight management benefits, as well as its antioxidant effects.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -8966,7 +8757,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs is committed to maintaining high-quality standards and is certified under FSSC 22000 and ISO 9001:2015. We offer certified organic Cinnamon Extract, as well as Non-GMO options, to meet the diverse needs of our customers in nutraceutical, food, and personal care industries.",
+      "description": "Star Hi Herbs is committed to maintaining high-quality standards and is certified under FSSC 22000 and ISO 9001:2015. We offer certified organic Cinnamon Extract, as well as organic options, to meet the diverse needs of our customers in nutraceutical, food, and personal care industries.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -9045,7 +8836,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Clove Extract is valued for its antimicrobial, antioxidant, and warming properties. The high tannin content in this extract contributes to its ability to neutralize free radicals and inhibit the growth of harmful microorganisms, making it a popular ingredient in oral care and topical analgesic products.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -9074,7 +8865,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs is committed to maintaining high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Clove Extract is also Non-GMO, Halal, and Kosher certified, making it suitable for a wide range of industries.",
+      "description": "Star Hi Herbs is committed to maintaining high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Clove Extract is also Halal, and Kosher certified, making it suitable for a wide range of industries.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -9153,7 +8944,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Moringa Leaves Extract is a rich source of nutrients, including vitamins A, C, E, and K, as well as amino acids and antioxidants. It is widely used in supplements and functional foods for its health-promoting properties, including immune system support, skin nourishment, and antioxidant activity.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.0 MB" },
@@ -9182,7 +8973,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Moringa Leaves Extract is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
+      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Moringa Leaves Extract is also Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -9290,7 +9081,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Saw Palmetto Extract Oil is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
+      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Saw Palmetto Extract Oil is also Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -9476,7 +9267,7 @@ export const products: Product[] = [
       "storage": "Store in a cool, dry place away from direct sunlight"
     },
     "research": "Terminalia Bellerica Extract is a significant source of tannins, compounds known for their antioxidant properties. Clinical studies show its effectiveness in neutralizing free radicals and supporting digestive health. It has also been used traditionally for respiratory health and detoxification in Ayurvedic medicine, often in combination with other herbs in formulations like Triphala.",
-    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal", "Non-GMO"],
+    "certifications": ["FSSC 22000", "ISO 9001:2015", "Kosher", "Halal"],
     "featured": true,
     "documents": [
       { "id": 1, "name": "Technical Data Sheet", "size": "2.5 MB" },
@@ -9505,7 +9296,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Terminalia Bellerica Extract is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
+      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Terminalia Bellerica Extract is also Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -9613,7 +9404,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Terminalia Chebula Extract is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
+      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Terminalia Chebula Extract is also Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
@@ -9661,11 +9452,11 @@ export const products: Product[] = [
     "plantPart": "Fruit and Root",
     "description": "Trikatu Extract is a traditional Ayurvedic formulation derived from a precise blend of three powerful botanicals: Piper Longum (Long Pepper), Zingiber officinale (Ginger), and Piper nigrum (Black Pepper). Our extract is standardized to contain 1.5% piperine and 1.0% total gingerols, and is available in both powder and granule forms to support diverse formulation needs. The extraction process uses solvents to ensure purity and potency. This ingredient is highly valued in traditional Ayurvedic formulations, digestive health supplements, and bioavailability enhancers.",
     "shortDescription": "Trikatu Extract, combining long pepper, ginger, and black pepper, supports digestion, metabolism, and nutrient absorption.",
-    "image": "/images/products/trikatu.jpg",
+    "image": "/images/products/trikatu-extract.jpg",
     "gallery": [
-      "/images/products/trikatu-1.jpg",
-      "/images/products/trikatu-2.jpg",
-      "/images/products/trikatu-3.jpg"
+      "/images/products/tk-piper-longum.jpg",
+      "/images/products/tk-zingiber-officinale.jpg",
+      "/images/products/tk-piper-nigrum.jpg"
     ],
     "applications": [
       "Digestive health supplements",
@@ -9721,7 +9512,7 @@ export const products: Product[] = [
       "image": "/images/factory-ch.webp"
     },
     "certificationsSection": {
-      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Trikatu Extract is also Non-GMO, Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
+      "description": "Star Hi Herbs maintains high-quality standards with certifications such as FSSC 22000 and ISO 9001:2015. Our Trikatu Extract is also Halal, and Kosher certified, ensuring that it meets the needs of a wide range of industries.",
       "image": "/images/certifications-ch.webp"
     },
     "events": {
