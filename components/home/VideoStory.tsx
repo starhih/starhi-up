@@ -46,7 +46,7 @@ export default function VideoStory() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/w4jKWmPrCr0?autoplay=1&mute=1&controls=1&rel=0"
+                src="https://www.youtube.com/embed/SUmtvuTztyI?autoplay=1&mute=1&controls=1&rel=0"
                 title="Star Hi Herbs Video"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
